@@ -1,0 +1,34 @@
+---
+title: DefaultProfile
+permalink: wiki/DefaultProfile/
+layout: wiki
+---
+
+enum oyDEFAULT\_PROFILE
+
+Enumeration values:
+
+`   oyWORKSPACE     Workspace Profile or Editing Profile`  
+`   oyINPUT_XYZ     standard XYZ input profile`  
+`   oyINPUT_LAB     standard Lab input profile`  
+`   oyINPUT_RGB     standard RGB input profile`  
+`   oyINPUT_CMYK    standard Cmyk input profile`  
+`   oyDEFAULT_PROFILE_TYPES     just for easen Gui design`
+
+-   As discussed on OpenICC INPUT should change to something like
+    UNTAGED.
+
+<!-- -->
+
+-   Jan-Peter Homann and Chris Murphy voted to hide Lab and XYZ. If
+    there is no practical usage, I, Kai-Uwe, will remove them.
+
+<!-- -->
+
+-   WORKSPACE should become EDITING (Chris Murphy)
+
+<!-- -->
+
+-   Jan-Peter Homann requested an differenciation between Cmyk and Rgb
+    Editing colour space.
+
