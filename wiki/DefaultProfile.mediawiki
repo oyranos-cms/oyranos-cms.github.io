@@ -1,3 +1,5 @@
+part of [[Oyranos]] documentation:
+
 enum oyDEFAULT_PROFILE
 
 Enumeration values:

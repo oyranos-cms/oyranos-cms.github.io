@@ -4,6 +4,8 @@ permalink: wiki/DefaultProfile/
 layout: wiki
 ---
 
+part of [Oyranos](/wiki/Oyranos "wikilink") documentation:
+
 enum oyDEFAULT\_PROFILE
 
 Enumeration values:
