@@ -3,4 +3,8 @@ This site is just starting ...
 Please see [http://meta.wikipedia.org/wiki/MediaWiki_i18n documentation on customizing the interface]
 and the [http://meta.wikipedia.org/wiki/MediaWiki_User%27s_Guide User's Guide] for usage and configuration help.
 
+Main goal is to create a documentation for the open source Colour Management System [[Oyranos]]. This inlcudes concepts, descriptions, feature wish lists, tutorials, links to related sites and more information around colour management.
+
 [[DefaultProfile|Default Profiles Concept]]
+
+[[Oyranos]]
