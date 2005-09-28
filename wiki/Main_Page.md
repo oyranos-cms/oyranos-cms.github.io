@@ -12,10 +12,9 @@ interface](http://meta.wikipedia.org/wiki/MediaWiki_i18n) and the
 for usage and configuration help.
 
 Main goal is to create a documentation for the open source Colour
-Management System [Oyranos](/wiki/Oyranos "wikilink"). This inlcudes concepts,
+Management System [Oyranos](/wiki/Oyranos "wikilink"). This includes concepts,
 descriptions, feature wish lists, tutorials, links to related sites and
 more information around colour management.
 
-[Default Profiles Concept](/wiki/DefaultProfile "wikilink")
+-   [Oyranos](/wiki/Oyranos "wikilink")
 
-[Oyranos](/wiki/Oyranos "wikilink")
