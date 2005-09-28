@@ -4,7 +4,7 @@ permalink: wiki/Oyranos/FeatureWish/
 layout: wiki
 ---
 
-### Feature Wishes for Oyranos
+### Feature Wishes for [Oyranos](/wiki/Oyranos "wikilink")
 
 They come mostly from discussions at the OpenICC
 [1](http://lists.freedesktop.org/archives/openicc/) email list.

@@ -1,4 +1,4 @@
-=== Feature Wishes for Oyranos ===
+=== Feature Wishes for [[Oyranos]] ===
 They come mostly from discussions at the OpenICC [http://lists.freedesktop.org/archives/openicc/] email list.
 
 * check for validity of a display setup (calibrated: yes/no, expired, ...)
