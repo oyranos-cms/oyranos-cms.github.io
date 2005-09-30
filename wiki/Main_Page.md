@@ -4,17 +4,18 @@ permalink: wiki/Main_Page/
 layout: wiki
 ---
 
-This site is just starting ...
+**Welcome on the ColourWiki site!**
 
-Please see [documentation on customizing the
-interface](http://meta.wikipedia.org/wiki/MediaWiki_i18n) and the
-[User's Guide](http://meta.wikipedia.org/wiki/MediaWiki_User%27s_Guide)
-for usage and configuration help.
+just starting ...
 
-Main goal is to create a documentation for the open source Colour
-Management System [Oyranos](/wiki/Oyranos "wikilink"). This includes concepts,
-descriptions, feature wish lists, tutorials, links to related sites and
-more information around colour management.
+This site is intended for a collection of information regarding Open
+Source[1](http://www.opensource.org) [Colour
+Management](colour_management "wikilink"). This includes technical
+proposals, extractions from [email](/wiki/OpenICC "wikilink") or IRC
+discussions, articels and related links. Take it as drawing board as
+well as for publishing ideas.
 
--   [Oyranos](/wiki/Oyranos "wikilink")
-
+One goal is to create a documentation for the open source Colour
+Management System [Oyranos](/wiki/Oyranos "wikilink"). This includes the
+concept, a description, feature wish lists, in the future tutorials and
+links to related sites.
