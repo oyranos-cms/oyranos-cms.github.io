@@ -12,7 +12,7 @@ expectations of users. Pros and Cons can be discussed here.
 
 To bring various users and producers together the
 ICC[1](http://www.color.org) standard was created. This standard covers
-a data format to exchange color information of devices.
+a data format to exchange colour information of devices.
 
 ### Precission
 
