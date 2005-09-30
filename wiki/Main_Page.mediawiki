@@ -2,6 +2,6 @@
 
 just starting ...
 
-This site is intended for a collection of information regarding Open Source[http://www.opensource.org] [[colour_management|Colour Management]]. This includes technical proposals, extractions from [[OpenICC|email]] or IRC discussions, articels and related links. Take it as drawing board as well as for publishing ideas.
+This site is intended for a collection of information regarding [http://www.opensource.org Open Source] [http://en.wikipedia.org/wiki/Color_management Colour Management]. This includes technical proposals, extractions from [[OpenICC|email]] or IRC discussions, articels and related links. Take it as drawing board as well as for publishing ideas.
 
 One goal is to create a documentation for the open source Colour Management System [[Oyranos]]. This includes the concept, a description, feature wish lists, in the future tutorials and links to related sites.
