@@ -26,6 +26,7 @@ layout: wiki
 <li><a href="Concepts" title="wikilink">Concepts Discussion</a></li>
 <li><a href="ColourMatchingModuls" class="uri" title="wikilink">ColourMatchingModuls</a></li>
 <li><a href="Applications" class="uri" title="wikilink">Applications</a> - colour management (CM) capable programs</li>
+<li><a href="Standards" class="uri" title="wikilink">Standards</a></li>
 </ul>
 </div>
 <div style="margin:0; margin-top:10px; border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
