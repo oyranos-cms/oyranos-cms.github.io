@@ -6,8 +6,8 @@ layout: wiki
 
 ### Feature Wishes for [Oyranos](/wiki/Oyranos "wikilink")
 
-They come mostly from discussions at the OpenICC
-[1](http://lists.freedesktop.org/archives/openicc/) email list.
+They come mostly from discussions at the [OpenICC](/wiki/OpenICC "wikilink")
+email list.
 
 -   check for validity of a display setup (calibrated: yes/no, expired,
     ...)
