@@ -16,6 +16,9 @@ layout: wiki
 <p><strong>Welcome on the ColourWiki site!</strong></p>
 <p>This site is intended for a collection of information regarding mainly <a href="http://www.opensource.org">Open Source</a> <a href="http://en.wikipedia.org/wiki/Color_management">Colour Management</a>. This includes technical proposals, extractions from <a href="OpenICC" title="wikilink">email</a> or IRC discussions, articels and related links. Take it as drawing board as well as for publishing ideas.</p>
 </div>
+<div align="right">
+<p><small><strong><a href="ColourWiki:About" title="wikilink">Informations about ColourWiki</a></strong></small></p>
+</div>
 </div></td>
 <td><div style="margin:0;  border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
 <p><strong>Entry Points</strong></p>

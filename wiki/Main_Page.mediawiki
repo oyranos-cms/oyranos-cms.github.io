@@ -9,6 +9,7 @@
 
 This site is intended for a collection of information regarding mainly [http://www.opensource.org Open Source] [http://en.wikipedia.org/wiki/Color_management Colour Management]. This includes technical proposals, extractions from [[OpenICC|email]] or IRC discussions, articels and related links. Take it as drawing board as well as for publishing ideas.
 </div>
+<div align="right"><small>'''[[ColourWiki:About|Informations about ColourWiki]]'''</small></div>
 </div>
 
 | width="48%" style="vertical-align:top" |
