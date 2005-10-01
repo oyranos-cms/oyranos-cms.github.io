@@ -16,6 +16,7 @@ This site is intended for a collection of information regarding mainly [http://w
 <div style="margin:0;  border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
 '''Entry Points'''
 *[[Concepts|Concepts Discussion]]
+*[[What the users want]]
 *[[ColourMatchingModuls]]
 *[[Applications]] - colour management (CM) capable programs
 *[[Standards]]
