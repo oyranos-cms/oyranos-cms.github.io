@@ -50,7 +50,7 @@ Untaged data
 Most difficult is here the mixed behaviour of applications regarding
 tagging versus non tagging of exchange data with colour profiles.
 
-### Assign an profile into untaged data
+### Assign an profile into untagged data
 
 A simple example is a photographer, which is aware of tagging images
 correctly and delivers them to his customer. Next step is to include

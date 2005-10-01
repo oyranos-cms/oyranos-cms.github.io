@@ -12,7 +12,7 @@ One concept of the ICC-standard, is the possibility to create documents, where e
 To give users succesful experiences with colormanagement, it is useful to have the option of an colormanagement policy, which allows only the creation of flatcolor documents in well known and tested editing spaces.
 == Untaged data ==
 Most difficult is here the mixed behaviour of applications regarding tagging versus non tagging of exchange data with colour profiles.
-=== Assign an profile into untaged data ===
+=== Assign an profile into untagged data ===
 A simple example is a photographer, which is aware of tagging images correctly and delivers them to his customer. Next step is to include such tagged photo into an document in an CM unaware word processor. The output from the word processor is prepared as pdf for the web and as pdf for printing. As the word processor is ignoring any colour profiles it is up to the system to follow a rule, which makes the colour data unambiguous.
 
 *leave it as is for viewing, and interprete as follows below
