@@ -34,3 +34,5 @@ Enumeration values:
 -   Jan-Peter Homann requested an differenciation between Cmyk and Rgb
     Editing colour space.
 
+- I would change the name of Input INPUT\_CMYK to EDITING CMYK
+(Jan-Peter)

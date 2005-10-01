@@ -17,3 +17,4 @@ Enumeration values:
 * WORKSPACE should become EDITING (Chris Murphy)
 
 * Jan-Peter Homann requested an differenciation between Cmyk and Rgb Editing colour space.
+- I would change the name of Input INPUT_CMYK to EDITING CMYK (Jan-Peter)
