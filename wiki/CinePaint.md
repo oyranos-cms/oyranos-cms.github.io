@@ -6,7 +6,7 @@ layout: wiki
 
 CinePaint became its colour management during the work of Stefan Klein
 at the project. It is ICC based. As an offshot the Oyranos project was
-started.
+started. This page describes CinePaints colour management.
 
 Features
 --------
@@ -16,14 +16,13 @@ Features
 -   capablility to show image colours in ab 3D colour viewer including
     various gamuts - [ICC
     Examin](http://www.behrmann.name/index.php?option=com_content&task=view&id=32&Itemid=70)
--   littleCMS as [CMM](/wiki/ColourMatchingModuls "wikilink")
+-   littleCMS is fixed [CMM](/wiki/ColourMatchingModuls "wikilink")
 -   standard paths: /usr/share/color/icc;~/.color/icc + free selectable
     additional directories
 -   preference dialog for default profiles and conversion behaviour
-    (Oyranos candidate)
 
-Problems
---------
+Investigation
+-------------
 
 -   16-bit XYZ editing and displaying
 -   print dialog needs system wide colour management
