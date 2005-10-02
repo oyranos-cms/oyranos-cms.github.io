@@ -19,9 +19,11 @@ layout: wiki
 <div align="right">
 <p><small><strong><a href="ColourWiki:About" title="wikilink">Informations about ColourWiki</a></strong></small></p>
 </div>
+</div>
+<div style="padding: 0.3em 1em 0.7em 1em;">
 </div></td>
 <td><div style="margin:0;  border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
-<p><strong>Entry Points</strong></p>
+<p><strong>Discussion Entry Points</strong></p>
 <ul>
 <li><a href="Concepts" title="wikilink">Concepts Discussion</a></li>
 <li><a href="What_the_users_want" title="wikilink">What the users want</a></li>

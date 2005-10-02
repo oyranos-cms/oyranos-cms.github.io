@@ -12,9 +12,15 @@ This site is intended for a collection of information regarding mainly [http://w
 <div align="right"><small>'''[[ColourWiki:About|Informations about ColourWiki]]'''</small></div>
 </div>
 
+<!-- div style="margin: 0; margin-top:10px;  margin-right:10px; border: 2px solid #dfdfdf; background-color:#f8f8ff;" -->
+<div style="padding: 0.3em 1em 0.7em 1em;">
+<!-- kind of user documentation and tutorials -->
+
+</div>
+
 | width="48%" style="vertical-align:top" |
 <div style="margin:0;  border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
-'''Entry Points'''
+'''Discussion Entry Points'''
 *[[Concepts|Concepts Discussion]]
 *[[What the users want]]
 *[[ColourMatchingModuls]]
