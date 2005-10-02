@@ -20,4 +20,13 @@ Implementations
 
 -   <http://www.littlecms.com/>
 
+#### IccProfLib
+
+-   <http://sampleicc.sourceforge.net/> - The ICC's official sample
+    implementation.
+
+#### GCMS
+
+-   an historical CMM effort: <http://www.gcms.coloraid.de/>
+
 ...

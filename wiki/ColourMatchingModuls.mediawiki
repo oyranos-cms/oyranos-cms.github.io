@@ -6,5 +6,9 @@ In Open Source applications, littlecms is the most used CMM. Other widly used CM
 *http://www.argyllcms.com/
 ==== littleCMS ====
 *http://www.littlecms.com/
+==== IccProfLib ====
+*http://sampleicc.sourceforge.net/ - The ICC's official sample implementation.
+==== GCMS ====
+*an historical CMM effort: http://www.gcms.coloraid.de/
 
 ...
