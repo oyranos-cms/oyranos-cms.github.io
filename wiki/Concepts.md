@@ -93,3 +93,35 @@ implement.
 
 -   warn user about losing colour space information during saving
 
+Setup
+-----
+
+### Average User
+
+Most people belong to the [Office User
+type](/wiki/What_the_users_want#Office_Users_.2F_Webdesigners "wikilink").
+They need an relyable conversion behaviour. Simplicity is the main goal
+there. [sRGB](/wiki/Standards "wikilink") serves this behaviour well. Defaults
+should be set to:
+
+-   assumed RGB - sRGB
+-   editing colour space: sRGB
+-   convert allways data to editing space (before a save, not nice, but
+    the most relyable in mixed CM aware environments)
+-   dont prefere mixed colour space documents (keep it simple)
+
+### Graphics Distribution
+
+[Graphic Designers](/wiki/What_the_users_want#Graphic_Designers "wikilink")
+and other specialist may want to use own settings. Here some defaults:
+
+-   assumed RGB - sRGB or Adobe(?)
+-   no popup for untagged images
+-   editing RGB - Adobe,ECI or L-Star (large gamut)
+-   convert RGB data during editing to editing space (dont pop up
+    dialogs)
+-   no popup for conversion
+-   dont convert CMYK data (because of possibly failed black preserving
+    capabilities)
+-   allow mixed colour space documents (warning for internet PDF's?)
+
