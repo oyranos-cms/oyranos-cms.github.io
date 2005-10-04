@@ -10,29 +10,25 @@ enum oyDEFAULT\_PROFILE
 
 Enumeration values:
 
-`   oyWORKSPACE     Workspace Profile or Editing Profile`  
-`   oyINPUT_XYZ     standard XYZ input profile`  
-`   oyINPUT_LAB     standard Lab input profile`  
-`   oyINPUT_RGB     standard RGB input profile`  
-`   oyINPUT_CMYK    standard Cmyk input profile`  
+`   oyEDITING_RGB   Rgb Editing (Workspace) Profile`  
+`   oyEDITING_CMYK  Cmyk Editing (Workspace) Profile`  
+`   oyASSUMED_XYZ   standard XYZ assumed source profile`  
+`   oyASSUMED_LAB   standard Lab assumed source profile`  
+`   oyASSUMED_RGB   standard RGB assumed source profile`  
+`   oyASSUMED_CMYK  standard Cmyk assumed source profile`  
 `   oyDEFAULT_PROFILE_TYPES     just for easen Gui design`
-
--   As discussed on OpenICC INPUT should change to something like
-    UNTAGED.
-
-<!-- -->
 
 -   Jan-Peter Homann and Chris Murphy voted to hide Lab and XYZ. If
     there is no practical usage, I, Kai-Uwe, will remove them.
 
 <!-- -->
 
--   WORKSPACE should become EDITING (Chris Murphy)
+-   older tasks:
+    -   done (As discussed on OpenICC INPUT should change to something
+        like UNTAGED.)
+    -   done (WORKSPACE should become EDITING (Chris Murphy))
+    -   done (Jan-Peter Homann requested an differenciation between Cmyk
+        and Rgb Editing colour space.)
+    -   done (I would change the name of Input INPUT\_CMYK to EDITING
+        CMYK (Jan-Peter))
 
-<!-- -->
-
--   Jan-Peter Homann requested an differenciation between Cmyk and Rgb
-    Editing colour space.
-
-- I would change the name of Input INPUT\_CMYK to EDITING CMYK
-(Jan-Peter)
