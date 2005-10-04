@@ -28,7 +28,23 @@ implement a solution, that beginners are not able to choose wrong
 profiles by accident.
 
 -   colormanagement policies
+    -   only allow flatcolor documents or allow mixed mode documents ?
+    -   how to deal with profile mismatches during opening files ?
+    -   how to deal with profile mismatches during placing content ?
+-   to add:
+    -   add CMYK editing profile (OY\_DEFAULT\_EDITING\_CMYK\_PROFILE)
+    -   add noneditable web colour space sRGB for displaying - should be
+        used during download from web (OY\_DEFAULT\_WEB\_PROFILE=sRGB)
+    -   profile assigning for untagged data (auto / leave / ask)
+        (OY\_UNTAGGED\_ASSIGN\_ACTION)
+    -   add RGB/CMYK opening mismatch policy (convert / leave attached
+        profile / popup) , should be used to make all content equal in
+        an pure sRGB environment (OY\_MISMATCH\_RGB\_OPEN\_ACTION)
+    -   add RGB/CMYK editing mismatch policy, harmonice during editing
+        for homogenous colour space documents
+        (OY\_MISMATCH\_CMYK\_CHANGE\_ACTION)
+    -   note: placing and editing files should equal react regarding
+        mismatch (handles the mismatch question from above)
+    -   mixed colour space documents for internet warning/quiet
+        (OY\_MIXED\_COLOUR\_INTERNET\_DOCUMENT\_WARNING)
 
-- only allow flatcolor documents or allow mixed mode documents ? - how
-to deal with profile mismatches during opening files ? - how to deal
-with profile mismatches during placing content ?
