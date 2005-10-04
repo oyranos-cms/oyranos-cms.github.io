@@ -24,11 +24,18 @@ ISOcoated). CMYK-colors should be unambigous specified by numbers. The
 monitor should simulate the editing CMYK-Editing space. The printout
 should also simulate the editing CMYK workingspace and should serve as
 proof for the printinghouse. It should be easy to create PDF/X-1a data,
-whith the CMYK-Editing space embedded as outputintent. They dont like
-pop-up dialogues, that the profile of an actual file is not fitting to
-the colorsettings of their application. They hate unwanted
-colortransformtions of CMYK-data, where e.g. black or grey objects turns
-to 4-color objects.
+whith the CMYK-Editing space embedded as outputintent.
+
+` Question: should it here read `“`embedded`` ``as`` ``output`` ``profile`”` instead of `“`outputintent`”`?`  
+` The rendering intent is a separate option and for Cmyk anyway not applicable, because`  
+` an further colour transformation is unlikely. But for interpreatation the profile is needed.`
+
+They dont like pop-up dialogues, that the profile of an actual file is
+not fitting to the colorsettings of their application. They hate
+unwanted colortransformtions of CMYK-data, where e.g. black or grey
+objects turns to 4-color objects.
+
+` Hint: littleCMS has a black preserving feature with vesion 1.15. About others I dont know.`
 
 Prepress specialists
 --------------------
