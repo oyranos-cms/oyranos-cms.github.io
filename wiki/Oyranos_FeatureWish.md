@@ -35,15 +35,16 @@ profiles by accident.
     -   add CMYK editing profile (OY\_DEFAULT\_EDITING\_CMYK\_PROFILE)
     -   add noneditable web colour space sRGB for displaying - should be
         used during download from web (OY\_DEFAULT\_WEB\_PROFILE=sRGB)
-    -   profile assigning for untagged data (auto / leave / ask)
-        (OY\_UNTAGGED\_ASSIGN\_ACTION)
+    -   profile assigning for untagged data during opening (auto / leave
+        / ask) (OY\_UNTAGGED\_ASSIGN\_ACTION)
     -   add RGB/CMYK opening mismatch policy (convert / leave attached
-        profile / popup) , should be used to make all content equal in
-        an pure sRGB environment (OY\_MISMATCH\_RGB\_OPEN\_ACTION)
-    -   add RGB/CMYK editing mismatch policy, harmonice during editing
-        for homogenous colour space documents
-        (OY\_MISMATCH\_CMYK\_CHANGE\_ACTION)
-    -   note: placing and editing files should equal react regarding
+        profile / popup) , in an pure sRGB environment it could be used
+        to make all unknown Rgb content equal
+        (OY\_MISMATCH\_RGB\_OPEN\_ACTION ...)
+    -   profile assigning for mismatched data during editing policy,
+        harmonice during editing for homogenous colour space documents
+        (OY\_MISMATCH\_CMYK\_CHANGE\_ACTION ...)
+    -   note: placing and editing files could equal react regarding
         mismatch (handles the mismatch question from above)
     -   mixed colour space documents for internet warning/quiet
         (OY\_MIXED\_COLOUR\_INTERNET\_DOCUMENT\_WARNING)
