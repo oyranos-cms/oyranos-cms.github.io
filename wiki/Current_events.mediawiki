@@ -1,0 +1,5 @@
+*We work currently (begin of october 2005) towards CMS preferences for applications here: [[What_the_users_want|What the users want]]
+*add your favourite CM aware software here ([[Applications]]) and show what you want from an CMS.
+*same as above for [[ColourMatchingModuls|CMMs]]
+
+Dont forget to check IRC and email; see here [[OpenICC]].
