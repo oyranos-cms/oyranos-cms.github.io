@@ -5,9 +5,9 @@
 <!--   Begrüßung  -->
 <div style="padding: 0.3em 1em 0.7em 1em;">
 
-'''Welcome on the ColourWiki site!'''
+'''Welcome on ColourWiki!'''
 
-This site is intended for a collection of information regarding mainly [http://www.opensource.org Open Source] [http://en.wikipedia.org/wiki/Color_management Colour Management]. This includes technical proposals, extractions from [[OpenICC|email]] or IRC discussions, articles and related links. Take it as drawing board as well as for publishing ideas.
+This site is intended for a collection of information regarding mainly, but not limited to, [http://www.opensource.org Open Source] [http://en.wikipedia.org/wiki/Color_management Colour Management]. This includes technical proposals, extractions from [[OpenICC|email]] or IRC discussions, articles and related links. Take it as drawing board as well as for publishing ideas.
 </div>
 <div align="right"><small>'''[[ColourWiki:About|Informations about ColourWiki]]'''</small></div>
 </div>
