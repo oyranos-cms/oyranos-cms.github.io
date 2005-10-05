@@ -41,7 +41,7 @@ layout: wiki
 <td><div style="margin: 0; margin-top:8px; padding: 0em 0.3em 0.3em 0.3em; border: 2px solid #dfdfdf; background-color:#ffffff;">
 <div align="middle">
 <p><strong>Related Projects</strong></p>
-<p><a href="OpenICC" title="wikilink">OpenICC email list</a> - <a href="http://www.coloraid.de">www.coloraid.de</a></p>
+<p><a href="OpenICC" title="wikilink">OpenICC email list</a> - <a href="http://www.coloraid.de">www.coloraid.de</a> - <a href="http://www.freedesktop.org/">www.freedesktop.org</a></p>
 </div>
 </div></td>
 </tr>
