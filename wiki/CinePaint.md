@@ -13,7 +13,7 @@ Features
 
 -   16-bit
 -   CMYK/Lab/Cineon editing
--   capablility to show image colours in ab 3D colour viewer including
+-   capablility to show image colours in an 3D colour viewer including
     various gamuts - [ICC
     Examin](http://www.behrmann.name/index.php?option=com_content&task=view&id=32&Itemid=70)
 -   littleCMS is fixed [CMM](/wiki/ColourMatchingModuls "wikilink")
@@ -46,4 +46,4 @@ Links
     Druck](http://www.behrmann.name/index.php?option=com_weblinks&task=view&catid=67&id=54&Itemid=86) -
     deutsch
 
-back to [Applications](/wiki/Applications "wikilink")
+[back -&gt; Applications](/wiki/Applications "wikilink")
