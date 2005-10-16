@@ -100,14 +100,14 @@ Setup
 
 Most people belong to the [Office User
 type](/wiki/What_the_users_want#Office_Users_.2F_Webdesigners "wikilink").
-They need an relyable conversion behaviour. Simplicity is the main goal
+They need an reliable conversion behaviour. Simplicity is the main goal
 there. [sRGB](/wiki/Standards "wikilink") serves this behaviour well. Defaults
 should be set to:
 
 -   assumed RGB - sRGB
 -   editing colour space: sRGB
 -   convert allways data to editing space (before a save, not nice, but
-    the most relyable in mixed CM aware environments)
+    the most reliable in mixed CM aware environments)
 -   dont prefere mixed colour space documents (keep it simple)
 
 ### Graphics Distribution
@@ -125,3 +125,38 @@ and other specialist may want to use own settings. Here some defaults:
     capabilities)
 -   allow mixed colour space documents (warning for internet PDF's?)
 
+Device Settings
+---------------
+
+The device to device colour path contains as well the settings to
+receive and to output colours. This makes the storage of these settings
+necessary for a working colour management. Currently such settings are
+spread over various places. They are particially stored in application
+and OS databases or only particially embedded in profiles, like the vcgt
+tag. There should be a format developed and used, which makes it easy to
+combine both colour and settings characterisation. This includes:
+
+-   device settings (as provided, colour relevant ones should be queried
+    automatically)
+-   changeable driver settings
+-   colour characterisation (a ICC profile belonging to the above
+    settings)
+
+advantages:
+
+-   select an profile and the system knows about needed settings
+-   change settings and the system can tell if an profile is available
+-   email a complete settings file, no further information is needed to
+    setup
+-   use the same settings in all applications, they are globally
+    available
+
+Tasks (X example, similiar to print, scan, digicams):
+
+-   obtain monitor settings informations
+-   set/reset monitor settings from software (xcalib/ddccontrol,...)
+-   interface to get/set settings from Oyranos to drivers
+-   extract ICC information easily
+
+TODO: Move this part to an own page, check for available options (ICC,
+XML...), choose, implement in [Oyranos](/wiki/Oyranos "wikilink")
