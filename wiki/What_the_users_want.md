@@ -4,6 +4,10 @@ permalink: wiki/What_the_users_want/
 layout: wiki
 ---
 
+Note: This page has been vandaliced by spamers in removing content and
+placing inadequate messages. Due to this the page is no longer editable
+until we find an appropriate solution.
+
 Before we talk about colormanagement policies for applications, we
 should think about, what different users expect from colormanagement.
 
