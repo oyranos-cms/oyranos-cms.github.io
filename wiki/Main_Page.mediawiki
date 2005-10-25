@@ -40,12 +40,9 @@ One goal is to create a documentation for the open source Colour Management Syst
 <div align="middle">
 '''Related Projects'''
 
-[[OpenICC|OpenICC email list]] - [http://www.coloraid.de www.coloraid.de] - [http://www.freedesktop.org/ www.freedesktop.org]
+[[OpenICC|OpenICC email list]] - [http://www.coloraid.de www.coloraid.de] - [http://www.freedesktop.org/ www.freedesktop.org] - [http://create.freedesktop.org/wiki Create]
 </div>
 </div>
 |}
 __NOTOC__
 __NOEDITSECTION__
-
-
-just starting ...
