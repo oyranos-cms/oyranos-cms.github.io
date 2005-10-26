@@ -6,18 +6,27 @@ layout: wiki
 
 CinePaint became its colour management during the work of Stefan Klein
 at the project. It is ICC based. As an offshot the Oyranos project was
-started. This page describes CinePaints colour management.
+started to support interapplication conventions for colour management.
+This page describes CinePaints colour management.
 
 Features
 --------
 
 -   display ICC colour correction
--   ICC 16-bit editing
--   32-bit ICC corrected viewing
--   CMYK/Lab/Cineon editing
+-   preference dialog for default profiles and conversion behaviour
+    (target for Oyranos integration)
+-   display / editing / assumed input / proofing profile settings
+-   profile missmatch behaviour selectable
+-   ICC 8/16-bit editing and corrected viewing
+-   32-bit HDR colour corrected viewing
+-   CMYK/Lab/CineonLog editing
 -   Cineon profiles are available as part of the
     [Oyranos](/wiki/Oyranos "wikilink") project at [Oyranos download
     page](http://www.behrmann.name/index.php?option=com_content&task=view&id=34&Itemid=68#profiles)
+-   on the fly manipulation (look) profiles assignable and useable for
+    conversion
+-   film playback with colour correction and effects; slow, needs
+    further improvement
 -   capablility to show image colours in an 3D colour viewer including
     various gamuts - [ICC
     Examin](http://www.behrmann.name/index.php?option=com_content&task=view&id=32&Itemid=70)
@@ -25,10 +34,10 @@ Features
     [CMM](/wiki/ColourMatchingModuls "wikilink")
 -   standard paths: /usr/share/color/icc;~/.color/icc + free selectable
     additional directories
--   preference dialog for default profiles and conversion behaviour
-    (target for Oyranos integration)
--   proofing profile per loaded image
+-   one proofing profile per loaded image
 -   ICC print separation dialog uses the proofing profile by default
+-   for lcms &gt; 1.15 is Cmyk-&gt;Cmyk black preserving enabled; non
+    selectable
 -   OpenEXR &lt;-&gt; ICC conversion roundtripping (solved with lcms on
     the fly profiles)
 
@@ -47,6 +56,8 @@ Links
 -----
 
 -   <http://www.cinepaint.org> - Project page
+-   [CinePaintDocumentation](http://cinepaint.bigasterisk.com/CinePaintDocumentation) -
+    Wiki
 -   [CinePaintColourManagementUserDocumentation](http://cinepaint.bigasterisk.com/CinePaintColourManagementUserDocumentation) -
     Stefan's documentation
 -   [CinePaint - 16-bit imaging. From digital camera to
