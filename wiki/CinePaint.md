@@ -11,15 +11,26 @@ started. This page describes CinePaints colour management.
 Features
 --------
 
--   16-bit
+-   display ICC colour correction
+-   ICC 16-bit editing
+-   32-bit ICC corrected viewing
 -   CMYK/Lab/Cineon editing
+-   Cineon profiles are available as part of the
+    [Oyranos](/wiki/Oyranos "wikilink") project at [Oyranos download
+    page](http://www.behrmann.name/index.php?option=com_content&task=view&id=34&Itemid=68#profiles)
 -   capablility to show image colours in an 3D colour viewer including
     various gamuts - [ICC
     Examin](http://www.behrmann.name/index.php?option=com_content&task=view&id=32&Itemid=70)
--   littleCMS is fixed [CMM](/wiki/ColourMatchingModuls "wikilink")
+-   littleCMS is a fixed dependency
+    [CMM](/wiki/ColourMatchingModuls "wikilink")
 -   standard paths: /usr/share/color/icc;~/.color/icc + free selectable
     additional directories
 -   preference dialog for default profiles and conversion behaviour
+    (target for Oyranos integration)
+-   proofing profile per loaded image
+-   ICC print separation dialog uses the proofing profile by default
+-   OpenEXR &lt;-&gt; ICC conversion roundtripping (solved with lcms on
+    the fly profiles)
 
 Investigation
 -------------
@@ -27,9 +38,8 @@ Investigation
 -   16-bit XYZ editing and displaying
 -   print dialog needs system wide colour management
 -   inconsitent colour UI for the legacy Gtk1 version (channel names,
-    alpha handling, only partitial colour space specific dialogs)
+    alpha handling, partitial colour space specific dialogs)
 -   Cineon -&gt; ICC Layer
--   OpenEXR &lt;-&gt; ICC conversion roundtripping
 -   no tonemapping
 -   missed floating point precision colour transforms
 
