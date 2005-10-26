@@ -48,8 +48,8 @@ Investigation
 -   print dialog needs system wide colour management
 -   inconsitent colour UI for the legacy Gtk1 version (channel names,
     alpha handling, partitial colour space specific dialogs)
--   Cineon -&gt; ICC Layer
--   no tonemapping
+-   automate Cineon -&gt; ICC profile selection; currently manual
+-   tonemapping
 -   missed floating point precision colour transforms
 
 Links

@@ -23,8 +23,8 @@ CinePaint became its colour management during the work of Stefan Klein at the pr
 * 16-bit XYZ editing and displaying
 * print dialog needs system wide colour management
 * inconsitent colour UI for the legacy Gtk1 version (channel names, alpha handling, partitial colour space specific dialogs)
-* Cineon -> ICC Layer
-* no tonemapping
+* automate Cineon -> ICC profile selection; currently manual
+* tonemapping
 * missed floating point precision colour transforms
 
 == Links ==
