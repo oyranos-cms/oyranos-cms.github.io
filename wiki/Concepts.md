@@ -70,22 +70,22 @@ unambiguous.
 
 ### Interpretation of untagged data
 
--   allways sRGB, the [WWW](/wiki/Standards#sRGB_workflow "wikilink") standard
+-   always sRGB, the [WWW](/wiki/Standards#sRGB_workflow "wikilink") standard
     colour space
     -   pros:
         -   mostly unambiguous
     -   cons:
         -   sRGB is limited regarding saturation
--   allways osX standard RGB ??
--   allways Adobe RGB(1998) ??
+-   always osX standard RGB ??
+-   always Adobe RGB(1998) ??
 -   take data as in monitor colour space - a traditional point of view
     used up to date
--   differenciate between input path for colour data:
+-   differentiate between input path for colour data:
     -   WWW sites -&gt; sRGB
     -   Files from outside of the computer -&gt; selectable profile
     -   Files from inside the computer -&gt; selectable profile
 
-As the source of images, wether they come from out- or inside the
+As the source of images, whether they come from out- or inside the
 computer, becomes more and more fuzzy, this concept is difficult to
 implement.
 
@@ -134,29 +134,6 @@ necessary for a working colour management. Currently such settings are
 spread over various places. They are particially stored in application
 and OS databases or only particially embedded in profiles, like the vcgt
 tag. There should be a format developed and used, which makes it easy to
-combine both colour and settings characterisation. This includes:
+combine both colour and settings characterisation.
 
--   device settings (as provided, colour relevant ones should be queried
-    automatically)
--   changeable driver settings
--   colour characterisation (a ICC profile belonging to the above
-    settings)
-
-advantages:
-
--   select an profile and the system knows about needed settings
--   change settings and the system can tell if an profile is available
--   email a complete settings file, no further information is needed to
-    setup
--   use the same settings in all applications, they are globally
-    available
-
-Tasks (X example, similiar to print, scan, digicams):
-
--   obtain monitor settings informations
--   set/reset monitor settings from software (xcalib/ddccontrol,...)
--   interface to get/set settings from Oyranos to drivers
--   extract ICC information easily
-
-TODO: Move this part to an own page, check for available options (ICC,
-XML...), choose, implement in [Oyranos](/wiki/Oyranos "wikilink")
+[Device Settings](/wiki/Device_Settings "wikilink")

@@ -22,19 +22,20 @@ A simple example is a photographer, which is aware of tagging images correctly a
 ***ambiguous across platforms
 *attach only during modifications - maybe convert to an default colour space (is policy dependent)
 === Interpretation of untagged data ===
-*allways sRGB, the [[Standards#sRGB_workflow|WWW]] standard colour space
+*always sRGB, the [[Standards#sRGB_workflow|WWW]] standard colour space
 **pros:
 ***mostly unambiguous
 **cons:
 ***sRGB is limited regarding saturation
-*allways osX standard RGB ??
-*allways Adobe RGB(1998) ??
+*always osX standard RGB ??
+*always Adobe RGB(1998) ??
 *take data as in monitor colour space - a traditional point of view used up to date
-*differenciate between input path for colour data:
+*differentiate between input path for colour data:
 **WWW sites -> sRGB
 **Files from outside of the computer -> selectable profile
 **Files from inside the computer -> selectable profile
-As the source of images, wether they come from out- or inside the computer, becomes more and more fuzzy, this concept is difficult to implement.
+As the source of images, whether they come from out- or inside the computer, becomes more and more fuzzy, this concept is difficult to implement.
+
 === Save onto an untaggable image format ===
 *warn user about losing colour space information during saving
 
@@ -57,21 +58,6 @@ Most people belong to the [[What_the_users_want#Office_Users_.2F_Webdesigners|Of
 * allow mixed colour space documents (warning for internet PDF's?)
 
 == Device Settings ==
-The device to device colour path contains as well the settings to receive and to output colours. This makes the storage of these settings necessary for a working colour management. Currently such settings are spread over various places. They are particially stored in application and OS databases or only particially embedded in profiles, like the vcgt tag. There should be a format developed and used, which makes it easy to combine both colour and settings characterisation. This includes:
-* device settings (as provided, colour relevant ones should be queried automatically)
-* changeable driver settings
-* colour characterisation (a ICC profile belonging to the above settings)
+The device to device colour path contains as well the settings to receive and to output colours. This makes the storage of these settings necessary for a working colour management. Currently such settings are spread over various places. They are particially stored in application and OS databases or only particially embedded in profiles, like the vcgt tag. There should be a format developed and used, which makes it easy to combine both colour and settings characterisation.
 
-advantages:
-* select an profile and the system knows about needed settings
-* change settings and the system can tell if an profile is available
-* email a complete settings file, no further information is needed to setup
-* use the same settings in all applications, they are globally available
-
-Tasks (X example, similiar to print, scan, digicams):
-* obtain monitor settings informations
-* set/reset monitor settings from software (xcalib/ddccontrol,...)
-* interface to get/set settings from Oyranos to drivers
-* extract ICC information easily
-
-TODO: Move this part to an own page, check for available options (ICC, XML...), choose, implement in [[Oyranos]]
+[[Device Settings]]
