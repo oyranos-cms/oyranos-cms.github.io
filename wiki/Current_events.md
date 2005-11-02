@@ -11,6 +11,7 @@ layout: wiki
     ([Applications](/wiki/Applications "wikilink")) and show what you want
     from an CMS.
 -   same as above for [CMMs](/wiki/ColourMatchingModuls "wikilink")
+-   [Device Settings](/wiki/Device_Settings "wikilink") proposal
 
 Dont forget to check IRC and email; see here
 [OpenICC](/wiki/OpenICC "wikilink").
