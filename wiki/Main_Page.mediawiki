@@ -21,11 +21,12 @@ This site is intended for a collection of information regarding mainly, but not 
 | width="48%" style="vertical-align:top" |
 <div style="margin:0;  border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
 '''Discussion Entry Points'''
-*[[Concepts|Concepts Discussion]]
 *[[What the users want]]
+*[[Concepts|Concepts Discussion]]
+*[[Device Settings]]
+*[[Standards]]
 *[[ColourMatchingModuls]]
 *[[Applications]] - colour management (CM) capable programs
-*[[Standards]]
 </div>
 
 <div style="margin:0; margin-top:10px; border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
