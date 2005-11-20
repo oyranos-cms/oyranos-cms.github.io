@@ -93,8 +93,8 @@ implement.
 
 -   warn user about losing colour space information during saving
 
-Setup
------
+Policies
+--------
 
 ### Average User
 
@@ -137,3 +137,19 @@ tag. There should be a format developed and used, which makes it easy to
 combine both colour and settings characterisation.
 
 [Device Settings](/wiki/Device_Settings "wikilink")
+
+User Interface
+--------------
+
+### Profile Selection
+
+-   use a flat directory to store all files
+    -   easy to read by all applications
+    -   needs several mechanims to distinguish profiles for devices,
+        editing ...
+-   use directories hierarchically
+    -   allow all kind of distinguishing even if not supported by
+        Oyranos, other may use nevertheless
+    -   easy grouping of device, editing ... profiles
+    -   needs a layout and specification
+

@@ -39,7 +39,7 @@ As the source of images, whether they come from out- or inside the computer, bec
 === Save onto an untaggable image format ===
 *warn user about losing colour space information during saving
 
-== Setup ==
+== Policies ==
 === Average User ===
 Most people belong to the [[What_the_users_want#Office_Users_.2F_Webdesigners|Office User type]]. They need an reliable conversion behaviour. Simplicity is the main goal there. [[Standards|sRGB]] serves this behaviour well. Defaults should be set to:
 * assumed RGB - sRGB
@@ -61,3 +61,13 @@ Most people belong to the [[What_the_users_want#Office_Users_.2F_Webdesigners|Of
 The device to device colour path contains as well the settings to receive and to output colours. This makes the storage of these settings necessary for a working colour management. Currently such settings are spread over various places. They are particially stored in application and OS databases or only particially embedded in profiles, like the vcgt tag. There should be a format developed and used, which makes it easy to combine both colour and settings characterisation.
 
 [[Device Settings]]
+
+== User Interface ==
+=== Profile Selection ===
+* use a flat directory to store all files
+** easy to read by all applications
+** needs several mechanims to distinguish profiles for devices, editing ...
+* use directories hierarchically
+** allow all kind of distinguishing even if not supported by Oyranos, other may use nevertheless
+** easy grouping of device, editing ... profiles
+** needs a layout and specification
