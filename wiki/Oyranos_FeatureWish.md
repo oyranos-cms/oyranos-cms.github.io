@@ -32,7 +32,8 @@ profiles by accident.
     -   how to deal with profile mismatches during opening files ?
     -   how to deal with profile mismatches during placing content ?
 -   to add:
-    -   add CMYK editing profile (OY\_DEFAULT\_EDITING\_CMYK\_PROFILE)
+    -   done (add CMYK editing profile
+        (OY\_DEFAULT\_EDITING\_CMYK\_PROFILE))
     -   add noneditable web colour space sRGB for displaying - should be
         used during download from web (OY\_DEFAULT\_WEB\_PROFILE=sRGB)
     -   profile assigning for untagged data during opening (auto / leave

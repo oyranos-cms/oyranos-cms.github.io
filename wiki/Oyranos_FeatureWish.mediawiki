@@ -13,7 +13,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 ** how to deal with profile mismatches during opening files ?
 ** how to deal with profile mismatches during placing content ?
 *to add:
-** add CMYK editing profile (OY_DEFAULT_EDITING_CMYK_PROFILE)
+** done (add CMYK editing profile (OY_DEFAULT_EDITING_CMYK_PROFILE))
 ** add noneditable web colour space sRGB for displaying - should be used during download from web (OY_DEFAULT_WEB_PROFILE=sRGB)
 ** profile assigning for untagged data during opening (auto / leave / ask) (OY_UNTAGGED_ASSIGN_ACTION)
 ** add RGB/CMYK opening mismatch policy (convert / leave attached profile / popup) , in an pure sRGB environment it could be used to make all unknown Rgb content equal (OY_MISMATCH_RGB_OPEN_ACTION ...)
