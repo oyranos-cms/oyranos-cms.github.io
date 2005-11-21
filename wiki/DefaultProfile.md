@@ -19,7 +19,8 @@ Enumeration values:
 `   oyDEFAULT_PROFILE_TYPES     just for easen Gui design`
 
 -   Jan-Peter Homann and Chris Murphy voted to hide Lab and XYZ. If
-    there is no practical usage, I, Kai-Uwe, will remove them.
+    there is no practical usage, There seems usage of them in some
+    workflows.
 
 <!-- -->
 

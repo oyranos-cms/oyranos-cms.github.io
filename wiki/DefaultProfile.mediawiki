@@ -11,7 +11,7 @@ Enumeration values:
     oyASSUMED_CMYK 	standard Cmyk assumed source profile
     oyDEFAULT_PROFILE_TYPES 	just for easen Gui design
 
-* Jan-Peter Homann and Chris Murphy voted to hide Lab and XYZ. If there is no practical usage, I, Kai-Uwe, will remove them.
+* Jan-Peter Homann and Chris Murphy voted to hide Lab and XYZ. If there is no practical usage, There seems usage of them in some workflows.
 
 
 
