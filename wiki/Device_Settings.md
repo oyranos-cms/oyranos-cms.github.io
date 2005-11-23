@@ -12,7 +12,7 @@ image does not enshure the according driver settings are selected
 correctly. Even the driver and its version is often not included and not
 standardised to access machine readable. To overcome that information
 hole, Apple introduced the vcgt tag to describe the according hardware
-state in the grafics card gamma table. This is a single step and maybe
+state in the graphics card gamma table. This is a single step and maybe
 enough for just this task.
 
 In the following proposal I will draw scetchy, what I think is needed to
@@ -45,11 +45,15 @@ make the task complete, and apply to other areas too.
 -   set/reset monitor settings from software (xcalib/ddccontrol,...)
 -   interface to get/set settings from Oyranos to drivers
 -   extract ICC information easily
+-   allert for expired configuration
 
 ### Implementation Details
 
 -   easy accessible text format to store and handle driver informations
     (key/value pairs)
+-   possibly allow data blobs too, to allow compressed content
+-   additional part within this format to store CMM specific thing
+    (expire date, ...)
 -   combine with ICC profiles
 -   add device settings information to an existing ICC profile
     -   use a internal dedicated ICC profile tag
