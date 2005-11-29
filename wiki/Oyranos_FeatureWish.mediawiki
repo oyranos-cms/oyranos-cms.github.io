@@ -31,3 +31,10 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 
 
 * Bob Friesenhahn thinks Oyranos should be completely relocateable
+
+* ICC_PROFILE_PATH ? how to interact with Oyranos
+
+
+* show in headers only stable functions
+
+* remove unstable functions from descriptions

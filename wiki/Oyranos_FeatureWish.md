@@ -68,3 +68,15 @@ profiles by accident.
 
 -   Bob Friesenhahn thinks Oyranos should be completely relocateable
 
+<!-- -->
+
+-   ICC\_PROFILE\_PATH ? how to interact with Oyranos
+
+<!-- -->
+
+-   show in headers only stable functions
+
+<!-- -->
+
+-   remove unstable functions from descriptions
+
