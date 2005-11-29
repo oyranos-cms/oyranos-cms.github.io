@@ -1,6 +1,6 @@
 {| width="100%"
 |-
-| width="48%" style="vertical-align:top" |
+| width="52%" style="vertical-align:top" |
 <div style="margin: 0; margin-right:10px; border: 2px solid #dfdfdf; background-color:#f8f8ff;">
 <!--   Begrüßung  -->
 <div style="padding: 0.3em 1em 0.7em 1em;">
