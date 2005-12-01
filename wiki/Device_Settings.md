@@ -51,10 +51,10 @@ make the task complete, and apply to other areas too.
 
 -   easy accessible text format to store and handle driver informations
     (key/value pairs)
+-   driver identifier (which every application can eighter understand or
+    reject the whole profile)
 -   possibly allow data blobs too, to allow compressed content
-
-`Graeme Gill suggested to use an magic number to identify the blob. This allows more secure parsing.`
-
+-   Graeme Gill suggested to use an magic number to identify the blob.
 -   additional part within this format to store CMM specific thing
     (expire date, ...)
 -   combine with ICC profiles
