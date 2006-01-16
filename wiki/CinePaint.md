@@ -40,6 +40,7 @@ Features
     selectable
 -   OpenEXR &lt;-&gt; ICC conversion roundtripping (solved with lcms on
     the fly profiles)
+-   BPC is on by default (v0.20-3)
 
 Investigation
 -------------

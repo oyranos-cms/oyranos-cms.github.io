@@ -18,6 +18,7 @@ CinePaint became its colour management during the work of Stefan Klein at the pr
 * ICC print separation dialog uses the proofing profile by default
 * for lcms > 1.15 is Cmyk->Cmyk black preserving enabled; non selectable
 * OpenEXR <-> ICC conversion roundtripping (solved with lcms on the fly profiles)
+* BPC is on by default (v0.20-3)
 
 == Investigation ==
 * 16-bit XYZ editing and displaying
