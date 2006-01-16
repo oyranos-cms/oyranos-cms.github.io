@@ -28,7 +28,7 @@ Features
 -   film playback with colour correction and effects; slow, needs
     further improvement
 -   capablility to show image colours in an 3D colour viewer including
-    various gamuts - [ICC
+    various gamuts (3D histogram) - [ICC
     Examin](http://www.behrmann.name/index.php?option=com_content&task=view&id=32&Itemid=70)
 -   littleCMS is a fixed dependency
     [CMM](/wiki/ColourMatchingModuls "wikilink")
@@ -52,6 +52,12 @@ Investigation
 -   automate Cineon -&gt; ICC profile selection; currently manual
 -   tonemapping
 -   missed floating point precision colour transforms
+
+Screenshots
+-----------
+
+<http://www.oyranos.org/wiki/images/cinepaint_0.20-3_preferences.png> CM
+Preferences (v0.20-3)
 
 Links
 -----
