@@ -26,7 +26,7 @@ Some tags contain complex data. For such tags may appear a choicebutton below th
 === 3D navigation ===
 To navigate arround in a 3D view use the:
 * left mouse button to rotate
-* middle mouse button or Shift+middle mouse button to move/clip
+* middle mouse button or Shift+left mouse button to move/clip
 * right mouse button/ Strg+left button to obtain additional menus. Among the additional menus are in:
 ** top menu: the channel selection if appropriate
 *** Slice plane submenu, with axis slicing in fly through style and rotation
@@ -38,23 +38,23 @@ First to call is the 3D gamut viewer. You can select it from the menu bar. It sh
 
 The colour space shown is allways in CIE*Lab coordinates. 
 
-From the context menu (ctrl+left mouse or right mouse button) you can select the line of average human (CIE standard observer) visible spectral colours as a line.
+From the context menu (ctrl+left mouse or right mouse button) you can select the average human (CIE standard observer) visible spectral colours, as a line.
 
-If meashurements are shown, theyr radius can be selected from the context menu. This is handy to easily detect dE's of above 2 or 4. The connection line goes from the measurement (white) to the deviation by the profile (red).
+If meashurements are shown, theyre radius can be selected from the context menu. This is handy to easily detect dE's of above 2 or 4. The connection line goes from the measurement (white) to the deviation by the profile (red).
 
-ncl2 colours can be enlarged or made smaller bypressing + or -.
+ncl2 colours can be enlarged or made smaller by pressing + or -.
 
 ==== Report View ====
-If the profile contains measurements a report is generated. You reach this by selecting from the top menu View-&gt;Report. These measurement data are compared to what is possible to calculate with the prifile and littleCMS - the internal used CMM.
+If the profile contains measurements a report is generated. You reach this by selecting from the top menu View-&gt;Report. These measurement data are compared to what is calculated with the profile by littleCMS - the internal used CMM.
 
-Such a comparision from device colours + measurements colours on the one side and device + profile/CMM colours on the other side are just one possible comparision method.
+Such a comparision from device colours + measurements colours on the one side and device + profile/CMM colours on the other side are just one possible quality checking method.
 
-More Comparision styles would be nice in giving better meaning for varying criteria. The differences are summarised in the reports top line. Each like contains the the colour values and euclidian dE + dE2000. Two rectangles on the right side may help to see the colour differences visually. The first monitor profile is used for this.
+More comparision styles would be nice, in giving better meaning for varying criteria. The differences are summarised in the reports top lines. Each like contains the the colour values and euclidian dE + dE2000. Two rectangles on the right side may help to see the colour differences visually. The first monitor profile is used for this.
 
-The report can be exported from the File menu.
+The report can be exported from the File menu in html format.
 
 ==== CGATS view ====
-The Measurement data itself are parsed in the profile and transformed to fit in the CGATS standard. A window can be show from the View menu to show the corrected measurement output.
+The measurement data is taken from the profile, if available, and transformed to fit in the CGATS standard. A window can be called from the View menu to show the corrected measurement output.
 
 ==== Grafic card gamma tables ====
 The gamma tables in the grafic card are shown in an external window, callable from the View menu. It shows on osX/XFree86/Xorg the RGB curves. The monitor profile can be loaded from this window in the main profile viewer window for further examination. 
