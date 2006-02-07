@@ -16,9 +16,9 @@ You have selected one file and pressed ok. ICC Examin starts to parse the file, 
 === Main window ===
 Below the menu bar resides the tag list. It's entries are selectable.
 
-You can select an tag from the taglist and whatch its content in the tag window below.
+You can select an tag from the taglist and watch its content in the tag window below.
 
-Bottom you see the status area of the window.
+On bottom you see the status area of the window.
 
 === Complex tags navigation ===
 Some tags contain complex data. For such tags may appear a choicebutton below the tag list. There you can select detailed views of a complex tags endities.

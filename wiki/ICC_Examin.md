@@ -42,10 +42,10 @@ the file it may take some time to finish.
 
 Below the menu bar resides the tag list. It's entries are selectable.
 
-You can select an tag from the taglist and whatch its content in the tag
+You can select an tag from the taglist and watch its content in the tag
 window below.
 
-Bottom you see the status area of the window.
+On bottom you see the status area of the window.
 
 ### Complex tags navigation
 
