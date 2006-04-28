@@ -29,8 +29,7 @@ They dont like pop-up dialogues, that the profile of an actual file is not fitti
 
   Hint: littleCMS has a black preserving feature with vesion 1.15. About others I dont know.
   Answer jphomann: One point is the possibility of the littleCMS. But the applications, which
-  uses littleCMS must explizit use this feature, which is going ahead normal ICC-wokflows.
-
+  uses littleCMS must explizit use this feature, which is going ahead normal ICC-workflows.
 
 == Prepress specialists ==
 
