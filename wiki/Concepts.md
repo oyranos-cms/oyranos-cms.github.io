@@ -5,7 +5,7 @@ layout: wiki
 ---
 
 **Concepts** which shall help ensuring interoperatibility, ease of
-interaction or met other goals. They should serve the end to end
+interaction or meet other goals. They should serve the end to end
 expectations of users. Pros and Cons can be discussed here.
 
 Diversity
@@ -48,7 +48,8 @@ Stages of manipulation
 ----------------------
 
 Handling of colour data is been expected in serveral states, handled by
-dedicated colour spaces.
+dedicated colour spaces. The following describes a process with three
+steps.
 
 -   know data (tagged with profile or machine readable description),
     unknown or uncertain data -&gt; assign a assumed source profile
