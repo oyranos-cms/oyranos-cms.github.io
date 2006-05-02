@@ -10,6 +10,11 @@ Editing spaces are a very valuable concept to achive good results during composi
 == Flatcolor vs. mixed mode documents ==
 One concept of the ICC-standard, is the possibility to create documents, where every object (image, vectorgraphics, text-objects) can have is own profile and rendering intent. This makes colormanagement of complete documents very complex and can easily results to unwanted colortransformations of individual objects of an document.
 To give users succesful experiences with colormanagement, it is useful to have the option of an colormanagement policy, which allows only the creation of flatcolor documents in well known and tested editing spaces.
+== Stages of manipulation ==
+Handling of colour data is been expected in serveral states, handled by dedicated colour spaces.
+* know data (tagged with profile or machine readable description), unknown or uncertain data -> assign a assumed source profile (distinguish RGB / Cmyk)
+* editing colour space to tweak and manipulate, mostly with enough colour volume
+* output or proofing colour space, considered as a destination for the final content. This colour space can be used to check against during editing and possibly convert as the last stage of editing.
 == Untaged data ==
 Most difficult is here the mixed behaviour of applications regarding tagging versus non tagging of exchange data with colour profiles.
 === Assign an profile into untagged data ===

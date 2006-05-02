@@ -44,6 +44,21 @@ succesful experiences with colormanagement, it is useful to have the
 option of an colormanagement policy, which allows only the creation of
 flatcolor documents in well known and tested editing spaces.
 
+Stages of manipulation
+----------------------
+
+Handling of colour data is been expected in serveral states, handled by
+dedicated colour spaces.
+
+-   know data (tagged with profile or machine readable description),
+    unknown or uncertain data -&gt; assign a assumed source profile
+    (distinguish RGB / Cmyk)
+-   editing colour space to tweak and manipulate, mostly with enough
+    colour volume
+-   output or proofing colour space, considered as a destination for the
+    final content. This colour space can be used to check against during
+    editing and possibly convert as the last stage of editing.
+
 Untaged data
 ------------
 
