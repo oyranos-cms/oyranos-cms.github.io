@@ -13,7 +13,7 @@ layout: wiki
 <tr class="odd">
 <td><div style="margin: 0; margin-right:10px; border: 2px solid #dfdfdf; background-color:#f8f8ff;">
 <div style="padding: 0.3em 1em 0.7em 1em;">
-<p><strong>Welcome on ColourWiki!</strong></p>
+<p><strong>Welcome to ColourWiki!</strong></p>
 <p>This site is intended for a collection of information regarding mainly, but not limited to, <a href="http://www.opensource.org">Open Source</a> <a href="http://en.wikipedia.org/wiki/Color_management">Colour Management</a>. This includes technical proposals, extractions from <a href="OpenICC" title="wikilink">email</a> or IRC discussions, articles and related links. Take it as drawing board as well as for publishing ideas.</p>
 </div>
 <div align="right">
