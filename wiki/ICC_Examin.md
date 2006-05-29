@@ -232,3 +232,17 @@ gamuts produced with argyll and saved with ICC Examin.
 
 It would be nice to allow as well lines to get parsed, which are used
 for visualisations by iccview for instance.
+
+Preferences
+-----------
+
+### Language support on BSD
+
+On BSD systems you must set shell environment variables. For instance in
+/etc/profile:
+
+`LANG=de_DE.ISO8859-1; export LANG`  
+`MM_CHARSET=ISO-8859-1; export MM_CHARSET`
+
+See further [FreeBSD german
+description](http://www.freebsd.org/doc/de_DE.ISO8859-1/books/handbook/using-localization.html)

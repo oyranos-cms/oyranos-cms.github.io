@@ -117,3 +117,14 @@ Measurement data in CGATS format can be opened in ICC Examin. In the file select
 A subset of vrml alias wrl files is parsed. It allowes to open colour gamuts produced with argyll and saved with ICC Examin. 
 
 It would be nice to allow as well lines to get parsed, which are used for visualisations by iccview for instance.
+
+
+== Preferences ==
+=== Language support on BSD ===
+On BSD systems you must set shell environment variables.
+For instance in /etc/profile:
+
+ LANG=de_DE.ISO8859-1; export LANG
+ MM_CHARSET=ISO-8859-1; export MM_CHARSET
+
+See further [http://www.freebsd.org/doc/de_DE.ISO8859-1/books/handbook/using-localization.html FreeBSD german description]
