@@ -239,10 +239,10 @@ Preferences
 ### Language support on BSD
 
 On BSD systems you must set shell environment variables. For instance in
-/etc/profile:
+/etc/profile or $HOME/.profile:
 
 `LANG=de_DE.ISO8859-1; export LANG`  
 `MM_CHARSET=ISO-8859-1; export MM_CHARSET`
 
-See further [FreeBSD german
+See further [FreeBSD german i18n
 description](http://www.freebsd.org/doc/de_DE.ISO8859-1/books/handbook/using-localization.html)
