@@ -7,8 +7,7 @@ layout: wiki
 ICC Examin is a FLTK based colour profile viewer.
 
 The educational purpose is to show the otherwise hidden internals of ICC
-profiles and give users a rough estimation, what the profiles can be
-used for.
+profiles and give users a rough estimation of the profiles quality.
 
 Features
 --------
