@@ -35,3 +35,5 @@ property change notifications from the root window, even if they don't
 currently have a profile set. Applications which can change screens
 using mechanisms such as display migration should be aware that the new
 screen is likely to have a different profile.
+
+[--&gt; back](/wiki/Oyranos "wikilink")
