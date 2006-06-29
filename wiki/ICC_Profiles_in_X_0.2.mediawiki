@@ -29,3 +29,5 @@ screen is likely to have a different profile.
 
 
 [[Oyranos|--> back]]
+
+[[Category:Oyranos]]

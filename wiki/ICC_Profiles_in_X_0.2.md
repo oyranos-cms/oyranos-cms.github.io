@@ -2,6 +2,8 @@
 title: ICC Profiles in X 0.2
 permalink: wiki/ICC_Profiles_in_X_0.2/
 layout: wiki
+tags:
+ - Oyranos
 ---
 
 The original specification is found on Ross Burtons side: [ICC Profiles
