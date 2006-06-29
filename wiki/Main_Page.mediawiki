@@ -7,7 +7,7 @@
 
 '''Welcome to ColourWiki!'''
 
-This site is intended for a collection of information regarding mainly, but not limited to, [http://www.opensource.org Open Source] [http://en.wikipedia.org/wiki/Color_management Colour Management]. This includes technical proposals, extractions from [[OpenICC|email]] or IRC discussions, articles and related links. Take it as drawing board as well as for publishing ideas.
+This site provides a collection of information regarding mainly, but not limited to, [http://www.opensource.org Open Source] [http://en.wikipedia.org/wiki/Color_management Colour Management]. You can find concepts, descriptions, technical proposals, extractions from [[OpenICC|email]] or IRC discussions, articles and related links. Take it as drawing board as well as for publishing ideas.
 </div>
 <div align="right"><small>'''[[ColourWiki:About|Informations about ColourWiki]]'''</small></div>
 </div>
@@ -32,7 +32,7 @@ This site is intended for a collection of information regarding mainly, but not 
 <div style="margin:0; margin-top:10px; border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
 '''[[Oyranos]]'''
 
-One goal is to create a documentation for the open source Colour Management System [[Oyranos]]. This includes the concept, a description, feature wish lists, in the future tutorials and links to related sites.
+The open source Colour Management System [[Oyranos]] is intented to provide system level services. On the Oyranos pages at ColourWiki you can find  documentation, feature wish lists, in the future tutorials and links to related sites.
 </div>
 
 |-
