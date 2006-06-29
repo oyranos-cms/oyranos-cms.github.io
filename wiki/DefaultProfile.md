@@ -2,6 +2,8 @@
 title: DefaultProfile
 permalink: wiki/DefaultProfile/
 layout: wiki
+tags:
+ - Oyranos
 ---
 
 part of [Oyranos](/wiki/Oyranos "wikilink") documentation:

@@ -20,3 +20,6 @@ Enumeration values:
 ** done (WORKSPACE should become EDITING (Chris Murphy))
 ** done (Jan-Peter Homann requested an differenciation between Cmyk and Rgb Editing colour space.)
 ** done (I would change the name of Input INPUT_CMYK to EDITING CMYK (Jan-Peter))
+
+
+[[Category:Oyranos]]
