@@ -2,6 +2,8 @@
 title: GIMP
 permalink: wiki/GIMP/
 layout: wiki
+tags:
+ - Programms
 ---
 
 -   [Gimp page suggested by Sven

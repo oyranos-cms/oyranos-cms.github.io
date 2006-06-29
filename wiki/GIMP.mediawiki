@@ -4,3 +4,5 @@ Colour management in GIMP is planed with lcms. The Gimp developers target an plu
 
 
 [[Applications|back -> Applications]]
+
+[[Category:Programms]]
