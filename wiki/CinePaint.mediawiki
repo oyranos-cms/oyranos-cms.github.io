@@ -40,3 +40,5 @@ http://www.oyranos.org/wiki/images/cinepaint_0.20-3_preferences.png CM Preferenc
 
 
 [[Applications|back -> Applications]]
+
+[[Category:Programms]]

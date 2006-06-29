@@ -2,6 +2,8 @@
 title: CinePaint
 permalink: wiki/CinePaint/
 layout: wiki
+tags:
+ - Programms
 ---
 
 CinePaint became its colour management during the work of Stefan Klein
