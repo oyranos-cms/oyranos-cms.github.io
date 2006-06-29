@@ -83,3 +83,5 @@ The device to device colour path contains as well the settings to receive and to
 ** allow all kind of distinguishing even if not supported by Oyranos, other may use nevertheless
 ** easy grouping of device, editing ... profiles
 ** needs a layout and specification
+
+[[Category:Concepts]]

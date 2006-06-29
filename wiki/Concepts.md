@@ -2,6 +2,8 @@
 title: Concepts
 permalink: wiki/Concepts/
 layout: wiki
+tags:
+ - Concepts
 ---
 
 **Concepts** which shall help ensuring interoperatibility, ease of
