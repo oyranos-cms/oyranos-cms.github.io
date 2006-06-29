@@ -12,3 +12,5 @@ In Open Source applications, littlecms is the most used CMM. Other widly used CM
 *an historical CMM effort: http://www.gcms.coloraid.de/
 
 ...
+
+[[Category:Programms]]
