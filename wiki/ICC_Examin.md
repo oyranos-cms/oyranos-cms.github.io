@@ -2,6 +2,8 @@
 title: ICC Examin
 permalink: wiki/ICC_Examin/
 layout: wiki
+tags:
+ - Oyranos
 ---
 
 ICC Examin is a FLTK based colour profile viewer.

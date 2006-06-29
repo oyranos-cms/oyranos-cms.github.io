@@ -128,3 +128,6 @@ For instance in /etc/profile or $HOME/.profile:
  MM_CHARSET=ISO-8859-1; export MM_CHARSET
 
 See further [http://www.freebsd.org/doc/de_DE.ISO8859-1/books/handbook/using-localization.html FreeBSD german i18n description]
+
+
+[[Category:Oyranos]]
