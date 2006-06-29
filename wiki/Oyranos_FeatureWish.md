@@ -2,6 +2,8 @@
 title: Oyranos/FeatureWish
 permalink: wiki/Oyranos/FeatureWish/
 layout: wiki
+tags:
+ - Oyranos
 ---
 
 ### Feature Wishes for [Oyranos](/wiki/Oyranos "wikilink")
@@ -56,7 +58,9 @@ profiles by accident.
 
 <!-- -->
 
--   split Oyranos headers for users, configuration
+-   done (split Oyranos headers for users, configuration)
+-   done (show in headers only stable functions)
+-   done (remove unstable functions from descriptions)
 
 <!-- -->
 
@@ -66,17 +70,9 @@ profiles by accident.
 
 <!-- -->
 
--   Bob Friesenhahn thinks Oyranos should be completely relocateable
+-   Bob Friesenhahn suggested Oyranos should be completely relocateable
 
 <!-- -->
 
 -   ICC\_PROFILE\_PATH ? how to interact with Oyranos
-
-<!-- -->
-
--   show in headers only stable functions
-
-<!-- -->
-
--   remove unstable functions from descriptions
 

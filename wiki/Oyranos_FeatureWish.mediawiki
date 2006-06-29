@@ -22,7 +22,9 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 ** mixed colour space documents for internet warning/quiet (OY_MIXED_COLOUR_INTERNET_DOCUMENT_WARNING)
 
 
-* split Oyranos headers for users, configuration
+* done (split Oyranos headers for users, configuration)
+* done (show in headers only stable functions)
+* done (remove unstable functions from descriptions)
 
 
 * later show only advanced options to those users who like it
@@ -30,11 +32,8 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 ** and modify policy, advanced or custom
 
 
-* Bob Friesenhahn thinks Oyranos should be completely relocateable
+* Bob Friesenhahn suggested Oyranos should be completely relocateable
 
 * ICC_PROFILE_PATH ? how to interact with Oyranos
 
-
-* show in headers only stable functions
-
-* remove unstable functions from descriptions
+[[Category:Oyranos]]
