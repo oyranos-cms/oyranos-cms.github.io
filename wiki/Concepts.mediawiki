@@ -84,4 +84,16 @@ The device to device colour path contains as well the settings to receive and to
 ** easy grouping of device, editing ... profiles
 ** needs a layout and specification
 
+== Manipulation ==
+The goal of using manipulations is to get an good image correction for special cameras, media or special scenes. The process is as well known in the film industry as colour grading.
+
+Manipulations exist as profiles of ICC type abstract profiles. They are use by CinePaint or Photoshop for instance. On osX they are part of the color management system ColorSync. Therefor I would think at least the ICC profile version could be included in Oyranos.
+
+Curves today used by CinePaint, Gimp and UFRaw are originally propriarity ones delivered with nicon and other software. People translated them to use in these programs. The format is basically a response curve telling which intensities should come out for an given value. These curve files can contain single curves or curves for multiple channels, like Value, R,G,B, Alpha + ?
+
+Not shure for the curves. Maybe they can be converted to abstract profiles. Gutenprint handles an own curves format for print settings. It is xml based and Robert Krawitz calles them picewise curves.
+
+One interessting aspect of the Gutenprint xml curves is, they are editable. For profile editors an approximation algorithm is needed. An edited profile can as been more easily written as CLUT but would probably loose precision during conversion from an matrix based one.
+
+
 [[Category:Concepts]]
