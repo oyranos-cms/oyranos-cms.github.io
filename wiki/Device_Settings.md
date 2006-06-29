@@ -2,6 +2,9 @@
 title: Device Settings
 permalink: wiki/Device_Settings/
 layout: wiki
+tags:
+ - Concepts
+ - Oyranos
 ---
 
 All variable parts of the colour processing chain must be taken into

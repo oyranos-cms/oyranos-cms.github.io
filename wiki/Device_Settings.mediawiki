@@ -46,3 +46,6 @@ In the following proposal I will draw scetchy, what I think is needed to make th
 
 
 TODO: proof the available options (ICC, XML...), choose, publish a specification, implement in [[Oyranos]]
+
+[[Category:Concepts]]
+[[Category:Oyranos]]
