@@ -2,6 +2,8 @@
 title: What the users want
 permalink: wiki/What_the_users_want/
 layout: wiki
+tags:
+ - Concepts
 ---
 
 Before we talk about colormanagement policies for applications, we

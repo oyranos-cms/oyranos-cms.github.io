@@ -38,3 +38,5 @@ They do more or less the same like the graphic designers, but want the most flex
 == photographers ==
 
 They want to use the full gamut of their camera and their inkjet printers. Editing of pictures should be done in a workingspace, where equal RGB-numbers result to gray.
+
+[[Category:Concepts]]
