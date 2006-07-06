@@ -1,1 +1,8 @@
+DigiKam supports 16-bit CM for raw, tiff and jpeg files. Colour space informations are extracted from eighter embedded profiles or exif tags.
+
 [[Image:ICC setup dialog.png|ICC setup dialog of digiKam]]
+
+littleCMS is hard coded into this application.
+
+
+[[Category:Programms]]
