@@ -32,7 +32,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 ** and modify policy, advanced or custom
 
 
-* Bob Friesenhahn suggested Oyranos should be completely relocateable
+* done(v0.1.5) Bob Friesenhahn suggested Oyranos should be completely relocateable
 
 * ICC_PROFILE_PATH ? how to interact with Oyranos
 

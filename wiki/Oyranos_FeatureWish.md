@@ -70,7 +70,8 @@ profiles by accident.
 
 <!-- -->
 
--   Bob Friesenhahn suggested Oyranos should be completely relocateable
+-   done(v0.1.5) Bob Friesenhahn suggested Oyranos should be completely
+    relocateable
 
 <!-- -->
 
