@@ -1,0 +1,14 @@
+== Screenshots ==
+The Preferences:
+
+http://docs.kde.org/development/en/koffice/krita/preferences-sidebar.png =>
+http://docs.kde.org/development/en/koffice/krita/preferences-color.png
+
+== Links ==
+*[http://www.koffice.org/krita Krita]
+*[http://docs.kde.org/development/en/koffice/krita Manual]
+
+
+[[Applications|back -> Applications]]
+
+[[Category:Programms]]
