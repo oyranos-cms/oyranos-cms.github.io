@@ -20,7 +20,14 @@ layout: wiki
 <p><small><strong><a href="ColourWiki:About" title="wikilink">Informations about ColourWiki</a></strong></small></p>
 </div>
 </div>
+<div style="margin: 0;  margin-right:10px; margin-top:10px; border: 2px solid #dfdfdf; background-color:#f8f8ff;">
 <div style="padding: 0.3em 1em 0.7em 1em;">
+<p><strong>Tutorials</strong></p>
+<p><a href="http://en.wikipedia.org/wiki/Linux_color_management">Linux Color Management</a> on Wikipedia</p>
+<hr>
+<p><a href="http://docs.scribus.net/index.php?page=cms">Color management with Scribus, an Introduction</a></p>
+<p><a href="http://www.behrmann.name/index.php?option=com_weblinks&amp;task=view&amp;catid=67&amp;id=56&amp;Itemid=85">CinePaint - 16-bit imaging. From digital camera to print</a> (<a href="http://www.behrmann.name/index.php?option=com_weblinks&amp;task=view&amp;catid=67&amp;id=54&amp;Itemid=86">deutsch</a>)</p>
+</div>
 </div></td>
 <td><div style="margin:0;  border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
 <p><strong>Discussion Entry Points</strong></p>
