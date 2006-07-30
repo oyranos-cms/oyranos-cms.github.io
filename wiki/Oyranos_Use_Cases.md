@@ -2,6 +2,8 @@
 title: Oyranos/Use Cases
 permalink: wiki/Oyranos/Use_Cases/
 layout: wiki
+tags:
+ - Oyranos
 ---
 
 Introduction
@@ -15,3 +17,5 @@ Oyranos Configuration
 ---------------------
 
 <http://www.oyranos.org/images/oyranos-config-fltk-0.1.5_2.png>
+
+[back -&gt; Oyranos](/wiki/Oyranos "wikilink")
