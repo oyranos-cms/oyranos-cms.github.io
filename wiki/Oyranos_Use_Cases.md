@@ -114,8 +114,8 @@ file.
 Oyranos Configuration Logic
 ---------------------------
 
-The \\b oyranos-config-fltk configuration dialog shows clearly, what
-options are available and should be considered in a workflow.
+The <b> oyranos-config-fltk</b> configuration dialog shows clearly, what
+options should be considered in a workflow.
 
 |                                                                                |                                                                                                                 |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|

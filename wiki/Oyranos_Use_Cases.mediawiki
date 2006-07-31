@@ -62,7 +62,7 @@ For printing in a very simple Home user setup, we see just one printer and can u
 
 
 == Oyranos Configuration Logic ==
-The \b oyranos-config-fltk configuration dialog shows clearly, what options are available and should be considered in a workflow.
+The <b> oyranos-config-fltk</b> configuration dialog shows clearly, what options should be considered in a workflow.
 
 {| class="wikitable" style="text-align:left"
 |+ style="background:#efefef;" | The first tab is for policy selection
