@@ -120,8 +120,11 @@ options are available and should be considered in a workflow.
 |                                                                                |                                                                                                                 |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | ![](Oyranos-config-flu-0.1.5_policy.png "Oyranos-config-flu-0.1.5_policy.png") | Here te user selects the most simple way. He needs to identify her-/himself and choose the appropriate setting. |
+||
 
-The next tab is the paths selection one:  
-![](Oyranos-config-flu-0.1.5_paths.png "fig:Oyranos-config-flu-0.1.5_paths.png")
+|                                                                              |                                                                                                                                      |
+|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| ![](Oyranos-config-flu-0.1.5_paths.png "Oyranos-config-flu-0.1.5_paths.png") | Paths can be configured as much as one needs. The defaults for the profile home, system and configuration paths is allways included. |
+||
 
 [back -&gt; Oyranos](/wiki/Oyranos "wikilink")
