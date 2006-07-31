@@ -80,7 +80,8 @@ show immediately thumbnail images. Here SB source text has to include
 
 should deliver the needed bits.
 
-Some important option to pass to you [CMM](/wiki/CMM "wikilink") are queried
+Some important option to pass to you
+[ColourMatchingModuls](/wiki/ColourMatchingModuls "wikilink") are queried
 now:  
 Rendering Intent, Black Point Compensation, possibly a thierd profile -
 the proofing profile with its own rendering intent and the option for

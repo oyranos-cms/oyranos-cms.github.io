@@ -45,7 +45,7 @@ The next step is to query Oyranos for the display profile as SB want to show imm
 
 should deliver the needed bits.
 
-Some important option to pass to you [[CMM]] are queried now:<br>
+Some important option to pass to you [[ColourMatchingModuls]] are queried now:<br>
 Rendering Intent, Black Point Compensation, possibly a thierd profile - the proofing profile with its own rendering intent and the option for marking out of gamut colours.
 
 Thats all information you need to correct the image for displaying on monitor.
