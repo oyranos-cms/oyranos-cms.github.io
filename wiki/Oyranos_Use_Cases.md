@@ -54,6 +54,8 @@ decide to do in the case of getting untagged data? ... and write:
 
 `int untagged_action = oyGetBehaviour (oyBEHAVIOUR_ACTION_UNTAGGED_ASSIGN );`
 
+![](Oyranos-config-flu-0.1.5_behaviour-mismatching_no-image-profile-opt.png "Oyranos-config-flu-0.1.5_behaviour-mismatching_no-image-profile-opt.png")
+
 With a 0 in untagged\_action nothing needs to be done. The image shall
 not be colour corrected further.
 
@@ -110,6 +112,75 @@ profile. Thats very simple. Ask for the proofing profile and convert the
 image from the image colour space to the proofing colour space with the
 default intent. Sent the data to the printer driver or create a print
 file.
+
+Image editor
+------------
+
+In version 2.0 of SB the capability to edit and save images is
+introduced. The new application should behave on loading images the same
+as before regarding colour management.
+
+### Less is More
+
+At time of been asked for editing the image, the original colour space
+may be exchanged depending on options in Oyranos. This late conversion
+shall enshure no unnecessary conversion is done. Marti Maria the author
+of the littleCMS color engine likes to point out that colour transforms
+are a lossy action, which can, while happen often, decrease the quality.
+This is especially to been expected for 8-bit per colour channel
+representations.
+
+### Editing Colour Space Concept
+
+What is needed is to circumvent the native device colour spaces. They
+are often bumby and have strange gray behaviour. Thats what the device
+profiles are for, to eleminate such unevenness in a devices colour
+space.
+
+For editing the gray level should stay equal if changing for instance in
+Rgb all tree channels at the same factor. Therefore in Oyranos exist
+beside the Assumed Profiles the Editing Profiles.
+
+All behaves in SB v2.0 the same as before. But when the user wants to
+adjust some curves in the new SB he will probably do it on in the
+Editing colour space. The Editing colour space is as well known as
+workspace.
+
+The appropriate profile is queried with:
+
+`char *profile_name = oyGetDefaultProfileName ( oyEDITING_RGB , myAllocateFunc );`
+
+for editing in Rgb.
+
+### Convert on Mismatch Behaviour
+
+SB should now compare the image colour space, as described in the
+previous SB version, with the Editing colour space. If they are equal
+all is ok and editing can begin. If not the
+oyBEHAVIOUR\_ACTION\_OPEN\_MISMATCH\_RGB behaviour should be asked what
+to do.
+
+![](Oyranos-config-flu-0.1.5_behaviour-mismatching_on-rgb-mismatch-opt.png "Oyranos-config-flu-0.1.5_behaviour-mismatching_on-rgb-mismatch-opt.png")
+
+Obtaining 0 means no conversion shall occure and the image profile
+remains unchanged.
+
+1 means the conversion to the Editing Rgb Colour Space shall be done
+automatically without asking further.
+
+2 means popup a dialog for presenting alternative colour spaces for
+converting to. The oyEDITING\_RGB can be preselected.
+
+For the choices 1 and 2 SB needs to convert to the coresponding colour
+spaces. For the dialog SB can eighter integrate the usual rendering
+options (oyBEHAVIOUR\_RENDERING\_INTENT, oyBEHAVIOUR\_RENDERING\_BPC)
+with the Oyranos defaults preselected or just use them without further
+question.
+
+The image is now ready for editing.
+
+Afterward the edited image can be shown on screen and printed as in the
+pure viewer version of SB.
 
 Oyranos Configuration Logic
 ---------------------------
