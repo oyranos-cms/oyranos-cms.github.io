@@ -117,14 +117,14 @@ Oyranos Configuration Logic
 The <b> oyranos-config-fltk</b> configuration dialog shows clearly, what
 options should be considered in a workflow.
 
-|                                                                                |                                                                                                                 |
-|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| ![](Oyranos-config-flu-0.1.5_policy.png "Oyranos-config-flu-0.1.5_policy.png") | Here te user selects the most simple way. He needs to identify her-/himself and choose the appropriate setting. |
+|                                                                                |                                                                                                                                                                                                                                                             |
+|--------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![](Oyranos-config-flu-0.1.5_policy.png "Oyranos-config-flu-0.1.5_policy.png") | Here the user configures Oyranos the most simple way. He needs to identify her-/himself and choose the appropriate policy setting. Many options in Oyranos are affected by the policy setting. The active policy can been seen on the bottom of the dialog. |
 ||
 
-|                                                                              |                                                                                                                                      |
-|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| ![](Oyranos-config-flu-0.1.5_paths.png "Oyranos-config-flu-0.1.5_paths.png") | Paths can be configured as much as one needs. The defaults for the profile home, system and configuration paths is allways included. |
+|                                                                              |                                                                                                                                                                                                                                   |
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![](Oyranos-config-flu-0.1.5_paths.png "Oyranos-config-flu-0.1.5_paths.png") | Paths can be configured and freely choosen as many as one needs. Use the big plus button for. The defaults for the profile home, system and Oyranos configuration paths are allways included. They are independent from policies. |
 ||
 
 [back -&gt; Oyranos](/wiki/Oyranos "wikilink")

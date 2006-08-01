@@ -65,19 +65,19 @@ For printing in a very simple Home user setup, we see just one printer and can u
 The <b> oyranos-config-fltk</b> configuration dialog shows clearly, what options should be considered in a workflow.
 
 {| class="wikitable" style="text-align:left"
-|+ style="background:#efefef;" | The first tab is for policy selection
+|+ style="background:#efefef;" | The first tab : policy selection
 |-
 | [[Image:Oyranos-config-flu-0.1.5 policy.png]]
-| Here te user selects the most simple way. He needs to identify her-/himself and choose the appropriate setting.
+| Here the user configures Oyranos the most simple way. He needs to identify her-/himself and choose the appropriate policy setting. Many options in Oyranos are affected by the policy setting. The active policy can been seen on the bottom of the dialog.
 |-
 |}
 
 
 {| class="wikitable" style="text-align:left"
-|+ style="background:#efefef;" | The next tab is the paths selection one
+|+ style="background:#efefef;" | The second tab : paths selection
 |-
 | [[Image:Oyranos-config-flu-0.1.5 paths.png]]
-| Paths can be configured as much as one needs. The defaults for the profile home, system and configuration paths is allways included.
+| Paths can be configured and freely choosen as many as one needs. Use the big plus button for. The defaults for the profile home, system and Oyranos configuration paths are allways included. They are independent from policies.
 |-
 |}
 
