@@ -198,4 +198,6 @@ options should be considered in a workflow.
 | ![](Oyranos-config-flu-0.1.5_paths.png "Oyranos-config-flu-0.1.5_paths.png") | Paths can be configured and freely choosen as many as one needs. Use the big plus button for. The defaults for the profile home, system and Oyranos configuration paths are allways included. They are independent from policies. |
 ||
 
+...
+
 [back -&gt; Oyranos](/wiki/Oyranos "wikilink")

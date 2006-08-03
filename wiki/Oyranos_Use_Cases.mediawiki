@@ -118,6 +118,7 @@ The <b> oyranos-config-fltk</b> configuration dialog shows clearly, what options
 |-
 |}
 
+...
 
 [[Oyranos|back -> Oyranos]]
 [[Category:Oyranos]]
