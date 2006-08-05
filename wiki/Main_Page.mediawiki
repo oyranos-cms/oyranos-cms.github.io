@@ -22,7 +22,9 @@ This site provides a collection of information regarding mainly, but not limited
 <hr>
 [http://docs.scribus.net/index.php?page=cms Color management with Scribus, an Introduction]<br>
 [http://www.behrmann.name/index.php?option=com_weblinks&task=view&catid=67&id=56&Itemid=85 CinePaint - 16-bit imaging. From digital camera to print]  ([http://www.behrmann.name/index.php?option=com_weblinks&task=view&catid=67&id=54&Itemid=86 deutsch])
-
+<hr>
+[http://www.behrmann.name/index.php?option=com_weblinks&catid=69&Itemid=95 Colour managed Applications] link collection<br>
+[http://www.behrmann.name/index.php?option=com_weblinks&catid=73&Itemid=95 ICC profiles] link collection
 </div>
 </div>
 

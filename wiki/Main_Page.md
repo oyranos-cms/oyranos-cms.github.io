@@ -28,6 +28,9 @@ layout: wiki
 <hr>
 <p><a href="http://docs.scribus.net/index.php?page=cms">Color management with Scribus, an Introduction</a><br />
 <a href="http://www.behrmann.name/index.php?option=com_weblinks&amp;task=view&amp;catid=67&amp;id=56&amp;Itemid=85">CinePaint - 16-bit imaging. From digital camera to print</a> (<a href="http://www.behrmann.name/index.php?option=com_weblinks&amp;task=view&amp;catid=67&amp;id=54&amp;Itemid=86">deutsch</a>)</p>
+<hr>
+<p><a href="http://www.behrmann.name/index.php?option=com_weblinks&amp;catid=69&amp;Itemid=95">Colour managed Applications</a> link collection<br />
+<a href="http://www.behrmann.name/index.php?option=com_weblinks&amp;catid=73&amp;Itemid=95">ICC profiles</a> link collection</p>
 </div>
 </div></td>
 <td><div style="margin:0;  border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
