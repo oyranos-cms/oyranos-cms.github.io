@@ -27,9 +27,11 @@ make the task complete, and apply to other areas too.
     automatically)
 -   driver names and theyre versions to identify validy of components
     used
--   changeable driver settings
+-   normally changeable driver settings, which must be fixed for usage
+    with the ICC profile
 -   colour characterisation (a ICC profile belonging to the above
     settings)
+-   priority (generic profile - low, self calibrated - high)
 
 ### Advantages
 
@@ -38,7 +40,7 @@ make the task complete, and apply to other areas too.
 -   email a complete settings file, no further information is needed to
     setup
 -   use the same settings in all applications, they are globally
-    available
+    available through the profiles themselves
 
 ### Scenario
 
@@ -84,4 +86,5 @@ make the task complete, and apply to other areas too.
         -   clear to handle, to be covered by an specification
 
 TODO: proof the available options (ICC, XML...), choose, publish a
-specification, implement in [Oyranos](/wiki/Oyranos "wikilink")
+[specification](/wiki/Device_Settings_in_ICC_0.1 "wikilink"), implement in
+[Oyranos](/wiki/Oyranos "wikilink")

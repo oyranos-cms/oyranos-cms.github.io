@@ -5,14 +5,15 @@ In the following proposal I will draw scetchy, what I think is needed to make th
 === Informations Incorporated ===
 * device settings (as provided, colour relevant ones should be queried automatically)
 * driver names and theyre versions to identify validy of components used
-* changeable driver settings
+* normally changeable driver settings, which must be fixed for usage with the ICC profile
 * colour characterisation (a ICC profile belonging to the above settings)
+* priority (generic profile - low, self calibrated - high)
 
 === Advantages ===
 * select an profile and the system knows about needed settings
 * change settings and the system can tell if an profile is available
 * email a complete settings file, no further information is needed to setup
-* use the same settings in all applications, they are globally available
+* use the same settings in all applications, they are globally available through the profiles themselves
 
 === Scenario ===
 (X example, similiar to print, scan, digicams):
@@ -45,7 +46,7 @@ In the following proposal I will draw scetchy, what I think is needed to make th
 *** clear to handle, to be covered by an specification
 
 
-TODO: proof the available options (ICC, XML...), choose, publish a specification, implement in [[Oyranos]]
+TODO: proof the available options (ICC, XML...), choose, publish a [[Device Settings in ICC 0.1|specification]], implement in [[Oyranos]]
 
 [[Category:Concepts]]
 [[Category:Oyranos]]
