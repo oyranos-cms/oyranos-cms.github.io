@@ -85,6 +85,19 @@ make the task complete, and apply to other areas too.
         -   breaks existing CMMs and profile readers
         -   clear to handle, to be covered by an specification
 
+### Oyranos API suggestion
+
+`/** The following function includes all information to create and return the device settings tag */`  
+`void* oyIccDeviceSettingsTagWrite ( const char* device_manufacturer,`  
+`                                    const char* device_name,`  
+`                                    const char* device_serial,`  
+`                                    const char* driver_name,`  
+`                                    const char* driver_version,`  
+`                                    const char* driver_signature,`  
+`                                    void*       configuration_data_block,`  
+`                                    int         config_block_size,`  
+`                                    int*        tag_size )`
+
 TODO: proof the available options (ICC, XML...), choose, publish a
 [specification](/wiki/Device_Settings_in_ICC_0.1 "wikilink"), implement in
 [Oyranos](/wiki/Oyranos "wikilink")
