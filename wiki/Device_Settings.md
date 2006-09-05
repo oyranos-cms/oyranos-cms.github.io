@@ -96,22 +96,22 @@ make the task complete, and apply to other areas too.
 `                                           const char* driver_version,`  
 `                                           const char* driver_signature,`  
 `                                           void*       configuration_data_block,`  
-`                                           int         config_block_size,`  
-`                                           int*        tag_size )`
+`                                           size_t      config_block_size,`  
+`                                           size_t*     tag_size )`
 
 `/** a function to allow embedding into a existing profile , possibly including some `  
 `    checking of missing other tags like 'calt' - calibrationDateTimeTag */`  
 `void* oyIccDeviceSettingsTagEmbedd       ( void*       device_tag, // as provided by`  
 `                                                                   // oyIccDeviceSettingsTagWrite`  
-`                                           int         device_tag_size,`  
+`                                           size_t      device_tag_size,`  
 `                                           void*       old_profile,`  
-`                                           int         old_profile_size,`  
-`                                           int*        new_profile_size )`
+`                                           size_t      old_profile_size,`  
+`                                           size_t*     new_profile_size )`
 
 `/** a function to extract the device settings tag from a existing profile */`  
 `oyDeviceTag_s* oyIccDeviceSettingsTagGet ( void*       profile,`  
-`                                           int         profile_size,`  
-`                                           int*        tag_size )`
+`                                           size_t      profile_size,`  
+`                                           size_t*     tag_size )`
 
 TODO: proof the available options (ICC, XML...), choose, publish a
 [specification](/wiki/Device_Settings_in_ICC_0.1 "wikilink"), implement in
