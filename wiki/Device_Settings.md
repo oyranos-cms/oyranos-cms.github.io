@@ -84,6 +84,9 @@ make the task complete, and apply to other areas too.
     -   prepend the text and define an offset to the ICC profile data
         -   breaks existing CMMs and profile readers
         -   clear to handle, to be covered by an specification
+        -   forces a switch first
+-   the driver version should be editable (ICC Examin?), so a older
+    drivers can be still used
 
 ### Oyranos API suggestion
 
