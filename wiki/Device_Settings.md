@@ -111,7 +111,8 @@ make the task complete, and apply to other areas too.
 `/** a function to extract the device settings tag from a existing profile */`  
 `oyDeviceTag_s* oyIccDeviceSettingsTagGet ( void*       profile,`  
 `                                           size_t      profile_size,`  
-`                                           size_t*     tag_size )`
+`                                           size_t*     tag_size )`  
+`The oyDeviceTag_s structure is not yet finished.`
 
 TODO: proof the available options (ICC, XML...), choose, publish a
 [specification](/wiki/Device_Settings_in_ICC_0.1 "wikilink"), implement in

@@ -71,7 +71,7 @@ In the following proposal I will draw scetchy, what I think is needed to make th
  oyDeviceTag_s* oyIccDeviceSettingsTagGet ( void*       profile,
                                             size_t      profile_size,
                                             size_t*     tag_size )
-
+ The oyDeviceTag_s structure is not yet finished.
 
 TODO: proof the available options (ICC, XML...), choose, publish a [[Device Settings in ICC 0.1|specification]], implement in [[Oyranos]]
 
