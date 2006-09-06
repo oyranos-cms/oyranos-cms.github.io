@@ -92,31 +92,36 @@ make the task complete, and apply to other areas too.
 
 `/** The following function includes all information to create and return the device `  
 `    settings tag */`  
-`void* oyIccDeviceSettingsTagWrite        ( const char* device_manufacturer,`  
-`                                           const char* device_name,`  
-`                                           const char* device_serial,`  
-`                                           const char* driver_name,`  
-`                                           const char* driver_version,`  
-`                                           const char* driver_signature,`  
-`                                           void*       configuration_data_block,`  
-`                                           size_t      config_block_size,`  
-`                                           size_t*     tag_size )`
+`void* oyIccDeviceSettingsDataWrite            ( const char* device_manufacturer, // used for the 'dmnd' tag`  
+`                                                const char* device_name,         // used for the 'dmdd' tag`  
+`                                                const char* device_serial,`  
+`                                                const char* driver_name,`  
+`                                                const char* driver_version,`  
+`                                                const char* driver_signature,`  
+`                                                struct tm*  calibration_time,    // used for the 'calt' tag`  
+`                                                                                 // needs <time.h>`  
+`                                                void*       configuration_data_block,`  
+`                                                size_t      config_block_size,`  
+`                                                size_t*     data_size )`  
+`return: the device settings data (technically it may be a profile containing the necessary tags)`
 
 `/** a function to allow embedding into a existing profile , possibly including some `  
 `    checking of missing other tags like 'calt' - calibrationDateTimeTag */`  
-`void* oyIccDeviceSettingsTagEmbedd       ( void*       device_tag, // as provided by`  
-`                                                                   // oyIccDeviceSettingsTagWrite`  
-`                                           size_t      device_tag_size,`  
-`                                           void*       old_profile,`  
-`                                           size_t      old_profile_size,`  
-`                                           size_t*     new_profile_size )`
+`void* oyIccDeviceSettingsDataEmbedd           ( void*       device_data, // as provided by`  
+`                                                                         // oyIccDeviceSettingsDataWrite`  
+`                                                size_t      device_data_size,`  
+`                                                void*       old_profile,`  
+`                                                size_t      old_profile_size,`  
+`                                                size_t*     new_profile_size )`  
+`return: the new profile`
 
 `/** a function to extract the device settings tag from a existing profile */`  
-`oyDeviceTag_s* oyIccDeviceSettingsTagGet ( void*       profile,`  
-`                                           size_t      profile_size,`  
-`                                           size_t*     tag_size )`  
-`The oyDeviceTag_s structure is not yet finished.`
+`oyDeviceSettings_s* oyIccDeviceSettingsDataGet( void*       profile,`  
+`                                                size_t      profile_size,`  
+`                                                size_t*     data_size )`  
+`The oyDeviceSettings_s structure is not yet finished.`
 
 TODO: proof the available options (ICC, XML...), choose, publish a
-[specification](/wiki/Device_Settings_in_ICC_0.1 "wikilink"), implement in
-[Oyranos](/wiki/Oyranos "wikilink")
+[specification v0.2](/wiki/Device_Settings_in_ICC_0.2 "wikilink")
+([0.1](/wiki/Device_Settings_in_ICC_0.1 "wikilink")) and procedure suggestion,
+implement in [Oyranos](/wiki/Oyranos "wikilink")
