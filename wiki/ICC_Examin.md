@@ -89,7 +89,7 @@ context menu. This is handy to easily detect dE's of above 2 or 4. The
 connection line goes from the measurement (white) to the deviation by
 the profile (red).
 
-ncl2 colours can be enlarged or made smaller by pressing + or -.
+ncl2 colours spots can be enlarged or made smaller by pressing + or -.
 
 #### Report View
 
