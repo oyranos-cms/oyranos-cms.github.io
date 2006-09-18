@@ -42,7 +42,7 @@ From the context menu (ctrl+left mouse or right mouse button) you can select the
 
 If meashurements are shown, theyre radius can be selected from the context menu. This is handy to easily detect dE's of above 2 or 4. The connection line goes from the measurement (white) to the deviation by the profile (red).
 
-ncl2 colours spots can be enlarged or made smaller by pressing + or -.
+ncl2 colour spots can be enlarged or made smaller by pressing + or -.
 
 ==== Report View ====
 If the profile contains measurements a report is generated. You reach this by selecting from the top menu View-&gt;Report. These measurement data are compared to what is calculated with the profile by littleCMS - the internal used CMM.
