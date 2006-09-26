@@ -16,13 +16,13 @@ email list.
 
 <!-- -->
 
--   check for well behaving of Editing colour spaces (Matrix, Rgb: gamma
+-   check for well behaving of Editing colour spaces (Matrix, RGB: gamma
     equally over all channels, Gray axis, ...)
 
 <!-- -->
 
--   use of standard folders for: display profiles, RGB-editing profiles,
-    CMYK-editing profiles.
+-   use of standard folders for: display profiles, RGB editing profiles,
+    CMYK editing profiles.
 
 If advanced users want to use special profiles e.g. for editing, they
 have manually to add the profile to this folder. This is an easy way to
@@ -71,7 +71,7 @@ profiles by accident.
 <!-- -->
 
 -   done(v0.1.5) Bob Friesenhahn suggested Oyranos should be completely
-    relocateable
+    relocatable
 
 <!-- -->
 

@@ -3,9 +3,9 @@ They come mostly from discussions at the [[OpenICC]] email list.
 
 * check for validity of a display setup (calibrated: yes/no, expired, ...)
 
-* check for well behaving of Editing colour spaces (Matrix, Rgb: gamma equally over all channels, Gray axis, ...)
+* check for well behaving of Editing colour spaces (Matrix, RGB: gamma equally over all channels, Gray axis, ...)
 
-* use of standard folders for: display profiles, RGB-editing profiles, CMYK-editing profiles.
+* use of standard folders for: display profiles, RGB editing profiles, CMYK editing profiles.
 If advanced users want to use special profiles e.g. for editing, they have manually to add the profile to this folder. This is an easy way to implement a solution, that beginners are not able to choose wrong profiles by accident.
 
 * color management policies
@@ -29,7 +29,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 ** something like default settings / policy
 ** and modify policy, advanced or custom
 
-* done(v0.1.5) Bob Friesenhahn suggested Oyranos should be completely relocateable
+* done(v0.1.5) Bob Friesenhahn suggested Oyranos should be completely relocatable
 
 * ICC_PROFILE_PATH ? how to interact with Oyranos
 
