@@ -6,10 +6,12 @@ tags:
  - Programms
 ---
 
-The CMM colormatching module is the “engine” for colorconversions in
-applications. In Open Source applications, littlecms is the most used
-CMM. Other widly used CMMs are the AppleCMM in MacOSX, the AdobeCMM for
-Adobe-only applications and the CMM delivered with Windows XP.
+The CMM colormatching module is the “engine” for color conversions in
+applications.
+
+In Open Source applications, LittleCMS is the most used CMM. Other
+widely used CMMs are the AppleCMM in MacOSX, the AdobeCMM for Adobe-only
+applications and the CMM delivered with Windows XP.
 
 Implementations
 ---------------
@@ -18,13 +20,13 @@ Implementations
 
 -   <http://www.argyllcms.com/>
 
-#### littleCMS
+#### LittleCMS
 
 -   <http://www.littlecms.com/>
 
 #### IccProfLib
 
--   <http://sampleicc.sourceforge.net/> - The ICC's official sample
+-   <http://sampleicc.sourceforge.net/> — The ICC's official sample
     implementation.
 
 #### GCMS
