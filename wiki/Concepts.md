@@ -6,7 +6,7 @@ tags:
  - Concepts
 ---
 
-**Concepts** which shall help ensuring interoperatibility, ease of
+**Concepts** which shall help ensuring interoperability, ease of
 interaction or meet other goals. They should serve the end to end
 expectations of users. Pros and Cons can be discussed here.
 
@@ -28,42 +28,44 @@ increase precision and speed related to the demands of the film industry
 Consistency
 -----------
 
-Editing spaces are a very valuable concept to achive good results during
-compositing and manipulating images.
+Editing spaces are a very valuable concept to achieve good results
+during compositing and manipulating images.
 
 -   colour channels should by equally editing the exposure, behave
     equally regarding saturation (no turning of gray into green)
 
-Flatcolor vs. mixed mode documents
-----------------------------------
+Flat color vs. mixed mode documents
+-----------------------------------
 
 One concept of the ICC-standard, is the possibility to create documents,
-where every object (image, vectorgraphics, text-objects) can have is own
-profile and rendering intent. This makes colormanagement of complete
-documents very complex and can easily results to unwanted
-colortransformations of individual objects of an document. To give users
-succesful experiences with colormanagement, it is useful to have the
-option of an colormanagement policy, which allows only the creation of
-flatcolor documents in well known and tested editing spaces.
+where every object (image, vector graphics, text-objects) can have is
+own profile and rendering intent. This makes color management of
+complete documents very complex and can easily results to unwanted color
+transformations of individual objects of an document.
+
+To give users successful experiences with color management, it is useful
+to have the option of an color management policy, which allows only the
+creation of flat color documents in well known and tested editing
+spaces.
 
 Stages of manipulation
 ----------------------
 
-Handling of colour data is been expected in serveral states, handled by
+Handling of colour data is been expected in several states, handled by
 dedicated colour spaces. The following describes a process with three
 steps.
 
 -   know data (tagged with profile or machine readable description),
     unknown or uncertain data -&gt; assign a assumed source profile
-    (distinguish RGB / Cmyk)
+    (distinguish RGB/CMYK)
 -   editing colour space to tweak and manipulate, mostly with enough
     colour volume
 -   output or proofing colour space, considered as a destination for the
     final content. This colour space can be used to check against during
     editing and possibly convert as the last stage of editing.
 
-Untaged data
-------------
+Untagged data
+-------------
 
 Most difficult is here the mixed behaviour of applications regarding
 tagging versus non tagging of exchange data with colour profiles.
@@ -78,8 +80,8 @@ for printing. As the word processor is ignoring any colour profiles it
 is up to the system to follow a rule, which makes the colour data
 unambiguous.
 
--   leave it as is for viewing, and interprete as follows below
-    -   pos:
+-   leave it as is for viewing, and interpret as follows below
+    -   pros:
         -   signal that untagged data are unknown
     -   cons:
         -   ambiguous across platforms
@@ -124,9 +126,9 @@ should be set to:
 
 -   assumed RGB - sRGB
 -   editing colour space: sRGB
--   convert allways data to editing space (before a save, not nice, but
+-   convert always data to editing space (before a save, not nice, but
     the most reliable in mixed CM aware environments)
--   dont prefere mixed colour space documents (keep it simple)
+-   don't prefer mixed colour space documents (keep it simple)
 
 ### Graphics Distribution
 
@@ -134,12 +136,12 @@ should be set to:
 and other specialist may want to use own settings. Here some defaults:
 
 -   assumed RGB - sRGB or Adobe(?)
--   no popup for untagged images
+-   no pop-up for untagged images
 -   editing RGB - Adobe,ECI or L-Star (large gamut)
--   convert RGB data during editing to editing space (dont pop up
+-   convert RGB data during editing to editing space (don't pop up
     dialogs)
--   no popup for conversion
--   dont convert CMYK data (because of possibly failed black preserving
+-   no pop-up for conversion
+-   don't convert CMYK data (because of possibly failed black preserving
     capabilities)
 -   allow mixed colour space documents (warning for internet PDF's?)
 
@@ -149,9 +151,9 @@ Device Settings
 The device to device colour path contains as well the settings to
 receive and to output colours. This makes the storage of these settings
 necessary for a working colour management. Currently such settings are
-spread over various places. They are particially stored in application
-and OS databases or only particially embedded in profiles, like the vcgt
-tag. There should be a format developed and used, which makes it easy to
+spread over various places. They are partially stored in application and
+OS databases or only partially embedded in profiles, like the vcgt tag.
+There should be a format developed and used, which makes it easy to
 combine both colour and settings characterisation.
 
 [Device Settings](/wiki/Device_Settings "wikilink")
@@ -163,7 +165,7 @@ User Interface
 
 -   use a flat directory to store all files
     -   easy to read by all applications
-    -   needs several mechanims to distinguish profiles for devices,
+    -   needs several mechanisms to distinguish profiles for devices,
         editing ...
 -   use directories hierarchically
     -   allow all kind of distinguishing even if not supported by
@@ -179,12 +181,12 @@ special cameras, media or special scenes. The process is as well known
 in the film industry as colour grading.
 
 Manipulations exist as profiles of ICC type abstract profiles. They are
-use by CinePaint or Photoshop for instance. On osX they are part of the
-color management system ColorSync. Therefor I would think at least the
+use by CinePaint or Photoshop for instance. On OS X they are part of the
+color management system ColorSync. Therefore I would think at least the
 ICC profile version could be included in Oyranos.
 
 Curves today used by CinePaint, Gimp and UFRaw are originally
-propriarity ones delivered with nicon and other software. People
+proprierity ones delivered with Nikon and other software. People
 translated them to use in these programs. The format is basically a
 response curve telling which intensities should come out for an given
 value. These curve files can contain single curves or curves for
@@ -192,9 +194,9 @@ multiple channels, like Value, R,G,B, Alpha + ?
 
 Not shure for the curves. Maybe they can be converted to abstract
 profiles. Gutenprint handles an own curves format for print settings. It
-is xml based and Robert Krawitz calles them picewise curves.
+is XML-based and Robert Krawitz calls them piecewise curves.
 
-One interessting aspect of the Gutenprint xml curves is, they are
+One interesting aspect of the Gutenprint XML curves is that they are
 editable. For profile editors an approximation algorithm is needed. An
 edited profile can as been more easily written as CLUT but would
 probably loose precision during conversion from an matrix based one.
