@@ -17,7 +17,7 @@ email list.
 <!-- -->
 
 -   check for well behaving of Editing colour spaces (Matrix, Rgb: gamma
-    equally over all channels, Gray achsis, ...)
+    equally over all channels, Gray axis, ...)
 
 <!-- -->
 
@@ -29,8 +29,8 @@ have manually to add the profile to this folder. This is an easy way to
 implement a solution, that beginners are not able to choose wrong
 profiles by accident.
 
--   colormanagement policies
-    -   done (only allow flatcolor documents or allow mixed mode
+-   color management policies
+    -   done (only allow flat color documents or allow mixed mode
         documents ?)
     -   done (how to deal with profile mismatches during opening files
         ?)
@@ -39,17 +39,17 @@ profiles by accident.
 -   to add:
     -   done (add CMYK editing profile
         (OY\_DEFAULT\_EDITING\_CMYK\_PROFILE))
-    -   done (add noneditable web colour space sRGB for displaying -
+    -   done (add non-editable web colour space sRGB for displaying -
         should be used during download from web
         (OY\_DEFAULT\_WEB\_PROFILE=sRGB))
     -   done (profile assigning for untagged data during opening (auto /
         leave / ask) (OY\_UNTAGGED\_ASSIGN\_ACTION))
     -   done (add RGB/CMYK opening mismatch policy (convert / leave
-        attached profile / popup) , in an pure sRGB environment it could
-        be used to make all unknown Rgb content equal
+        attached profile/pop-up) , in an pure sRGB environment it could
+        be used to make all unknown RGB content equal
         (OY\_MISMATCH\_RGB\_OPEN\_ACTION ...))
     -   done (profile assigning for mismatched data during editing
-        policy, harmonise during editing for homogenous colour space
+        policy, harmonise during editing for homogeneous colour space
         documents (OY\_MISMATCH\_CMYK\_CHANGE\_ACTION ...))
     -   note: placing and editing files could equal react regarding
         mismatch (handles the mismatch question from above)
