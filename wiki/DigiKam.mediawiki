@@ -4,5 +4,9 @@ DigiKam supports 16-bit CM for raw, tiff and jpeg files. Colour space informatio
 
 littleCMS is hard coded into this application.
 
+==Links==
+[http://www.digikam.org/ DigiKam]
+
+[[Applications|back -> Applications]]
 
 [[Category:Programms]]
