@@ -21,8 +21,8 @@ Features
 Usage
 -----
 
-ICC Examin can be launched from the Application folder or Dock on osX
-and from the Graphics menu on Linux.
+ICC Examin can be launched from the Application folder or Dock on Mac OS
+X and from the Graphics menu on Linux.
 
 ### File opening
 
