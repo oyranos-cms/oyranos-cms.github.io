@@ -33,4 +33,10 @@ Implementations
 
 -   an historical CMM effort: <http://www.gcms.coloraid.de/>
 
+#### CTL
+
+-   <http://sourceforge.net/projects/ampasctl> - Ilm's effort to handle
+    floating point colours precisely and according to the needs in the
+    film industry.
+
 ...
