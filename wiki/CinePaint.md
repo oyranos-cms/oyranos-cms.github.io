@@ -71,8 +71,10 @@ Links
 -   [CinePaintColourManagementUserDocumentation](http://cinepaint.bigasterisk.com/CinePaintColourManagementUserDocumentation) -
     Stefan's documentation
 -   [Colour Management and Colour Correction in
-    CinePaint](http://www.inf.ed.ac.uk/undergraduate/projects/stefanklein/) -
+    CinePaint](http://www.behrmann.name/index.php?option=com_weblinks&task=view&catid=67&id=137) -
     Stefan Klein; A final year project at the University of Edinburgh
+    [short
+    html](http://www.inf.ed.ac.uk/undergraduate/projects/stefanklein/)[appendix](http://www.behrmann.name/index.php?option=com_weblinks&task=view&catid=67&id=138)
 -   [CinePaint - 16-bit imaging. From digital camera to
     print](http://www.behrmann.name/index.php?option=com_weblinks&task=view&catid=67&id=56&Itemid=85) -
     english
