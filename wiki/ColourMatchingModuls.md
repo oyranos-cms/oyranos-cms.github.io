@@ -14,8 +14,8 @@ widely used CMMs are the AppleCMM in MacOSX, the
 [AdobeCMM](http://labs.adobe.com/downloads/cmm.html) and the CMM
 delivered with Windows XP.
 
-Implementations
----------------
+Open Source Implementations
+---------------------------
 
 #### Argyll
 

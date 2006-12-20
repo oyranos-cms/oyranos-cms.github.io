@@ -3,7 +3,7 @@ The CMM colormatching module is the "engine" for color conversions in applicatio
 
 In Open Source applications, LittleCMS is the most used CMM. Other widely used CMMs are the AppleCMM in MacOSX, the [http://labs.adobe.com/downloads/cmm.html AdobeCMM] and the CMM delivered with Windows XP.
 
-== Implementations ==
+== Open Source Implementations ==
 
 ==== Argyll ====
 *http://www.argyllcms.com/
