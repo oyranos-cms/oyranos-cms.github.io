@@ -22,9 +22,9 @@ Oyranos device profile database.
 ### Specification
 
 X servers export the EDID inormation typically in the
-“XFree86\_DDC\_EDID1\_RAWDATA” atom. If there are more monitors
-connected to the root window, the following atoms get a underscore and
-the screen number appended, like in
+“XFree86\_DDC\_EDID1\_RAWDATA” and “XFree86\_DDC\_EDID2\_RAWDATA” atom.
+If there are more monitors connected to the root window, the following
+atoms get a underscore and the screen number appended, like in
 
 ### Example
 
