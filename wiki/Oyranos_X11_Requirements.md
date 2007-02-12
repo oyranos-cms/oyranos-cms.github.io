@@ -1,0 +1,28 @@
+---
+title: Oyranos/X11 Requirements
+permalink: wiki/Oyranos/X11_Requirements/
+layout: wiki
+---
+
+Oyranos has some requirements to provide colour management related
+informations through it's API.
+
+Multi Monitor EDID in X11
+-------------------------
+
+EDID information describes monitor parameters like description, serial
+number and gives hints about colourimetric behaviour.
+
+Oyranos uses this information to identify a particular monitor and
+search for a best matching profile, as long as one is stored in the
+Oyranos device profile database.
+
+X servers export the EDID inormation typically in the
+“XFree86\_DDC\_EDID1\_RAWDATA” atom. If there are more monitors
+connected to the root window, the following atoms get a underscore and
+the screen number appended, like in
+
+XFree86\_DDC\_EDID1\_RAWDATA\_\[screen\_number\] -&gt;
+XFree86\_DDC\_EDID1\_RAWDATA\_1 XFree86\_DDC\_EDID1\_RAWDATA\_2 ...
+
+This way compatibility is enshured for existing applications.
