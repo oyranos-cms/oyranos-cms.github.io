@@ -35,8 +35,10 @@ This way compatibility is enshured for existing applications.
 
 ### References
 
-The issue was initially thrown to
-[1](https://bugs.freedesktop.org/show_bug.cgi?id=3910).
+-   The issue was initially thrown to [the fd.o
+    bugtracker](https://bugs.freedesktop.org/show_bug.cgi?id=3910).
+-   [Re: DDC Atoms &
+    Xinerama](http://www.mail-archive.com/devel@xfree86.org/msg01297.html)
 
 ### Versions / Implementations
 

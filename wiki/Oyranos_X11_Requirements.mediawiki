@@ -17,7 +17,8 @@ XFree86_DDC_EDID1_RAWDATA_[screen_number]  -> XFree86_DDC_EDID1_RAWDATA_1 XFree8
 This way compatibility is enshured for existing applications.
 
 === References ===
-The issue was initially thrown to [https://bugs.freedesktop.org/show_bug.cgi?id=3910].
+* The issue was initially thrown to [https://bugs.freedesktop.org/show_bug.cgi?id=3910 the fd.o bugtracker].
+* [http://www.mail-archive.com/devel@xfree86.org/msg01297.html Re: DDC Atoms & Xinerama]
 
 === Versions / Implementations ===
 Oyranos 0.1.5 obtained the oyranos-monitor-nvidia commandline tool to demonstrate the described behaviour.
