@@ -6,7 +6,7 @@ tags:
  - Oyranos
 ---
 
-| + style=“background:\#efefef;text-align:left” | Revision History                |
+| Revision History                                                                |
 |---------------------------------------------------------------------------------|
 | [Revision 0.1](http://www.burtonini.com/computing/x-icc-profiles-spec-0.1.html) |
 | Revision 0.2                                                                    |

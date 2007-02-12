@@ -1,13 +1,19 @@
 {| style="width:100%;text-align:left"
-!+ style="background:#efefef;text-align:left" | Revision History
+|+
+! style="background:#efefef;text-align:left" colspan="4" | Revision History
 |-
 | [http://www.burtonini.com/computing/x-icc-profiles-spec-0.1.html Revision 0.1]
-| valign="top" | 2005-06-24 - Ross Burton
+| 2005-06-24 
+| Ross Burton
+| Initial release. Thanks to Craig Ringer, Jim Gettys, Kai-Uwe Behrmann, and Matthew Allum for feedback.
 |-
 | Revision 0.2
-| valign="top" | 2006-05-03 - Kai-Uwe Behrmann
+| 2006-05-03 
+| Kai-Uwe Behrmann
 |-
 |}
+
+
 
 == Introduction ==
 
