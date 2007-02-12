@@ -6,9 +6,13 @@ tags:
  - Oyranos
 ---
 
+[Go to the version 0.2 of the ICC Profiles in X
+Specification](http://www.oyranos.org/wiki/index.php?title=ICC_Profiles_in_X_Specification_0.2)
+
 The original specification is found on Ross Burtons side: [ICC Profiles
 In X
 Specification](http://www.burtonini.com/computing/x-icc-profiles-spec-0.1.html).
+
 Here you find a modified version of the above. The below text is just a
 proposal.
 
@@ -38,4 +42,4 @@ currently have a profile set. Applications which can change screens
 using mechanisms such as display migration should be aware that the new
 screen is likely to have a different profile.
 
-[--&gt; back](/wiki/Oyranos "wikilink")
+[--&gt; back to Oyranos wiki](/wiki/Oyranos "wikilink")

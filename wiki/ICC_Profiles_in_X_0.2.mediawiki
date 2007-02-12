@@ -1,4 +1,8 @@
-The original specification is found on Ross Burtons side: [http://www.burtonini.com/computing/x-icc-profiles-spec-0.1.html ICC Profiles In X Specification]. Here you find a modified version of the above. The below text is just a proposal.
+[http://www.oyranos.org/wiki/index.php?title=ICC_Profiles_in_X_Specification_0.2 Go to the version 0.2 of the ICC Profiles in X Specification]
+
+The original specification is found on Ross Burtons side: [http://www.burtonini.com/computing/x-icc-profiles-spec-0.1.html ICC Profiles In X Specification].
+
+Here you find a modified version of the above. The below text is just a proposal.
 
 
 === _ICC_PROFILE ===
@@ -28,6 +32,6 @@ using mechanisms such as display migration should be aware that the new
 screen is likely to have a different profile.
 
 
-[[Oyranos|--> back]]
+[[Oyranos|--> back to Oyranos wiki]]
 
 [[Category:Oyranos]]
