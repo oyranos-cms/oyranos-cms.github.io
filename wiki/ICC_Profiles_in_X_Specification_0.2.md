@@ -4,6 +4,7 @@ permalink: wiki/ICC_Profiles_in_X_Specification_0.2/
 layout: wiki
 tags:
  - Oyranos
+ - Standards
 ---
 
 | Revision History                                                                |

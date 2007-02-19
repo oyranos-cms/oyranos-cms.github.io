@@ -63,3 +63,4 @@ screen is likely to have a different profile.
 [[Oyranos|back --> Oyranos]]
 
 [[Category:Oyranos]]
+[[Category:Standards]]
