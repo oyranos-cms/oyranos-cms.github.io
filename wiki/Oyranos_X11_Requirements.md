@@ -4,6 +4,7 @@ permalink: wiki/Oyranos/X11_Requirements/
 layout: wiki
 tags:
  - Oyranos
+ - Standards
 ---
 
 Oyranos has some requirements to provide colour management related

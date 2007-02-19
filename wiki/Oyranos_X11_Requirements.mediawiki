@@ -26,3 +26,4 @@ Oyranos 0.1.5 obtained the oyranos-monitor-nvidia commandline tool to demonstrat
 
 [[Oyranos|back -> Oyranos]]
 [[Category:Oyranos]]
+[[Category:Standards]]
