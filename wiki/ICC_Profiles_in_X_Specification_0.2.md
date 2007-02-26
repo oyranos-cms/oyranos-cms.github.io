@@ -10,7 +10,7 @@ tags:
 | Revision History                                                                |
 |---------------------------------------------------------------------------------|
 | [Revision 0.1](http://www.burtonini.com/computing/x-icc-profiles-spec-0.1.html) |
-| Revision 0.2                                                                    |
+| [Revision 0.2](http://www.burtonini.com/computing/x-icc-profiles-spec-0.2.html) |
 ||
 
 Introduction
