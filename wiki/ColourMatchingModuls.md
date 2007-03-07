@@ -38,6 +38,6 @@ Open Source Implementations
 
 -   <http://sourceforge.net/projects/ampasctl> - Ilm's effort to handle
     floating point colours precisely and according to the needs in the
-    film industry.
+    [film industry](http://www.oscars.org/council/ctl.html).
 
 ...
