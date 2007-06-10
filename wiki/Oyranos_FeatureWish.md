@@ -77,3 +77,10 @@ profiles by accident.
 
 -   ICC\_PROFILE\_PATH ? how to interact with Oyranos
 
+<!-- -->
+
+-   allow non persistent settings, examples:
+    -   useful for temporarily adding profile paths in osX bundles
+    -   switching default profiles to gamma 1.0 versions in one
+        application, without touching other applications
+

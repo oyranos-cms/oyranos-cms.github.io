@@ -33,4 +33,8 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 
 * ICC_PROFILE_PATH ? how to interact with Oyranos
 
+* allow non persistent settings, examples:
+** useful for temporarily adding profile paths in osX bundles
+** switching default profiles to gamma 1.0 versions in one application, without touching other applications
+
 [[Category:Oyranos]]
