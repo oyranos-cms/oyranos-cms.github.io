@@ -84,3 +84,8 @@ profiles by accident.
     -   switching default profiles to gamma 1.0 versions in one
         application, without touching other applications
 
+<!-- -->
+
+-   naming of ECI profiles to something FOGRA corresponding (Chris
+    Murphy and others on OpenICC)
+
