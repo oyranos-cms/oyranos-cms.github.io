@@ -6,7 +6,8 @@ layout: wiki
 
 Currently only monitor profiles are supported on unix X window systems.
 
-The man page for the appropriate command line tool is:
+The man page for the appropriate command line tool “oyranos-monitor” is
+shown below:
 
 `NAME`  
 `      oyranos-monitor - Oyranos CMS monitor configuration`  
