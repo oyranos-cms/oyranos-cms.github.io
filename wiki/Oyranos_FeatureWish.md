@@ -89,3 +89,23 @@ profiles by accident.
 -   naming of ECI profiles to something FOGRA corresponding (Chris
     Murphy and others on OpenICC)
 
+<!-- -->
+
+-   add non EDID monitor support - by a mix of X description and by
+    Xinerama geometry
+
+<!-- -->
+
+-   Constitute a colour patch presentation:
+-   CIELab representation
+-   arbitrary channels
+-   channel characterisation (4 byte ICC signature)
+-   channel names list
+-   colour name
+-   colour description
+-   colour nick name
+-   colour reference (ICC profile)
+-   cgats representation, this can contain additional observer
+    characteristics or spectral data
+-   allow for grouping
+
