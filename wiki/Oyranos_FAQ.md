@@ -1,0 +1,97 @@
+---
+title: Oyranos/FAQ
+permalink: wiki/Oyranos/FAQ/
+layout: wiki
+---
+
+Even most questions are answered on the
+[Oyranos](http://www.oyranos.org) site already, here is the FAQ.
+
+If you have the impression an important question is missed, feel free to
+add it.
+
+### What is Oyranos?
+
+The Oyranos project is a colour management system (CMS). It is
+comparable to KCMS, ICM or ColourSync except it is published with
+sources and is available for various platforms.
+
+### What is the goal of Oyranos?
+
+Oyranos tries to provide colour management services for applications and
+services like Scribus, CinePaint, Krita, Gimp, Inkscape, Gutenprint,
+UFraw, Cups, Xorg, Sane and so on.
+
+With colour management beeing a often complicated pattern, the need
+rises to easily understand what goes on behind the scenes. Doing this
+once is often hard enough. Having different colour settings in every
+application and service may easily multiply the work to relyable
+understand how colours get managed. Thus Oyranos is a call to
+collaborate between applications to make them all more attractive.
+
+For instance all Oyranos conform applications should display colour
+content on the monitor in the same manner, equaly if the user has set
+softproofing on by default in the Oyranos configuration panel or not.
+
+### Where comes the name Oyranos from?
+
+Oyranos is the greek word of sky.
+
+It was pointed out that ouranos is more adequate for english readers.
+Just as with the german Uranos and other variants it seems pretty good
+to stay with the name.
+
+### License(s)
+
+As of the writing Oyranos is GPL, which will change with version 0.1.8
+to BSD. It is possible that parts will be released under different
+licenses. But that is open. The goal is to not exclude anyone from using
+Oyranos.
+
+### Where can I get Oyranos?
+
+Oyranos is published on [Kai-Uwe's
+site](http://www.behrmann.name/index.php?option=com_content&task=view&id=34&Itemid=68)
+
+### Who is developing Oyranos?
+
+Currently Oyranos is a one man project of [Kai-Uwe
+Behrmann](http://www.behrmann.name). I see myself as a photographer, who
+came in the situation of creating its own imaging workflow through the
+lack of adequate GUI's on the Linux OS.
+
+### How can I help with the Oyranos CMS?
+
+You could help by testing, reporting bugs or providing according
+patches, doing translations, as well as suggesting useful changes or, if
+you feel well with it, become part of the development team.
+
+We need people with phantasy for going possibly new paths,
+meticulousness for assuring quality, analytical, didactical and
+aesthetical skills and thinking around the corner or all together. Some
+knowledge or feeling of colour may be of help. But this is not a must,
+as uneducated persons bring in a very important view.
+
+See as well [1](http://www.oyranos.org/#devel).
+
+### Which applications use Oyranos?
+
+A list of Oyranos users is [here](http://www.oyranos.org/#audience).
+
+A list of Linux/BSD relevant colour managed applications can be found
+[here](http://www.oyranos.org/wiki/index.php?title=Applications).
+
+### Can Oyranos replace other Colour management Systems?
+
+This is not intentional. Each colour management system has its strengths
+not easily reachable by an other. If your application runs just on osX
+it is possibly best to stay with the advanced features of ColourSync. Is
+your intention to run your application on different platforms such as
+Windows, osX and the various unixes, Oyranos may be of much value, as it
+will provide a single API allowing real crossplatform development.
+Oyranos tries to use as many as possible of the underlying colour
+mangagement services, as long as it conforms to its cross platform
+behaviour.
+
+Naturally advanced features will be unlikely to get supported as they
+are not cross platform, and would have to been accessed directly.
