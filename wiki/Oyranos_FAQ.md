@@ -2,6 +2,8 @@
 title: Oyranos/FAQ
 permalink: wiki/Oyranos/FAQ/
 layout: wiki
+tags:
+ - Oyranos
 ---
 
 Even most questions are answered on the
@@ -95,3 +97,5 @@ behaviour.
 
 Naturally advanced features will be unlikely to get supported as they
 are not cross platform, and would have to been accessed directly.
+
+[back -&gt; Oyranos](/wiki/Oyranos "wikilink")
