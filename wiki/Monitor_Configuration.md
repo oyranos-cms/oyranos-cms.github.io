@@ -30,7 +30,15 @@ capabilities, which is under discussion to expose as a library.
 
 ### References
 
--   [1](http://www.ddccontrol.org)
+-   [Oyranos X11 Requirements](/wiki/Oyranos_X11_Requirements "wikilink")
+
+<!-- -->
+
+-   [Oyranos\#Information\_about\_X\_and\_CM](/wiki/Oyranos#Information_about_X_and_CM "wikilink")
+
+<!-- -->
+
+-   [1](http://ddccontrol.sourceforge.net/)
 
 <!-- -->
 

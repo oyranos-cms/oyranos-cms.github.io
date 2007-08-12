@@ -11,7 +11,11 @@ Candiates for holding a according API are Xorg or HAL. Work is already done in t
 
 === References ===
 
-* [http://www.ddccontrol.org]
+* [[Oyranos X11 Requirements]]
+
+* [[Oyranos#Information_about_X_and_CM]]
+
+* [http://ddccontrol.sourceforge.net/]
 
 * [http://www.usb.org/developers/hidpage/ Monitor Device Class Definition] at usb.org
 
