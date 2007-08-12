@@ -38,6 +38,7 @@ This site provides a collection of information regarding mainly, but not limited
 *[[What the users want]]
 *[[Concepts|Concepts Discussion]]
 *[[Device Settings]]
+*[[Monitor Configuration]]
 *[[Standards]]
 *[[ColourMatchingModuls]]
 *[[Applications]] - colour management (CM) capable programs

@@ -41,6 +41,7 @@ layout: wiki
 <li><a href="What_the_users_want" title="wikilink">What the users want</a></li>
 <li><a href="Concepts" title="wikilink">Concepts Discussion</a></li>
 <li><a href="Device_Settings" title="wikilink">Device Settings</a></li>
+<li><a href="Monitor_Configuration" title="wikilink">Monitor Configuration</a></li>
 <li><a href="Standards" class="uri" title="wikilink">Standards</a></li>
 <li><a href="ColourMatchingModuls" class="uri" title="wikilink">ColourMatchingModuls</a></li>
 <li><a href="Applications" class="uri" title="wikilink">Applications</a> - colour management (CM) capable programs</li>
