@@ -30,23 +30,26 @@ capabilities, which is under discussion to expose as a library.
 
 ### References
 
+-   [ddccontrol](http://ddccontrol.sourceforge.net/) open source project
+
+<!-- -->
+
+-   [Monitor Device Class
+    Definition](http://www.usb.org/developers/hidpage/) specification at
+    usb.org
+
+<!-- -->
+
+-   [Apple Cinema Display
+    control](http://www.technocage.com/~caskey/acdctl) open source
+    project
+
+<!-- -->
+
 -   [Oyranos X11 Requirements](/wiki/Oyranos_X11_Requirements "wikilink")
 
 <!-- -->
 
 -   [Oyranos\#Information\_about\_X\_and\_CM](/wiki/Oyranos#Information_about_X_and_CM "wikilink")
-
-<!-- -->
-
--   [1](http://ddccontrol.sourceforge.net/)
-
-<!-- -->
-
--   [Monitor Device Class
-    Definition](http://www.usb.org/developers/hidpage/) at usb.org
-
-<!-- -->
-
--   [Apple Cinema Display
-    control](http://www.technocage.com/~caskey/acdctl)
+    links
 

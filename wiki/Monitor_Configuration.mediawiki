@@ -1,4 +1,3 @@
-
 == Monitor property control ==
 
 Modern monitors contain lots of control functionality. They interfere with a proper calibration. So it is for some users useful to set them to a state which coresponds to a certain ICC profile or disable such settings at all. 
@@ -11,15 +10,15 @@ Candiates for holding a according API are Xorg or HAL. Work is already done in t
 
 === References ===
 
+* [http://ddccontrol.sourceforge.net/ ddccontrol] open source project
+
+* [http://www.usb.org/developers/hidpage/ Monitor Device Class Definition] specification at usb.org
+
+* [http://www.technocage.com/~caskey/acdctl Apple Cinema Display control] open source project
+
 * [[Oyranos X11 Requirements]]
 
-* [[Oyranos#Information_about_X_and_CM]]
-
-* [http://ddccontrol.sourceforge.net/]
-
-* [http://www.usb.org/developers/hidpage/ Monitor Device Class Definition] at usb.org
-
-* [http://www.technocage.com/~caskey/acdctl Apple Cinema Display control]
+* [[Oyranos#Information_about_X_and_CM]] links
 
 
 
