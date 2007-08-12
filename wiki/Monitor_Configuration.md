@@ -30,13 +30,17 @@ capabilities, which is under discussion to expose as a library.
 
 ### References
 
--   [ddccontrol](http://ddccontrol.sourceforge.net/) open source project
-
-<!-- -->
-
 -   [Monitor Device Class
     Definition](http://www.usb.org/developers/hidpage/) specification at
     usb.org
+
+<!-- -->
+
+-   [i2c](http://www.i2c-bus.org/) specification
+
+<!-- -->
+
+-   [ddccontrol](http://ddccontrol.sourceforge.net/) open source project
 
 <!-- -->
 
