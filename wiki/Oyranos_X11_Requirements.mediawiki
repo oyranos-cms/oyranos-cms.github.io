@@ -1,14 +1,17 @@
 Oyranos has some requirements to provide colour management related informations through it's API.
 
 
-
 == Multi Monitor EDID in X11 ==
+
+This section is obsoleted since 2006-05-03 by the [[ICC Profiles in X Specification 0.2]].
 
 EDID information describes monitor parameters like description, serial number and gives hints about colourimetric behaviour. 
 
 Oyranos uses this information to identify a particular monitor and search for a best matching profile, as long as one is stored in the Oyranos device profile database.
 
 === Specification ===
+See [[ICC Profiles in X Specification 0.2]].
+
 X servers export the EDID inormation typically in the "XFree86_DDC_EDID1_RAWDATA" and "XFree86_DDC_EDID2_RAWDATA" atom. If there are more monitors connected to the root window, the following atoms get a underscore and the screen number appended, like in 
 
 === Example ===
@@ -22,6 +25,7 @@ This way compatibility is enshured for existing applications.
 
 === Versions / Implementations ===
 Oyranos 0.1.5 obtained the oyranos-monitor-nvidia commandline tool to demonstrate the described behaviour.
+
 
 
 [[Oyranos|back -> Oyranos]]
