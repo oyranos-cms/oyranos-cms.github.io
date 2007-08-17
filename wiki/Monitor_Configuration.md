@@ -26,7 +26,9 @@ features ...
 
 Candiates for holding a according API are Xorg or HAL. Work is already
 done in the ddccontrol project. Of course Xorg includes i2c
-capabilities, which is under discussion to expose as a library.
+capabilities, which is under
+[discussion](http://lists.freedesktop.org/archives/xorg/2007-August/027105.html)
+to expose as a library.
 
 ### References
 
