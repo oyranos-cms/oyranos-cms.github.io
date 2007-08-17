@@ -24,7 +24,7 @@ steps possibly with todays VGA busses.
 Possibly controls are brighness, contrast, LUT's, auto adjustment
 features ...
 
-Candiates for holding a according API are Xorg or HAL. Work is already
+Candidates for holding a according API are Xorg or HAL. Work is already
 done in the ddccontrol project. Of course Xorg includes i2c
 capabilities, which is under
 [discussion](http://lists.freedesktop.org/archives/xorg/2007-August/027105.html)
