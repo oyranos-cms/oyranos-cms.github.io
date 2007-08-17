@@ -22,6 +22,6 @@ Candiates for holding a according API are Xorg or HAL. Work is already done in t
 
 * [[Oyranos#Information_about_X_and_CM]] links
 
-
+* [http://www.freedesktop.org/wiki/Specifications Specifications] at freedesktop.org
 
 [[Category:Concepts]]

@@ -57,3 +57,8 @@ capabilities, which is under discussion to expose as a library.
 -   [Oyranos\#Information\_about\_X\_and\_CM](/wiki/Oyranos#Information_about_X_and_CM "wikilink")
     links
 
+<!-- -->
+
+-   [Specifications](http://www.freedesktop.org/wiki/Specifications) at
+    freedesktop.org
+
