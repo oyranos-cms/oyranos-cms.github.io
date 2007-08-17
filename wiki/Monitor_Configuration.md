@@ -59,6 +59,6 @@ capabilities, which is under discussion to expose as a library.
 
 <!-- -->
 
--   [Specifications](http://www.freedesktop.org/wiki/Specifications) at
-    freedesktop.org
+-   [Specifications](http://www.freedesktop.org/wiki/Specifications)
+    list at freedesktop.org
 
