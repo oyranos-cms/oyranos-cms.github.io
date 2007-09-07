@@ -21,6 +21,8 @@ Open Source Implementations
 
 -   <http://www.argyllcms.com/>
 
+License: new BSD? for the CMM module called libicc
+
 #### LittleCMS
 
 -   <http://www.littlecms.com/>
