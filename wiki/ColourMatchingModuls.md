@@ -34,6 +34,8 @@ License: MIT
 -   <http://sampleicc.sourceforge.net/> — The ICC's official sample
     implementation.
 
+License: new BSD?
+
 #### GCMS
 
 -   an historical CMM effort: <http://www.gcms.coloraid.de/>
