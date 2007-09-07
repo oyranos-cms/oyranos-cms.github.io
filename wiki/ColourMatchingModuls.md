@@ -27,6 +27,8 @@ License: new BSD? for the CMM module called libicc
 
 -   <http://www.littlecms.com/>
 
+License: MIT
+
 #### IccProfLib
 
 -   <http://sampleicc.sourceforge.net/> — The ICC's official sample
