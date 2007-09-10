@@ -49,3 +49,10 @@ License: new BSD?
 License: new BSD (? with jurisdiction to California)
 
 ...
+
+Link's
+------
+
+-   [Applications](/wiki/Applications "wikilink") for end users, preferedly
+    with GUI
+
