@@ -22,17 +22,10 @@ License: new BSD?
 
 ==== GCMS ====
 *an historical CMM effort: http://www.gcms.coloraid.de/
-
 ==== CTL ====
 *http://sourceforge.net/projects/ampasctl - Ilm's effort to handle floating point colours precisely and according to the needs in the [http://www.oscars.org/council/ctl.html film industry].
 
 License: new BSD (? with jurisdiction to California)
-
-
 ...
-
-== Link's ==
-* [[Applications]] for end users, preferedly with GUI
-
 
 [[Category:Programms]]
