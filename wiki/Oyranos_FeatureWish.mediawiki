@@ -39,20 +39,32 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 
 * naming of ECI profiles to something FOGRA corresponding (Chris Murphy and others on OpenICC)
 
-* add non EDID monitor support - by a mix of X description and by Xinerama geometry
+* add non EDID monitor support - by a mix of X description and by Xinerama geometry (prepared for 0.1.8)
 
 
-* Constitute a colour patch presentation:
-* CIELab representation
-* arbitrary channels
-* channel characterisation (4 byte ICC signature)
-* channel names list
-* colour name
-* colour description
-* colour nick name
-* colour reference (ICC profile)
-* cgats representation, this can contain additional observer characteristics or spectral data
+{| style="width:100%;text-align:left"
+|+
+! style="background:#efefef;text-align:left" colspan="4" | Named Colour information structure
+|-
+| Progress 20%
+| first use in ICC Examin v0.45
+| start 2007-09-03
+| Kai-Uwe Behrmann
+|-
+|}
+
+Constitute a colour patch presentation:
+
+* done - CIELab representation
+* done - arbitrary channels (32)
+* done - channel characterisation (4 byte ICC signature)
+* done - channel names list
+* done - colour name
+* done - colour description
+* done - colour nick name
+* done - colour reference (ICC profile)
+* done - cgats representation, this can contain additional observer characteristics or spectral data
 * allow for grouping
-
+* exchange in X11, Quartz ...
 
 [[Category:Oyranos]]

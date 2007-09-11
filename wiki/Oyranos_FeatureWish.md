@@ -92,20 +92,25 @@ profiles by accident.
 <!-- -->
 
 -   add non EDID monitor support - by a mix of X description and by
-    Xinerama geometry
+    Xinerama geometry (prepared for 0.1.8)
 
-<!-- -->
+| Named Colour information structure |
+|------------------------------------|
+| Progress 20%                       |
+||
 
--   Constitute a colour patch presentation:
--   CIELab representation
--   arbitrary channels
--   channel characterisation (4 byte ICC signature)
--   channel names list
--   colour name
--   colour description
--   colour nick name
--   colour reference (ICC profile)
--   cgats representation, this can contain additional observer
+Constitute a colour patch presentation:
+
+-   done - CIELab representation
+-   done - arbitrary channels (32)
+-   done - channel characterisation (4 byte ICC signature)
+-   done - channel names list
+-   done - colour name
+-   done - colour description
+-   done - colour nick name
+-   done - colour reference (ICC profile)
+-   done - cgats representation, this can contain additional observer
     characteristics or spectral data
 -   allow for grouping
+-   exchange in X11, Quartz ...
 
