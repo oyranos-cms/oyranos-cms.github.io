@@ -66,5 +66,6 @@ Constitute a colour patch presentation:
 * done - cgats representation, this can contain additional observer characteristics or spectral data
 * allow for grouping
 * exchange in X11, Quartz ...
+* keep in sync with [http://create.freedesktop.org/wiki/index.php?title=Swatches_-_colour_file_format Create]
 
 [[Category:Oyranos]]

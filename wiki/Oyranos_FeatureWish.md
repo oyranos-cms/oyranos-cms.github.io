@@ -113,4 +113,6 @@ Constitute a colour patch presentation:
     characteristics or spectral data
 -   allow for grouping
 -   exchange in X11, Quartz ...
+-   keep in sync with
+    [Create](http://create.freedesktop.org/wiki/index.php?title=Swatches_-_colour_file_format)
 
