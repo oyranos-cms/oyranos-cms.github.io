@@ -119,19 +119,35 @@ profiles by accident.
 
 ### CMM Framework
 
--   API
--   options handling (xml, GUI)
+-   backend API a typical CMM should provide
 
-|               |                |             |                               |
-|---------------|----------------|-------------|-------------------------------|
-| Progress: 20% | Version: x.x.x | Start: 2006 | Assigned to: Kai-Uwe Behrmann |
+|     |              |                |             |                       |
+|-----|--------------|----------------|-------------|-----------------------|
+|     | Progress: 0% | Version: x.x.x | Start: 2007 | Assigned to: Scribus? |
+||
+
+-   -   transform caching (file format)
+
+-   frontend API, transforms, caching, image description - buffer layout
+    / screen position
+
+|     |              |                |             |                               |
+|-----|--------------|----------------|-------------|-------------------------------|
+|     | Progress: 5% | Version: 1.x.x | Start: 2006 | Assigned to: Kai-Uwe Behrmann |
+||
+
+-   -   options handling (xml, GUI)
+
+|     |               |                |             |                               |
+|-----|---------------|----------------|-------------|-------------------------------|
+|     | Progress: 20% | Version: x.x.x | Start: 2006 | Assigned to: Kai-Uwe Behrmann |
 ||
 
 -   file support (tiff,png,jpeg), move from Colori
 
-|               |                              |                   |                               |
-|---------------|------------------------------|-------------------|-------------------------------|
-| Progress: 25% | Version: first use in Colori | Start: 2007-09-10 | Assigned to: Kai-Uwe Behrmann |
+|     |               |                              |                   |                               |
+|-----|---------------|------------------------------|-------------------|-------------------------------|
+|     | Progress: 25% | Version: first use in Colori | Start: 2007-09-10 | Assigned to: Kai-Uwe Behrmann |
 ||
 
 ### Named Colour
