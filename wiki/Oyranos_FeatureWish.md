@@ -117,6 +117,23 @@ profiles by accident.
 | Progress: 0% | Version: [0.1.8](#Target_0.1.8 "wikilink") | Start: | Assigned to: Kai-Uwe Behrmann |
 ||
 
+### CMM Framework
+
+-   API
+-   options handling (xml, GUI)
+
+|               |                |             |                               |
+|---------------|----------------|-------------|-------------------------------|
+| Progress: 20% | Version: x.x.x | Start: 2006 | Assigned to: Kai-Uwe Behrmann |
+||
+
+-   file support (tiff,png,jpeg), move from Colori
+
+|               |                              |                   |                               |
+|---------------|------------------------------|-------------------|-------------------------------|
+| Progress: 25% | Version: first use in Colori | Start: 2007-09-10 | Assigned to: Kai-Uwe Behrmann |
+||
+
 ### Named Colour
 
 -   colour information structure
@@ -160,6 +177,7 @@ Constitute a colour patch presentation:
 
 -   done(v0.1.5) Bob Friesenhahn suggested Oyranos should be completely
     relocatable
+-   publicate Colori
 
 Todo
 ----

@@ -87,6 +87,28 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 |}
 
 
+=== CMM Framework ===
+* API
+* options handling (xml, GUI)
+{| style="width:100%;text-align:left" colspan="20"
+|-
+| Progress: 20%
+| Version: x.x.x
+| Start: 2006
+| Assigned to: Kai-Uwe Behrmann
+|-
+|}
+* file support (tiff,png,jpeg), move from Colori
+{| style="width:100%;text-align:left" colspan="20"
+|-
+| Progress: 25%
+| Version: first use in Colori
+| Start: 2007-09-10
+| Assigned to: Kai-Uwe Behrmann
+|-
+|}
+
+
 === Named Colour ===
 * colour information structure
 {| style="width:100%;text-align:left" colspan="20"
@@ -125,7 +147,7 @@ Constitute a colour patch presentation:
 ** and modify policy, advanced or custom
 
 * done(v0.1.5) Bob Friesenhahn suggested Oyranos should be completely relocatable
-
+* publicate Colori
 
 == Todo ==
 [[Oyranos]] Roadmap
