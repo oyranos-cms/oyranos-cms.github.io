@@ -133,7 +133,7 @@ profiles by accident.
 
 |     |              |                |             |                               |
 |-----|--------------|----------------|-------------|-------------------------------|
-|     | Progress: 5% | Version: 1.x.x | Start: 2006 | Assigned to: Kai-Uwe Behrmann |
+|     | Progress: 5% | Version: 1.x.x | Start: 2007 | Assigned to: Kai-Uwe Behrmann |
 ||
 
 -   -   options handling (xml, GUI)
