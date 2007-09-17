@@ -21,6 +21,10 @@ enough for just this task.
 In the following proposal I will draw sketchy, what I think is needed to
 make the task complete, and apply to other areas too.
 
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
 ### Informations Incorporated
 
 -   device settings (as provided, colour relevant ones should be queried
@@ -32,6 +36,10 @@ make the task complete, and apply to other areas too.
 -   colour characterisation (a ICC profile belonging to the above
     settings)
 -   priority (generic profile - low, self calibrated - high)
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
 
 ### Advantages
 
@@ -122,6 +130,13 @@ make the task complete, and apply to other areas too.
 `The oyDeviceSettings_s structure is not yet finished.`
 
 TODO: proof the available options (ICC, XML...), choose, publish a
-[specification v0.2](/wiki/Device_Settings_in_ICC_0.2 "wikilink")
-([0.1](/wiki/Device_Settings_in_ICC_0.1 "wikilink")) and procedure suggestion,
-implement in [Oyranos](/wiki/Oyranos "wikilink")
+specification and procedure suggestion, implement in
+[Oyranos](/wiki/Oyranos "wikilink")
+
+| [Device Settings in ICC](/wiki/Device_Settings "wikilink") Revision History |
+|-----------------------------------------------------------------------|
+| [v0.1](/wiki/Device_Settings_in_ICC_0.1 "wikilink")                         |
+| [v0.2](/wiki/Device_Settings_in_ICC_0.1 "wikilink")                         |
+||
+
+

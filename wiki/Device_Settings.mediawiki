@@ -2,12 +2,20 @@ All variable parts of the colour processing chain must be taken into account, to
 
 In the following proposal I will draw sketchy, what I think is needed to make the task complete, and apply to other areas too.
 
+
+----
+
+----
 === Informations Incorporated ===
 * device settings (as provided, colour relevant ones should be queried automatically)
 * driver names and their versions to identify validity of components used
 * normally changeable driver settings, which must be fixed for usage with the ICC profile
 * colour characterisation (a ICC profile belonging to the above settings)
 * priority (generic profile - low, self calibrated - high)
+
+----
+
+----
 
 === Advantages ===
 * select an profile and the system knows about needed settings
@@ -79,7 +87,24 @@ In the following proposal I will draw sketchy, what I think is needed to make th
                                                  size_t*     data_size )
  The oyDeviceSettings_s structure is not yet finished.
 
-TODO: proof the available options (ICC, XML...), choose, publish a [[Device Settings in ICC 0.2|specification v0.2]] ([[Device Settings in ICC 0.1|0.1]]) and procedure suggestion, implement in [[Oyranos]]
+TODO: proof the available options (ICC, XML...), choose, publish a specification and procedure suggestion, implement in [[Oyranos]]
+
+{| style="width:100%;text-align:left"
+|+
+! style="background:#efefef;text-align:left" colspan="4" | [[Device_Settings|Device Settings in ICC]] Revision History
+|-
+| [[Device_Settings in ICC 0.1|v0.1]]
+| 2006-08-28 - 09-04 
+| Kai-Uwe Behrmann &copy; 2006
+|
+|-
+| [[Device Settings in ICC 0.1|v0.2]]
+| 2006-09-06 
+| Kai-Uwe Behrmann &copy; 2006
+| Thanks for suggestions and revisions to Graeme Gill, Hal V. Engel, Robert L Krawitz and Gerhard Fuernkranz.
+|-
+|}
+
 
 [[Category:Concepts]]
 [[Category:Oyranos]]
