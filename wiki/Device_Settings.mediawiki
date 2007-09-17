@@ -89,6 +89,7 @@ In the following proposal I will draw sketchy, what I think is needed to make th
 
 TODO: proof the available options (ICC, XML...), choose, publish a specification and procedure suggestion, implement in [[Oyranos]]
 
+=== Specification ===
 {| style="width:100%;text-align:left"
 |+
 ! style="background:#efefef;text-align:left" colspan="4" | [[Device_Settings|Device Settings in ICC]] Revision History

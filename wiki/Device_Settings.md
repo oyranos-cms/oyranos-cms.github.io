@@ -133,6 +133,8 @@ TODO: proof the available options (ICC, XML...), choose, publish a
 specification and procedure suggestion, implement in
 [Oyranos](/wiki/Oyranos "wikilink")
 
+### Specification
+
 | [Device Settings in ICC](/wiki/Device_Settings "wikilink") Revision History |
 |-----------------------------------------------------------------------|
 | [v0.1](/wiki/Device_Settings_in_ICC_0.1 "wikilink")                         |
