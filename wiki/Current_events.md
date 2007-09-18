@@ -9,8 +9,12 @@ layout: wiki
     from an CMS.
 -   same as above for [CMMs](/wiki/ColourMatchingModuls "wikilink")
 -   [Device Settings](/wiki/Device_Settings "wikilink") proposal
--   [Named Colours](/wiki/FeatureWish "wikilink") is worked on
+-   [Named Colours](/wiki/FeatureWish "wikilink") is worked on :
     [KaiUweBehrmann](/wiki/User%3AKaiUweBehrmann "wikilink") 18:47, 16 Sep
+    2007 (CEST)
+-   [OpenIccDirectoryProposal](/wiki/OpenIccDirectoryProposal "wikilink") has
+    opened its doors for public review :
+    [KaiUweBehrmann](/wiki/User%3AKaiUweBehrmann "wikilink") 18:45, 18 Sep
     2007 (CEST)
 
 ------------------------------------------------------------------------

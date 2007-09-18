@@ -1,8 +1,8 @@
 * add your favourite CM aware software here ([[Applications]]) and show what you want from an CMS.
 * same as above for [[ColourMatchingModuls|CMMs]]
 * [[Device Settings]] proposal
-* [[FeatureWish|Named Colours]] is worked on [[User:KaiUweBehrmann|KaiUweBehrmann]] 18:47, 16 Sep 2007 (CEST)
-
+* [[FeatureWish|Named Colours]] is worked on : [[User:KaiUweBehrmann|KaiUweBehrmann]] 18:47, 16 Sep 2007 (CEST)
+* [[OpenIccDirectoryProposal]] has opened its doors for public review : [[User:KaiUweBehrmann|KaiUweBehrmann]] 18:45, 18 Sep 2007 (CEST)
 
 
 ----
