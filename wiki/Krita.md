@@ -20,5 +20,7 @@ Links
 
 -   [Krita](http://www.koffice.org/krita)
 -   [Manual](http://docs.kde.org/development/en/koffice/krita)
+-   [Pigment/Color Conversion
+    System](http://wiki.koffice.org/index.php?title=Pigment/Color_Conversion_System)
 
 [back -&gt; Applications](/wiki/Applications "wikilink")
