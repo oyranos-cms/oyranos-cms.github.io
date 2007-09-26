@@ -4,14 +4,11 @@ permalink: wiki/Current_events/
 layout: wiki
 ---
 
--   [Named Colours in Oyranos](/wiki/FeatureWish#Named_Colour "wikilink")
-    [KaiUweBehrmann](/wiki/User%3AKaiUweBehrmann "wikilink") 17:56, 26 Sep
-    2007 (CEST)
 -   [OpenIccDirectoryProposal](/wiki/OpenIccDirectoryProposal "wikilink") has
     opened its doors for public review :
     [KaiUweBehrmann](/wiki/User%3AKaiUweBehrmann "wikilink") 18:45, 18 Sep
     2007 (CEST)
--   [Named Colours](/wiki/FeatureWish "wikilink") is worked on :
+-   [Named Colours](/wiki/FeatureWish#Named_Colour "wikilink") is worked on :
     [KaiUweBehrmann](/wiki/User%3AKaiUweBehrmann "wikilink") 18:47, 16 Sep
     2007 (CEST)
 -   [Device Settings](/wiki/Device_Settings "wikilink") proposal
