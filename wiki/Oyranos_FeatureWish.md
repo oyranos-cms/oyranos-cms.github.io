@@ -156,7 +156,7 @@ profiles by accident.
 
 |               |                                        |                   |                               |
 |---------------|----------------------------------------|-------------------|-------------------------------|
-| Progress: 20% | Version: first use in ICC Examin v0.45 | Start: 2007-09-03 | Assigned to: Kai-Uwe Behrmann |
+| Progress: 30% | Version: first use in ICC Examin v0.45 | Start: 2007-09-03 | Assigned to: Kai-Uwe Behrmann |
 ||
 
 Constitute a colour patch presentation:
@@ -171,11 +171,20 @@ Constitute a colour patch presentation:
 -   done - colour reference (ICC profile)
 -   done - cgats representation, this can contain additional observer
     characteristics or spectral data
--   allow for grouping ( swatches )
+-   current state is shown
+    [here](http://www.behrmann.name/wind/oyranos/icc_examin_2007.09.24.html)
+-   done - allow for grouping ( swatches )
 -   exchange as colour selection(s) in X11, Quartz ...
 -   Named Colours as file (xml?)
 -   keep in sync with
     [Create](http://create.freedesktop.org/wiki/index.php?title=Swatches_-_colour_file_format)
+-   HDR range information
+-   creator signature?
+-   gamut warning with the device, which is exceeded - monitor, printer,
+    colour space
+-   to sRGB float conversion from Lab(D50)/XYZ or from channels over ICC
+    profile with lcms
+-   gamma handling?
 
 ### Miscellaneous
 
