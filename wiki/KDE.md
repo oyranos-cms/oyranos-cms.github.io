@@ -4,9 +4,9 @@ permalink: wiki/KDE/
 layout: wiki
 ---
 
-Koffice contains the
-[Pigment](http://wiki.koffice.org/index.php?title=Pigment) library
-originating from [Krita](/wiki/Krita "wikilink").
+[Koffice](http://wiki.koffice.org/index.php?title=Color_management)
+contains the [Pigment](http://wiki.koffice.org/index.php?title=Pigment)
+colour conversion library originating from [Krita](/wiki/Krita "wikilink").
 
 It was discussed on the [OpenICC](/wiki/OpenICC "wikilink") email list, that
 the KDE configuration manager shall become a colour management tab based
