@@ -11,10 +11,13 @@ tags:
 |------------------|
 | Revision 0.1     |
 ||
+| Revision 0.1.1   |
+||
 
-OpenIcc Directory Proposal
-==========================
+<H1>
+OpenICC Directory Proposal
 
+</H1>
 ICC profiles and characterisation data, settings and registration files
 need a proper place in the file hierarchy. This proposal describes
 common practise and new suggestions.
@@ -32,29 +35,47 @@ Systems like osX and Solaris will probably provide different places or
 means to register ICC profiles and settings. A programming interface,
 like the path API's in Oyranos, should cover these specific cases.
 
-General OpenIcc Paths
+General OpenICC Paths
 ---------------------
 
 The Users path should be located in:
 
-***$HOME/.color***
+***$XDG\_CONFIG\_HOME/color*** or alternatively
 
-Two system paths, due to different system directory layouts, exist and
-should be always supported:
+***$HOME/.config/color*** for as a top directory to store configuration
+files in its subdirectories.
+
+***$XDG\_DATA\_HOME/color*** or alternatively
+
+***$HOME/.local/share/color*** shall be used as a top directory to store
+data files in it's subdirectories like ICC profiles.
+
+For the XDG\* variables see \[1\].
+
+$HOME/.color can be considered deprecated and should fade out.
+
+As system wide installation paths exist the XDG\_DATA\_DIRS variable,
+which itself can contain several directory entries:
+
+***$XDG\_DATA\_DIRS***\[0\]***/color***,
+***$XDG\_DATA\_DIRS***\[1\]***/color*** and so on, or alternatively
+
+two system paths, due to different system directory layouts, exist and
+should be searched for:
 
 ***/usr/local/share/color***
 
 and
 
-***/usr/share/color*** as typical for linux packages.
+***/usr/share/color*** as typical for Linux packages.
 
-One application path points to:
+An application path points to:
 
 ***$PREFIX/share/color***
 
-This paths are considered top level entry points and should contain
+These paths are considered top level entry points and should contain
 almost no files. Each specific data path, containing the actual data, is
-each located below these general OpenIcc paths.
+each located below these general OpenICC paths.
 
 Typical colour configuration data is architecture independent. The
 configuration can therefore stay in one place as further described
@@ -75,14 +96,14 @@ features.
 
 ### Subdirectory naming rules
 
-Profiles can grouped by different porpouses. Therefor some directory
+Profiles can grouped by different purposes. Therefor some directory
 names are reserved for future expansion. They are mentioned below:
 
 'editing' 'device' 'camera' 'scanner' 'monitor' 'printer' 'output'
 'input' 'abstract' 'named\_color\_list' 'colorspace' 'file' 'standard'
 
 The above names are not yet in use. So don't rely on them, just avoid
-using. You can activate easily after further discussion at the OpenIcc
+using. You can activate easily after further discussion at the OpenICC
 email list. So a scheme like:
 
 `/usr/share/color/icc`  
@@ -115,13 +136,8 @@ Technical implementation
 
 The profile paths exist on system level in the file hierarchy.
 
-### Variable
+References
+----------
 
-A variable can be specified like
-
-***OPENICC\_PATH***
-
-It would arguably have the advantage to fit in the above naming scheme
-and has OPENICC in its name to avoid conflicts. For profiles the icc/
-part must be appended as mentioned in the Colour Profile Paths section.
-The variable contains ':' delimited values of the paths names.
+\[1\] [XDG Environment variables
+specification](http://standards.freedesktop.org/freedesktop-platform-specs/1.0/basedir-spec-0.6/ar01s03.html)
