@@ -56,7 +56,7 @@ The open source Colour Management System [[Oyranos]] is intented to provide syst
 <div align="middle">
 '''Related Projects'''
 
-[[OpenICC|OpenICC email list]] - [http://www.coloraid.de www.coloraid.de] - [http://www.freedesktop.org/ www.freedesktop.org] - [http://create.freedesktop.org/wiki Create]
+[http://www.freedesktop.org/wiki/OpenIcc OpenICC] - [http://www.coloraid.de www.coloraid.de] - [http://www.freedesktop.org/ www.freedesktop.org] - [http://create.freedesktop.org/wiki Create]
 </div>
 </div>
 |}
