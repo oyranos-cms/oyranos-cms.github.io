@@ -91,6 +91,16 @@ profiles by accident.
 
 <!-- -->
 
+-   rendering intent (Craig Ringer's suggestion)
+    -   Perceptual
+    -   Relative Colorimetric with BPC
+    -   -- Rarely Needed --
+    -   Relative Colorimetric without BPC
+    -   Absolute Colorimetric
+    -   Saturation
+
+<!-- -->
+
 -   allow non persistent settings, examples:
     -   useful for temporarily adding profile paths in osX bundles
     -   switching default profiles to gamma 1.0 versions in one
