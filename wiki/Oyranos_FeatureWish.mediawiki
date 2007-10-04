@@ -117,6 +117,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 |-
 |}
 ** options handling (xml, GUI)
+*** options should be displayed to users according to preferences (for instance [[Oyranos_Configuration_Dialog#Colour_Space_Mismatch|mismatch option]])
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | style="width:1%" |

@@ -147,6 +147,9 @@ profiles by accident.
 ||
 
 -   -   options handling (xml, GUI)
+        -   options should be displayed to users according to
+            preferences (for instance [mismatch
+            option](/wiki/Oyranos_Configuration_Dialog#Colour_Space_Mismatch "wikilink"))
 
 |     |               |                |             |                               |
 |-----|---------------|----------------|-------------|-------------------------------|
