@@ -1,6 +1,6 @@
-== Oyranos Configuration Logic ==
-The <b> oyranos-config-fltk</b> configuration dialog shows clearly, what options should be considered in a workflow.
+The <b> oyranos-config-fltk</b> configuration dialog gives hints, what options and meta options should be considered in a colour managed workflow.
 
+== Policy ==
 {| style="text-align:left"
 |+ style="background:#efefef;text-align:left" | Tab I : policy selection
 |-
@@ -9,7 +9,7 @@ The <b> oyranos-config-fltk</b> configuration dialog shows clearly, what options
 |-
 |}
 
-
+== Directory Paths ==
 {| class="wikitable" style="text-align:left"
 |+ style="background:#efefef;text-align:left" | Tab II : paths selection
 |-
@@ -18,7 +18,7 @@ The <b> oyranos-config-fltk</b> configuration dialog shows clearly, what options
 |-
 |}
 
-
+== Default Profiles ==
 {| class="wikitable" style="text-align:left"
 |+ style="background:#efefef;text-align:left" | Tab III : default profiles selection
 |-
@@ -27,7 +27,8 @@ The <b> oyranos-config-fltk</b> configuration dialog shows clearly, what options
 |-
 |}
 
-
+== Behaviour ==
+=== Rendering Intent ===
 {| class="wikitable" style="text-align:left"
 |+ style="background:#efefef;text-align:left" | Tab IV : behaviour::rendering settings
 |-
@@ -36,7 +37,7 @@ The <b> oyranos-config-fltk</b> configuration dialog shows clearly, what options
 |-
 |}
 
-
+=== Colour Space Mismatch === 
 {| class="wikitable" style="text-align:left"
 |+ style="background:#efefef;text-align:left" | Tab V : behaviour::mismatch settings
 |-
@@ -45,7 +46,7 @@ The <b> oyranos-config-fltk</b> configuration dialog shows clearly, what options
 |-
 |}
 
-
+=== Proofing ===
 {| class="wikitable" style="text-align:left"
 |+ style="background:#efefef;text-align:left" | Tab VI : behaviour::proofing settings
 |-
@@ -54,7 +55,7 @@ The <b> oyranos-config-fltk</b> configuration dialog shows clearly, what options
 |-
 |}
 
-
+=== Mixed Colour Spaces in one Document ===
 {| class="wikitable" style="text-align:left"
 |+ style="background:#efefef;text-align:left" | Tab VII : behaviour::mixed settings
 |-
