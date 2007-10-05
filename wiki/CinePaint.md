@@ -59,8 +59,13 @@ Investigation
 Screenshots
 -----------
 
-<http://www.oyranos.org/wiki/images/cinepaint_0.20-3_preferences.png> CM
-Preferences (v0.20-3)
+Note the actual configuration is done in the [Oyranos Configuration
+Dialog](/wiki/Oyranos_Configuration_Dialog "wikilink") to adhere to system
+wide user settings.
+
+CM Preferences (v0.22-1):
+
+![](Ss_0.22-1_preferences.png "Ss_0.22-1_preferences.png")
 
 Links
 -----
