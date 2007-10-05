@@ -4,7 +4,7 @@
 Colour management in GIMP is planed with lcms. The Gimp developers target an plug-in approach, which was several times noted as not sufficient. This is possibly due to the awaiting to a new core called GEGL, which shall contain CM support by default.
 
 A preview of gimp 2.4:<br>
-[[Image:Gimp-CM-screenshot.jpg]]
+[[Image:Gimp-preferences-color-management.png]]
 
 
 [[Applications|back -> Applications]]

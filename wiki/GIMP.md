@@ -17,6 +17,6 @@ sufficient. This is possibly due to the awaiting to a new core called
 GEGL, which shall contain CM support by default.
 
 A preview of gimp 2.4:  
-![](Gimp-CM-screenshot.jpg "fig:Gimp-CM-screenshot.jpg")
+![](Gimp-preferences-color-management.png "fig:Gimp-preferences-color-management.png")
 
 [back -&gt; Applications](/wiki/Applications "wikilink")
