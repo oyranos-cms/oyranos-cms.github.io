@@ -12,10 +12,12 @@ Oyranos uses this information to identify a particular monitor and search for a 
 === Specification ===
 See [[ICC Profiles in X Specification 0.2]].
 
-X servers export the EDID inormation typically in the "XFree86_DDC_EDID1_RAWDATA" and "XFree86_DDC_EDID2_RAWDATA" atom. If there are more monitors connected to the root window, the following atoms get a underscore and the screen number appended, like in 
+X servers export the EDID inormation typically in the "XFree86_DDC_EDID1_RAWDATA" and "XFree86_DDC_EDID2_RAWDATA" atom. If there are more monitors connected to the root window, the following atoms get a underscore and the Xinerama screen number appended, like in 
 
 === Example ===
-XFree86_DDC_EDID1_RAWDATA_[screen_number]  -> XFree86_DDC_EDID1_RAWDATA_1 XFree86_DDC_EDID1_RAWDATA_2 ...
+Xinerama_screen_number = 0 => XFree86_DDC_EDID1_RAWDATA
+
+Xinerama_screen_number >= 1 => XFree86_DDC_EDID1_RAWDATA_1 + XFree86_DDC_EDID1_RAWDATA_2 ...
 
 This way compatibility is enshured for existing applications.
 
@@ -26,6 +28,11 @@ This way compatibility is enshured for existing applications.
 === Versions / Implementations ===
 Oyranos 0.1.5 obtained the oyranos-monitor-nvidia commandline tool to demonstrate the described behaviour.
 
+=== Further Tasks ===
+(for a v0.3)
+* possibly add a _ICC_IN_X_VERSION atom can be included to talk about the revision supported by the system
+* clarify about current(v0.2) ambiguities regarding monitor and screen counting starting from zero/0
+* clarify about current(v0.2) ambiguities regarding screens and pseudo or Xinerama screens
 
 
 [[Oyranos|back -> Oyranos]]

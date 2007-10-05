@@ -31,12 +31,14 @@ See [ICC Profiles in X Specification
 X servers export the EDID inormation typically in the
 “XFree86\_DDC\_EDID1\_RAWDATA” and “XFree86\_DDC\_EDID2\_RAWDATA” atom.
 If there are more monitors connected to the root window, the following
-atoms get a underscore and the screen number appended, like in
+atoms get a underscore and the Xinerama screen number appended, like in
 
 ### Example
 
-XFree86\_DDC\_EDID1\_RAWDATA\_\[screen\_number\] -&gt;
-XFree86\_DDC\_EDID1\_RAWDATA\_1 XFree86\_DDC\_EDID1\_RAWDATA\_2 ...
+Xinerama\_screen\_number = 0 =&gt; XFree86\_DDC\_EDID1\_RAWDATA
+
+Xinerama\_screen\_number &gt;= 1 =&gt; XFree86\_DDC\_EDID1\_RAWDATA\_1 +
+XFree86\_DDC\_EDID1\_RAWDATA\_2 ...
 
 This way compatibility is enshured for existing applications.
 
@@ -51,5 +53,16 @@ This way compatibility is enshured for existing applications.
 
 Oyranos 0.1.5 obtained the oyranos-monitor-nvidia commandline tool to
 demonstrate the described behaviour.
+
+### Further Tasks
+
+(for a v0.3)
+
+-   possibly add a \_ICC\_IN\_X\_VERSION atom can be included to talk
+    about the revision supported by the system
+-   clarify about current(v0.2) ambiguities regarding monitor and screen
+    counting starting from zero/0
+-   clarify about current(v0.2) ambiguities regarding screens and pseudo
+    or Xinerama screens
 
 [back -&gt; Oyranos](/wiki/Oyranos "wikilink")
