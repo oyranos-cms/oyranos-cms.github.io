@@ -64,5 +64,7 @@ demonstrate the described behaviour.
     counting starting from zero/0
 -   clarify about current(v0.2) ambiguities regarding screens and pseudo
     or Xinerama screens
+-   Hal: substitude *uncalibrated* with *uncharacterized* to show that
+    the vcgt issue is not targetted
 
 [back -&gt; Oyranos](/wiki/Oyranos "wikilink")
