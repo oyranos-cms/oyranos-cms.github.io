@@ -61,7 +61,7 @@ screen is likely to have a different profile.
 
 
 
-[[Oyranos|back --> Oyranos]]
+[[Oyranos|back --> Oyranos]] or [[Oyranos X11 Requirements]]
 
 [[Category:Oyranos]]
 [[Category:Standards]]
