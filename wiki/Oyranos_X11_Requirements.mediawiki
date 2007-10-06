@@ -31,9 +31,9 @@ Oyranos 0.1.5 obtained the oyranos-monitor-nvidia commandline tool to demonstrat
 === Further Tasks ===
 (for a v0.3)
 * possibly add a _ICC_IN_X_VERSION atom can be included to talk about the revision supported by the system
-* clarify about current(v0.2) ambiguities regarding monitor and screen counting starting from zero/0
-* clarify about current(v0.2) ambiguities regarding screens and pseudo or Xinerama screens
-* Hal: substitude ''uncalibrated'' with ''uncharacterized'' to show that the vcgt issue is not targetted
+* clarify about current(v0.2) ambiguities regarding monitor and screen counting starting from zero
+* clarify about current(v0.2) ambiguities regarding screens and pseudo - or Xinerama screens
+* Hal: substitute ''uncalibrated'' with ''uncharacterized'' to show that the vcgt issue is not targeted
 
 [[Oyranos|back -> Oyranos]]
 [[Category:Oyranos]]

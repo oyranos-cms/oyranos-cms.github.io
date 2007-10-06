@@ -61,10 +61,10 @@ demonstrate the described behaviour.
 -   possibly add a \_ICC\_IN\_X\_VERSION atom can be included to talk
     about the revision supported by the system
 -   clarify about current(v0.2) ambiguities regarding monitor and screen
-    counting starting from zero/0
--   clarify about current(v0.2) ambiguities regarding screens and pseudo
-    or Xinerama screens
--   Hal: substitude *uncalibrated* with *uncharacterized* to show that
-    the vcgt issue is not targetted
+    counting starting from zero
+-   clarify about current(v0.2) ambiguities regarding screens and
+    pseudo - or Xinerama screens
+-   Hal: substitute *uncalibrated* with *uncharacterized* to show that
+    the vcgt issue is not targeted
 
 [back -&gt; Oyranos](/wiki/Oyranos "wikilink")
