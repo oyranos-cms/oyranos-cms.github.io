@@ -67,4 +67,8 @@ demonstrate the described behaviour.
 -   Hal: substitute *uncalibrated* with *uncharacterized* to show that
     the vcgt issue is not targeted
 
+As soon as the discussion on the [OpenICC](/wiki/OpenICC "wikilink") list
+settles, revision 0.3 will be drafted and can be finally released after
+a small period.
+
 [back -&gt; Oyranos](/wiki/Oyranos "wikilink")
