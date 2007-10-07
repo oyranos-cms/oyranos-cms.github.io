@@ -57,6 +57,8 @@ should deliver the needed bits.
 Some important options to pass to your [[ColourMatchingModuls]] are queried now:<br>
 Rendering Intent, Black Point Compensation, possibly a third profile — the proofing profile with its own rendering intent and the option for marking out of gamut colours.
 
+Neutral gray is recommended as the out of gamut colour. Areas marked with gray show a good contrast to any strong saturated colour, which may fall out of gamut.
+
 That's all information you need to correct the image for displaying on monitor.
 
 === Printing ===
