@@ -1,0 +1,5 @@
+[http://www.kanzelsberger.com/pixel/ Pixel] is a general pixel oriented image manipulation application.
+
+*decent implementation of color management (screenshots?)
+*supports Linux profile paths (as proposed by OpenIcc)
+*uses Little CMS for color management
