@@ -1,0 +1,15 @@
+---
+title: Mozilla
+permalink: wiki/Mozilla/
+layout: wiki
+---
+
+-   long [bug entry](https://bugzilla.mozilla.org/show_bug.cgi?id=16769)
+    about colour management support
+    -   infos about rendering intents
+    -   exif parsing
+    -   cairo context
+    -   untagged content matching (or not matching to flash, video)
+    -   CSS standard, (as well [on
+        site](/wiki/Standards#File_Formats "wikilink"))
+

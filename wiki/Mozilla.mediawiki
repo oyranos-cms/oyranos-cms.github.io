@@ -1,0 +1,6 @@
+*long [https://bugzilla.mozilla.org/show_bug.cgi?id=16769 bug entry] about colour management support
+** infos about rendering intents
+** exif parsing
+** cairo context
+** untagged content matching (or not matching to flash, video)
+** CSS standard, (as well [[Standards#File_Formats|on site]])
