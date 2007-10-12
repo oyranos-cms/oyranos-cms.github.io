@@ -246,5 +246,6 @@ Todo
 -   license change as [stated](http://www.oyranos.org/#license)
 -   new default profiles from
     [ECI](http://www.eci.org/eci/de/060_downloads.php)
+-   investigate in ColorSync ignoring some CMM:SGI marked profiles
 
 [--&gt; back to Oyranos wiki](/wiki/Oyranos "wikilink")

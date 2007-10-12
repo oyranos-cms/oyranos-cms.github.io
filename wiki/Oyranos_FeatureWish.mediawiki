@@ -199,7 +199,7 @@ Constitute a colour patch presentation:
 * gray profile setting, done for 0.1.8
 * license change as [http://www.oyranos.org/#license stated]
 * new default profiles from [http://www.eci.org/eci/de/060_downloads.php ECI]
-
+* investigate in ColorSync ignoring some CMM:SGI marked profiles
 
 [[Oyranos|--> back to Oyranos wiki]]
 
