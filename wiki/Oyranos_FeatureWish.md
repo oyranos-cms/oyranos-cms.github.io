@@ -246,7 +246,5 @@ Todo
 -   license change as [stated](http://www.oyranos.org/#license)
 -   new default profiles from
     [ECI](http://www.eci.org/eci/de/060_downloads.php)
--   investigate why some included profiles are not accepted by ColorSync
-    (APPL&lt;-&gt;SGI?)
 
 [--&gt; back to Oyranos wiki](/wiki/Oyranos "wikilink")
