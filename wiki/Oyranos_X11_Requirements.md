@@ -8,13 +8,11 @@ tags:
 ---
 
 Oyranos has some requirements to provide colour management related
-informations through it's API.
+informations through it's APIs. For further reading see [Monitor
+Configuration](/wiki/Monitor_Configuration "wikilink").
 
 Multi Monitor EDID in X11
 -------------------------
-
-This section is obsoleted since 2006-05-03 by the [ICC Profiles in X
-Specification 0.2](/wiki/ICC_Profiles_in_X_Specification_0.2 "wikilink").
 
 EDID information describes monitor parameters like description, serial
 number and gives hints about colourimetric behaviour.
@@ -24,9 +22,6 @@ search for a best matching profile, as long as one is stored in the
 Oyranos device profile database.
 
 ### Specification
-
-See [ICC Profiles in X Specification
-0.2](/wiki/ICC_Profiles_in_X_Specification_0.2 "wikilink").
 
 X servers export the EDID inormation typically in the
 “XFree86\_DDC\_EDID1\_RAWDATA” and “XFree86\_DDC\_EDID2\_RAWDATA” atom.
@@ -54,7 +49,17 @@ This way compatibility is enshured for existing applications.
 Oyranos 0.1.5 obtained the oyranos-monitor-nvidia commandline tool to
 demonstrate the described behaviour.
 
-### Further Tasks
+ICC Profiles in X
+-----------------
+
+### References
+
+-   [\#Multi Monitor EDID in X11](#Multi_Monitor_EDID_in_X11 "wikilink")
+-   [ICC Profiles in X Specification
+    0.2](/wiki/ICC_Profiles_in_X_Specification_0.2 "wikilink")
+
+Further Tasks
+-------------
 
 (for a v0.3)
 
