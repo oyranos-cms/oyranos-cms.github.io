@@ -70,6 +70,8 @@ ICC Profiles in X
     pseudo - or Xinerama screens
 -   Hal: substitute *uncalibrated* with *uncharacterized* to show that
     the vcgt issue is not targeted
+-   neutral hosting at fd.o see [bug
+    \#12824](https://bugs.freedesktop.org/show_bug.cgi?id=12824)
 
 As soon as the discussion on the [OpenICC](/wiki/OpenICC "wikilink") list
 settles, revision 0.3 will be drafted and can be finally released after
