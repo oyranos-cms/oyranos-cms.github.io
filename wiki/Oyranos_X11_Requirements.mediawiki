@@ -29,7 +29,7 @@ Oyranos 0.1.5 obtained the oyranos-monitor-nvidia commandline tool to demonstrat
 * [[#Multi Monitor EDID in X11]]
 * [[ICC Profiles in X Specification 0.2]]
 
-== Further Tasks ==
+=== Further Tasks ===
 (for a v0.3)
 * possibly add a _ICC_IN_X_VERSION atom can be included to talk about the revision supported by the system
 * clarify about current(v0.2) ambiguities regarding monitor and screen counting starting from zero

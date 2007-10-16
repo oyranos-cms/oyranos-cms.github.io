@@ -58,8 +58,7 @@ ICC Profiles in X
 -   [ICC Profiles in X Specification
     0.2](/wiki/ICC_Profiles_in_X_Specification_0.2 "wikilink")
 
-Further Tasks
--------------
+### Further Tasks
 
 (for a v0.3)
 
