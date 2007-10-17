@@ -13,6 +13,7 @@ tags:
 ||
 | Revision 0.1.1   |
 | Revision 0.1.2   |
+| Revision 0.1.3   |
 ||
 
 <H1>
@@ -41,12 +42,14 @@ General OpenICC Paths
 
 A top Users colour path should be located in:
 
-***$XDG\_CONFIG\_HOME/color*** or alternatively
+***$XDG\_CONFIG\_HOME/color*** or if XDG\_CONFIG\_HOME is not set,
+alternatively
 
-***$HOME/.config/color*** for as a top directory to store configuration
+***$HOME/.config/color*** for a top directory to store configuration
 files in its subdirectories.
 
-***$XDG\_DATA\_HOME/color*** or alternatively
+***$XDG\_DATA\_HOME/color*** or, if XDG\_DATA\_HOME is not set,
+alternatively
 
 ***$HOME/.local/share/color*** shall be used as a top directory to store
 data files in it's subdirectories like ICC profiles.
@@ -135,9 +138,14 @@ CMM's register data can be stored in:
 Technical implementation
 ------------------------
 
-The profile paths exist on system level in the file hierarchy. Linking
-is allowed, as long as the system supports this, only inside the a
-OpenICC top entry path. So it is allowed to set a link from a special
+The profile paths exist on system level in the file hierarchy.
+
+For the XDG variables see \[1\].
+
+### Linking
+
+Linking is allowed, as long as the system supports this, only inside the
+a OpenICC top entry path. So it is allowed to set a link from a special
 profile file name to a more general one.
 
 ` XYZ.icc => VENDOR/Vendor_XYZ.icc`
