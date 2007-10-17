@@ -141,3 +141,12 @@ References
 
 \[1\] [XDG Environment variables
 specification](http://standards.freedesktop.org/freedesktop-platform-specs/1.0/basedir-spec-0.6/ar01s03.html)
+
+\[2\] [freestandards.org bug
+\#77](http://bugs.freestandards.org/show_bug.cgi?id=77)
+
+Acknowledgments
+---------------
+
+The presented concepts where discussed on the OpenICC email list at
+fd.o, or reached this document by a bug entry comment \[2\].

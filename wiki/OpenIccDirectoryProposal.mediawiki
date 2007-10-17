@@ -118,6 +118,12 @@ The profile paths exist on system level in the file hierarchy.
 == References ==
 [1] [http://standards.freedesktop.org/freedesktop-platform-specs/1.0/basedir-spec-0.6/ar01s03.html XDG Environment variables specification]
 
+[2] [http://bugs.freestandards.org/show_bug.cgi?id=77 freestandards.org bug #77]
+
+
+== Acknowledgments ==
+The presented concepts where discussed on the OpenICC email list at fd.o, or reached this document by a bug entry comment [2].
+
 
 [[Category:Concepts]]
 [[Category:Oyranos]]
