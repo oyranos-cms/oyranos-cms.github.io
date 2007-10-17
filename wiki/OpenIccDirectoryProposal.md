@@ -12,6 +12,7 @@ tags:
 | Revision 0.1     |
 ||
 | Revision 0.1.1   |
+| Revision 0.1.2   |
 ||
 
 <H1>
@@ -19,7 +20,7 @@ OpenICC Directory Proposal
 
 </H1>
 ICC profiles and characterisation data, settings and registration files
-need a proper place in the file hierarchy. This proposal describes
+need a proper place in the directory hierarchy. This proposal describes
 common practise and new suggestions.
 
 Each directory contains a substructure to hold different data. The
@@ -38,7 +39,7 @@ like the path API's in Oyranos, should cover these specific cases.
 General OpenICC Paths
 ---------------------
 
-The Users path should be located in:
+A top Users colour path should be located in:
 
 ***$XDG\_CONFIG\_HOME/color*** or alternatively
 
@@ -134,7 +135,18 @@ CMM's register data can be stored in:
 Technical implementation
 ------------------------
 
-The profile paths exist on system level in the file hierarchy.
+The profile paths exist on system level in the file hierarchy. Linking
+is allowed, as long as the system supports this, only inside the a
+OpenICC top entry path. So it is allowed to set a link from a special
+profile file name to a more general one.
+
+` XYZ.icc => VENDOR/Vendor_XYZ.icc`
+
+It's not required and not recommended that a file outside a single top
+OpenICC path can be reached.
+
+` !XYZ.icc => /etc/XYZ.icc! or`  
+` !/usr/local/share/color/icc/XYZ.icc => ../../../../share/color/icc/XYZ.icc!`
 
 References
 ----------

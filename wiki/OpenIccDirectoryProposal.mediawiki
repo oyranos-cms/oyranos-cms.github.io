@@ -13,13 +13,18 @@
 | Kai-Uwe Behrmann
 | hint at xdg about ~/.config and XDG variables
 |-
+| Revision 0.1.2
+| 2007-10-17
+| Kai-Uwe Behrmann
+| hint from bug#77 freestandards.org
+|-
 |}
 
 
 
 <H1>OpenICC Directory Proposal</H1>
 
-ICC profiles and characterisation data, settings and registration files need a proper place in the file hierarchy. This proposal describes common practise and new suggestions.
+ICC profiles and characterisation data, settings and registration files need a proper place in the directory hierarchy. This proposal describes common practise and new suggestions.
 
 Each directory contains a substructure to hold different data. The naming should provide a hint what it contains.
 
@@ -30,7 +35,7 @@ The proposal is primarily suggested for Unix alike systems, such as the BSD's an
 Systems like osX and Solaris will probably provide different places or means to register ICC profiles and settings. A programming interface, like the path API's in Oyranos, should cover these specific cases.
 
 == General OpenICC Paths ==
-The Users path should be located in:
+A top Users colour path should be located in:
 
 '''''$XDG_CONFIG_HOME/color'''''
 or alternatively
@@ -81,6 +86,7 @@ The directory name is
 
 The directory expands then for instance to /usr/share/color/icc.
 The icc subdirectory should be scanned recursively, to allow some future features.
+
 === Subdirectory naming rules ===
 Profiles can grouped by different purposes. Therefor some directory names are reserved for future expansion. They are mentioned below:
 
@@ -112,8 +118,11 @@ CMM's register data can be stored in:
 
 
 == Technical implementation ==
-The profile paths exist on system level in the file hierarchy.
-
+The profile paths exist on system level in the file hierarchy. Linking is allowed, as long as the system supports this, only inside the a OpenICC top entry path. So it is allowed to set a link from a special profile file name to a more general one. 
+  XYZ.icc => VENDOR/Vendor_XYZ.icc
+It's not required and not recommended that a file outside a single top OpenICC path can be reached.
+  !XYZ.icc => /etc/XYZ.icc! or
+  !/usr/local/share/color/icc/XYZ.icc => ../../../../share/color/icc/XYZ.icc!
 
 == References ==
 [1] [http://standards.freedesktop.org/freedesktop-platform-specs/1.0/basedir-spec-0.6/ar01s03.html XDG Environment variables specification]
