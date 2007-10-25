@@ -17,6 +17,10 @@ littleCMS is hard coded into this application.
 Links
 -----
 
-[DigiKam](http://www.digikam.org/)
+-   [DigiKam](http://www.digikam.org/)
+-   [ICC color profile
+    management](http://docs.kde.org/development/en/extragear-graphics/digikam/using-iccprofile.html)
+-   [ICC Profiles
+    setup](http://docs.kde.org/development/en/extragear-graphics/digikam/using-setup.html#setup-iccprofiles)
 
 [back -&gt; Applications](/wiki/Applications "wikilink")
