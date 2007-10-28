@@ -33,6 +33,9 @@ here is better than forget elsewhere.
 -   common screen naming sheme for X11, osX and Windows
 -   [Named Colours](#Named_Colours "wikilink") in X11, osX ,Windows
     representation
+-   clear about VCGT handling, use Xcalib (licensing?) or ArgyllCMS,
+    give at least a hint at configure time “found Xcalib/Argyll - can
+    load VCGT”
 
 ### ICC profile handling
 
