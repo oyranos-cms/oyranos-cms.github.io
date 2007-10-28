@@ -24,4 +24,6 @@ Candidates for holding a according API are Xorg or HAL. Work is already done in 
 
 * [http://www.freedesktop.org/wiki/Specifications Specifications] list at freedesktop.org
 
+* [http://lists.freedesktop.org/archives/xorg/2007-August/027469.html XV calibration thread] Graemes response at fd.o
+
 [[Category:Concepts]]
