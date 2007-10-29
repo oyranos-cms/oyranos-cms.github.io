@@ -7,11 +7,21 @@ In the following proposal I will draw sketchy, what I think is needed to make th
 
 ----
 === Informations Incorporated ===
-* device settings (as provided, colour relevant ones should be queried automatically)
-* driver names and their versions to identify validity of components used
-* normally changeable driver settings, which must be fixed for usage with the ICC profile
-* colour characterisation (a ICC profile belonging to the above settings)
-* priority (generic profile - low, self calibrated - high)
+* device identification
+** device type, manufacturer, model, serial number, country, device options
+:: AB & Co Ltd., printer model CD-1234, EF photo ink, GH gloss paper, #1234-5678
+* driver names and their versions to verify integrity
+: nv/nvidia, Gutenprint/HPIJS, DCraw versions
+* device settings (as provided, colour relevant ones should be queryable by a device driver API)
+: expl. PPD, scan parameters, VCGT
+** fixing colour sensible driver settings is a precondition to form a calibration
+:: PPD with removed choices, VCGT + fixed monitor settings, DCraw called with specified options
+* device colour characterisation (a ICC profile belonging to the above outlined calibration)
+** the profile must belong to the device/driver/settings/version mix
+** priority among selected profiles (generic profile - low, self calibrated - high)
+* distribute by combining above information
+** packing all informations into one pice 
+: embedd into ICC profile, register in a local or remote hardware db, xml configuration
 
 ----
 
