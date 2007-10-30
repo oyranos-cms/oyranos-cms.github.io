@@ -251,4 +251,9 @@ Todo
     [ECI](http://www.eci.org/eci/de/060_downloads.php)
 -   investigate in ColorSync ignoring some CMM:SGI marked profiles
 
+### External
+
+-   [Fedora bug
+    entry](https://bugzilla.redhat.com/show_bug.cgi?id=239936)
+
 [--&gt; back to Oyranos wiki](/wiki/Oyranos "wikilink")
