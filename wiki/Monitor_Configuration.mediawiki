@@ -24,6 +24,10 @@ Candidates for holding a according API are Xorg or HAL. Work is already done in 
 
 * [http://www.freedesktop.org/wiki/Specifications Specifications] list at freedesktop.org
 
+----
+
 * [http://lists.freedesktop.org/archives/xorg/2007-August/027469.html XV calibration thread] Graemes response at fd.o
+
+* [http://lists.freedesktop.org/archives/openicc/2005q1/000094.html Xcalib thread] at the OpenICC list about calibration paths
 
 [[Category:Concepts]]

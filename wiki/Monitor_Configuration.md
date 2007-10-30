@@ -64,9 +64,15 @@ to expose as a library.
 -   [Specifications](http://www.freedesktop.org/wiki/Specifications)
     list at freedesktop.org
 
-<!-- -->
+------------------------------------------------------------------------
 
 -   [XV calibration
     thread](http://lists.freedesktop.org/archives/xorg/2007-August/027469.html)
     Graemes response at fd.o
+
+<!-- -->
+
+-   [Xcalib
+    thread](http://lists.freedesktop.org/archives/openicc/2005q1/000094.html)
+    at the OpenICC list about calibration paths
 
