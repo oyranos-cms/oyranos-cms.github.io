@@ -250,6 +250,8 @@ Todo
 -   new default profiles from
     [ECI](http://www.eci.org/eci/de/060_downloads.php)
 -   investigate in ColorSync ignoring some CMM:SGI marked profiles
+-   look into newer Elektra library API (Oyranos v0.1.7 can use Elektra
+    v0.6.4)
 
 ### External
 
