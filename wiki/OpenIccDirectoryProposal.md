@@ -14,6 +14,7 @@ tags:
 | Revision 0.1.1   |
 | Revision 0.1.2   |
 | Revision 0.1.3   |
+| Revision 0.1.4   |
 ||
 
 <H1>
@@ -77,9 +78,9 @@ An application path points to:
 
 ***$PREFIX/share/color***
 
-These paths are considered top level entry points and should contain
-almost no files. Each specific data path, containing the actual data, is
-each located below these general OpenICC paths.
+These above paths are considered top level entry points and should
+contain almost no files. Each specific data path, containing the actual
+data, is each located below these general OpenICC paths.
 
 Typical colour configuration data is architecture independent. The
 configuration can therefore stay in one place as further described
@@ -158,6 +159,12 @@ OpenICC path can be reached.
 ` !XYZ.icc => /etc/XYZ.icc! or`  
 ` !/usr/local/share/color/icc/XYZ.icc => ../../../../share/color/icc/XYZ.icc!`
 
+Acknowledgments
+---------------
+
+The presented concepts where discussed on the OpenICC email list at
+fd.o, or reached this document by a bug entry comment \[2\].
+
 References
 ----------
 
@@ -166,9 +173,3 @@ specification](http://standards.freedesktop.org/freedesktop-platform-specs/1.0/b
 
 \[2\] [freestandards.org bug
 \#77](http://bugs.freestandards.org/show_bug.cgi?id=77)
-
-Acknowledgments
----------------
-
-The presented concepts where discussed on the OpenICC email list at
-fd.o, or reached this document by a bug entry comment \[2\].

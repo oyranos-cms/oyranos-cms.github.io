@@ -23,6 +23,11 @@
 | Stanislav Brabec
 | clear about XDG variable scope
 |-
+| Revision 0.1.4
+| 2007-11-14
+| Kai-Uwe Behrmann
+| slight modifications
+|-
 |}
 
 
@@ -77,10 +82,10 @@ An application path points to:
 
 '''''$PREFIX/share/color'''''
 
-These paths are considered top level entry points and should contain almost no files.
+These above paths are considered top level entry points and should contain almost no files.
 Each specific data path, containing the actual data, is each located below these general OpenICC paths.
 
-Typical colour configuration data is architecture independent. The configuration can therefore stay in one place as further described below. 
+Typical colour configuration data is architecture independent. The configuration can therefore stay in one place as further described below.
 Architecture dependent CMM modules and utilities should go into the usual file system places for libraries and binary executables.
 
 == Colour Profile Paths ==
@@ -135,14 +140,14 @@ It's not required and not recommended that a file outside a single top OpenICC p
   !XYZ.icc => /etc/XYZ.icc! or
   !/usr/local/share/color/icc/XYZ.icc => ../../../../share/color/icc/XYZ.icc!
 
+== Acknowledgments ==
+The presented concepts where discussed on the OpenICC email list at fd.o, or reached this document by a bug entry comment [2].
+
 == References ==
 [1] [http://standards.freedesktop.org/freedesktop-platform-specs/1.0/basedir-spec-0.6/ar01s03.html XDG Environment variables specification]
 
 [2] [http://bugs.freestandards.org/show_bug.cgi?id=77 freestandards.org bug #77]
 
-
-== Acknowledgments ==
-The presented concepts where discussed on the OpenICC email list at fd.o, or reached this document by a bug entry comment [2].
 
 
 [[Category:Concepts]]
