@@ -100,15 +100,17 @@ features.
 
 ### Subdirectory naming rules
 
-Profiles can grouped by different purposes. Therefor some directory
+Profiles can be grouped by different purposes. Therefor some directory
 names are reserved for future expansion. They are mentioned below:
 
 'editing' 'device' 'camera' 'scanner' 'monitor' 'printer' 'output'
 'input' 'abstract' 'named\_color\_list' 'colorspace' 'file' 'standard'
 
 The above names are not yet in use. So don't rely on them, just avoid
-using. You can activate easily after further discussion at the OpenICC
-email list. So a scheme like:
+using. They can be activated easily after further discussion at the
+OpenICC email list.
+
+Finally a scheme like:
 
 `/usr/share/color/icc`  
 `   vendor/`  

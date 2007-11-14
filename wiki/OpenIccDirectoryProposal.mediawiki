@@ -93,12 +93,13 @@ The directory expands then for instance to /usr/share/color/icc.
 The icc subdirectory should be scanned recursively, to allow some future features.
 
 === Subdirectory naming rules ===
-Profiles can grouped by different purposes. Therefor some directory names are reserved for future expansion. They are mentioned below:
+Profiles can be grouped by different purposes. Therefor some directory names are reserved for future expansion. They are mentioned below:
 
 'editing' 'device' 'camera' 'scanner' 'monitor' 'printer' 'output' 'input' 'abstract' 'named_color_list' 'colorspace' 'file' 'standard'
 
-The above names are not yet in use. So don't rely on them, just avoid using. You can activate easily after further discussion at the OpenICC email list.
-So a scheme like:
+The above names are not yet in use. So don't rely on them, just avoid using. They can be activated easily after further discussion at the OpenICC email list.
+
+Finally a scheme like:
  /usr/share/color/icc
     vendor/
         rgb/
