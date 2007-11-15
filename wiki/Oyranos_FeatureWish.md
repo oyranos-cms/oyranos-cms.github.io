@@ -225,6 +225,7 @@ Constitute a colour patch presentation:
 -   done(v0.1.5) Bob Friesenhahn suggested Oyranos should be completely
     relocatable
 -   publicate Colori
+-   IPC
 
 Todo
 ----
