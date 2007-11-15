@@ -32,6 +32,7 @@ They come often from discussions at the [[OpenICC]] email list. It is a good pla
 |-
 |}
 
+* extraction of colorimetric informations from a profile like primaries, gamma or profile type
 
 === Settings and Policies ===
 * use of standard folders for: display profiles, RGB editing profiles, CMYK editing profiles.
