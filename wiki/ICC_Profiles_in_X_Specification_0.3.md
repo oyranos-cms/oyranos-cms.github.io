@@ -11,12 +11,26 @@ tags:
 DRAFT
 
 </h1>
-| Revision History                                                                |
-|---------------------------------------------------------------------------------|
-| [Revision 0.1](http://www.burtonini.com/computing/x-icc-profiles-spec-0.1.html) |
-| [Revision 0.2](http://www.burtonini.com/computing/x-icc-profiles-spec-0.2.html) |
-| Draft 1 for Revision 0.3                                                        |
-||
+<table>
+<thead>
+<tr class="header">
+<th><p>Revision History</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><a href="http://www.burtonini.com/computing/x-icc-profiles-spec-0.1.html">Revision 0.1</a></p></td>
+</tr>
+<tr class="even">
+<td><p><a href="http://www.burtonini.com/computing/x-icc-profiles-spec-0.2.html">Revision 0.2</a></p></td>
+</tr>
+<tr class="odd">
+<td><p>Draft 1 for Revision 0.3</p></td>
+</tr>
+<tr class="even">
+</tr>
+</tbody>
+</table>
 
 Introduction
 ------------

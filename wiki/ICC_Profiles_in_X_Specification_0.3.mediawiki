@@ -1,23 +1,23 @@
 <h1> DRAFT </h1>
 
-{| style="width:100%;text-align:left"
+{| style="width:100%;text-align:left;vertical-align:text-top"
 |+
 ! style="background:#efefef;text-align:left" colspan="4" | Revision History
-|-
+|- style="text-align:left;vertical-align:text-top"
 | [http://www.burtonini.com/computing/x-icc-profiles-spec-0.1.html Revision 0.1]
 | 2005-06-24 
 | Ross Burton
 | Initial release. Thanks to Craig Ringer, Jim Gettys, Kai-Uwe Behrmann, and Matthew Allum for feedback.
-|-
+|- style="text-align:left;vertical-align:text-top"
 | [http://www.burtonini.com/computing/x-icc-profiles-spec-0.2.html Revision 0.2]
 | 2006-05-03 
 | Kai-Uwe Behrmann
 | Specify how to handle Xinerama setups.
-|-
+|- style="text-align:left;vertical-align:text-top" 
 | Draft 1 for Revision 0.3
 | 2007-11-15 
 | Kai-Uwe Behrmann
-| Clearify terminology suggested by Craig Ringer, Hal V. Engel, Jon A. Cruz and corrections by Kai-Uwe Behrmann
+| Clearify terminology suggested Hal V. Engel, Jon A. Cruz, sRGB default by<br>Craig Ringer and corrections by Kai-Uwe Behrmann
 |-
 |}
 
