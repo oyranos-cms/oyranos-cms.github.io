@@ -17,7 +17,7 @@
 | Draft 1 for Revision 0.3
 | 2007-11-15 
 | Kai-Uwe Behrmann
-| Clearify terminology suggested by Hal V. Engel, Jon A. Cruz and corrections by Kai-Uwe Behrmann
+| Clearify terminology suggested by Craig Ringer, Hal V. Engel, Jon A. Cruz and corrections by Kai-Uwe Behrmann
 |-
 |}
 
