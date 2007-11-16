@@ -26,7 +26,7 @@ Oyranos device profile database.
 X servers export the EDID inormation typically in the
 “XFree86\_DDC\_EDID1\_RAWDATA” and “XFree86\_DDC\_EDID2\_RAWDATA” atom.
 If there are more monitors connected to the root window, the following
-atoms get a underscore and the Xinerama screen number appended, like in
+atoms get a underscore and the monitor number appended, like in
 
 ### Example
 
@@ -68,6 +68,9 @@ ICC Profiles in X
     counting starting from zero
 -   clarify about current(v0.2) ambiguities regarding screens and
     pseudo - or Xinerama screens
+-   Jon A. Cruz suggested to use monitor as a basic term instead of
+    screen
+    [1](http://lists.freedesktop.org/archives/openicc/2007q4/001056.html)
 -   Hal: substitute *uncalibrated* with *uncharacterized* to show that
     the vcgt issue is not targeted
 -   neutral hosting at fd.o see [bug

@@ -8,7 +8,7 @@ EDID information describes monitor parameters like description, serial number an
 Oyranos uses this information to identify a particular monitor and search for a best matching profile, as long as one is stored in the Oyranos device profile database.
 
 === Specification ===
-X servers export the EDID inormation typically in the "XFree86_DDC_EDID1_RAWDATA" and "XFree86_DDC_EDID2_RAWDATA" atom. If there are more monitors connected to the root window, the following atoms get a underscore and the Xinerama screen number appended, like in 
+X servers export the EDID inormation typically in the "XFree86_DDC_EDID1_RAWDATA" and "XFree86_DDC_EDID2_RAWDATA" atom. If there are more monitors connected to the root window, the following atoms get a underscore and the monitor number appended, like in 
 
 === Example ===
 Xinerama_screen_number = 0 => XFree86_DDC_EDID1_RAWDATA
@@ -34,6 +34,7 @@ Oyranos 0.1.5 obtained the oyranos-monitor-nvidia commandline tool to demonstrat
 * possibly add a _ICC_IN_X_VERSION atom can be included to talk about the revision supported by the system
 * clarify about current(v0.2) ambiguities regarding monitor and screen counting starting from zero
 * clarify about current(v0.2) ambiguities regarding screens and pseudo - or Xinerama screens
+* Jon A. Cruz suggested to use monitor as a basic term instead of screen [http://lists.freedesktop.org/archives/openicc/2007q4/001056.html]
 * Hal: substitute ''uncalibrated'' with ''uncharacterized'' to show that the vcgt issue is not targeted
 * neutral hosting at fd.o see [https://bugs.freedesktop.org/show_bug.cgi?id=12824 bug #12824]
 
