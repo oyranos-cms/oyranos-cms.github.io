@@ -62,17 +62,19 @@ ICC Profiles in X
 
 [(for a v0.3)](/wiki/ICC_Profiles_in_X_Specification_0.3 "wikilink")
 
--   possibly add a \_ICC\_IN\_X\_VERSION atom can be included to talk
-    about the revision supported by the system
--   clarify about current(v0.2) ambiguities regarding monitor and screen
-    counting starting from zero
--   clarify about current(v0.2) ambiguities regarding screens and
+-   (done) possibly add a \_ICC\_IN\_X\_VERSION atom can be included to
+    talk about the revision supported by the system
+-   (done) clarify about current(v0.2) ambiguities regarding monitor and
+    screen counting starting from zero
+-   (done) clarify about current(v0.2) ambiguities regarding screens and
     pseudo - or Xinerama screens
--   Jon A. Cruz suggested to use monitor as a basic term instead of
-    screen
+-   (done) Jon A. Cruz suggested to use monitor as a basic term instead
+    of screen
     [1](http://lists.freedesktop.org/archives/openicc/2007q4/001056.html)
--   Hal: substitute *uncalibrated* with *uncharacterized* to show that
-    the vcgt issue is not targeted
+-   (done) Hal: substitute *uncalibrated* with *uncharacterized* to show
+    that the vcgt issue is not targeted
+-   (done) set default for uncharacterised to sRGB
+    [2](http://lists.freedesktop.org/archives/openicc/2005q2/000431.html)
 -   neutral hosting at fd.o see [bug
     \#12824](https://bugs.freedesktop.org/show_bug.cgi?id=12824)
 
