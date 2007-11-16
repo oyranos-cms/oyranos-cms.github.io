@@ -60,7 +60,7 @@ ICC Profiles in X
 
 ### Further Tasks
 
-(for a v0.3)
+[(for a v0.3)](/wiki/ICC_Profiles_in_X_Specification_0.3 "wikilink")
 
 -   possibly add a \_ICC\_IN\_X\_VERSION atom can be included to talk
     about the revision supported by the system

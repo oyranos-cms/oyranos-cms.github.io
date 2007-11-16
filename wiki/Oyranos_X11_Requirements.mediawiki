@@ -30,7 +30,7 @@ Oyranos 0.1.5 obtained the oyranos-monitor-nvidia commandline tool to demonstrat
 * [[ICC Profiles in X Specification 0.2]]
 
 === Further Tasks ===
-(for a v0.3)
+[[ICC_Profiles_in_X_Specification_0.3|(for a v0.3)]]
 * possibly add a _ICC_IN_X_VERSION atom can be included to talk about the revision supported by the system
 * clarify about current(v0.2) ambiguities regarding monitor and screen counting starting from zero
 * clarify about current(v0.2) ambiguities regarding screens and pseudo - or Xinerama screens
