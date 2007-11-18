@@ -37,6 +37,16 @@ XFree86\_DDC\_EDID1\_RAWDATA\_2 ...
 
 This way compatibility is enshured for existing applications.
 
+### Parsing
+
+The section decribes the EDID 1 parsing in Oyranos.
+
+Oyranos parses EDID 1 information for monitor identification. It uses
+the 18 byte blocks starting from 54 for a monitor manufacturer, model
+and serial ID string. In case the manufacturer was omitted, it switches
+back to scan the 2 byte ID's starting at position 8. The later could be
+extended to model(10) and serial(12).
+
 ### References
 
 -   The issue was initially thrown to [the fd.o
