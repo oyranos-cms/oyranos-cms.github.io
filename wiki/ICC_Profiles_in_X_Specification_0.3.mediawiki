@@ -72,7 +72,7 @@ So for example revision 0.3 would result in:<br>
 
 2. [http://www.burtonini.com/computing/x-icc-profiles-spec-latest.html Ross Burtons page]
 
-2007 &copy; Kai-Uwe Behrmann
+2005 &copy; Ross Burton; 2006-2007 &copy; Kai-Uwe Behrmann
 
 
 
