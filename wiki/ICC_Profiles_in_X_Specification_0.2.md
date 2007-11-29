@@ -61,7 +61,7 @@ References
 2. [Revision 0.1 of this
 specification](http://www.burtonini.com/computing/x-icc-profiles-spec-0.1.html)
 
-2006 © Kai-Uwe Behrmann
+2005 © Ross Burton; 2006 © Kai-Uwe Behrmann
 
 [back --&gt; Oyranos](/wiki/Oyranos "wikilink") or [Oyranos X11
 Requirements](/wiki/Oyranos_X11_Requirements "wikilink")

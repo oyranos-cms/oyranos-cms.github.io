@@ -57,7 +57,7 @@ screen is likely to have a different profile.
 2. [http://www.burtonini.com/computing/x-icc-profiles-spec-0.1.html Revision 0.1 of this specification]
 
 
-2006 &copy; Kai-Uwe Behrmann
+2005 &copy; Ross Burton; 2006 &copy; Kai-Uwe Behrmann
 
 
 
