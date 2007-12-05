@@ -46,4 +46,6 @@ License: new BSD?
     floating point colours precisely and according to the needs in the
     [film industry](http://www.oscars.org/council/ctl.html).
 
-License: new BSD (? with jurisdiction to California) ...
+License: new [modified](http://savannah.gnu.org/task/?6171)
+[BSD](http://www.opensource.org/licenses/bsd-license.php) (? with
+jurisdiction to California) ...

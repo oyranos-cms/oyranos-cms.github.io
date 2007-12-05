@@ -25,7 +25,7 @@ License: new BSD?
 ==== CTL ====
 *http://sourceforge.net/projects/ampasctl - Ilm's effort to handle floating point colours precisely and according to the needs in the [http://www.oscars.org/council/ctl.html film industry].
 
-License: new BSD (? with jurisdiction to California)
+License: new [http://savannah.gnu.org/task/?6171 modified] [http://www.opensource.org/licenses/bsd-license.php BSD] (? with jurisdiction to California)
 ...
 
 [[Category:Programms]]
