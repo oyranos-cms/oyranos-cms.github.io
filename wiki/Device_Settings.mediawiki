@@ -1,9 +1,8 @@
-All variable parts of the colour processing chain must be taken into account, to achieve predictable results. As a consequence colour profiles as colour only transformations are not enough to describe completely. For instance downloading a printer profile and separating an image does not ensure the according driver settings are selected correctly. Even the driver and its version is often not included and not standardised to access machine readable. To overcome that information hole, Apple introduced the vcgt tag to describe the according hardware state in the graphics card gamma table. This is a single step and maybe enough for just this task.
+All variable parts of the colour processing chain must be taken into account, to achieve predictable results. As a consequence colour profiles as colour only transformations are not enough to describe completely the path colours has to go. For instance downloading a printer profile and separating an image does not ensure the according driver settings are selected correctly or even the appropriate driver was used. Even the driver and its version is often not included and not standardised to access machine readable. To overcome that information hole for monitors, Apple introduced the vcgt tag to describe the according hardware state in the graphics card gamma table. This is a single step and maybe enough for just this task.
 
-In the following proposal I will draw sketchy, what I think is needed to make the task complete, and apply to other areas too.
+In the following proposal, I will draw sketchy, what I think is needed to make the task complete, and apply to other areas too.
 
 
-----
 
 ----
 === Informations Incorporated ===
@@ -12,23 +11,25 @@ In the following proposal I will draw sketchy, what I think is needed to make th
 :: AB & Co Ltd., printer model CD-1234, EF photo ink, GH gloss paper, #1234-5678
 * driver names and their versions to verify integrity
 : nv/nvidia, Gutenprint/HPIJS, DCraw versions
-* device settings (as provided, colour relevant ones should be queryable by a device driver API)
+: The driver names used must be unique to later lookup and find the appropriate profile. If one application use Gutenprint and an other gimp-print chances are high to not find the according profile. Of course some kind of registering probably with a enumeration type would help here. With a good maintained  database this should work fine.
+: The driver must be able to tell: down to what driver version he is colour compatible for a certain device.
+* device settings (as provided, colour relevant ones should be query able by a device driver API)
 : expl. PPD, scan parameters, VCGT
-** fixing colour sensible driver settings is a precondition to form a calibration
+** fixing colour sensible driver settings in a GUI to exclude wrong user interaction is a precondition to form a calibration
 :: PPD with removed choices, VCGT + fixed monitor settings, DCraw called with specified options
 * device colour characterisation (a ICC profile belonging to the above outlined calibration)
 ** the profile must belong to the device/driver/settings/version mix
-** priority among selected profiles (generic profile - low, self calibrated - high)
+** priority among selected profiles (generic profile - low, self calibrated - high) can be a profile property
 * distribute by combining above information
-** packing all informations into one pice 
-: embedd into ICC profile, register in a local or remote hardware db, xml configuration
+** packing all informations into one piece 
+: embed into ICC profile, register in a local or remote hardware db, xml configuration
 
 ----
 
 ----
 
 === Advantages ===
-* select an profile and the system knows about needed settings
+* select an profile and the system/application selects the correct driver and knows about needed settings
 * change settings and the system can tell if an profile is available
 * email a complete settings file, no further information is needed to setup
 * use the same settings in all applications, they are globally available through the profiles themselves
@@ -68,34 +69,25 @@ In the following proposal I will draw sketchy, what I think is needed to make th
 === Oyranos API suggestion ===
  /** The following function includes all information to create and return the device 
      settings tag */
- void* oyIccDeviceSettingsDataWrite            ( const char* device_manufacturer, // used for the 'dmnd' tag
+ oyProfile_s * oyProfile_AddDeviceSettings     ( const char* device_manufacturer, // used for the 'dmnd' tag
                                                  const char* device_name,         // used for the 'dmdd' tag
-                                                 const char* device_serial,
-                                                 const char* driver_name,
-                                                 const char* driver_version,
-                                                 const char* driver_signature,
+                                                 const char* device_serial,       // 
+                                                 const char* driver_name,         // just for information
+                                                 const char* driver_signature,    // to choose the driver
+                                                 const char* driver_version,      // to choose the driver
                                                  struct tm*  calibration_time,    // used for the 'calt' tag
                                                                                   // needs <time.h>
                                                  void*       configuration_data_block,
                                                  size_t      config_block_size,
-                                                 size_t*     data_size )
- return: the device settings data (technically it may be a profile containing the necessary tags)
-
- /** a function to allow embedding into a existing profile , possibly including some 
-     checking of missing other tags like 'calt' - calibrationDateTimeTag */
- void* oyIccDeviceSettingsDataEmbedd           ( void*       device_data, // as provided by
-                                                                          // oyIccDeviceSettingsDataWrite
-                                                 size_t      device_data_size,
-                                                 void*       old_profile,
-                                                 size_t      old_profile_size,
-                                                 size_t*     new_profile_size )
+                                                 oyProfile_s *profile,            // profile to embed into 
+                                                 size_t*     profile_data_size )
  return: the new profile
 
  /** a function to extract the device settings tag from a existing profile */
  oyDeviceSettings_s* oyIccDeviceSettingsDataGet( void*       profile,
                                                  size_t      profile_size,
                                                  size_t*     data_size )
- The oyDeviceSettings_s structure is not yet finished.
+ For the oyDeviceSettings_s structure see below.
 
 TODO: proof the available options (ICC, XML...), choose, publish a specification and procedure suggestion, implement in [[Oyranos]]
 
@@ -109,7 +101,7 @@ TODO: proof the available options (ICC, XML...), choose, publish a specification
 | Kai-Uwe Behrmann &copy; 2006
 |
 |-
-| [[Device Settings in ICC 0.1|v0.2]]
+| [[Device Settings in ICC 0.2|v0.2]]
 | 2006-09-06 
 | Kai-Uwe Behrmann &copy; 2006
 | Thanks for suggestions and revisions to Graeme Gill, Hal V. Engel, Robert L Krawitz and Gerhard Fuernkranz.
