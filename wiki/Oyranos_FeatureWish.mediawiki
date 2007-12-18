@@ -101,18 +101,18 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | style="width:1%" |
-| style="width:20%" | Progress: 0%
+| style="width:20%" | Progress: 60%
 | style="width:20%" | Version: x.x.x
 | style="width:20%" | Start: 2007
-| style="width:20%" | Assigned to: Scribus?
+| style="width:20%" | Assigned to: Kai-Uwe Behrmann (Scribus?)
 |-
 |}
-** transform caching (file format)
+** transform caching (file format?)
 * frontend API, transforms, caching, image description - buffer layout / screen position
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | style="width:1%" |
-| style="width:20%" | Progress: 5%
+| style="width:20%" | Progress: 55%
 | style="width:20%" | Version: 1.x.x
 | style="width:20%" | Start: 2007
 | style="width:20%" | Assigned to: Kai-Uwe Behrmann

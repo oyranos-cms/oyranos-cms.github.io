@@ -140,19 +140,19 @@ profiles by accident.
 
 -   backend API a typical CMM should provide
 
-|     |              |                |             |                       |
-|-----|--------------|----------------|-------------|-----------------------|
-|     | Progress: 0% | Version: x.x.x | Start: 2007 | Assigned to: Scribus? |
+|     |               |                |             |                                          |
+|-----|---------------|----------------|-------------|------------------------------------------|
+|     | Progress: 60% | Version: x.x.x | Start: 2007 | Assigned to: Kai-Uwe Behrmann (Scribus?) |
 ||
 
--   -   transform caching (file format)
+-   -   transform caching (file format?)
 
 -   frontend API, transforms, caching, image description - buffer layout
     / screen position
 
-|     |              |                |             |                               |
-|-----|--------------|----------------|-------------|-------------------------------|
-|     | Progress: 5% | Version: 1.x.x | Start: 2007 | Assigned to: Kai-Uwe Behrmann |
+|     |               |                |             |                               |
+|-----|---------------|----------------|-------------|-------------------------------|
+|     | Progress: 55% | Version: 1.x.x | Start: 2007 | Assigned to: Kai-Uwe Behrmann |
 ||
 
 -   -   options handling (xml, GUI)
