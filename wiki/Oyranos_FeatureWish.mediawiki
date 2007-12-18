@@ -72,7 +72,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 ** switching default profiles to gamma 1.0 versions in one application, without touching other applications
 
 ==== Directory Paths ====
-* [[OpenIccDirectoryProposal|ICC profile path specification]]
+* [[OpenIccDirectoryProposal|OpenICC path specification]]
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | Progress: 75%
@@ -81,8 +81,9 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 | Assigned to: open
 |-
 |}
-* ICC_PROFILE_PATH ? how to interact with Oyranos
+* (obsoleted by XDG variables) ICC_PROFILE_PATH ? how to interact with Oyranos
 * update Oyranos' internal path representation to the [[OpenIccDirectoryProposal|OpenICC Directory Proposal]]
+* (done) OY_MODULE_PATHS for CMM's
 
 === Standard Profiles ===
 * naming of ECI profiles to something FOGRA corresponding (Chris Murphy and others on OpenICC)

@@ -114,17 +114,18 @@ profiles by accident.
 
 #### Directory Paths
 
--   [ICC profile path
-    specification](/wiki/OpenIccDirectoryProposal "wikilink")
+-   [OpenICC path specification](/wiki/OpenIccDirectoryProposal "wikilink")
 
 |               |                |                     |                   |
 |---------------|----------------|---------------------|-------------------|
 | Progress: 75% | Version: x.x.x | Start: defacto 2004 | Assigned to: open |
 ||
 
--   ICC\_PROFILE\_PATH ? how to interact with Oyranos
+-   (obsoleted by XDG variables) ICC\_PROFILE\_PATH ? how to interact
+    with Oyranos
 -   update Oyranos' internal path representation to the [OpenICC
     Directory Proposal](/wiki/OpenIccDirectoryProposal "wikilink")
+-   (done) OY\_MODULE\_PATHS for CMM's
 
 ### Standard Profiles
 
