@@ -25,7 +25,7 @@ They come often from discussions at the [[OpenICC]] email list. It is a good pla
 * check ICC profiles
 {| style="width:100%;text-align:left" colspan="20"
 |-
-| Progress 10%
+| Progress 15%
 | Version: x.x.x
 | Start: 2006
 | Assigned to: Kai-Uwe Behrmann
