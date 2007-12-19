@@ -15,6 +15,7 @@ tags:
 | Revision 0.1.2   |
 | Revision 0.1.3   |
 | Revision 0.1.4   |
+| Revision 0.1.5   |
 ||
 
 <H1>
@@ -43,14 +44,12 @@ General OpenICC Paths
 
 A top Users colour path should be located in:
 
-***$XDG\_CONFIG\_HOME/color*** or if XDG\_CONFIG\_HOME is not set,
-alternatively
+***$XDG\_CONFIG\_HOME/color*** and
 
-***$HOME/.config/color*** for a top directory to store configuration
-files in its subdirectories.
+***$HOME/.config/color*** for a top directory to store human readable
+configuration files in its subdirectories.
 
-***$XDG\_DATA\_HOME/color*** or, if XDG\_DATA\_HOME is not set,
-alternatively
+***$XDG\_DATA\_HOME/color*** and
 
 ***$HOME/.local/share/color*** shall be used as a top directory to store
 data files in it's subdirectories like ICC profiles.
@@ -59,14 +58,15 @@ For the XDG\* variables see \[1\].
 
 $HOME/.color can be considered deprecated and should fade out.
 
-As system wide installation paths exist the XDG\_DATA\_DIRS variable,
-which itself can contain several directory entries:
+As system wide installation paths exist the ***XDG\_DATA\_DIRS*** and
+***XDG\_CONFIG\_DIRS*** variables, which itself can contain several
+directory entries:
 
 ***$XDG\_DATA\_DIRS***\[0\]***/color***,
-***$XDG\_DATA\_DIRS***\[1\]***/color*** and so on, or alternatively
+***$XDG\_DATA\_DIRS***\[1\]***/color*** and so on, plus
 
 two system paths, due to different system directory layouts, exist and
-should be searched for:
+should always be searched for:
 
 ***/usr/local/share/color***
 
@@ -74,18 +74,15 @@ and
 
 ***/usr/share/color*** as typical for Linux packages.
 
-An application path points to:
-
-***$PREFIX/share/color***
-
 These above paths are considered top level entry points and should
 contain almost no files. Each specific data path, containing the actual
 data, is each located below these general OpenICC paths.
 
 Typical colour configuration data is architecture independent. The
 configuration can therefore stay in one place as further described
-below. Architecture dependent CMM modules and utilities should go into
-the usual file system places for libraries and binary executables.
+below. Architecture dependent CMM modules and utilities should reside
+below the usual system paths for libraries and binary executables. They
+are here not described in detail.
 
 Colour Profile Paths
 --------------------
@@ -131,12 +128,36 @@ Settings may contain presets of single settings. The location is at:
 
 ***settings***/
 
+Binary blobs should be preferedly go into the \_DATA\_ and clear text
+ones the \_CONFIG\_ route.
+
 CMMs
 ----
 
-CMM's register data can be stored in:
+CMM's register can be stored in:
 
 ***cmms***/
+
+Binary blobs should be preferedly go into the \_DATA\_ and clear text
+ones the \_CONFIG\_ route.
+
+Installation
+------------
+
+It is recommended to ask for the XDG variables befor installing globaly
+visible data on a system.
+
+In contrary to create packages with static file locations, like RPM, use
+the provided static paths only.
+
+For ICC profiles this would be:
+
+  
+*/usr/local/share/color/icc*
+
+*/usr/share/color/icc*
+
+*~/.local/share/icc*
 
 Technical implementation
 ------------------------
