@@ -128,18 +128,18 @@ Settings may contain presets of single settings. The location is at:
 
 ***settings***/
 
-Binary blobs should be preferedly go into the \_DATA\_ and clear text
-ones the \_CONFIG\_ route.
+Binary blobs should be preferedly go the \_DATA\_ and clear text ones
+the \_CONFIG\_ route.
 
 CMMs
 ----
 
-CMM's register can be stored in:
+CMM's register files can be stored in:
 
 ***cmms***/
 
-Binary blobs should be preferedly go into the \_DATA\_ and clear text
-ones the \_CONFIG\_ route.
+Binary blobs should be preferedly go the \_DATA\_ and clear text ones
+the \_CONFIG\_ route.
 
 Installation
 ------------
