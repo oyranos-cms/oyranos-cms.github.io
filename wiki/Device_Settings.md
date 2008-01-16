@@ -140,23 +140,21 @@ configuration
 
 `/** The following function includes all information to create and return the device `  
 `    settings tag */`  
-`oyProfile_s * oyProfile_AddDeviceSettings     ( const char* device_manufacturer, // used for the 'dmnd' tag`  
+`int           oyProfile_AddDeviceSettings     ( const char* device_manufacturer, // used for the 'dmnd' tag`  
 `                                                const char* device_name,         // used for the 'dmdd' tag`  
 `                                                const char* device_serial,       // `  
 `                                                const char* driver_name,         // just for information`  
 `                                                const char* driver_signature,    // to choose the driver`  
 `                                                const char* driver_version,      // to choose the driver`  
-`                                                struct tm*  calibration_time,    // used for the 'calt' tag`  
+`                                                struct tm * calibration_time,    // used for the 'calt' tag`  
 `                                                                                 // needs <time.h>`  
 `                                                void*       configuration_data_block,`  
 `                                                size_t      config_block_size,`  
-`                                                oyProfile_s *profile,            // profile to embed into `  
-`                                                size_t*     profile_data_size )`  
-`return: the new profile`
+`                                                oyProfile_s* profile,            // profile to embed into )`  
+`return: error status`
 
 `/** a function to extract the device settings tag from a existing profile */`  
-`oyDeviceSettings_s* oyIccDeviceSettingsDataGet( void*       profile,`  
-`                                                size_t      profile_size,`  
+`oyDeviceSettings_s* oyIccDeviceSettingsDataGet( oyProfile_s* profile,`  
 `                                                size_t*     data_size )`  
 `For the oyDeviceSettings_s structure see below.`
 
