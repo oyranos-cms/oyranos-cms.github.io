@@ -53,7 +53,7 @@ Examin quality report. Some profiles, most of the standard CMYK ones,
 have the measurements already included.
 
 CGATS measurement files are only supported in single quantities and as
-mentioned above in konjunction with belonging ICC profiles.
+mentioned above in conjunction with belonging ICC profiles.
 
 Files once loaded are observed by ICC Examin. The view will be
 actualised upon a modification.
@@ -73,7 +73,19 @@ Some tags contain complex data. For such tags may appear a choicebutton
 below the tag list. There you can select detailed views of a complex
 tags endities.
 
-### 3D navigation
+### Windows and Views
+
+#### Gamut
+
+First to call is the 3D gamut viewer. You can select it from the menu
+bar. It shows the gamut of the device described by the profile. If such
+a description is not appropriate, the external used Argyll iccgamut
+utility may not deliver a vrml gamut file and thus the 3D gamut view may
+remain empty.
+
+The colour space shown is allways in CIE\*Lab coordinates.
+
+##### 3D navigation
 
 To navigate arround in a 3D view use the:
 
@@ -87,28 +99,37 @@ To navigate arround in a 3D view use the:
         -   Illustration submenu, with the background colour selection
             and text/marker switching off
 
-### Windows and Views
-
-#### Gamut
-
-First to call is the 3D gamut viewer. You can select it from the menu
-bar. It shows the gamut of the device described by the profile. If such
-a description is not appropriate, the external used Argyll iccgamut
-utility may not deliver a vrml gamut file and thus the 3D gamut view may
-remain empty.
-
-The colour space shown is allways in CIE\*Lab coordinates.
-
 From the context menu (ctrl+left mouse or right mouse button) you can
 select the average human (CIE standard observer) visible spectral
 colours, as a line.
 
-If meashurements are shown, theyre radius can be selected from the
+If meashurements are shown, the spot radius can be selected from the
 context menu. This is handy to easily detect dE's of above 2 or 4. The
 connection line goes from the measurement (white) to the deviation by
 the profile (red).
 
-ncl2 colour spots can be enlarged or made smaller by pressing + or -.
+Colour spots can be enlarged or made smaller by pressing + or -.
+
+The Gamut Menus:
+
+File:
+
+-   Quit - allowes for exiting the application
+
+View:
+
+-   Full screen mode
+
+Settings:
+
+-   4 rendering intents + BPC
+-   Native or separation Gamut. The later is the inbuild default. The
+    native colour gamut can only be created when iccgamut from ArgyllCMS
+    is available.
+
+Windows:
+
+-   Show main application window, in case it is a icon.
 
 #### Report View
 
@@ -123,9 +144,9 @@ possible quality checking method.
 
 More comparision styles would be nice, in giving better meaning for
 varying criteria. The differences are summarised in the reports top
-lines. Each like contains the the colour values and euclidian dE +
-dE2000. Two rectangles on the right side may help to see the colour
-differences visually. The first monitor profile is used for this.
+lines. Each like contains the colour values and euclidian dE + dE2000.
+Two rectangles on the right side may help to see the colour differences
+visually. The first monitor profile is used for this.
 
 The report can be exported from the File menu in html format.
 
@@ -140,9 +161,10 @@ the View menu to show the corrected measurement output.
 The gamma tables in the grafic card are shown in an external window,
 callable from the View menu. It shows on osX/XFree86/Xorg the RGB
 curves. The monitor profile can be loaded from this window in the main
-profile viewer window for further examination.
-
-Under Linux Oyranos support must be compiled in to do so.
+profile viewer window for further examination. The grafic card is
+observed during the window being open. The window is sensible to
+positioning on multi monitor setups. The profiles equivalent is the vcgt
+tag.
 
 #### Help
 
@@ -180,10 +202,10 @@ what the tag may be intended for.
 
 #### text / desc / targ
 
-Tags of type text are the most simple ones. they include informations
-about the profile like License informations, Description for displaying
-on behalf of the whole profile, Measurement data , in CGATS text formet
-and more.
+Tags of type text are the most simple ones, beside the mluc tag. they
+include informations about the profile like License informations,
+Description for displaying on behalf of the whole profile, Measurement
+data , in CGATS text formet and more.
 
 #### curv
 
@@ -195,7 +217,7 @@ are all normalised to 0.0 -&gt; 1.0.
 XYZ tags show things like Mediawhitepoint or Primaries of monitors in
 the CIE\*xy diagram.
 
-Note: primaries and some curves are grouped to better understand theyr
+Note: primaries and some curves are grouped to better understand their
 meaning in the profile.
 
 #### mft1 / mft2
@@ -248,7 +270,7 @@ text and in the 3D view.
 ### VRML
 
 A subset of vrml alias wrl files is parsed. It allowes to open colour
-gamuts produced with argyll and saved with ICC Examin.
+gamuts produced with argyll or saved with ICC Examin.
 
 It would be nice to allow as well lines to get parsed, which are used
 for visualisations by iccview for instance.
