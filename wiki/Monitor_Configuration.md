@@ -21,14 +21,17 @@ case it is more promising to calibrate these LUT's directly and leave
 the graphic cards LUT untouched. This help in providing more of the 256
 steps possibly with todays VGA busses.
 
-Possibly controls are brightness, contrast, LUT's, auto adjustment
-features ...
+Possibly controls are brightness, contrast, monitor and grafic card
+LUT's, auto adjustment features ...
 
 Candidates for holding a according API are Xorg or HAL. Work is already
 done in the ddccontrol project. Of course Xorg includes i2c
 capabilities, which is under
 [discussion](http://lists.freedesktop.org/archives/xorg/2007-August/027105.html)
-to expose as a library.
+to expose as a library (in RandR). The communication with a monitor can
+happen eigther over
+[DDC/CI](http://en.wikipedia.org/wiki/Display_Data_Channel) or a
+separate UBS cable.
 
 ### References
 
