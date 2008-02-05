@@ -36,9 +36,8 @@ Now, we need to edit/add the necessary sections for the chart file:
 ** Add this section right after the <code>BOX_SHRINK</code> section, still before the <code>XLIST</code> section
 * '''<code>EXPECTED XYZ</code>''' -- Add measurement values from vendor information (e. g. in XYZ colour space). In case of CIE LAB values, replace the "<code>XYZ</code>" by "<code>LAB</code>".
 ** Add an integer declaring the number of defined measurement patches to follow in this section.
-** Add for each patch the index with the three colour coordinates. These can be obtained either through direct measurement with a spectrophotometer or from the manufacturer's target specs that are usually supplied along with the target.
+** Add for each patch the index with the three colour coordinates. These can be obtained either through direct measurement with a spectrophotometer or from the manufacturer's target specs that are usually supplied along with the target. Pad the numbers (if necessary) to give "nice" labelling (e. g. <code>A1</code> --> <code>A01</code>)
    A01         2.90    2.51    2.30
-** Pad the numbers (if necessary) to give "nice" labelling (e. g. <code>A1</code> --> <code>A01</code>)
 
 Test the created chart description using <code>scanin</code> with the used target image and description creating a diagnostic image with the boxed drawn in:
 

@@ -89,12 +89,10 @@ Now, we need to edit/add the necessary sections for the chart file:
     -   Add for each patch the index with the three colour coordinates.
         These can be obtained either through direct measurement with a
         spectrophotometer or from the manufacturer's target specs that
-        are usually supplied along with the target.
+        are usually supplied along with the target. Pad the numbers (if
+        necessary) to give “nice” labelling (e. g. `A1` --&gt; `A01`)
 
 `  A01         2.90    2.51    2.30`
-
--   -   Pad the numbers (if necessary) to give “nice” labelling (e. g.
-        `A1` --&gt; `A01`)
 
 Test the created chart description using `scanin` with the used target
 image and description creating a diagnostic image with the boxed drawn
