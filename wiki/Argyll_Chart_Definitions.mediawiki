@@ -1,0 +1,4 @@
+Some contributed Argyll chart definition files (<code>.cht</code> files).
+
+* [http://www.targets.coloraid.de/ Wolf Faust targets]:
+** C1 target (IT8.7/2-1993, 2006:01, batch# ("Charge"): R060101)<br />[[Image:WolfFaustC1.cht]]
