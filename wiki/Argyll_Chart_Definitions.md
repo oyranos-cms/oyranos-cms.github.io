@@ -28,7 +28,7 @@ Some contributed Argyll chart definition files (`.cht` files).
         -   D65 illuminant, 2 deg observer:
             [ColorChecker\_D50\_2deg.cht](https://gutefee.massey.ac.nz/moin/GuyKloss?action=AttachFile&do=get&target=ColorChecker_D50_2deg.cht)
         -   D65 illuminant, 2 deg observer:
-            [ColorChecker\_D50\_2deg.cht](https://gutefee.massey.ac.nz/moin/GuyKloss?action=AttachFile&do=get&target=ColorChecker_D50_2deg.cht)
+            [ColorChecker\_D65\_2deg.cht](https://gutefee.massey.ac.nz/moin/GuyKloss?action=AttachFile&do=get&target=ColorChecker_D65_2deg.cht)
 
 ` `**`Note:`**` Does someone know how to attach/upload and link files like these within MediaWiki? For now I've just placed it on my own wiki and linked it here ...`  
 ` --`[`GuyKloss`](/wiki/User%3AGuyKloss "wikilink")` 03:50, 5 Feb 2008 (CET)`
