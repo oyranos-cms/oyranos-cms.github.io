@@ -7,15 +7,18 @@ layout: wiki
 Some contributed Argyll chart definition files (`.cht` files).
 
 -   [Wolf Faust targets](http://www.targets.coloraid.de/):
+    -   C1 target, D50 illuminant, 2 deg observer (IT8.7/2-1993,
+        2006:01, batch\# (“Charge”): R060101):
+        [WolfFaustC1\_D50\_2deg.cht](https://gutefee.massey.ac.nz/moin/GuyKloss?action=AttachFile&do=get&target=WolfFaustC1_D50_2deg.cht)
     -   C1 target, D65 illuminant, 2 deg observer (IT8.7/2-1993,
         2006:01, batch\# (“Charge”): R060101):
-        [WolfFaustC1.cht](https://gutefee.massey.ac.nz/moin/GuyKloss?action=AttachFile&do=get&target=WolfFaustC1.cht)
+        [WolfFaustC1\_D65\_2deg.cht](https://gutefee.massey.ac.nz/moin/GuyKloss?action=AttachFile&do=get&target=WolfFaustC1_D65_2deg.cht)
 -   [Christophe Métairie
     Photographie](http://www.christophe-metairie-photographie.com)
     -   [DigitaL TargeT
         003](http://pagesperso-orange.fr/christophe.metairie.photographie/eng%20digital%20target.html#The%20DigitaL%20TargeT),
         D50 illuminant, 2 deg observer (produced 2007, batch\# 0349):
-        [DigitalTarget003.cht](https://gutefee.massey.ac.nz/moin/GuyKloss?action=AttachFile&do=get&target=DigitalTarget003.cht)
+        [DigitalTarget003\_D50\_2deg.cht](https://gutefee.massey.ac.nz/moin/GuyKloss?action=AttachFile&do=get&target=DigitalTarget003_D50_2deg.cht)
 
 ` `**`Note:`**` Does someone know how to attach/upload and link files like these within MediaWiki? For now I've just placed it on my own wiki and linked it here ...`  
 ` --`[`GuyKloss`](/wiki/User%3AGuyKloss "wikilink")` 03:50, 5 Feb 2008 (CET)`
