@@ -16,3 +16,8 @@ these within MediaWiki? For now I've just placed it on my own wiki and
 linked it here ...
 
 --[GuyKloss](/wiki/User%3AGuyKloss "wikilink") 03:50, 5 Feb 2008 (CET)
+
+` Answere: Did you try the Special pages and there the Upload page? `  
+` You might remove or move my comments to the assiciated discussion page, `  
+` as soon as my answere is not needed here in the content.`  
+` `[`Oyadmin`](/wiki/User%3AOyadmin "wikilink")` 18:58, 5 Feb 2008 (CET)`

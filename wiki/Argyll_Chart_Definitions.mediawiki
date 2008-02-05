@@ -6,3 +6,8 @@ Some contributed Argyll chart definition files (<code>.cht</code> files).
 '''Note:''' Does someone know how to attach/upload and link files like these within MediaWiki? For now I've just placed it on my own wiki and linked it here ...
 
 --[[User:GuyKloss|GuyKloss]] 03:50, 5 Feb 2008 (CET)
+
+  Answere: Did you try the Special pages and there the Upload page? 
+  You might remove or move my comments to the assiciated discussion page, 
+  as soon as my answere is not needed here in the content.
+  [[User:Oyadmin|Oyadmin]] 18:58, 5 Feb 2008 (CET)
