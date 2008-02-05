@@ -10,7 +10,7 @@ Some contributed Argyll chart definition files (`.cht` files).
     -   C1 target (IT8.7/2-1993, 2006:01, batch\# (“Charge”): R060101)
         -   D50 illuminant, 2 deg observer:
             [WolfFaustC1\_D50\_2deg.cht](https://gutefee.massey.ac.nz/moin/GuyKloss?action=AttachFile&do=get&target=WolfFaustC1_D50_2deg.cht)
-        -   D65 illuminant, 2 deg observer: R060101):
+        -   D65 illuminant, 2 deg observer:
             [WolfFaustC1\_D65\_2deg.cht](https://gutefee.massey.ac.nz/moin/GuyKloss?action=AttachFile&do=get&target=WolfFaustC1_D65_2deg.cht)
 -   [Christophe Métairie
     Photographie](http://www.christophe-metairie-photographie.com)
