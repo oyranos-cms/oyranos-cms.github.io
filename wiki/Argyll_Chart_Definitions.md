@@ -7,7 +7,8 @@ layout: wiki
 Some contributed Argyll chart definition files (`.cht` files).
 
 -   [Wolf Faust targets](http://www.targets.coloraid.de/):
-    -   C1 target (IT8.7/2-1993, 2006:01, batch\# (“Charge”): R060101):
+    -   C1 target, D65 illuminant, 2 deg observer (IT8.7/2-1993,
+        2006:01, batch\# (“Charge”): R060101):
         [WolfFaustC1.cht](https://gutefee.massey.ac.nz/moin/GuyKloss?action=AttachFile&do=get&target=WolfFaustC1.cht)
 
 **Note:** Does someone know how to attach/upload and link files like
