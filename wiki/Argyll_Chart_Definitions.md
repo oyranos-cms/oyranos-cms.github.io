@@ -17,7 +17,14 @@ linked it here ...
 
 --[GuyKloss](/wiki/User%3AGuyKloss "wikilink") 03:50, 5 Feb 2008 (CET)
 
-` Answere: Did you try the Special pages and there the Upload page? `  
-` You might remove or move my comments to the assiciated discussion page, `  
-` as soon as my answere is not needed here in the content.`  
+` Answer: Did you try the Special pages and there the Upload page? `  
+` You might remove or move my comments to the associated discussion page, `  
+` as soon as my answer is not needed here in the content.`  
 ` `[`Oyadmin`](/wiki/User%3AOyadmin "wikilink")` 18:58, 5 Feb 2008 (CET)`
+
+` Yes, I did. I get the following:`  
+` `“`"`”  
+` Upload warning`  
+` `“`.cht`”` is not a recommended image file format.`  
+` `“`"`”  
+` --`[`GuyKloss`](/wiki/User%3AGuyKloss "wikilink")` 20:35, 5 Feb 2008 (CET)`
