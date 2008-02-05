@@ -25,7 +25,7 @@ Some contributed Argyll chart definition files (`.cht` files).
     -   [(24 patch)
         ColorChecker](http://www.babelcolor.com/main_level/ColorChecker.htm)
         (March 2007 edition, see note <sup>\[1\]</sup> below)
-        -   D65 illuminant, 2 deg observer:
+        -   D50 illuminant, 2 deg observer:
             [ColorChecker\_D50\_2deg.cht](https://gutefee.massey.ac.nz/moin/GuyKloss?action=AttachFile&do=get&target=ColorChecker_D50_2deg.cht)
         -   D65 illuminant, 2 deg observer:
             [ColorChecker\_D65\_2deg.cht](https://gutefee.massey.ac.nz/moin/GuyKloss?action=AttachFile&do=get&target=ColorChecker_D65_2deg.cht)
