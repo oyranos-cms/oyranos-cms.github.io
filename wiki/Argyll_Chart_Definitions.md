@@ -9,26 +9,26 @@ Some contributed Argyll chart definition files (`.cht` files).
 -   [Wolf Faust targets](http://www.targets.coloraid.de/):
     -   C1 target (IT8.7/2-1993, 2006:01, batch\# (“Charge”): R060101)
         -   D50 illuminant, 2 deg observer:
-            [WolfFaustC1\_D50\_2deg.cht](https://gutefee.massey.ac.nz/moin/GuyKloss?action=AttachFile&do=get&target=WolfFaustC1_D50_2deg.cht)
+            ![](WolfFaustC1_D50_2deg.cht "fig:WolfFaustC1_D50_2deg.cht")
         -   D65 illuminant, 2 deg observer:
-            [WolfFaustC1\_D65\_2deg.cht](https://gutefee.massey.ac.nz/moin/GuyKloss?action=AttachFile&do=get&target=WolfFaustC1_D65_2deg.cht)
+            ![](WolfFaustC1_D65_2deg.cht "fig:WolfFaustC1_D65_2deg.cht")
 -   [Christophe Métairie
     Photographie](http://www.christophe-metairie-photographie.com)
     -   [DigitaL TargeT
         003](http://pagesperso-orange.fr/christophe.metairie.photographie/eng%20digital%20target.html#The%20DigitaL%20TargeT)
         (produced 2007, batch\# 0349)
         -   D50 illuminant, 2 deg observer:
-            [DigitalTarget003\_D50\_2deg.cht](https://gutefee.massey.ac.nz/moin/GuyKloss?action=AttachFile&do=get&target=DigitalTarget003_D50_2deg.cht)
+            ![](DigitalTarget003_D50_2deg.cht "fig:DigitalTarget003_D50_2deg.cht")
         -   D65 illuminant, 2 deg observer:
-            [DigitalTarget003\_D65\_2deg.cht](https://gutefee.massey.ac.nz/moin/GuyKloss?action=AttachFile&do=get&target=DigitalTarget003_D65_2deg.cht)
+            ![](DigitalTarget003_D65_2deg.cht "fig:DigitalTarget003_D65_2deg.cht")
 -   [X-Rite/GretagMacbeth](http://www.xrite.com/product_overview.aspx?ID=820&Action=Specifications)
     -   [(24 patch)
         ColorChecker](http://www.babelcolor.com/main_level/ColorChecker.htm)
         (March 2007 edition, see note <sup>\[1\]</sup> below)
         -   D50 illuminant, 2 deg observer:
-            [ColorChecker\_D50\_2deg.cht](https://gutefee.massey.ac.nz/moin/GuyKloss?action=AttachFile&do=get&target=ColorChecker_D50_2deg.cht)
+            ![](ColorChecker_D50_2deg.cht "fig:ColorChecker_D50_2deg.cht")
         -   D65 illuminant, 2 deg observer:
-            [ColorChecker\_D65\_2deg.cht](https://gutefee.massey.ac.nz/moin/GuyKloss?action=AttachFile&do=get&target=ColorChecker_D65_2deg.cht)
+            ![](ColorChecker_D65_2deg.cht "fig:ColorChecker_D65_2deg.cht")
 
 ` `**`Note:`**` Does someone know how to attach/upload and link files like these within MediaWiki? For now I've just placed it on my own wiki and linked it here ...`  
 ` --`[`GuyKloss`](/wiki/User%3AGuyKloss "wikilink")` 03:50, 5 Feb 2008 (CET)`
