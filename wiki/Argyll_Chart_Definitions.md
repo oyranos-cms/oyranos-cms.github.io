@@ -45,6 +45,9 @@ Some contributed Argyll chart definition files (`.cht` files).
 ` `“`"`”  
 ` --`[`GuyKloss`](/wiki/User%3AGuyKloss "wikilink")` 20:35, 5 Feb 2008 (CET)`
 
+` You will still get the warning but can now override. Please test again.`  
+` `[`Oyadmin`](/wiki/User%3AOyadmin "wikilink")` 08:03, 6 Feb 2008 (CET)`
+
 <small><sup>\[1\]</sup> **Note:** Vendor information on the ground truth
 colour patch data based on X-Rite/GreatagMacbeth data from the
 BabelColor web site was used:
