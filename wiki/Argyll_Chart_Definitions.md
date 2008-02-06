@@ -30,24 +30,6 @@ Some contributed Argyll chart definition files (`.cht` files).
         -   D65 illuminant, 2 deg observer:
             ![](ColorChecker_D65_2deg.cht "fig:ColorChecker_D65_2deg.cht")
 
-` `**`Note:`**` Does someone know how to attach/upload and link files like these within MediaWiki? For now I've just placed it on my own wiki and linked it here ...`  
-` --`[`GuyKloss`](/wiki/User%3AGuyKloss "wikilink")` 03:50, 5 Feb 2008 (CET)`
-
-` Answer: Did you try the Special pages and there the Upload page? `  
-` You might remove or move my comments to the associated discussion page, `  
-` as soon as my answer is not needed here in the content.`  
-` `[`Oyadmin`](/wiki/User%3AOyadmin "wikilink")` 18:58, 5 Feb 2008 (CET)`
-
-` Yes, I did. I get the following:`  
-` `“`"`”  
-` Upload warning`  
-` `“`.cht`”` is not a recommended image file format.`  
-` `“`"`”  
-` --`[`GuyKloss`](/wiki/User%3AGuyKloss "wikilink")` 20:35, 5 Feb 2008 (CET)`
-
-` You will still get the warning but can now override. Please test again.`  
-` `[`Oyadmin`](/wiki/User%3AOyadmin "wikilink")` 08:03, 6 Feb 2008 (CET)`
-
 <small><sup>\[1\]</sup> **Note:** Vendor information on the ground truth
 colour patch data based on X-Rite/GreatagMacbeth data from the
 BabelColor web site was used:
