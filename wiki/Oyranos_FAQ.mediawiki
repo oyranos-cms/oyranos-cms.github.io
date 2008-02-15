@@ -25,7 +25,7 @@ As of the writing Oyranos is GPL, which will change with version 0.1.8 to BSD. I
 Oyranos is published on [http://www.behrmann.name/index.php?option=com_content&task=view&id=34&Itemid=68 Kai-Uwe's site]
 
 === Who is developing Oyranos? ===
-Currently Oyranos is a one man project of [http://www.behrmann.name Kai-Uwe Behrmann]. I see myself as a photographer, who came in the situation of creating its own imaging workflow through the lack of adequate GUI's on the Linux OS.
+Currently Oyranos is a one man project of [http://www.behrmann.name Kai-Uwe Behrmann]. I see myself as a photographer, who came in the situation of creating its own imaging workflow through the lack of adequate GUI's on the Linux OS. Still I am searching for [[#How_can_I_help_with_the_Oyranos_CMS.3F|help]].
 
 === How can I help with the Oyranos CMS? ===
 You could help by testing, reporting bugs or providing according patches, doing translations, as well as suggesting useful changes or, if we all feel well with it, become part of the development team.

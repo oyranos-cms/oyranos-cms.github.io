@@ -60,7 +60,8 @@ site](http://www.behrmann.name/index.php?option=com_content&task=view&id=34&Item
 Currently Oyranos is a one man project of [Kai-Uwe
 Behrmann](http://www.behrmann.name). I see myself as a photographer, who
 came in the situation of creating its own imaging workflow through the
-lack of adequate GUI's on the Linux OS.
+lack of adequate GUI's on the Linux OS. Still I am searching for
+[help](#How_can_I_help_with_the_Oyranos_CMS.3F "wikilink").
 
 ### How can I help with the Oyranos CMS?
 
