@@ -28,7 +28,7 @@ Oyranos is published on [http://www.behrmann.name/index.php?option=com_content&t
 Currently Oyranos is a one man project of [http://www.behrmann.name Kai-Uwe Behrmann]. I see myself as a photographer, who came in the situation of creating its own imaging workflow through the lack of adequate GUI's on the Linux OS.
 
 === How can I help with the Oyranos CMS? ===
-You could help by testing, reporting bugs or providing according patches, doing translations, as well as suggesting useful changes or, if you feel well with it, become part of the development team.
+You could help by testing, reporting bugs or providing according patches, doing translations, as well as suggesting useful changes or, if we all feel well with it, become part of the development team.
 
 We need people with phantasy for going possibly new paths, meticulousness for assuring quality, analytical, didactical and aesthetical skills and thinking around the corner or all together. Some knowledge or feeling of colour may be of help. But this is not a must, as uneducated persons bring in a very important view.
 

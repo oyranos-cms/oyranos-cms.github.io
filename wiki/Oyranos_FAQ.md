@@ -66,7 +66,7 @@ lack of adequate GUI's on the Linux OS.
 
 You could help by testing, reporting bugs or providing according
 patches, doing translations, as well as suggesting useful changes or, if
-you feel well with it, become part of the development team.
+we all feel well with it, become part of the development team.
 
 We need people with phantasy for going possibly new paths,
 meticulousness for assuring quality, analytical, didactical and
