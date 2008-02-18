@@ -22,7 +22,7 @@ Now, we need to edit/add the necessary sections for the chart file:
 * '''<code>BOXES</code>''' -- Add this section between the <code>REF_ROTATION</code> and the <code>XLIST</code> sections
 ** Tweak the integer after the <code>BOXES</code> tag until it fits (for me number of patches + 1 worked, but others are seen in other chart files ...)
 ** '''F''' -- fiducial marks<br />(use top left, top right, and bottom right mark positions)
-** '''D''' -- diagnostic box<br />(enclosing the whole "interesting" area of the chart, with measuring area and fiducial marks)
+** '''D''' -- diagnostic box<br />(enclosing the whole "interesting" area of the chart, with measuring area and fiducial marks, but smaller than the box enclosing the total chart)
 ** '''Y''' -- sequence boxes, array of patches<br />(columns, then lines)
 *** Coordinates in sequence boxes:
 **** first the range of column labels<br />(start to end, e. g. "<code>01 22</code>" for columns 1 through 22)

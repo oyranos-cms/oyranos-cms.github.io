@@ -54,7 +54,8 @@ Now, we need to edit/add the necessary sections for the chart file:
         (use top left, top right, and bottom right mark positions)
     -   **D** -- diagnostic box  
         (enclosing the whole “interesting” area of the chart, with
-        measuring area and fiducial marks)
+        measuring area and fiducial marks, but smaller than the box
+        enclosing the total chart)
     -   **Y** -- sequence boxes, array of patches  
         (columns, then lines)
         -   Coordinates in sequence boxes:
