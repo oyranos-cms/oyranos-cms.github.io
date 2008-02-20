@@ -1,7 +1,7 @@
 Some contributed Argyll chart definition files (<code>.cht</code> files).
 
 * [http://www.targets.coloraid.de/ Wolf Faust targets]:
-** C1 target (IT8.7/2-1993, 2006:01, batch# ("Charge"): R060101) <br /> [[Image:WolfFaustC1.cht]]
+** C1 target <br /> <code>it8.cht</code> file as shipped with ArgyllCMS can be used
 * [http://www.christophe-metairie-photographie.com Christophe Métairie Photographie]
 ** [http://pagesperso-orange.fr/christophe.metairie.photographie/eng%20digital%20target.html#The%20DigitaL%20TargeT DigitaL TargeT 003] (produced 2007, batch# 0349) <br /> [[Image:DigitalTarget003.cht]]
 * [http://www.xrite.com/product_overview.aspx?ID=820&Action=Specifications X-Rite/GretagMacbeth]
