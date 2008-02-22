@@ -43,7 +43,7 @@ progressbar. Depending on the complexity of the file it may take some
 time to finish. The open gamut view takes extra time.
 
 VRML file are selectable alone. ICC Examin will not accept mixing with
-other files. The VRML gamut hull's from ArgyllCMS are the only knoen
+other files. The VRML gamut hull's from ArgyllCMS are the only known
 supported ones.
 
 ICC profiles can be loaded many for gamut comparisions. A named colour
