@@ -35,7 +35,7 @@ Some tags contain complex data. For such tags may appear a choicebutton below th
 ==== Gamut ====
 First to call is the 3D gamut viewer. You can select it from the menu bar -> Windows -> Gamut. It shows a gamut of the device described by the profile. If such a description is not appropriate the 3D gamut view may remain empty. 
 
-The gamut generation defaults to a round trip or A2B0->B2A0 generated hull. Thus TAC and all conversion influences are considered with a somewhat degraded accuracy, due to the most often less points in the B2A0 tables. This default hull is not the devices native gamut. Measurement points may be visible outside of this gamut hull. It represents the actual clipping behaviour.
+The gamut generation defaults to a round trip or B2A0->A2B0 generated hull. Thus TAC and all conversion influences are considered with a somewhat degraded accuracy, due to the most often less points in the A2B0 tables. This default hull is not the devices native gamut. Measurement points may be visible outside of this gamut hull. It represents the actual clipping behaviour.
 
 The Native gamut setting switches to Argyll's gamut hull generation. Argyll uses the more precise B2A0 table only. This hull represents the devices capabilities and all measurement points should lie inside.
 

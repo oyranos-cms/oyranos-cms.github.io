@@ -82,10 +82,10 @@ bar -&gt; Windows -&gt; Gamut. It shows a gamut of the device described
 by the profile. If such a description is not appropriate the 3D gamut
 view may remain empty.
 
-The gamut generation defaults to a round trip or A2B0-&gt;B2A0 generated
+The gamut generation defaults to a round trip or B2A0-&gt;A2B0 generated
 hull. Thus TAC and all conversion influences are considered with a
 somewhat degraded accuracy, due to the most often less points in the
-B2A0 tables. This default hull is not the devices native gamut.
+A2B0 tables. This default hull is not the devices native gamut.
 Measurement points may be visible outside of this gamut hull. It
 represents the actual clipping behaviour.
 
