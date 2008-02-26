@@ -33,7 +33,11 @@ Some tags contain complex data. For such tags may appear a choicebutton below th
 
 === Windows and Views  ===
 ==== Gamut ====
-First to call is the 3D gamut viewer. You can select it from the menu bar. It shows the gamut of the device described by the profile. If such a description is not appropriate, the external used Argyll iccgamut utility may not deliver a vrml gamut file and thus the 3D gamut view may remain empty. 
+First to call is the 3D gamut viewer. You can select it from the menu bar -> Windows -> Gamut. It shows a gamut of the device described by the profile. If such a description is not appropriate the 3D gamut view may remain empty. 
+
+The gamut generation defaults to a round trip or A2B0->B2A0 generated hull. Thus TAC and all conversion influences are considered with a somewhat degraded accuracy, due to the most often less points in the B2A0 tables. This default hull is not the devices native gamut. Measurement points may be visible outside of this gamut hull. It represents the actual clipping behaviour.
+
+The Native gamut setting switches to Argyll's gamut hull generation. Argyll uses the more precise B2A0 table only. This hull represents the devices capabilities and all measurement points should lie inside.
 
 The colour space shown is allways in CIE*Lab coordinates. 
 
@@ -60,7 +64,7 @@ View:
 * Full screen mode
 Settings:
 * 4 rendering intents + BPC
-* Native or separation Gamut. The later is the inbuild default. The native colour gamut can only be created when iccgamut from ArgyllCMS is available.
+* Native oe separation Gamut. The later is the inbuild default. The native device colour gamut can only be created when iccgamut from ArgyllCMS is available.
 Windows:
 * Show main application window, in case it is a icon.
 
