@@ -99,11 +99,11 @@ The colour space shown is allways in CIE\*Lab coordinates.
 
 To navigate arround in a 3D view use the:
 
--   left mouse button to rotate
+-   left mouse button to rotate and stop
 -   middle mouse button or Shift+left mouse button to move/clip
 -   right mouse button/ Strg+left button to obtain additional menus.
     Among the additional menus are in:
-    -   top menu: the channel selection if appropriate
+    -   first menu: the channel selection if appropriate
         -   Slice plane submenu, with axis slicing in fly through style
             and rotation
         -   Illustration submenu, with the background colour selection
@@ -120,10 +120,14 @@ the profile (red).
 
 Colour spots can be enlarged or made smaller by pressing + or -.
 
-The Gamut Menus:
+The clipping plane can be moved to and from the camera by pressing arrow
+up/down.
+
+The Gamut View top menus:
 
 File:
 
+-   Save as VRML - snapshot to a 3D wrl file
 -   Quit - allowes for exiting the application
 
 View:
