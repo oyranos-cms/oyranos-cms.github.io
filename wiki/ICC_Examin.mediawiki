@@ -67,7 +67,7 @@ View:
 * Full screen mode
 Settings:
 * 4 rendering intents + BPC
-* Native oe separation Gamut. The later is the inbuild default. The native device colour gamut can only be created when iccgamut from ArgyllCMS is available.
+* Native or separation Gamut. The later is the inbuild default. The native device colour gamut can only be created, when iccgamut from ArgyllCMS is available.
 Windows:
 * Show main application window, in case it is a icon.
 

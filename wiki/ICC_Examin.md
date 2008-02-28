@@ -137,8 +137,8 @@ View:
 Settings:
 
 -   4 rendering intents + BPC
--   Native oe separation Gamut. The later is the inbuild default. The
-    native device colour gamut can only be created when iccgamut from
+-   Native or separation Gamut. The later is the inbuild default. The
+    native device colour gamut can only be created, when iccgamut from
     ArgyllCMS is available.
 
 Windows:
