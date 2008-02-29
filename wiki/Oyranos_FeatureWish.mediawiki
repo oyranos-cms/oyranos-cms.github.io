@@ -199,11 +199,11 @@ Constitute a colour patch presentation:
   int (*callback)(int code, const char* format, ...)
 ** internally all can stay with macros
 * override default settings, dependent whether they are inbuild or explicitely set by a user [http://www.behrmann.name/wind/cinepaint/cinepaint_2007.04.13_1.html]
-* gray profile setting, done for 0.1.8
-* license change as [http://www.oyranos.org/#license stated]
+* (done) gray profile setting
+* (done) license change as [http://www.oyranos.org/#license stated]
 * new default profiles from [http://www.eci.org/eci/de/060_downloads.php ECI]
 * investigate in ColorSync ignoring some CMM:SGI marked profiles
-* look into newer Elektra library API (Oyranos v0.1.7 can use Elektra v0.6.4)
+* (done) look into newer Elektra library API (Oyranos v0.1.7 can use Elektra v0.6.4) v0.1.8 uses Elektra v0.7.x
 
 === External ===
 * [https://bugzilla.redhat.com/show_bug.cgi?id=239936 Fedora bug entry]

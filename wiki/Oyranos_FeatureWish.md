@@ -250,13 +250,13 @@ Todo
 -   override default settings, dependent whether they are inbuild or
     explicitely set by a user
     [1](http://www.behrmann.name/wind/cinepaint/cinepaint_2007.04.13_1.html)
--   gray profile setting, done for 0.1.8
--   license change as [stated](http://www.oyranos.org/#license)
+-   (done) gray profile setting
+-   (done) license change as [stated](http://www.oyranos.org/#license)
 -   new default profiles from
     [ECI](http://www.eci.org/eci/de/060_downloads.php)
 -   investigate in ColorSync ignoring some CMM:SGI marked profiles
--   look into newer Elektra library API (Oyranos v0.1.7 can use Elektra
-    v0.6.4)
+-   (done) look into newer Elektra library API (Oyranos v0.1.7 can use
+    Elektra v0.6.4) v0.1.8 uses Elektra v0.7.x
 
 ### External
 
