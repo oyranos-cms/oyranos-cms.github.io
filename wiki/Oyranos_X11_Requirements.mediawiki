@@ -1,6 +1,18 @@
 Oyranos has some requirements to provide colour management related informations through it's APIs.
 For further reading see [[Monitor Configuration]].
 
+== Architectural Overview ==
+
+=== Screen Areas and Colour Space tagging ===
+Two things are needed,
+* a opt out flag for colour correction down the path, so applications can handle colour management on their own
+* a ICC profile container attached to window or screen region
+* the virtually thierd is that every other content is expected as sRGB, as is the case today
+
+The above would fit along all the path:
+  application -> toolkit -> composite manager -> X11 -> OpenGL -> shader.
+There remains to find an endpoint where most paths meet. This could be the composite manager or a additional layer between composite manager and Xorg.
+
 == Multi Monitor EDID in X11 ==
 
 EDID information describes monitor parameters like description, serial number and gives hints about colourimetric behaviour. 
