@@ -14,13 +14,40 @@ Configuration](/wiki/Monitor_Configuration "wikilink").
 Architectural Overview
 ----------------------
 
+Applications need a way to communicate colorimetry of their image
+content. Applications, which like to handle colour management (CM) on
+their own, need additional a path to tell the system what to do with the
+content and what not.
+
+Applications can follow several strategies:
+
+1.  be dumb - The application knows nothing about CM. The system takes
+    content as being in a default RGB colour space and does colour
+    matching. Most applications would fall in this category.
+2.  tag content - The application knows about the colorimetry of its
+    content and tells the system about it.
+3.  take over control - The application knows best how to handle its
+    content. Tell the system to not match content with following
+    options:
+    1.  Dont apply colour conversions. This is for proofing and image
+        editing applications.
+    2.  Dont apply calibration from graphic card gamma tables. This is
+        useful for HDR content.
+
+The “take over control” kind of applications want additionally to know
+about the screen layout and monitor colorimetry. This is handled by
+Xinerama alike API's and the
+[\_ICC\_PROFILE\_xxx](#ICC_Profiles_in_X "wikilink") atom.
+
 ### Screen Areas and Colour Space tagging
 
 Two things are needed,
 
--   a opt out flag for colour correction down the path, so applications
-    can handle colour management on their own
 -   a ICC profile container attached to window or screen region
+-   a opt out flags for colour correction down the path, so applications
+    can handle colour management on their own
+    -   a “no colour conversions” flag
+    -   a “no calibration from graphic card gamma tables” flag
 -   the virtually thierd is that every other content is expected as
     sRGB, as is the case today
 
