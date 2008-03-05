@@ -191,6 +191,14 @@ colours should be converted to a device space when no further colour
 processing is done. This happens typical on a system level and can be
 influenced by a user through system level options.
 
+-   pro (for a xorg example)
+    -   twm, xterm .. get colour managed as soon as a composite manager
+        is used
+    -   many parts need no changes to work
+-   con (for xorg example)
+    -   without any optimisation it can be resource hungry in terms of
+        memory and CPU/GPU time
+
 ### Early colour binding
 
 In the above mentioned context early colour binding means to do the
