@@ -10,6 +10,15 @@ tags:
 interaction or meet other goals. They should serve the end to end
 expectations of users. Pros and Cons can be discussed here.
 
+In parts this sketchy page picks up concepts, provides relevant
+examples, lists pros and cons and analyses available systems. If you
+feel this all should be more structurised I havily agree. Just most
+often developers are hanging in details or implementations or simply
+have the picture in their mind. This page is dedicated to the public, so
+everyone should be able to read and understand it. If not edit and
+rearrange this page or if unshure ask questions on the backside (see
+link “discussion” above).
+
 Diversity
 ---------
 
@@ -43,6 +52,35 @@ colour manage.
     should apply to. But thats not so easy to get them all, as many
     applications or toolkits might simply not be interessted in the
     first place.
+
+Flexibility
+-----------
+
+### Static colour spaces
+
+One example is the assumtion that monitors are in sRGB and all colour
+delivered to the system must be in that colour space. This is largely
+for Linux/BSD (2007) the case.
+
+An other great example is the Microsoft pre Vista colour management
+policy to tread all input and output as sRGB.
+
+### Variable colour spaces
+
+In a system allowing to assign or recognise to each colour device a
+separate profile features great flexibility. Apples ColourSync is a good
+example for that. Other systems follow this general approach.
+
+### Influencing the CMM
+
+#### Apple and the ColorSync control panel options
+
+osX has times ago options in its ColorSync control panel. These
+dissappeared as Apple understood that most applications use their own
+settings. This was blamed later on as the reason for much confusion. To
+better understand, ColorSync refuses to enforce options.
+
+#### Oyranos options system
 
 Late and Early colour binding
 -----------------------------
