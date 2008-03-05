@@ -212,6 +212,16 @@ User Interface
     -   easy grouping of device, editing ... profiles
     -   needs a layout and specification
 
+### Common Gui elements
+
+-   [Colour management
+    Icon](http://www.freedesktop.org/wiki/OpenIcc/Icons)
+
+Profile selectors can to a user present the internal stored name and the
+external file name. Ideally both should coincide, with the possible
+exceptions of the space sign and the file type ending. In case the
+profile is a in memory one the internal name might not be detectable.
+
 Manipulation
 ------------
 

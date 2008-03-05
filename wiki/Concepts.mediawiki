@@ -30,7 +30,6 @@ One concept of the ICC-standard, is the possibility to create documents, where e
 To give users successful experiences with color management, it is useful to have the option of an color management policy, which allows only the creation of flat color documents in well known and tested editing spaces.
 
 == Stages of manipulation ==
-
 Handling of colour data is been expected in several states, handled by dedicated colour spaces. The following describes a process with three steps.
 
 * know data (tagged with profile or machine readable description), unknown or uncertain data -> assign a assumed source profile (distinguish RGB/CMYK)
@@ -38,11 +37,9 @@ Handling of colour data is been expected in several states, handled by dedicated
 * output or proofing colour space, considered as a destination for the final content. This colour space can be used to check against during editing and possibly convert as the last stage of editing.
 
 == Untagged data ==
-
 Most difficult is here the mixed behaviour of applications regarding tagging versus non tagging of exchange data with colour profiles.
 
 === Assign an profile into untagged data ===
-
 A simple example is a photographer, which is aware of tagging images correctly and delivers them to his customer. Next step is to include such tagged photo into an document in an CM unaware word processor. The output from the word processor is prepared as pdf for the web and as pdf for printing. As the word processor is ignoring any colour profiles it is up to the system to follow a rule, which makes the colour data unambiguous.
 
 *leave it as is for viewing, and interpret as follows below
@@ -102,6 +99,12 @@ The device to device colour path contains as well the settings to receive and to
 ** allow all kind of distinguishing even if not supported by Oyranos, other may use nevertheless
 ** easy grouping of device, editing ... profiles
 ** needs a layout and specification
+
+=== Common Gui elements ===
+* [http://www.freedesktop.org/wiki/OpenIcc/Icons Colour management Icon]
+
+Profile selectors can to a user present the internal stored name and the external file name. Ideally both should coincide, with the possible exceptions of the space sign and the file type ending.
+In case the profile is a in memory one the internal name might not be detectable.
 
 == Manipulation ==
 The goal of using manipulations is to get an good image correction for special cameras, media or special scenes. The process is as well known in the film industry as colour grading.
