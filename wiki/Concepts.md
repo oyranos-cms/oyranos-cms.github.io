@@ -95,7 +95,7 @@ This should reflect the preconfigured settings of eighter the system or
 the application.
 
 This Options can be presented to the user and will contain as well CMM
-specific options. This it will be possible to allow additional features
+specific options. Thus it will be possible to allow additional features
 and unconventional behaviour enabling and configuration.
 
 To allow for arbitrary options in a flexible way, a layer must be

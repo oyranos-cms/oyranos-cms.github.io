@@ -35,7 +35,7 @@ In opposite to ColorSync Oyranos provides a pre configured colour conversion obj
 
 To modify settings a application will have to ask for a options object. This should reflect the preconfigured settings of eighter the system or the application. 
 
-This Options can be presented to the user and will contain as well CMM specific options. This it will be possible to allow additional features and unconventional behaviour enabling and configuration.
+This Options can be presented to the user and will contain as well CMM specific options. Thus it will be possible to allow additional features and unconventional behaviour enabling and configuration.
 
 To allow for arbitrary options in a flexible way, a layer must be established to provide logic, data (settings) and basic layout of the options in a toolkit independent way. Basically the CMM should not care nor link against a special toolkit. The application, the toolkit itself can provide the layer to render the Options and handle callbacks. Oyranos might provide some of such very commonly used layers. Possibly this needs to be done as a project outside of Oyranos. Still it will be a key feature of Oyranos.
 
