@@ -6,6 +6,9 @@ tags:
  - Concepts
 ---
 
+Abstract
+--------
+
 **Concepts** which shall help ensuring interoperability, ease of
 interaction or meet other goals. They should serve the end to end
 expectations of users. Pros and Cons can be discussed here.
@@ -81,6 +84,40 @@ settings. This was blamed later on as the reason for much confusion. To
 better understand, ColorSync refuses to enforce options.
 
 #### Oyranos options system
+
+In opposite to ColorSync Oyranos provides a pre configured colour
+conversion object, in terms of ColourSync a Colour World. The Oyranos
+colour conversion object defaults usually to the settings from the
+system control panel.
+
+To modify settings a application will have to ask for a options object.
+This should reflect the preconfigured settings of eighter the system or
+the application.
+
+This Options can be presented to the user and will contain as well CMM
+specific options. This it will be possible to allow additional features
+and unconventional behaviour enabling and configuration.
+
+To allow for arbitrary options in a flexible way, a layer must be
+established to provide logic, data (settings) and basic layout of the
+options in a toolkit independent way. Basically the CMM should not care
+nor link against a special toolkit. The application, the toolkit itself
+can provide the layer to render the Options and handle callbacks.
+Oyranos might provide some of such very commonly used layers. Possibly
+this needs to be done as a project outside of Oyranos. Still it will be
+a key feature of Oyranos.
+
+The settings, modified or not in the options object will affect the
+colour conversion regardless of what level in the process chain. For
+instance it is almost the same to create a default Oyranos colour
+conversion on system level as on application level. Flags can be
+provided to differ for instance for proofing options, as they are only
+of interesst on a application level.
+
+### Splitting colorimetry
+
+Here should stay or link to something about the newer 3 part colour
+profiles approach in opposite to the ICC's approach.
 
 Late and Early colour binding
 -----------------------------
