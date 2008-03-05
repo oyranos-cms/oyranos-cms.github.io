@@ -181,6 +181,10 @@ are turned into a final state. For instance for displaying colours on a
 monitor, it is that state when window colours are matched to the
 monitors colour space.
 
+The glue between both concepts, which almost always should be available
+in parallel, is a explicite opt out flag and a path for colour profiles
+to characterise the image data.
+
 ### Late colour binding
 
 In the above mentioned context late colour binding means to do the final
@@ -195,9 +199,13 @@ influenced by a user through system level options.
     -   twm, xterm .. get colour managed as soon as a composite manager
         is used
     -   many parts need no changes to work
+    -   highest consistency possible
 -   con (for xorg example)
     -   without any optimisation it can be resource hungry in terms of
         memory and CPU/GPU time
+    -   higher bit depth paths might not be available
+    -   independend non touching colour path entries can make this
+        concept harder to implement (OpenGL, X11, XV, overlay,...)
 
 ### Early colour binding
 
@@ -209,6 +217,31 @@ output device. Or colours can be prematched for proofing with otherwise
 unusual rendering intents like the absolute colorimetric intent. The
 decission about the performed colour transforms are typical made in the
 application.
+
+-   pro
+    -   most control over options
+    -   private conversions or null conversion
+    -   can reduce data early to save system data bandwidht
+    -   16-bit and HDR data are full available on application level
+-   con
+    -   speed depends on the CMM
+    -   might process more data than nesessary
+
+### Combing early and late binding
+
+A combination of early and late binding can be achived by attaching
+during a early state a precalculated device link profile to image data
+and process the image data by the provided device link with out external
+options be involved.
+
+-   pro
+    -   high level options are available (early binding)
+    -   low level optimisations can apply at a late state (near
+        hardware) (late binding)
+-   con
+    -   lesser control over the pixel converting CMM selection (late
+        binding)
+    -   process possibly on low 8-bit data only (late binding)
 
 Flat color vs. mixed mode documents
 -----------------------------------
