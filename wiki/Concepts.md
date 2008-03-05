@@ -140,7 +140,7 @@ pixel conversion.
 -   pro
     -   the CMM can store in a optimised manner its data
 -   con
-    -   the
+    -   the data is special to one CMM only and can not be exchanged
 
 A CMM framework can require a CMM to store its precalculated tables to a
 ICC device link profile and load it on request. This allowes
@@ -152,6 +152,13 @@ easily combined through the ICC conform device link profile, each
 bringing in its strength to form a more powerful or greatly adapted CMM.
 The pixel conversion specialised CMM has then only to understand the ICC
 device link syntax.
+
+-   pro
+    -   CMMs can combine functionality
+    -   on disk cache with serialised data possible
+-   con
+    -   time consuming
+    -   might be not feature complete
 
 CMM frameworks might even decide to register two allow registering and
 controling two types of CMM's according to the two basic functions
