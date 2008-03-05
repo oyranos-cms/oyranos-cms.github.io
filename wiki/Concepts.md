@@ -74,7 +74,7 @@ In a system allowing to assign or recognise to each colour device a
 separate profile features great flexibility. Apples ColourSync is a good
 example for that. Other systems follow this general approach.
 
-### Influencing the CMM
+### Influencing the CMMs
 
 #### Apple and the ColorSync control panel options
 
@@ -118,6 +118,53 @@ of interesst on a application level.
 
 Here should stay or link to something about the newer 3 part colour
 profiles approach in opposite to the ICC's approach.
+
+### Splitting CMMs
+
+[a suggestion brought up by Graeme Gill in a discussion on the xorg
+mailing
+list](http://lists.freedesktop.org/archives/xorg/2008-March/033531.html)
+
+A CMM does usually provide two basic functions:
+
+-   accept input of several ICC profiles and precalculate the input to
+    output colour transformation, usually as n-dimensional tables
+-   apply the colour conversion from the input to the output colours
+    through the above precalculated table
+
+CMM's might not follow the ICC standard in storing the precalculated
+tables. Thus typical a CMM has the possibility to provide a private data
+structure to the CMM framework for storing and obtaining it back for
+pixel conversion.
+
+-   pro
+    -   the CMM can store in a optimised manner its data
+-   con
+    -   the
+
+A CMM framework can require a CMM to store its precalculated tables to a
+ICC device link profile and load it on request. This allowes
+interessting combinations. For instance it is possible to have a full
+fledged CMM, which adhers maturely to the ICC profile standard. An other
+CMM migh be reluctant to implement the many required details of the ICC
+standard but specialises on a fast colour conversion path. Both can be
+easily combined through the ICC conform device link profile, each
+bringing in its strength to form a more powerful or greatly adapted CMM.
+The pixel conversion specialised CMM has then only to understand the ICC
+device link syntax.
+
+CMM frameworks might even decide to register two allow registering and
+controling two types of CMM's according to the two basic functions
+outlined above.
+
+-   pro
+    -   the CMM can be selected independently
+    -   more influence to experiment with the process
+    -   better analysing
+-   con
+    -   more administration and possibly confusion
+    -   the same can be reached to provide in the pixel CMM a option to
+        select a linking CMM
 
 Late and Early colour binding
 -----------------------------
