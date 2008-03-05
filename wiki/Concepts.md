@@ -34,6 +34,45 @@ during compositing and manipulating images.
 -   colour channels should by equally editing the exposure, behave
     equally regarding saturation (no turning of gray into green)
 
+In an architectual sense consitency means to include all parties to
+colour manage.
+
+-   It makes sense to search for the most common used parts or API's and
+    plug-in there colour management in order to hit all at once.
+-   an other strategy might be to establish rules, which all parties
+    should apply to. But thats not so easy to get them all, as many
+    applications or toolkits might simply not be interessted in the
+    first place.
+
+Late and Early colour binding
+-----------------------------
+
+Colour binding means that step in colour workflow where image colours
+are turned into a final state. For instance for displaying colours on a
+monitor, it is that state when window colours are matched to the
+monitors colour space.
+
+### Late colour binding
+
+In the above mentioned context late colour binding means to do the final
+colour conversion at a late state. This can have advantages, when colour
+needs to be processed later on. Then colours can stay in a well behaved
+editing space and processing such as mixing is much more relyable. The
+colours should be converted to a device space when no further colour
+processing is done. This happens typical on a system level and can be
+influenced by a user through system level options.
+
+### Early colour binding
+
+In the above mentioned context early colour binding means to do the
+final colour conversion at a early state. This can have advantages, when
+colour conversion needs to be controlled as much as possible. It is
+possible to display native colours to measure the bahaviour of the
+output device. Or colours can be prematched for proofing with otherwise
+unusual rendering intents like the absolute colorimetric intent. The
+decission about the performed colour transforms are typical made in the
+application.
+
 Flat color vs. mixed mode documents
 -----------------------------------
 

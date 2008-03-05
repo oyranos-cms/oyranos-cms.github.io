@@ -7,12 +7,24 @@ To bring various users and producers together the ICC[http://www.color.org] stan
 The OpenEXR CTL[http://www.openexr.com/documentation.html] approach to use direct colour formulas in GPU shader programs is an try to increase precision and speed related to the demands of the film industry [http://www.ilm.com].
 
 == Consistency ==
-
 Editing spaces are a very valuable concept to achieve good results during compositing and manipulating images.
 * colour channels should by equally editing the exposure, behave equally regarding saturation (no turning of gray into green)
 
-== Flat color vs. mixed mode documents ==
+In an architectual sense consitency means to include all parties to colour manage. 
+* It makes sense to search for the most common used parts or API's and plug-in there colour management in order to hit all at once.
+* an other strategy might be to establish rules, which all parties should apply to. But thats not so easy to get them all, as many applications or toolkits might simply not be interessted in the first place.
 
+== Late and Early colour binding ==
+Colour binding means that step in colour workflow where image colours are turned into a final state. For instance for displaying colours on a monitor, it is that state when window colours are matched to the monitors colour space.
+
+=== Late colour binding ===
+In the above mentioned context late colour binding means to do the final colour conversion at a late state. This can have advantages, when colour needs to be processed later on. Then colours can stay in a well behaved editing space and processing such as mixing is much more relyable. The colours should be converted to a device space when no further colour processing is done. This happens typical on a system level and can be influenced by a user through system level options.
+
+=== Early colour binding ===
+In the above mentioned context early colour binding means to do the final colour conversion at a early state. This can have advantages, when colour conversion needs to be controlled as much as possible. It is possible to display native colours to measure the bahaviour of the output device. Or colours can be prematched for proofing with otherwise unusual rendering intents like the absolute colorimetric intent.
+The decission about the performed colour transforms are typical made in the application.
+
+== Flat color vs. mixed mode documents ==
 One concept of the ICC-standard, is the possibility to create documents, where every object (image, vector graphics, text-objects) can have is own profile and rendering intent. This makes color management of complete documents very complex and can easily results to unwanted color transformations of individual objects of an document.
 
 To give users successful experiences with color management, it is useful to have the option of an color management policy, which allows only the creation of flat color documents in well known and tested editing spaces.
