@@ -18,3 +18,7 @@ Keeping Oyranos up to date:
 * [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#git-quick-start git introduction]
 * [http://cworth.org/hgbook-git/tour/ Carl Worth's git tour]
 * [http://git.or.cz/ Homepage] and wiki
+
+
+[[Oyranos|back -> Oyranos]]
+[[Category:Oyranos]]

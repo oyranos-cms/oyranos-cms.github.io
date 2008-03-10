@@ -2,6 +2,8 @@
 title: Oyranos/git
 permalink: wiki/Oyranos/git/
 layout: wiki
+tags:
+ - Oyranos
 ---
 
 Git is set up on www.oyranos.org. To use git install the git-core
@@ -29,3 +31,4 @@ Keeping Oyranos up to date:
 -   [Carl Worth's git tour](http://cworth.org/hgbook-git/tour/)
 -   [Homepage](http://git.or.cz/) and wiki
 
+[back -&gt; Oyranos](/wiki/Oyranos "wikilink")
