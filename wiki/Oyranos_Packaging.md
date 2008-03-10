@@ -2,6 +2,8 @@
 title: Oyranos/Packaging
 permalink: wiki/Oyranos/Packaging/
 layout: wiki
+tags:
+ - Oyranos
 ---
 
 Dependencies
@@ -40,3 +42,5 @@ named to
 
 A additional hint is to copy libelektra-filesys and libltdl into your
 bundle to satisfy Elektra. Not shure if this affects every bundle.
+
+[back -&gt; Oyranos](/wiki/Oyranos "wikilink")

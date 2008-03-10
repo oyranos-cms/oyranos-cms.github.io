@@ -19,3 +19,7 @@ Take the lastest ICC Examin bundle, the folder ending with app, similiar named t
 
 
 A additional hint is to copy libelektra-filesys and libltdl into your bundle to satisfy Elektra. Not shure if this affects every bundle.
+
+
+[[Oyranos|back -> Oyranos]]
+[[Category:Oyranos]]
