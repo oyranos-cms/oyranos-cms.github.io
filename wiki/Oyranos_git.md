@@ -4,7 +4,8 @@ permalink: wiki/Oyranos/git/
 layout: wiki
 ---
 
-Git is set up on www.oyranos.org.
+Git is set up on www.oyranos.org. To use git install the git-core
+package.
 
 First check out:
 
@@ -17,6 +18,14 @@ Building Oyranos:
 `$ make`  
 `$ make install`
 
-Keeping up to date:
+Keeping Oyranos up to date:
 
 `$ git pull`
+
+### Links
+
+-   [git
+    introduction](http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#git-quick-start)
+-   [Carl Worth's git tour](http://cworth.org/hgbook-git/tour/)
+-   [Homepage](http://git.or.cz/) and wiki
+
