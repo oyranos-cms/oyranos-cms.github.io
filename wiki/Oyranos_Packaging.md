@@ -41,6 +41,6 @@ named to
 [icc\_examin-x.xx\_rcx.app.tgz](https://sourceforge.net/project/showfiles.php?group_id=177017&package_id=247749&release_id=543945).
 
 A additional hint is to copy libelektra-filesys and libltdl into your
-bundle to satisfy Elektra. Not shure if this affects every bundle.
+bundle to satisfy Elektra. It will fix some warnings.
 
 [back -&gt; Oyranos](/wiki/Oyranos "wikilink")
