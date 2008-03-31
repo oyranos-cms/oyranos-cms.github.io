@@ -57,7 +57,7 @@ jurisdiction to California) ...
 
 -   <http://opengtl.org/> - The G of GTL means either Graphics or
     Generics, the T means Transformation and the L means Libraries or
-    Languages. The libraries are created by Cyrille Berger.
+    Languages. The C++ libraries are created by Cyrille Berger.
 
 Currently the focus is on developing two languages, designed for two
 different implementations.
@@ -71,3 +71,4 @@ different implementations.
     transformations on an image, that means it works using more than one
     pixel.
 
+License: LGPL
