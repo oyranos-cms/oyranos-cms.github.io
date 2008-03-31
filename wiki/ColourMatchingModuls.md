@@ -49,8 +49,8 @@ distribution)](http://www.fsf.org/licensing/licenses/index_html#OriginalBSD)
     floating point colours precisely and according to the needs in the
     [film industry](http://www.oscars.org/council/ctl.html).
 
-License: new [modified](http://savannah.gnu.org/task/?6171)
-[BSD](http://www.opensource.org/licenses/bsd-license.php) (? with
+License: [modified](http://savannah.gnu.org/task/?6171) [new
+BSD](http://www.opensource.org/licenses/bsd-license.php) (? with
 jurisdiction to California) ...
 
 #### OpenGTL
