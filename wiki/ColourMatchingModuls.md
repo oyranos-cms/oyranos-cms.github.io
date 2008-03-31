@@ -51,3 +51,22 @@ License: new BSD?
 License: new [modified](http://savannah.gnu.org/task/?6171)
 [BSD](http://www.opensource.org/licenses/bsd-license.php) (? with
 jurisdiction to California) ...
+
+#### OpenGTL
+
+-   <http://opengtl.org/> - The G of GTL means either Graphics or
+    Generics, the T means Transformation and the L means Libraries or
+    Languages. The libraries are created by Cyrille Berger.
+
+Currently the focus is on developing two languages, designed for two
+different implementations.
+
+-   OpenCTL which is a GPL compatible of the Color Transformation
+    Language, this language is dedicated at transforming the value of a
+    single pixel (for instance Brightness adjustement or desaturate).
+    CTL is designed to be part of the Color Management process.
+-   OpenShiva is inspired by Adobe's Hydra language from the AIF
+    Toolkit, Shiva is a language that apply a kernel-like
+    transformations on an image, that means it works using more than one
+    pixel.
+
