@@ -15,10 +15,10 @@ License: new BSD? for the CMM module called libicc
 
 License: MIT
 
-==== IccProfLib ====
-*http://sampleicc.sourceforge.net/ — The ICC's official sample implementation.
+==== SampleICC ====
+* http://sampleicc.sourceforge.net/ — The ICC's official sample implementation.
 
-License: new BSD?
+License: 4 clause BSD [http://www.fsf.org/licensing/licenses/index_html#OriginalBSD (not very handy for distribution)]
 
 ==== GCMS ====
 *an historical CMM effort: http://www.gcms.coloraid.de/
