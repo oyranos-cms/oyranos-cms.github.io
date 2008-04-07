@@ -17,9 +17,11 @@ In consequence, if this is really needed then a plug-in needs to be able
 to work on tiles. Uuch.
 
 `typedef oyPointer (*oyImage_GetLine_t) ( int               line_y,`  
-`                                         int             * height );`  
+`                                         int             * height,`  
+`                                         oyPointer         private_ptr );`  
 `typedef oyPointer (*oyImage_GetTile_t) ( int               tile_x,`  
-`                                         int               tile_y );`
+`                                         int               tile_y,`  
+`                                         oyPointer         private_ptr );`
 
 `/** @struct oyImageHandler_s`  
 ` *  @brief a advanced image processing struct`  
@@ -39,6 +41,7 @@ to work on tiles. Uuch.
 ` oyImage_GetTile_t    getTile;        /**< the tile interface */`  
 ` int                  tile_width;     /**< needed by the tile interface */`  
 ` int                  tile_height;    /**< needed by the tile interface */`  
+` oyPointer            private_ptr;    /**< custom pointer to pass along with the oyImage_Get* functions */`  
 `} oyImageHandler_s;`  
   
 `oyImageHandler_s * oyImageHandler_Create ( oyImage_s     * image );`
