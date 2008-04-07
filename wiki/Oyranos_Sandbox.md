@@ -46,6 +46,10 @@ to work on tiles. Uuch.
   
 `oyImageHandler_s * oyImageHandler_Create ( oyImage_s     * image );`
 
+A one pixel callback can be created by setting tile\_width and
+tile\_height members in oyImageHandler\_s to one. getTile would have to
+be implemented.
+
 `/** @brief a reference struct to gather information for image transformation`  
   
 `   as we dont target a complete imaging solution, only raster is supported`  

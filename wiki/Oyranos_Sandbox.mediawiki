@@ -35,6 +35,8 @@ In consequence, if this is really needed then a plug-in needs to be able to work
  
  oyImageHandler_s * oyImageHandler_Create ( oyImage_s     * image );
 
+A one pixel callback can be created by setting tile_width and tile_height members in oyImageHandler_s to one. getTile would have to be implemented.
+
 
  /** @brief a reference struct to gather information for image transformation
  
