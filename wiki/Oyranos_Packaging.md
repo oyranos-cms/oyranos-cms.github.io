@@ -9,8 +9,9 @@ tags:
 Dependencies
 ------------
 
-For the development version check out Elektra 0.7.0rc as described here:
-[1](http://www.libelektra.org/Get), build and install.
+For the development version check out [this Elektra
+version](http://www.markus-raab.org/ftp/elektra-0.7.0rc2-2.tar.gz)
+15:33, 11 Apr 2008 (CEST) (Elektra 0.7.0rc2-2), build and install.
 
 Additional you'd need FLTK and possibly xcalib. These dependencies are
 mentioned here:
