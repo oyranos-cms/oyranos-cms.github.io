@@ -43,21 +43,21 @@ An other high precision CMM exists with
 Consistency
 -----------
 
-Editing spaces are a very valuable concept to achieve good results
+“Editing Spaces” are a very valuable concept to achieve good results
 during compositing and manipulating images.
 
 -   colour channels should by equally editing the exposure, behave
     equally regarding saturation (no turning of gray into green)
 
-In an architectual sense consitency means to include all parties to
+In an architectural sense consistency means to include all parties to
 colour manage.
 
 -   It makes sense to search for the most common used parts or API's and
     plug-in there colour management in order to hit all at once.
 -   an other strategy might be to establish rules, which all parties
     should apply to. But thats not so easy to get them all, as many
-    applications or toolkits might simply not be interessted in the
-    first place.
+    applications or toolkits might simply not be interested in the first
+    place.
 
 Flexibility
 -----------
