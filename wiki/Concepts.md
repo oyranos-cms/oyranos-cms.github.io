@@ -286,11 +286,11 @@ tagging versus non tagging of exchange data with colour profiles.
 
 A simple example is a photographer, which is aware of tagging images
 correctly and delivers them to his customer. Next step is to include
-such tagged photo into an document in an CM unaware word processor. The
-output from the word processor is prepared as pdf for the web and as pdf
-for printing. As the word processor is ignoring any colour profiles it
-is up to the system to follow a rule, which makes the colour data
-unambiguous.
+such tagged photo into an document in an CM unaware word processor by a
+different person. The output from the word processor is prepared as pdf
+for the web and as pdf for printing. As the word processor is ignoring
+any colour profiles, it is up to the system to follow a rule, which
+makes the colour data unambiguous.
 
 -   leave it as is for viewing, and interpret as follows below
     -   pros:
