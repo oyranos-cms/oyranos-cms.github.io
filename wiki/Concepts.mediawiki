@@ -208,6 +208,6 @@ Curves today used by CinePaint, Gimp and UFRaw are originally proprierity ones d
 
 Not shure for the curves. Maybe they can be converted to abstract profiles. Gutenprint handles an own curves format for print settings. It is XML-based and Robert Krawitz calls them piecewise curves.
 
-One interesting aspect of the Gutenprint XML curves is that they are editable. For profile editors an approximation algorithm is needed. An edited profile can as been more easily written as CLUT but would probably loose precision during conversion from an matrix based one.
+One interesting aspect of the Gutenprint XML curves is that they are editable. For profile editors an approximation algorithm is needed. An edited profile can be more easily written as CLUT but would probably loose precision during conversion from an matrix based one.
 
 [[Category:Concepts]]

@@ -427,5 +427,5 @@ is XML-based and Robert Krawitz calls them piecewise curves.
 
 One interesting aspect of the Gutenprint XML curves is that they are
 editable. For profile editors an approximation algorithm is needed. An
-edited profile can as been more easily written as CLUT but would
-probably loose precision during conversion from an matrix based one.
+edited profile can be more easily written as CLUT but would probably
+loose precision during conversion from an matrix based one.
