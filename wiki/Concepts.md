@@ -311,7 +311,7 @@ makes the colour data unambiguous.
 -   always osX standard RGB ??
 -   always Adobe RGB(1998) ??
 -   take data as in monitor colour space - a traditional point of view
-    used up to date
+    used up to date by CM unaware applications
 -   differentiate between input path for colour data:
     -   WWW sites -&gt; sRGB
     -   Files from outside of the computer -&gt; selectable profile
@@ -320,6 +320,10 @@ makes the colour data unambiguous.
 As the source of images, whether they come from out- or inside the
 computer, becomes more and more fuzzy, this concept is difficult to
 implement.
+
+-   programs use the platform specific colour space
+-   cross platform toolkits should specify a policy, to which standard
+    they adhere, most useful would be sRGB
 
 ### Save onto an untaggable image format
 

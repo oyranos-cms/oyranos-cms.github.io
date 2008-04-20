@@ -147,12 +147,14 @@ A simple example is a photographer, which is aware of tagging images correctly a
 ***sRGB is limited regarding saturation
 *always osX standard RGB ??
 *always Adobe RGB(1998) ??
-*take data as in monitor colour space - a traditional point of view used up to date
+*take data as in monitor colour space - a traditional point of view used up to date by CM unaware applications
 *differentiate between input path for colour data:
 **WWW sites -> sRGB
 **Files from outside of the computer -> selectable profile
 **Files from inside the computer -> selectable profile
 As the source of images, whether they come from out- or inside the computer, becomes more and more fuzzy, this concept is difficult to implement.
+*programs use the platform specific colour space
+*cross platform toolkits should specify a policy, to which standard they adhere, most useful would be sRGB
 
 === Save onto an untaggable image format ===
 *warn user about losing colour space information during saving
