@@ -265,16 +265,16 @@ Stages of manipulation
 
 Handling of colour data is been expected in several states, handled by
 dedicated colour spaces. The following describes a process with three
-steps.
+steps for image data.
 
--   know data (tagged with profile or machine readable description),
-    unknown or uncertain data -&gt; assign a assumed source profile
-    (distinguish RGB/CMYK)
--   editing colour space to tweak and manipulate, mostly with enough
-    colour volume
+-   characterise data (tagged with profile or machine readable
+    description), unknown or uncertain data -&gt; assign a assumed
+    source profile (distinguish Rgb/Cmyk/Gray)
+-   editing colour space to tweak, manipulate and blend, mostly with
+    enough colour volume
 -   output or proofing colour space, considered as a destination for the
-    final content. This colour space can be used to check against during
-    editing and possibly convert as the last stage of editing.
+    final content. This colour space can be used to check against,
+    during editing and possibly convert as the last stage of editing.
 
 Untagged data
 -------------

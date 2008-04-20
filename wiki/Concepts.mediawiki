@@ -120,11 +120,11 @@ One concept of the ICC-standard, is the possibility to create documents, where e
 To give users successful experiences with color management, it is useful to have the option of an color management policy, which allows only the creation of flat color documents in well known and tested editing spaces.
 
 == Stages of manipulation ==
-Handling of colour data is been expected in several states, handled by dedicated colour spaces. The following describes a process with three steps.
+Handling of colour data is been expected in several states, handled by dedicated colour spaces. The following describes a process with three steps for image data.
 
-* know data (tagged with profile or machine readable description), unknown or uncertain data -> assign a assumed source profile (distinguish RGB/CMYK)
-* editing colour space to tweak and manipulate, mostly with enough colour volume
-* output or proofing colour space, considered as a destination for the final content. This colour space can be used to check against during editing and possibly convert as the last stage of editing.
+* characterise data (tagged with profile or machine readable description), unknown or uncertain data -> assign a assumed source profile (distinguish Rgb/Cmyk/Gray)
+* editing colour space to tweak, manipulate and blend, mostly with enough colour volume
+* output or proofing colour space, considered as a destination for the final content. This colour space can be used to check against, during editing and possibly convert as the last stage of editing.
 
 == Untagged data ==
 Most difficult is here the mixed behaviour of applications regarding tagging versus non tagging of exchange data with colour profiles.
