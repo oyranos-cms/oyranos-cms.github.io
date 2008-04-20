@@ -9,6 +9,8 @@ To bring various users and producers together the ICC[http://www.color.org] stan
 == Precision ==
 The OpenEXR CTL[http://www.openexr.com/documentation.html] approach to use direct colour formulas in GPU shader programs is an try to increase precision and speed related to the demands of the film industry [http://www.ilm.com].
 
+An other high precision CMM exists with [[ColourMatchingModuls#SampleICC|SampleICC]] from ICC.
+
 == Consistency ==
 Editing spaces are a very valuable concept to achieve good results during compositing and manipulating images.
 * colour channels should by equally editing the exposure, behave equally regarding saturation (no turning of gray into green)

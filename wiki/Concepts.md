@@ -37,6 +37,9 @@ to use direct colour formulas in GPU shader programs is an try to
 increase precision and speed related to the demands of the film industry
 [3](http://www.ilm.com).
 
+An other high precision CMM exists with
+[SampleICC](/wiki/ColourMatchingModuls#SampleICC "wikilink") from ICC.
+
 Consistency
 -----------
 
