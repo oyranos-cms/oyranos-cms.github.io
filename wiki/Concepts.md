@@ -328,6 +328,8 @@ implement.
 ### Save onto an untaggable image format
 
 -   warn user about losing colour space information during saving
+-   warn on export especially about a colour space different than the
+    assumed one
 
 Policies
 --------
