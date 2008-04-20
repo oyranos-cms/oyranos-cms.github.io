@@ -165,7 +165,7 @@ As the source of images, whether they come from out- or inside the computer, bec
 Most people belong to the [[What_the_users_want#Office_Users_.2F_Webdesigners|Office User type]]. They need an reliable conversion behaviour. Simplicity is the main goal there. [[Standards|sRGB]] serves this behaviour well. Defaults should be set to:
 * assumed RGB - sRGB
 * editing colour space: sRGB
-* convert always data to editing space (before a save, not nice, but the most reliable in mixed CM aware environments)
+* convert always data to editing space (before a save, not nice, but the most reliable in mixed CM aware environments, this was repeatedly criticised)
 * don't prefer mixed colour space documents (keep it simple)
 
 === Graphics Distribution ===

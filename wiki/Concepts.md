@@ -345,7 +345,8 @@ should be set to:
 -   assumed RGB - sRGB
 -   editing colour space: sRGB
 -   convert always data to editing space (before a save, not nice, but
-    the most reliable in mixed CM aware environments)
+    the most reliable in mixed CM aware environments, this was
+    repeatedly criticised)
 -   don't prefer mixed colour space documents (keep it simple)
 
 ### Graphics Distribution
