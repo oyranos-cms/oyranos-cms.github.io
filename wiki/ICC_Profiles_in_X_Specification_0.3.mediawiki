@@ -17,7 +17,12 @@
 | Draft 1 for Revision 0.3
 | 2007-11-15 
 | Kai-Uwe Behrmann
-| Clearify terminology suggested Hal V. Engel, Jon A. Cruz, sRGB default by<br>Craig Ringer and corrections by Kai-Uwe Behrmann, case corrections by Graeme Gill
+| Clearify terminology suggested Hal V. Engel, Jon A. Cruz, sRGB default by<br>Craig Ringer and corrections by Kai-Uwe Behrmann
+|- style="text-align:left;vertical-align:text-top" 
+| Draft 2 for Revision 0.3
+| 2008-04-23
+| Kai-Uwe Behrmann
+| case corrections by Graeme Gill
 |-
 |}
 

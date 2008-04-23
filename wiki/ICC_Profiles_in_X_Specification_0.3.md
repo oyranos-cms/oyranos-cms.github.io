@@ -28,6 +28,9 @@ DRAFT
 <td><p>Draft 1 for Revision 0.3</p></td>
 </tr>
 <tr class="even">
+<td><p>Draft 2 for Revision 0.3</p></td>
+</tr>
+<tr class="odd">
 </tr>
 </tbody>
 </table>
