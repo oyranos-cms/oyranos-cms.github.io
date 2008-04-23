@@ -17,7 +17,7 @@
 | Draft 1 for Revision 0.3
 | 2007-11-15 
 | Kai-Uwe Behrmann
-| Clearify terminology suggested Hal V. Engel, Jon A. Cruz, sRGB default by<br>Craig Ringer and corrections by Kai-Uwe Behrmann
+| Clearify terminology suggested Hal V. Engel, Jon A. Cruz, sRGB default by<br>Craig Ringer and corrections by Kai-Uwe Behrmann, case corrections by Graeme Gill
 |-
 |}
 
@@ -33,15 +33,15 @@ Currently there is only one atom base name defined.
 
 == _ICC_PROFILE ==
 
-The atom name for the first monitor in a root window is _ICC_Profile.
+The atom name for the first monitor in a root window is _ICC_PROFILE.
 
 For root windows spanning more than one monitor, as typical in Xinerama 
 multihead configurations, a atom for each monitor is added holding the 
-appropriate ICC profile. The first monitor uses the _ICC_Profile atom name. 
+appropriate ICC profile. The first monitor uses the _ICC_PROFILE atom name. 
 All monitors in a root window starting from 
-number one use _ICC_Profile as atom name extended with an underscore plus 
-the monitor number, e.g. _ICC_Profile_1 . Monitor counting starts with zero.
-Thus a _ICC_Profile_0 atom should not appear.
+number one use _ICC_PROFILE as atom name extended with an underscore plus 
+the monitor number, e.g. _ICC_PROFILE_1 . Monitor counting starts with zero.
+Thus a _ICC_PROFILE_0 atom should not appear.
 
 The atoms are of type <span class="type">XA_CARDINAL</span> with 8-bit
 elements. The value of the atom should be a literal ICC profile, that

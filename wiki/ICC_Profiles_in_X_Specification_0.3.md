@@ -49,15 +49,15 @@ Currently there is only one atom base name defined.
 \_ICC\_PROFILE
 --------------
 
-The atom name for the first monitor in a root window is \_ICC\_Profile.
+The atom name for the first monitor in a root window is \_ICC\_PROFILE.
 
 For root windows spanning more than one monitor, as typical in Xinerama
 multihead configurations, a atom for each monitor is added holding the
-appropriate ICC profile. The first monitor uses the \_ICC\_Profile atom
+appropriate ICC profile. The first monitor uses the \_ICC\_PROFILE atom
 name. All monitors in a root window starting from number one use
-\_ICC\_Profile as atom name extended with an underscore plus the monitor
-number, e.g. \_ICC\_Profile\_1 . Monitor counting starts with zero. Thus
-a \_ICC\_Profile\_0 atom should not appear.
+\_ICC\_PROFILE as atom name extended with an underscore plus the monitor
+number, e.g. \_ICC\_PROFILE\_1 . Monitor counting starts with zero. Thus
+a \_ICC\_PROFILE\_0 atom should not appear.
 
 The atoms are of type <span class="type">XA\_CARDINAL</span> with 8-bit
 elements. The value of the atom should be a literal ICC profile, that
