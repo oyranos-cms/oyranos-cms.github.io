@@ -65,13 +65,14 @@ Oyranos 0.1.5 obtained the oyranos-monitor-nvidia commandline tool to demonstrat
 
 === Further Tasks ===
 [[ICC_Profiles_in_X_Specification_0.3|(Draft for a ICC Profiles in X Specification 0.3)]]
-* (done) possibly add a _ICC_IN_X_VERSION atom can be included to talk about the revision supported by the system
+* (done) possibly add a _ICC_IN_X_VERSION atom can be included to talk about the revision supported by the system [http://lists.freedesktop.org/archives/openicc/2007q4/000987.html]
 * (done) clarify about current(v0.2) ambiguities regarding monitor and screen counting starting from zero
 * (done) clarify about current(v0.2) ambiguities regarding screens and pseudo - or Xinerama screens
 * (done) Jon A. Cruz suggested to use monitor as a basic term instead of screen [http://lists.freedesktop.org/archives/openicc/2007q4/001056.html]
-* (done) Hal: substitute ''uncalibrated'' with ''uncharacterized'' to show that the vcgt issue is not targeted
+* (done) Hal: substitute ''uncalibrated'' with ''uncharacterized'' to show that the vcgt issue is not targeted [http://lists.freedesktop.org/archives/openicc/2007q4/000989.html]
 * (done) set default for uncharacterised to sRGB [http://lists.freedesktop.org/archives/openicc/2005q2/000431.html] 
 * neutral hosting at fd.o see [https://bugs.freedesktop.org/show_bug.cgi?id=12824 bug #12824]
+* (done) correct case of ICC_PROFILE_xxx [http://lists.freedesktop.org/archives/openicc/2008q2/001579.html]
 
 As soon as the discussion on the [[OpenICC]] list settles, revision 0.3 will be drafted and can be finally released after a small period.
 

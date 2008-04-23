@@ -123,19 +123,23 @@ ICC Profiles in X
 
 -   (done) possibly add a \_ICC\_IN\_X\_VERSION atom can be included to
     talk about the revision supported by the system
+    [1](http://lists.freedesktop.org/archives/openicc/2007q4/000987.html)
 -   (done) clarify about current(v0.2) ambiguities regarding monitor and
     screen counting starting from zero
 -   (done) clarify about current(v0.2) ambiguities regarding screens and
     pseudo - or Xinerama screens
 -   (done) Jon A. Cruz suggested to use monitor as a basic term instead
     of screen
-    [1](http://lists.freedesktop.org/archives/openicc/2007q4/001056.html)
+    [2](http://lists.freedesktop.org/archives/openicc/2007q4/001056.html)
 -   (done) Hal: substitute *uncalibrated* with *uncharacterized* to show
     that the vcgt issue is not targeted
+    [3](http://lists.freedesktop.org/archives/openicc/2007q4/000989.html)
 -   (done) set default for uncharacterised to sRGB
-    [2](http://lists.freedesktop.org/archives/openicc/2005q2/000431.html)
+    [4](http://lists.freedesktop.org/archives/openicc/2005q2/000431.html)
 -   neutral hosting at fd.o see [bug
     \#12824](https://bugs.freedesktop.org/show_bug.cgi?id=12824)
+-   (done) correct case of ICC\_PROFILE\_xxx
+    [5](http://lists.freedesktop.org/archives/openicc/2008q2/001579.html)
 
 As soon as the discussion on the [OpenICC](/wiki/OpenICC "wikilink") list
 settles, revision 0.3 will be drafted and can be finally released after
