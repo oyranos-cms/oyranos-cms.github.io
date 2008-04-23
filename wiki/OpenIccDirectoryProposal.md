@@ -98,13 +98,13 @@ features.
 
 ### Subdirectory naming rules
 
-Profiles can be grouped by different purposes. Therefor some directory
-names are reserved for future expansion. They are mentioned below:
+Profiles may be grouped by different purposes. Therefor some directory
+names are reserved for future expansion. Candidates are mentioned below:
 
 'editing' 'device' 'camera' 'scanner' 'monitor' 'printer' 'output'
 'input' 'abstract' 'named\_color\_list' 'colorspace' 'file' 'standard'
 
-The above names are not yet in use. So don't rely on them, just avoid
+The above names are not yet in use. Don not rely on them, just avoid
 using. They can be activated easily after further discussion at the
 OpenICC email list.
 
@@ -119,7 +119,8 @@ Finally a scheme like:
 `           vendor_fogra28.icc`  
 `           ...`
 
-would make complete sense.
+would be possible if you wish such. So far, installing in a flat
+hierarchy is allowed.
 
 Settings
 --------
