@@ -33,6 +33,11 @@
 | Kai-Uwe Behrmann
 | coexisting XDG and CMS paths, add XDG_CONFIG_PATH, Installation
 |-
+| Revision 0.1.6
+| 2008-04-22
+| Kai-Uwe Behrmann
+| clarify about faculty to use subdirectories
+|-
 |}
 
 
