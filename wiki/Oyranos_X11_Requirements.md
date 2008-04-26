@@ -69,6 +69,11 @@ Oyranos uses this information to identify a particular monitor and
 search for a best matching profile, as long as one is stored in the
 Oyranos device profile database.
 
+You can check independently whether a EDID atom is set by calling in a
+X11 environment:
+
+`xprop -root | grep EDID`
+
 ### Specification
 
 X servers export the EDID inormation typically in the
