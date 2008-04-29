@@ -9,9 +9,18 @@ tags:
 Git is set up on www.oyranos.org. To use git install the git-core
 package.
 
+You need currently [this Elektra
+version](http://www.markus-raab.org/ftp/elektra-0.7.0rc3.tar.gz) 10:42,
+29 Apr 2008 (CEST)
+
 First check out:
 
 `$ git clone `[`git://www.oyranos.org/git/oyranos`](git://www.oyranos.org/git/oyranos)
+
+The Oyranos included ICC profiles are not included in git. Take them
+from
+[oyranos-0.1.7.tar.gz](http://downloads.sourceforge.net/oyranos/oyranos-0.1.7.tar.gz)
+and move the standard\_profiles directory into the cloned git directory.
 
 Building Oyranos:
 
