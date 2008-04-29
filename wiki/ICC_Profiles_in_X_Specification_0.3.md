@@ -73,7 +73,7 @@ space.
 
 As profiles can be large, applications should read the profile for a
 particular screen once, and cache it. As a screen's profile may change
-during the lifetime of the progress, applications should ask to receive
+during the lifetime of the process, applications should ask to receive
 property change notifications from the root window, even if they don't
 currently have a profile set. Applications which can change screens
 using mechanisms such as display migration should be aware that the new
