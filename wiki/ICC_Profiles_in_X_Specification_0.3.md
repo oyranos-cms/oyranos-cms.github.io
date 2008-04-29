@@ -96,7 +96,7 @@ References
 2. [Ross Burtons
 page](http://www.burtonini.com/computing/x-icc-profiles-spec-latest.html)
 
-2005 © Ross Burton; 2006-2007 © Kai-Uwe Behrmann
+2005 © Ross Burton; 2006-2008 © Kai-Uwe Behrmann
 
 [back --&gt; Oyranos](/wiki/Oyranos "wikilink") or [Oyranos X11
 Requirements](/wiki/Oyranos_X11_Requirements "wikilink")
