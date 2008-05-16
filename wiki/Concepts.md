@@ -415,10 +415,16 @@ this area. The dataflow could be something like this:
 Requirements:
 
 -   based on W3C technology (Xforms, Dom ...)
--   callback mechanism
+-   callback mechanism (possibly to pass the changed serialised widget
+    layout, like a diff, to the callback)
+-   callback as C function or CTL for portability?
 -   easy separation of layout (widgets) from data (options)
 -   widget set: tabs, groups, lists, choice list, sliders, buttons,
     check button, radio button, text box, drawing area
+-   define orientation (horizontal/vertical for grouping inside a pack
+    style widget)
+-   select one widget per group for scaling; place this widget at top,
+    bottom, right, left, centered or to fill as specified
 -   serialise and deserialise from and to XML
 -   support console applications
 -   converters for at least Qt, Gtk, FLTK ...
@@ -427,14 +433,15 @@ Some links to explore:
 
 -   [XML Schema](http://www.w3.org/TR/xmlschema-2/#built-in-datatypes)
     to get a grip on data inside XML
--   ["Useful
-    Datatypes](http://xformsinstitute.com/essentials/browse/book.php#ch04-6-fm2xml)
+-   [“Useful
+    Datatypes”](http://xformsinstitute.com/essentials/browse/book.php#ch04-6-fm2xml)
+    @ xformsinstitute
 -   [rendering of XFORMS inside
     Mozilla](http://developer.mozilla.org/en/docs/XForms)
--   [Xslt](http://en.wikipedia.org/wiki/Xslt)
+-   [Xslt](http://en.wikipedia.org/wiki/Xslt) @ wikipedia
 -   [Simple Toolkit
     Abstraction](http://www.freedesktop.org/wiki/OpenIccForGoogleSoC2008#head-07e05f69f1b4e331ba0d3741dc06ba53ae728459)
-    OpenICC GSoC2008 idea
+    OpenICC GSoC2008 project idea
 
 Manipulation
 ------------
