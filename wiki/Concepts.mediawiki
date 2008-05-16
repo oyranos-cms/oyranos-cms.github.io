@@ -18,6 +18,13 @@ An other high precision CMM exists with [[ColourMatchingModuls#SampleICC|SampleI
 In an architectural sense consistency means to include all parties to colour manage. 
 * It makes sense to search for the most common used parts or API's and plug-in there colour management in order to hit all at once.
 * an other strategy might be to establish rules, which all parties should apply to. But thats not so easy to get them all, as many applications or toolkits might simply not be interested in the first place.
+* a thierd path is to provide the means for tracking colour conversions
+=== History tracking for colour conversions ===
+* embed profile ID's into DL's (done - psid)
+* export colour conversions as DL's (done - is a CMM backend API requirement)
+* embed DL's into the output profile API:oyColourConversion_OutputProfile()
+* optional e.g. oyProfile_OptionSet( "history_tracking" )
+* examine tools - on screen (compiz?)
 
 == Flexibility ==
 === Static colour spaces === 

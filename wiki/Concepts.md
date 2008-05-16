@@ -58,6 +58,18 @@ colour manage.
     should apply to. But thats not so easy to get them all, as many
     applications or toolkits might simply not be interested in the first
     place.
+-   a thierd path is to provide the means for tracking colour
+    conversions
+
+### History tracking for colour conversions
+
+-   embed profile ID's into DL's (done - psid)
+-   export colour conversions as DL's (done - is a CMM backend API
+    requirement)
+-   embed DL's into the output profile
+    API:oyColourConversion\_OutputProfile()
+-   optional e.g. oyProfile\_OptionSet( “history\_tracking” )
+-   examine tools - on screen (compiz?)
 
 Flexibility
 -----------
