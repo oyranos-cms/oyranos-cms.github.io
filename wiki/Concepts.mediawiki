@@ -207,6 +207,7 @@ Some links to explore:
 * [http://www.w3.org/TR/xmlschema-2/#built-in-datatypes XML Schema] to get a grip on data inside XML
 * [http://xformsinstitute.com/essentials/browse/book.php#ch04-6-fm2xml "Useful Datatypes]
 * [http://developer.mozilla.org/en/docs/XForms rendering of XFORMS inside Mozilla]
+* [http://en.wikipedia.org/wiki/Xslt] Xslt
 
 == Manipulation ==
 The goal of using manipulations is to get an good image correction for special cameras, media or special scenes. The process is as well known in the film industry as colour grading.

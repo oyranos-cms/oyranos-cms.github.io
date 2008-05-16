@@ -420,6 +420,7 @@ Some links to explore:
     Datatypes](http://xformsinstitute.com/essentials/browse/book.php#ch04-6-fm2xml)
 -   [rendering of XFORMS inside
     Mozilla](http://developer.mozilla.org/en/docs/XForms)
+-   [4](http://en.wikipedia.org/wiki/Xslt) Xslt
 
 Manipulation
 ------------
