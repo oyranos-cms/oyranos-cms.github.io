@@ -404,13 +404,24 @@ profile is a in memory one the internal name might not be detectable.
 
 ### XML Plug-in options
 
-Simple Toolkit Abstraction is the name of a project on the GSoC2008
+Simple Toolkit Abstraction is the name of a project idea on the GSoC2008
 OpenICC page. Its goal is to provide a simple way for plug-ins and CMM's
 to describe options and have some slightly control over its presentation
 layout. Jon A. Cruz gave some helpful suggestions on what to focus on
 this area. The dataflow could be something like this:
 
 `XFORMS + XML -> xslt -> toolkit XML -> native toolkit widgets`
+
+Requirements:
+
+-   based on W3C technology (Xforms, Dom ...)
+-   callback mechanism
+-   easy separation of layout (widgets) from data (options)
+-   widget set: tabs, groups, lists, choice list, sliders, buttons,
+    check button, radio button, text box, drawing area
+-   serialise and deserialise from and to XML
+-   support console applications
+-   converters for at least Qt, Gtk, FLTK ...
 
 Some links to explore:
 
@@ -420,7 +431,10 @@ Some links to explore:
     Datatypes](http://xformsinstitute.com/essentials/browse/book.php#ch04-6-fm2xml)
 -   [rendering of XFORMS inside
     Mozilla](http://developer.mozilla.org/en/docs/XForms)
--   [4](http://en.wikipedia.org/wiki/Xslt) Xslt
+-   [Xslt](http://en.wikipedia.org/wiki/Xslt)
+-   [Simple Toolkit
+    Abstraction](http://www.freedesktop.org/wiki/OpenIccForGoogleSoC2008#head-07e05f69f1b4e331ba0d3741dc06ba53ae728459)
+    OpenICC GSoC2008 idea
 
 Manipulation
 ------------
