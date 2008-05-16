@@ -402,6 +402,25 @@ external file name. Ideally both should coincide, with the possible
 exceptions of the space sign and the file type ending. In case the
 profile is a in memory one the internal name might not be detectable.
 
+### XML Plug-in options
+
+Simple Toolkit Abstraction is the name of a project on the GSoC2008
+OpenICC page. Its goal is to provide a simple way for plug-ins and CMM's
+to describe options and have some slightly control over its presentation
+layout. Jon A. Cruz gave some helpful suggestions on what to focus on
+this area. The dataflow could be something like this:
+
+`XFORMS + XML -> xslt -> toolkit XML -> native toolkit widgets`
+
+Some links to explore:
+
+-   [XML Schema](http://www.w3.org/TR/xmlschema-2/#built-in-datatypes)
+    to get a grip on data inside XML
+-   ["Useful
+    Datatypes](http://xformsinstitute.com/essentials/browse/book.php#ch04-6-fm2xml)
+-   [rendering of XFORMS inside
+    Mozilla](http://developer.mozilla.org/en/docs/XForms)
+
 Manipulation
 ------------
 

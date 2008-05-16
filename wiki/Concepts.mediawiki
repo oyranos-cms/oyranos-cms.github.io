@@ -199,6 +199,15 @@ The device to device colour path contains as well the settings to receive and to
 Profile selectors can to a user present the internal stored name and the external file name. Ideally both should coincide, with the possible exceptions of the space sign and the file type ending.
 In case the profile is a in memory one the internal name might not be detectable.
 
+=== XML Plug-in options ===
+Simple Toolkit Abstraction is the name of a project on the GSoC2008 OpenICC page. Its goal is to provide a simple way for plug-ins and CMM's to describe options and have some slightly control over its presentation layout. Jon A. Cruz gave some helpful suggestions on what to focus on this area. The dataflow could be something like this:
+ XFORMS + XML -> xslt -> toolkit XML -> native toolkit widgets
+
+Some links to explore:
+* [http://www.w3.org/TR/xmlschema-2/#built-in-datatypes XML Schema] to get a grip on data inside XML
+* [http://xformsinstitute.com/essentials/browse/book.php#ch04-6-fm2xml "Useful Datatypes]
+* [http://developer.mozilla.org/en/docs/XForms rendering of XFORMS inside Mozilla]
+
 == Manipulation ==
 The goal of using manipulations is to get an good image correction for special cameras, media or special scenes. The process is as well known in the film industry as colour grading.
 
