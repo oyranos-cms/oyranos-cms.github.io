@@ -17,6 +17,7 @@ tags:
 | Revision 0.1.4   |
 | Revision 0.1.5   |
 | Revision 0.1.6   |
+| Revision 0.1.7   |
 ||
 
 <H1>
@@ -93,9 +94,11 @@ storing common place colour profiles. The directory name is
 
 ***icc***/
 
-The directory expands then for instance to /usr/share/color/icc. The icc
-subdirectory should be scanned recursively, to allow some future
-features.
+The directory expands then for the /usr/share/color case to
+/usr/share/color/icc. Put then the ICC profiles into this or below
+/usr/share/color/icc. /usr/share/color should contain only directories
+and no ICC profiles. The icc subdirectory should be scanned recursively,
+to allow some future features.
 
 ### Subdirectory naming rules
 
@@ -129,16 +132,6 @@ Settings
 Settings may contain presets of single settings. The location is at:
 
 ***settings***/
-
-Binary blobs should be preferedly go the \_DATA\_ and clear text ones
-the \_CONFIG\_ route.
-
-CMMs
-----
-
-CMM's register files can be stored in:
-
-***cmms***/
 
 Binary blobs should be preferedly go the \_DATA\_ and clear text ones
 the \_CONFIG\_ route.

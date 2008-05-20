@@ -38,6 +38,11 @@
 | Kai-Uwe Behrmann
 | clarify about faculty to use subdirectories
 |-
+| Revision 0.1.7
+| 2008-05-17
+| Kai-Uwe Behrmann
+| remove cmms configuration paths
+|-
 |}
 
 
@@ -100,7 +105,7 @@ The directory name is
 
 '''''icc'''''/
 
-The directory expands then for instance to /usr/share/color/icc.
+The directory expands then for the /usr/share/color case to /usr/share/color/icc. Put then the ICC profiles into this or below /usr/share/color/icc. /usr/share/color should contain only directories and no ICC profiles.
 The icc subdirectory should be scanned recursively, to allow some future features.
 
 === Subdirectory naming rules ===
@@ -126,13 +131,6 @@ Settings may contain presets of single settings.
 The location is at:
 
 '''''settings'''''/
-
-Binary blobs should be preferedly go the _DATA_ and clear text ones the _CONFIG_ route.
-
-== CMMs ==
-CMM's register files can be stored in:
-
-'''''cmms'''''/
 
 Binary blobs should be preferedly go the _DATA_ and clear text ones the _CONFIG_ route.
 
