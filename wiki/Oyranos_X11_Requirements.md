@@ -118,36 +118,15 @@ ICC Profiles in X
 ### References
 
 -   [\#Multi Monitor EDID in X11](#Multi_Monitor_EDID_in_X11 "wikilink")
--   [ICC Profiles in X Specification
-    0.2](/wiki/ICC_Profiles_in_X_Specification_0.2 "wikilink")
+-   [ICC Profile in X
+    Specification](http://www.freedesktop.org/wiki/Specifications/icc_profiles_in_x_spec)
+    @ fd.o
 
 ### Further Tasks
 
 [(Draft for a ICC Profiles in X Specification
-0.3)](/wiki/ICC_Profiles_in_X_Specification_0.3 "wikilink")
+0.4)](/wiki/ICC_Profiles_in_X_Specification_0.4 "wikilink")
 
--   (done) possibly add a \_ICC\_IN\_X\_VERSION atom can be included to
-    talk about the revision supported by the system
-    [1](http://lists.freedesktop.org/archives/openicc/2007q4/000987.html)
--   (done) clarify about current(v0.2) ambiguities regarding monitor and
-    screen counting starting from zero
--   (done) clarify about current(v0.2) ambiguities regarding screens and
-    pseudo - or Xinerama screens
--   (done) Jon A. Cruz suggested to use monitor as a basic term instead
-    of screen
-    [2](http://lists.freedesktop.org/archives/openicc/2007q4/001056.html)
--   (done) Hal: substitute *uncalibrated* with *uncharacterized* to show
-    that the vcgt issue is not targeted
-    [3](http://lists.freedesktop.org/archives/openicc/2007q4/000989.html)
--   (done) set default for uncharacterised to sRGB
-    [4](http://lists.freedesktop.org/archives/openicc/2005q2/000431.html)
--   neutral hosting at fd.o see [bug
-    \#12824](https://bugs.freedesktop.org/show_bug.cgi?id=12824)
--   (done) correct case of ICC\_PROFILE\_xxx
-    [5](http://lists.freedesktop.org/archives/openicc/2008q2/001579.html)
-
-As soon as the discussion on the [OpenICC](/wiki/OpenICC "wikilink") list
-settles, revision 0.3 will be drafted and can be finally released after
-a small period.
+-   add xrandr-1.2 porperties per each physical output device
 
 [back -&gt; Oyranos](/wiki/Oyranos "wikilink")
