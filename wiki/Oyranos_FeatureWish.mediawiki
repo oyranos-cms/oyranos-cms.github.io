@@ -166,13 +166,14 @@ Constitute a colour patch presentation:
 * current state is shown [http://www.behrmann.name/wind/oyranos/icc_examin_2007.09.24.html here]
 * done - allow for grouping ( swatches )
 * exchange as colour selection(s) in X11, Quartz ...
-* Named Colours as file (xml?)
+* Named Colours (oyNamedColour(s)_s) <-> data blob (Create's colour swatch XML, CGATS, ...) in a plugable fashion 
 * keep in sync with [http://create.freedesktop.org/wiki/index.php?title=Swatches_-_colour_file_format Create]
 * HDR range information
 * creator signature?
 * gamut warning with the device, which is exceeded - monitor, printer, colour space
 * to sRGB float conversion from Lab(D50)/XYZ or from channels over ICC profile with lcms
 * gamma handling?
+* extra channel handling (sheme fo explicitely naming alpha, UV ...) enums? string tags? ...
 
 === Miscellaneous ===
 * done (split Oyranos headers for users, configuration)

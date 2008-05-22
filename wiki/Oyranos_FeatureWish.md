@@ -198,7 +198,8 @@ Constitute a colour patch presentation:
     [here](http://www.behrmann.name/wind/oyranos/icc_examin_2007.09.24.html)
 -   done - allow for grouping ( swatches )
 -   exchange as colour selection(s) in X11, Quartz ...
--   Named Colours as file (xml?)
+-   Named Colours (oyNamedColour(s)\_s) &lt;-&gt; data blob (Create's
+    colour swatch XML, CGATS, ...) in a plugable fashion
 -   keep in sync with
     [Create](http://create.freedesktop.org/wiki/index.php?title=Swatches_-_colour_file_format)
 -   HDR range information
@@ -208,6 +209,8 @@ Constitute a colour patch presentation:
 -   to sRGB float conversion from Lab(D50)/XYZ or from channels over ICC
     profile with lcms
 -   gamma handling?
+-   extra channel handling (sheme fo explicitely naming alpha, UV ...)
+    enums? string tags? ...
 
 ### Miscellaneous
 
