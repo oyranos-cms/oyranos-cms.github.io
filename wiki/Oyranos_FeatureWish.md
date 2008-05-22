@@ -157,13 +157,21 @@ profiles by accident.
 ||
 
 -   -   options handling (xml, GUI)
-        -   options should be displayed to users according to
+        -   static options should be displayed to users according to
             preferences (for instance [mismatch
             option](/wiki/Oyranos_Configuration_Dialog#Colour_Space_Mismatch "wikilink"))
 
 |     |               |                |             |                               |
 |-----|---------------|----------------|-------------|-------------------------------|
 |     | Progress: 20% | Version: x.x.x | Start: 2006 | Assigned to: Kai-Uwe Behrmann |
+||
+
+-   -   [Plug-in options / dynamic
+        GUI](/wiki/Concepts#XML_Plug-in_options "wikilink")
+
+|     |              |                |             |                |
+|-----|--------------|----------------|-------------|----------------|
+|     | Progress: 8% | Version: 1.x.x | Start: 2008 | Assigned to: ? |
 ||
 
 -   file support (tiff,png,jpeg), move from Colori

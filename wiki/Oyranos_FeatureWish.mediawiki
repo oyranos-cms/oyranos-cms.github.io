@@ -120,7 +120,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 |-
 |}
 ** options handling (xml, GUI)
-*** options should be displayed to users according to preferences (for instance [[Oyranos_Configuration_Dialog#Colour_Space_Mismatch|mismatch option]])
+*** static options should be displayed to users according to preferences (for instance [[Oyranos_Configuration_Dialog#Colour_Space_Mismatch|mismatch option]])
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | style="width:1%" |
@@ -128,6 +128,16 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 | style="width:20%" | Version: x.x.x
 | style="width:20%" | Start: 2006
 | style="width:20%" | Assigned to: Kai-Uwe Behrmann
+|-
+|}
+** [[Concepts#XML_Plug-in_options|Plug-in options / dynamic GUI]]
+{| style="width:100%;text-align:left" colspan="20"
+|-
+| style="width:1%" |
+| style="width:20%" | Progress: 8%
+| style="width:20%" | Version: 1.x.x
+| style="width:20%" | Start: 2008
+| style="width:20%" | Assigned to: ?
 |-
 |}
 * file support (tiff,png,jpeg), move from Colori
