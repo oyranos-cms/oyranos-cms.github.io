@@ -200,6 +200,8 @@ The glue between both concepts, which almost always should be available
 in parallel, is a explicite opt out flag and a path for colour profiles
 to characterise the image data.
 
+![](CMS_Linux2-3.2.png "CMS_Linux2-3.2.png")
+
 ### Late colour binding
 
 In the above mentioned context late colour binding means to do the final

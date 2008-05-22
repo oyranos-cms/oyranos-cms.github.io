@@ -88,6 +88,8 @@ Colour binding means that step in colour workflow where image colours are turned
 
 The glue between both concepts, which almost always should be available in parallel, is a explicite opt out flag and a path for colour profiles to characterise the image data. 
 
+[[Image:CMS_Linux2-3.2.png]]
+
 === Late colour binding ===
 In the above mentioned context late colour binding means to do the final colour conversion at a late state. This can have advantages, when colour needs to be processed later on. Then colours can stay in a well behaved editing space and processing such as mixing is much more relyable. The colours should be converted to a device space when no further colour processing is done. This happens typical on a system level and can be influenced by a user through system level options.
 
