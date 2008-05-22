@@ -240,8 +240,8 @@ Todo
 
 ### Target 0.1.8
 
--   error handling
--   information callback function:
+-   (done) error handling
+-   (done) information callback function:
 
 ` int (*callback)(int code, const char* format, ...)`
 
