@@ -274,6 +274,8 @@ to have the option of an color management policy, which allows only the
 creation of flat color documents in well known and tested editing
 spaces.
 
+![](CMS_Linux2-3.1.png "CMS_Linux2-3.1.png")
+
 Stages of manipulation
 ----------------------
 

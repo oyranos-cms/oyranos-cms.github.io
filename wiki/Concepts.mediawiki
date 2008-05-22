@@ -128,6 +128,8 @@ One concept of the ICC-standard, is the possibility to create documents, where e
 
 To give users successful experiences with color management, it is useful to have the option of an color management policy, which allows only the creation of flat color documents in well known and tested editing spaces.
 
+[[Image:CMS_Linux2-3.1.png]]
+
 == Stages of manipulation ==
 Handling of colour data is been expected in several states, handled by dedicated colour spaces. The following describes a process with three steps for image data.
 
