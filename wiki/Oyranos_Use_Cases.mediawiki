@@ -17,6 +17,8 @@ SB should as well be able to look into a common hardware database for comparing 
 
 In case no profile is returned, SB will ask Oyranos what to do next. To use Oyranos we have to prepare some bits.
 
+[[Image:CMS Linux2-6.0.png]]
+
 === Code Preparation ===
 SB has to put a 
  #include <oyranos/oyranos.h>

@@ -44,6 +44,8 @@ profiles for the system, ahhemmm but it is not yet ready in Oyranos.
 In case no profile is returned, SB will ask Oyranos what to do next. To
 use Oyranos we have to prepare some bits.
 
+![](CMS_Linux2-6.0.png "CMS_Linux2-6.0.png")
+
 ### Code Preparation
 
 SB has to put a
