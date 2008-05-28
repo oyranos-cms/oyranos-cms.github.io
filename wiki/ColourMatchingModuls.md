@@ -72,3 +72,14 @@ different implementations.
     pixel.
 
 License: LGPL
+
+Profiler
+--------
+
+-   ArgyllCMS as mentioned above
+
+#### LProf
+
+[LProf](http://lprof.sourceforge.net/)
+
+License: GPL
