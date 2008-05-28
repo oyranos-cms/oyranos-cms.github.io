@@ -67,6 +67,10 @@ CM Preferences (v0.22-1):
 
 ![](Ss_0.22-1_preferences.png "Ss_0.22-1_preferences.png")
 
+CM Preferences without Oyranos (v0.23-0):
+
+![](Cinepaint_screenshot_0.23_en.png "Cinepaint_screenshot_0.23_en.png")
+
 Links
 -----
 

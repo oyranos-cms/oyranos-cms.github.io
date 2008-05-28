@@ -36,6 +36,11 @@ CM Preferences (v0.22-1):
 
 [[Image:Ss 0.22-1 preferences.png]]
 
+
+CM Preferences without Oyranos (v0.23-0):
+
+[[Image:Cinepaint screenshot 0.23 en.png]]
+
 == Links ==
 *http://www.cinepaint.org - Project page
 *[http://cinepaint.bigasterisk.com/CinePaintDocumentation CinePaintDocumentation] - Wiki
