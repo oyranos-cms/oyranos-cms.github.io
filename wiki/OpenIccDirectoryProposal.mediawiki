@@ -43,6 +43,11 @@
 | Kai-Uwe Behrmann
 | remove cmms configuration paths
 |-
+| Revision 0.1.8
+| 2008-06-04
+| Kai-Uwe Behrmann
+| remove "Subdirectory naming rules" subsection from "Colour Profile Paths"
+|-
 |}
 
 
@@ -108,23 +113,14 @@ The directory name is
 The directory expands then for the /usr/share/color case to /usr/share/color/icc. Put then the ICC profiles into this or below /usr/share/color/icc. /usr/share/color should contain only directories and no ICC profiles.
 The icc subdirectory should be scanned recursively, to allow some future features.
 
-=== Subdirectory naming rules ===
+So far, installing in a flat hierarchy is ok.
+
 Profiles may be grouped by different purposes. Therefor some directory names are reserved for future expansion. Candidates are mentioned below:
 
 'editing' 'device' 'camera' 'scanner' 'monitor' 'printer' 'output' 'input' 'abstract' 'named_color_list' 'colorspace' 'file' 'standard'
 
 The above names are not yet in use. Don not rely on them, just avoid using. They can be activated easily after further discussion at the OpenICC email list.
 
-Finally a scheme like:
- /usr/share/color/icc
-    vendor/
-        rgb/
-            vendor_rgb.icc
-        cmyk/
-            vendor_fogra27.icc
-            vendor_fogra28.icc
-            ...
-would be possible if you wish such. So far, installing in a flat hierarchy is allowed.
 
 == Settings ==
 Settings may contain presets of single settings.
@@ -133,6 +129,7 @@ The location is at:
 '''''settings'''''/
 
 Binary blobs should be preferedly go the _DATA_ and clear text ones the _CONFIG_ route.
+
 
 == Installation ==
 It is recommended to ask for the XDG variables befor installing globaly visible data on a system. 

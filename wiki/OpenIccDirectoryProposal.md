@@ -18,6 +18,7 @@ tags:
 | Revision 0.1.5   |
 | Revision 0.1.6   |
 | Revision 0.1.7   |
+| Revision 0.1.8   |
 ||
 
 <H1>
@@ -100,7 +101,7 @@ The directory expands then for the /usr/share/color case to
 and no ICC profiles. The icc subdirectory should be scanned recursively,
 to allow some future features.
 
-### Subdirectory naming rules
+So far, installing in a flat hierarchy is ok.
 
 Profiles may be grouped by different purposes. Therefor some directory
 names are reserved for future expansion. Candidates are mentioned below:
@@ -111,20 +112,6 @@ names are reserved for future expansion. Candidates are mentioned below:
 The above names are not yet in use. Don not rely on them, just avoid
 using. They can be activated easily after further discussion at the
 OpenICC email list.
-
-Finally a scheme like:
-
-`/usr/share/color/icc`  
-`   vendor/`  
-`       rgb/`  
-`           vendor_rgb.icc`  
-`       cmyk/`  
-`           vendor_fogra27.icc`  
-`           vendor_fogra28.icc`  
-`           ...`
-
-would be possible if you wish such. So far, installing in a flat
-hierarchy is allowed.
 
 Settings
 --------
