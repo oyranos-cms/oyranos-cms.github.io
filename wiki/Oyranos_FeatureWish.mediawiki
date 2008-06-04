@@ -19,6 +19,8 @@ They come often from discussions at the [[OpenICC]] email list. It is a good pla
 * common screen naming sheme for X11, osX and Windows
 * [[#Named Colours|Named Colours]] in X11, osX ,Windows representation
 * clear about VCGT handling, use Xcalib (licensing?) or ArgyllCMS, give at least a hint at configure time "found Xcalib/Argyll - can load VCGT"
+* support the upcomming the Xwindow profile attaching stuff from TomasC.
+* XRandR support
 
 === ICC profile handling ===
 * check for well behaving of Editing colour spaces (Matrix, RGB: gamma equally over all channels, Gray axis, ...)

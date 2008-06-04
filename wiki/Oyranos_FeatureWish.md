@@ -36,6 +36,9 @@ here is better than forget elsewhere.
 -   clear about VCGT handling, use Xcalib (licensing?) or ArgyllCMS,
     give at least a hint at configure time “found Xcalib/Argyll - can
     load VCGT”
+-   support the upcomming the Xwindow profile attaching stuff from
+    TomasC.
+-   XRandR support
 
 ### ICC profile handling
 
