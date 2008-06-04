@@ -13,7 +13,7 @@ Requirements:
 ** screenshots / forms selection
 *** currently I am exploring processors:
 *** firefox 2.0.0.6 with XForms.xpi-v0.84 does not
-*** Obeon looks nice but large
+*** [http://www.orbeon.com Orbeon] looks nice but seems rather big
 * define orientation (horizontal/vertical for grouping inside a pack style widget)
 ** some definitions are in oyranos_alpha.h -- oyWidget_s ... but may become obsolete with XForms
 * select one widget per group for scaling; place this widget at top, bottom, right, left, centered or to fill as specified

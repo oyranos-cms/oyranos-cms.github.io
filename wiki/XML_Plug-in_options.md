@@ -32,7 +32,8 @@ Requirements:
     -   screenshots / forms selection
         -   currently I am exploring processors:
         -   firefox 2.0.0.6 with XForms.xpi-v0.84 does not
-        -   Obeon looks nice but large
+        -   [Orbeon](http://www.orbeon.com) looks nice but seems rather
+            big
 -   define orientation (horizontal/vertical for grouping inside a pack
     style widget)
     -   some definitions are in oyranos\_alpha.h -- oyWidget\_s ... but
