@@ -459,6 +459,11 @@ Some links to explore:
     Abstraction](http://www.freedesktop.org/wiki/OpenIccForGoogleSoC2008#head-07e05f69f1b4e331ba0d3741dc06ba53ae728459)
     OpenICC GSoC2008 project idea
 
+<!-- -->
+
+-   read in [XML Plug-in options](/wiki/XML_Plug-in_options "wikilink") for
+    more details
+
 Manipulation
 ------------
 
