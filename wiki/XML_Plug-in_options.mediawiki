@@ -1,4 +1,3 @@
-= XML Plug-in options =
 Simple Toolkit Abstraction is the name of a project idea on the GSoC2008 OpenICC page. Its goal is to provide a simple way for plug-ins and CMM's to describe options and have some slightly control over its presentation layout. Jon A. Cruz gave some helpful suggestions on what to focus on this area. The dataflow could be something like this:
  XFORMS + XML -> xslt -> toolkit XML -> native toolkit widgets
 

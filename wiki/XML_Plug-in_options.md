@@ -7,9 +7,6 @@ tags:
  - Oyranos
 ---
 
-XML Plug-in options
-===================
-
 Simple Toolkit Abstraction is the name of a project idea on the GSoC2008
 OpenICC page. Its goal is to provide a simple way for plug-ins and CMM's
 to describe options and have some slightly control over its presentation
