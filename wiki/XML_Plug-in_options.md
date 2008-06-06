@@ -28,9 +28,10 @@ Requirements:
     buttons, check button, radio button, text box, drawing area
     -   screenshots / forms selection
         -   currently I am exploring processors:
-        -   firefox 2.0.0.6 with XForms.xpi-v0.84 does not
+        -   firefox 2.0.0.13 with XForms-v0.8.5 does with a xforms.xhtml
+            (not \*.html)
         -   [Orbeon](http://www.orbeon.com) looks nice but seems rather
-            big
+            big and needs a local tomcat compilation
 -   define orientation (horizontal/vertical for grouping inside a pack
     style widget)
     -   some definitions are in oyranos\_alpha.h -- oyWidget\_s ... but
