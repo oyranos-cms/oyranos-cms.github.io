@@ -11,11 +11,32 @@ Simple Toolkit Abstraction is the name of a project idea on the GSoC2008
 OpenICC page. Its goal is to provide a simple way for plug-ins and CMM's
 to describe options and have some slightly control over its presentation
 layout. Jon A. Cruz gave some helpful suggestions on what to focus on
-this area. The dataflow could be something like this:
+this area.
+
+Architecture
+------------
+
+The dataflow could be something like this:
 
 `XFORMS + XML -> xslt -> toolkit XML -> native toolkit widgets`
 
-Requirements:
+XForms and HTML elements need to be supported fo the UI definition. The
+idea is to have as less layout code there as possible and let the UI
+engine decide how to display. The plug-ins should be able to expose the
+grouping of their options, their type and icons, labels and so on. To
+automate processing, the standard options need to be specified on
+Oyranos side.
+
+What is all involved?
+
+-   user categories (filter categories ...)
+-   Oyranos backend API's mapping (CMM need images, profiles and
+    options, filters want images + options?)
+-   UI backend deploy xslt conversions to their xml UI representation
+-   event exchange
+
+Requirements
+------------
 
 -   based on W3C technology (Xforms, Dom ...)
 -   callback mechanism (possibly to pass the changed serialised widget
@@ -43,7 +64,8 @@ Requirements:
 -   support console applications
 -   converters for at least Qt, Gtk, FLTK ...
 
-Some links to explore:
+References
+----------
 
 -   [XML Schema](http://www.w3.org/TR/xmlschema-2/#built-in-datatypes)
     to get a grip on data inside XML
