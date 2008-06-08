@@ -19,3 +19,5 @@ reasonable range of patches to match the DL table.
 
 An other option, in case only two profiles are involved, is to check for
 identical md5 check sums as described in the ICC profile specification.
+
+[back to the -&gt; FeatureWish page](/wiki/Oyranos/FeatureWish "wikilink")
