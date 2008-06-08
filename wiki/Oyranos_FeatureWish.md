@@ -263,11 +263,14 @@ Todo
 ### Target 0.1.8
 
 -   (done) error handling
--   (done) information callback function:
+-   information callback function:
 
 ` int (*callback)(int code, const char* format, ...)`
 
 -   -   internally all can stay with macros
+    -   the context should remain distinguishable, as over a pointer or
+        a ID, the anonymous callback design above is problematic for OO
+        programming
 
 -   override default settings, dependent whether they are inbuild or
     explicitely set by a user
