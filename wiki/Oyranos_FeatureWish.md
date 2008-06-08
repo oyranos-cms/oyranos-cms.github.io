@@ -143,13 +143,12 @@ profiles by accident.
 ### CMM Framework
 
 -   backend API a typical CMM should provide
+    -   (done) transform caching (file format - device link)
 
 |     |               |                |             |                                          |
 |-----|---------------|----------------|-------------|------------------------------------------|
 |     | Progress: 60% | Version: x.x.x | Start: 2007 | Assigned to: Kai-Uwe Behrmann (Scribus?) |
 ||
-
--   -   transform caching (file format?)
 
 -   frontend API, transforms, caching, image description - buffer layout
     / screen position
@@ -159,14 +158,23 @@ profiles by accident.
 |     | Progress: 55% | Version: 1.x.x | Start: 2007 | Assigned to: Kai-Uwe Behrmann |
 ||
 
+-   [Oyranos/Null Transform
+    Checking](/wiki/Oyranos/Null_Transform_Checking "wikilink") - implicite;
+    beside explicite opt out support in options
+
+|     |              |                |             |                |
+|-----|--------------|----------------|-------------|----------------|
+|     | Progress: 0% | Version: 1.x.x | Start: 2008 | Assigned to: ? |
+||
+
 -   -   options handling (xml, GUI)
         -   static options should be displayed to users according to
             preferences (for instance [mismatch
             option](/wiki/Oyranos_Configuration_Dialog#Colour_Space_Mismatch "wikilink"))
 
-|     |               |                |             |                               |
-|-----|---------------|----------------|-------------|-------------------------------|
-|     | Progress: 20% | Version: x.x.x | Start: 2006 | Assigned to: Kai-Uwe Behrmann |
+|     |               |                |             |                                   |
+|-----|---------------|----------------|-------------|-----------------------------------|
+|     | Progress: 25% | Version: x.x.x | Start: 2006 | Assigned to: Kai-Uwe Behrmann + ? |
 ||
 
 -   -   [Plug-in options / dynamic

@@ -101,6 +101,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 
 === CMM Framework ===
 * backend API a typical CMM should provide
+** (done) transform caching (file format - device link)
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | style="width:1%" |
@@ -110,7 +111,6 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 | style="width:20%" | Assigned to: Kai-Uwe Behrmann (Scribus?)
 |-
 |}
-** transform caching (file format?)
 * frontend API, transforms, caching, image description - buffer layout / screen position
 {| style="width:100%;text-align:left" colspan="20"
 |-
@@ -121,15 +121,25 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 | style="width:20%" | Assigned to: Kai-Uwe Behrmann
 |-
 |}
+* [[Oyranos/Null Transform Checking]] - implicite; beside explicite opt out support in options
+{| style="width:100%;text-align:left" colspan="20"
+|-
+| style="width:1%" |
+| style="width:20%" | Progress: 0%
+| style="width:20%" | Version: 1.x.x
+| style="width:20%" | Start: 2008
+| style="width:20%" | Assigned to: ?
+|-
+|}
 ** options handling (xml, GUI)
 *** static options should be displayed to users according to preferences (for instance [[Oyranos_Configuration_Dialog#Colour_Space_Mismatch|mismatch option]])
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | style="width:1%" |
-| style="width:20%" | Progress: 20%
+| style="width:20%" | Progress: 25%
 | style="width:20%" | Version: x.x.x
 | style="width:20%" | Start: 2006
-| style="width:20%" | Assigned to: Kai-Uwe Behrmann
+| style="width:20%" | Assigned to: Kai-Uwe Behrmann + ?
 |-
 |}
 ** [[Concepts#XML_Plug-in_options|Plug-in options / dynamic GUI]]
