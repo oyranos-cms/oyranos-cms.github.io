@@ -1,0 +1,16 @@
+Looking at the description tag is a typical option but can be faked.
+
+Checking the resulting transform for identity in each table- and curves
+entry might be an other option. The drawback is the computational cost to
+create the transformation in the first place. I would expect the
+device link curves to be linear[0,1] and each table output entry matching
+the table input value. More pragmatically one might run the colour
+conversion over a simple fine grained test image and look for differences
+above a reasonable threshold. The test image should cover a reasonable
+range of patches to match the DL table.
+
+An other option, in case only two profiles are involved, is to check for
+identical md5 check sums as described in the ICC profile specification.
+
+
+[[Category:Oyranos]]
