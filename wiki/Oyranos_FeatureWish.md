@@ -282,7 +282,8 @@ Todo
 -   (done) investigate in ColorSync ignoring some CMM:SGI marked
     profiles
 -   (done) look into newer Elektra library API (Oyranos v0.1.7 can use
-    Elektra v0.6.4) v0.1.8 uses Elektra v0.7.x
+    Elektra v0.6.4) v0.1.8 uses Elektra v0.7.x(which waits for its
+    release)
 
 ### External
 

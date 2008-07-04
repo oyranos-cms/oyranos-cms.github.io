@@ -227,7 +227,7 @@ Constitute a colour patch presentation:
 * (done) license change as [http://www.oyranos.org/#license stated]
 * new default profiles from [http://www.eci.org/eci/de/060_downloads.php ECI]
 * (done) investigate in ColorSync ignoring some CMM:SGI marked profiles
-* (done) look into newer Elektra library API (Oyranos v0.1.7 can use Elektra v0.6.4) v0.1.8 uses Elektra v0.7.x
+* (done) look into newer Elektra library API (Oyranos v0.1.7 can use Elektra v0.6.4) v0.1.8 uses Elektra v0.7.x(which waits for its release)
 
 === External ===
 * [https://bugzilla.redhat.com/show_bug.cgi?id=239936 Fedora bug entry]
