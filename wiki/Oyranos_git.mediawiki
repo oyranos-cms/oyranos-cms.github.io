@@ -17,6 +17,8 @@ Building Oyranos:
 Keeping Oyranos up to date:
  $ git pull
 
+Examining the history:
+ $ git log -p
 
 === Links ===
 * [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#git-quick-start git introduction]

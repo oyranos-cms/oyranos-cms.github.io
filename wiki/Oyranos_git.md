@@ -33,6 +33,10 @@ Keeping Oyranos up to date:
 
 `$ git pull`
 
+Examining the history:
+
+`$ git log -p`
+
 ### Links
 
 -   [git
