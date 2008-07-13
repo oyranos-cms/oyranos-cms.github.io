@@ -71,6 +71,26 @@ colour manage.
 -   optional e.g. oyProfile\_OptionSet( “history\_tracking” )
 -   examine tools - on screen (compiz?)
 
+### Embedding of Rendering Intents
+
+Typical rendering intents are selected during the colour conversion or
+retrieved automatically. The imagery has no such information. A ICC
+profile flag for the rendering intent is in most cases ignored.
+Nethertheless there might be some situtations, where selecting a
+rendering intent can have advantages. These are:
+
+-   passing a rendering intent through a unknown transport mechanism to
+    a end conversion, e.g. a device driver
+-   advice handle certain colour areas of a media independent document
+    in a specific way, e.g. images (perceptual) and logo (relative
+    colourimetric) colours combined in a PDF
+
+Nethertheless as the rendering intent is dependent to the colour
+context, e.g. surrounding colour elements, embedding a advice for a
+rendering intent should be used only for certain cases. By specifying
+the rendering intent in a too early state, the later colour conversions
+might be over specified and thus ending in conflicts.
+
 Flexibility
 -----------
 
