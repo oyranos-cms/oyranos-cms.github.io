@@ -80,4 +80,6 @@ References
 -   [Simple Toolkit
     Abstraction](http://www.freedesktop.org/wiki/OpenIccForGoogleSoC2008#head-07e05f69f1b4e331ba0d3741dc06ba53ae728459)
     OpenICC GSoC2008 project idea
+-   [1](http://chiba.sourceforge.net/)
+-   [2](http://www.w3.org/TR/xforms/)
 

@@ -39,6 +39,9 @@ What is all involved?
 * [http://developer.mozilla.org/en/docs/XForms rendering of XFORMS inside Mozilla]
 * [http://en.wikipedia.org/wiki/Xslt Xslt] @ wikipedia
 * [http://www.freedesktop.org/wiki/OpenIccForGoogleSoC2008#head-07e05f69f1b4e331ba0d3741dc06ba53ae728459 Simple Toolkit Abstraction] OpenICC GSoC2008 project idea
+* [http://chiba.sourceforge.net/] 
+* [http://www.w3.org/TR/xforms/]
+
 
 [[Category:Concepts]]
 [[Category:Oyranos]]
