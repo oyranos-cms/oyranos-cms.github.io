@@ -39,14 +39,16 @@ Requirements
 ------------
 
 -   based on W3C technology (Xforms, Dom ...)
+-   ajax based technology ((X)HTML, CSS and Javascript)
 -   callback mechanism (possibly to pass the changed serialised widget
     layout, like a diff, to the callback)
-    -   can a XEvents subset be supported?
 -   callback as C function or CTL for portability?
 -   easy separation of layout (widgets) from data (options)
     -   should work fairly good with XForms
 -   widget set: tabs, groups, lists, choice list, sliders (range),
     buttons, check button, radio button, text box, drawing area
+    -   there shouldnt be a problem using interactive and non-inetactive
+        widgets using AJAX technology
     -   screenshots / forms selection
         -   currently I am exploring processors:
         -   firefox 2.0.0.13 with XForms-v0.8.5 does with a xforms.xhtml
@@ -59,10 +61,10 @@ Requirements
         may become obsolete with XForms
 -   select one widget per group for scaling; place this widget at top,
     bottom, right, left, centered or to fill as specified
-    -   CSS (subset) as prefereed by XForms?
 -   serialise and deserialise from and to XML/XForms
 -   support console applications
 -   converters for at least Qt, Gtk, FLTK ...
+-   XML data models will be made by using XML\_Schema (W3C).
 
 References
 ----------
