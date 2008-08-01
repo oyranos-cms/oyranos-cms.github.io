@@ -170,4 +170,9 @@ specification and procedure suggestion, implement in
 | [v0.2](/wiki/Device_Settings_in_ICC_0.2 "wikilink")                         |
 ||
 
+### References
+
+-   CUPS and ICC colour management
+    [email](http://lists.freedesktop.org/archives/openicc/2005q2/000227.html)
+    [thread](http://lists.freedesktop.org/archives/openicc/2005q2/000208.html)
 

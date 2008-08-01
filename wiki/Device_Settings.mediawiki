@@ -106,6 +106,8 @@ TODO: proof the available options (ICC, XML...), choose, publish a specification
 |-
 |}
 
+=== References ===
+* CUPS and ICC colour management [http://lists.freedesktop.org/archives/openicc/2005q2/000227.html email] [http://lists.freedesktop.org/archives/openicc/2005q2/000208.html thread] 
 
 [[Category:Concepts]]
 [[Category:Oyranos]]
