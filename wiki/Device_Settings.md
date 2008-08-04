@@ -175,4 +175,6 @@ specification and procedure suggestion, implement in
 -   CUPS and ICC colour management
     [email](http://lists.freedesktop.org/archives/openicc/2005q2/000227.html)
     [thread](http://lists.freedesktop.org/archives/openicc/2005q2/000208.html)
+    on [OpenICC](/wiki/OpenICC "wikilink")
+-   CUPS on [linuxfoundation.org](http://linuxfoundation.org/en/CUPS)
 
