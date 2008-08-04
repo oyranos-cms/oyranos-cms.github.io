@@ -178,7 +178,8 @@ The proclaimed
 
 `wget `[`http://localhost:631/profiles/sRGB.icc`](http://localhost:631/profiles/sRGB.icc)
 
-is not working in CUPS(v1.2), as pointed out by Hal V. Engel.
+is not working in CUPS(v1.2), as pointed out by Hal V. Engel and
+[confimed](http://www.cups.org/str.php?L2894) by Mike Sweet.
 
 A path to send a user selected local device profile to a remote print
 host is unclear, at least to me.
