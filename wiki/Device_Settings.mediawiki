@@ -113,7 +113,7 @@ The proclaimed
  wget http://localhost:631/profiles/sRGB.icc
 is not working in CUPS(v1.2), as pointed out by Hal V. Engel.
 
-A path to send a user selected local device profile to a remote print host is unclear.
+A path to send a user selected local device profile to a remote print host is unclear, at least to me.
 
 The limitation of one CUPS profile directory, e.g. "/usr/share/cups/profiles", is too restsictive, even with linking to other directories.
 The cupsICCProfile attribute should therefore allow for absolute locations, not just relative to a CUPS profile directory.
@@ -123,10 +123,9 @@ A print job should reflect the users local settings in regards of rendering inte
 How are profiles, rendering intents and other settings passed from a printing application to backends, e.g. the *toraster family. Do the RPI's need to parse the PPD in order to read the cupsICCProfile PPD attribute? 
 How copy localy stored profiles to remote printing hosts?
 
-Possible APIs for Oyranos:
+Desireable APIs for Oyranos:
 * obtain a profile by giving Oyranos a static PPD (one without all open choices stripped).
 * obtain a list of profile/static_PPD combinations for a specific print queue.
-
 
 === References ===
 * [[Oyranos/X11 Requirements]]

@@ -181,7 +181,7 @@ The proclaimed
 is not working in CUPS(v1.2), as pointed out by Hal V. Engel.
 
 A path to send a user selected local device profile to a remote print
-host is unclear.
+host is unclear, at least to me.
 
 The limitation of one CUPS profile directory, e.g.
 “/usr/share/cups/profiles”, is too restsictive, even with linking to
@@ -196,7 +196,7 @@ to backends, e.g. the \*toraster family. Do the RPI's need to parse the
 PPD in order to read the cupsICCProfile PPD attribute? How copy localy
 stored profiles to remote printing hosts?
 
-Possible APIs for Oyranos:
+Desireable APIs for Oyranos:
 
 -   obtain a profile by giving Oyranos a static PPD (one without all
     open choices stripped).
