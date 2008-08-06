@@ -1,1 +1,7 @@
+== Links ==
 * Mainsite: [http://www.ghostscript.com www.ghostscript.com]
+
+
+[[Applications|back -> Applications]]
+
+[[Category:Programms]]
