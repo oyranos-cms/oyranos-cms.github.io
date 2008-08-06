@@ -3,9 +3,13 @@
 * PDF colour management
 * convert complex colour documents to flat representations, e.g. Tiff, PNG
 
+== Investigation ==
+  gs -sDEVICE=tiff32nc -o MyOutputFile.tiff -f myCMYKCRD.ps FileToProcess.pdf
+where myCMYKCRD.ps is to be created with for instance [http://www.littlecms.com/ lcms's] icc2ps tool. It should contain a CRD.
+
 == Links ==
 * Mainsite: [http://www.ghostscript.com www.ghostscript.com]
-
+* news thread about [http://newsgroups.derkeiler.com/Archive/Comp/comp.lang.postscript/2007-08/msg00019.html Ghostscript colour management]
 
 [[Applications|back -> Applications]]
 
