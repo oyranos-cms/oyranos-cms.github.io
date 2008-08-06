@@ -6,6 +6,14 @@ tags:
  - Programms
 ---
 
+Features
+--------
+
+-   colour management over the Postscript language with CRD's and CDA's
+-   PDF colour management
+-   convert complex colour documents to flat representations, e.g. Tiff,
+    PNG
+
 Links
 -----
 
