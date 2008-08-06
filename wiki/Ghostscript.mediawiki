@@ -1,15 +1,30 @@
 == Features ==
-* colour management over the Postscript language with CRD's and CDA's
-* PDF colour management
+* colour management through the Postscript language with CRD's and CDA's
 * convert complex colour documents to flat representations, e.g. Tiff, PNG
 
 == Investigation ==
+
+Create a CRD with relative colorimetric rendering intent:
+  [http://www.littlecms.com/ icc2ps] -o /opt/local/share/color/icc/ISOuncoatedyellowish.icc -t 1 > myCMYKCRD.ps
+
+Activate the CRD into the myCMYKCRD.ps resource file:
+  echo "/Current /ColorRendering findresource setcolorrendering" >> myCMYKCRD.ps
+
+Call Ghostscipt to convert the document:
   gs -sDEVICE=tiff32nc -o MyOutputFile.tiff -f myCMYKCRD.ps FileToProcess.pdf
-where myCMYKCRD.ps is to be created with for instance [http://www.littlecms.com/ lcms's] icc2ps tool. It should contain a CRD.
+Use -dUseCIEColor if you want to touch the Cmyk colours. Otherwise leave it as is.
+
+Embedd the profile:
+  tifficc -e -i ISOuncoatedyellowish.icc -o ISOuncoatedyellowish.icc MyOutputFile.tiff MyOutputFile_icc.tiff
+Probably use the -w option to preserve 16-bit images.
+
+The above approach does not support selection of rendering intents and is dependent on the Postscript interpreter.
 
 == Links ==
 * Mainsite: [http://www.ghostscript.com www.ghostscript.com]
-* news thread about [http://newsgroups.derkeiler.com/Archive/Comp/comp.lang.postscript/2007-08/msg00019.html Ghostscript colour management]
+* news thread about [http://newsgroups.derkeiler.com/Archive/Comp/comp.lang.postscript/2007-08/msg00019.html Ghostscript colour management] with Gerhard Fuernkranz
+* Marti Maria about [http://sourceforge.net/mailarchive/forum.php?thread_name=00004456.3EBBBE6F%40david.englram.de&forum_name=lcms-user icc2ps]
+* [http://www.adobe.com/products/postscript/pdfs/PLRM.pdf PLRM] Postscript Language Reference from Adobe - chapter 7 Rendering
 
 [[Applications|back -> Applications]]
 
