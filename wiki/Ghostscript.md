@@ -38,8 +38,7 @@ Embedd the profile:
 
 Probably use the -w option to preserve 16-bit images.
 
-The above approach does not support selection of rendering intents and
-is dependent on the Postscript interpreter.
+The above approach is dependent on Ghostscript's Postscript interpreter.
 
 Links
 -----
