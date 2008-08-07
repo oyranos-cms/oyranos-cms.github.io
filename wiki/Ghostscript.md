@@ -39,6 +39,9 @@ Embedd the profile:
 Probably use the -w option to preserve 16-bit images.
 
 The above approach is dependent on Ghostscript's Postscript interpreter.
+It uses internally CIEXYZ as PCS. There are clear issues, when it comes
+to bigger gamut differences. Thus it is not useable to convert to big
+gamut devices such as the K3 ink jets and other photo printers.
 
 Links
 -----
