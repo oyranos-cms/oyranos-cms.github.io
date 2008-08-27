@@ -41,9 +41,15 @@ License: LGPL
 
 == Profiler ==
 * ArgyllCMS as mentioned above
+* [http://www.digifab.com/ArgyllCMSGUI/ ArgyllCMSGUI] a GUI for some Argyll's command line tools
+* [http://x3.ntf.uni-lj.si/~gojc/Argyll CMS/ Argyll CMS] a Argyll command line resampler
+* [http://hoech.net/dispcalGUI/ dispcalGUI] a display profiler
+* [http://colorhacks.blogspot.com/ Stefan's review] of ArgyllCMSGUI, "Argyll CMS" and dispcalGUI : [09:57, 27 Aug 2008 (CEST)]
+
+License: GPL
 
 ==== LProf ====
-[http://lprof.sourceforge.net/ LProf]
+[http://lprof.sourceforge.net/ LProf] a scanner and display profiler
 
 License: GPL
 
