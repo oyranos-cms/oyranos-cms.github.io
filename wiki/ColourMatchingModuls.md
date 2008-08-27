@@ -23,7 +23,7 @@ Open Source Implementations
 -   Local, [Argyll Community
     Documentation](/wiki/Argyll_Community_Documentation "wikilink")
 
-License: new BSD? for the CMM module called libicc
+License: GPL, with an exception to libicc and libcgats
 
 #### LittleCMS
 

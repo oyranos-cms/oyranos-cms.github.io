@@ -8,7 +8,7 @@ In Open Source applications, LittleCMS is the most used CMM. Other widely used C
 ==== Argyll ====
 * http://www.argyllcms.com/
 * Local, [[Argyll Community Documentation]]
-License: new BSD? for the CMM module called libicc
+License: GPL, with an exception to libicc and libcgats
 
 ==== LittleCMS ====
 *http://www.littlecms.com/
