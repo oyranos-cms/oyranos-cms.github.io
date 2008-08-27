@@ -76,7 +76,8 @@ License: LGPL
 Profiler
 --------
 
--   ArgyllCMS as mentioned above
+#### ArgyllCMS
+
 -   [ArgyllCMSGUI](http://www.digifab.com/ArgyllCMSGUI/) a GUI for some
     Argyll's command line tools
 -   [CMS/ Argyll CMS](http://x3.ntf.uni-lj.si/~gojc/Argyll) a Argyll
