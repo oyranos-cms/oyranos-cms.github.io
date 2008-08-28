@@ -54,5 +54,8 @@ Links
     [icc2ps](http://sourceforge.net/mailarchive/forum.php?thread_name=00004456.3EBBBE6F%40david.englram.de&forum_name=lcms-user)
 -   [PLRM](http://www.adobe.com/products/postscript/pdfs/PLRM.pdf)
     Postscript Language Reference from Adobe - chapter 7 Rendering
+-   [a short
+    statement](http://www.ghostscript.com/pipermail/gs-devel/2008-August/007871.html)
+    about future CM in Ghostscript
 
 [back -&gt; Applications](/wiki/Applications "wikilink")

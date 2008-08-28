@@ -25,6 +25,7 @@ The above approach is dependent on Ghostscript's Postscript interpreter. It uses
 * news thread about [http://newsgroups.derkeiler.com/Archive/Comp/comp.lang.postscript/2007-08/msg00019.html Ghostscript colour management] with Gerhard Fuernkranz
 * Marti Maria about [http://sourceforge.net/mailarchive/forum.php?thread_name=00004456.3EBBBE6F%40david.englram.de&forum_name=lcms-user icc2ps]
 * [http://www.adobe.com/products/postscript/pdfs/PLRM.pdf PLRM] Postscript Language Reference from Adobe - chapter 7 Rendering
+* [http://www.ghostscript.com/pipermail/gs-devel/2008-August/007871.html a short statement] about future CM in Ghostscript
 
 [[Applications|back -> Applications]]
 
