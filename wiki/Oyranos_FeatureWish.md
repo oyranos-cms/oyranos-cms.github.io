@@ -147,7 +147,7 @@ profiles by accident.
 
 |     |               |                |             |                                          |
 |-----|---------------|----------------|-------------|------------------------------------------|
-|     | Progress: 60% | Version: x.x.x | Start: 2007 | Assigned to: Kai-Uwe Behrmann (Scribus?) |
+|     | Progress: 70% | Version: x.x.x | Start: 2007 | Assigned to: Kai-Uwe Behrmann (Scribus?) |
 ||
 
 -   frontend API, transforms, caching, image description - buffer layout
@@ -155,7 +155,7 @@ profiles by accident.
 
 |     |               |                |             |                               |
 |-----|---------------|----------------|-------------|-------------------------------|
-|     | Progress: 55% | Version: 1.x.x | Start: 2007 | Assigned to: Kai-Uwe Behrmann |
+|     | Progress: 70% | Version: 1.x.x | Start: 2007 | Assigned to: Kai-Uwe Behrmann |
 ||
 
 -   [Oyranos/Null Transform
@@ -177,12 +177,11 @@ profiles by accident.
 |     | Progress: 25% | Version: x.x.x | Start: 2006 | Assigned to: Kai-Uwe Behrmann + ? |
 ||
 
--   -   [Plug-in options / dynamic
-        GUI](/wiki/Concepts#XML_Plug-in_options "wikilink")
+-   -   [Plug-in options / dynamic GUI](/wiki/XML_Plug-in_options "wikilink")
 
-|     |              |                |             |                |
-|-----|--------------|----------------|-------------|----------------|
-|     | Progress: 8% | Version: 1.x.x | Start: 2008 | Assigned to: ? |
+|     |               |                |             |                                                        |
+|-----|---------------|----------------|-------------|--------------------------------------------------------|
+|     | Progress: 10% | Version: 1.x.x | Start: 2008 | Assigned to: [Marijana](/wiki/Marijana "wikilink") Novakovic |
 ||
 
 -   file support (tiff,png,jpeg), move from Colori

@@ -105,7 +105,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | style="width:1%" |
-| style="width:20%" | Progress: 60%
+| style="width:20%" | Progress: 70%
 | style="width:20%" | Version: x.x.x
 | style="width:20%" | Start: 2007
 | style="width:20%" | Assigned to: Kai-Uwe Behrmann (Scribus?)
@@ -115,7 +115,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | style="width:1%" |
-| style="width:20%" | Progress: 55%
+| style="width:20%" | Progress: 70%
 | style="width:20%" | Version: 1.x.x
 | style="width:20%" | Start: 2007
 | style="width:20%" | Assigned to: Kai-Uwe Behrmann
@@ -142,14 +142,14 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 | style="width:20%" | Assigned to: Kai-Uwe Behrmann + ?
 |-
 |}
-** [[Concepts#XML_Plug-in_options|Plug-in options / dynamic GUI]]
+** [[XML_Plug-in_options|Plug-in options / dynamic GUI]]
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | style="width:1%" |
-| style="width:20%" | Progress: 8%
+| style="width:20%" | Progress: 10%
 | style="width:20%" | Version: 1.x.x
 | style="width:20%" | Start: 2008
-| style="width:20%" | Assigned to: ?
+| style="width:20%" | Assigned to: [[Marijana]] Novakovic
 |-
 |}
 * file support (tiff,png,jpeg), move from Colori
