@@ -3,6 +3,8 @@ They come often from discussions at the [[OpenICC]] email list. It is a good pla
 
 === Devices ===
 * implement [[Device_Settings]] in ICC profiles
+* generalise to Sane, CUPS ...
+* integrate into the [http://code.google.com/soc/2008/openicc/appinfo.html?csaid=9EFC0E521D25020 KDE Kolormanager] mentored by [[OpenICC]] developers
 
 ==== Monitor ====
 * check for validity of a display setup (calibrated: yes/no, expired, ...)
