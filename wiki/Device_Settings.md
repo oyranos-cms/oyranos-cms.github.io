@@ -204,6 +204,10 @@ Desireable APIs for Oyranos:
 -   obtain a list of profile/static\_PPD combinations for a specific
     print queue.
 
+<!-- -->
+
+-   see [Ghostscript](/wiki/Ghostscript "wikilink") to build a test workflow
+
 ### References
 
 -   [Oyranos/X11 Requirements](/wiki/Oyranos/X11_Requirements "wikilink")
