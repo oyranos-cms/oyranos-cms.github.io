@@ -49,7 +49,7 @@ here is better than forget elsewhere.
 
 |              |                |             |                               |
 |--------------|----------------|-------------|-------------------------------|
-| Progress 15% | Version: x.x.x | Start: 2006 | Assigned to: Kai-Uwe Behrmann |
+| Progress 25% | Version: x.x.x | Start: 2006 | Assigned to: Kai-Uwe Behrmann |
 ||
 
 -   extraction of colorimetric informations from a profile like
