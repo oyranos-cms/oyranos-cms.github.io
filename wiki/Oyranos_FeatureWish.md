@@ -17,7 +17,8 @@ here is better than forget elsewhere.
 
 -   implement [Device\_Settings](/wiki/Device_Settings "wikilink") in ICC
     profiles
--   generalise to Sane, CUPS ...
+-   generalise to Sane, CUPS ... see as well
+    [here](/wiki/Device_Settings#Specific_Considerations "wikilink")
 -   integrate into the [KDE
     Kolormanager](http://code.google.com/soc/2008/openicc/appinfo.html?csaid=9EFC0E521D25020)
     mentored by [OpenICC](/wiki/OpenICC "wikilink") developers
