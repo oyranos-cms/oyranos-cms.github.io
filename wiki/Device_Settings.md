@@ -208,6 +208,12 @@ Desireable APIs for Oyranos:
 
 -   see [Ghostscript](/wiki/Ghostscript "wikilink") to build a test workflow
 
+#### Camera Raw Developing
+
+-   [DNG](http://www.adobe.com/products/dng)
+
+...
+
 ### References
 
 -   [Oyranos/X11 Requirements](/wiki/Oyranos/X11_Requirements "wikilink")

@@ -130,6 +130,10 @@ Desireable APIs for Oyranos:
 
 * see [[Ghostscript]] to build a test workflow
 
+==== Camera Raw Developing ====
+* [http://www.adobe.com/products/dng DNG]
+...
+
 === References ===
 * [[Oyranos/X11 Requirements]]
 * CUPS and ICC colour management [http://lists.freedesktop.org/archives/openicc/2005q2/000227.html email] [http://lists.freedesktop.org/archives/openicc/2005q2/000208.html thread] on [[OpenICC]]
