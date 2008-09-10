@@ -138,7 +138,7 @@ Desireable APIs for Oyranos:
 * [[Oyranos/X11 Requirements]]
 * CUPS and ICC colour management [http://lists.freedesktop.org/archives/openicc/2005q2/000227.html email] [http://lists.freedesktop.org/archives/openicc/2005q2/000208.html thread] on [[OpenICC]]
 * CUPS on [http://linuxfoundation.org/en/CUPS linuxfoundation.org]
-* v4 ICC support request for Ghostscript [http://bugs.ghostscript.com/show_bug.cgi?id=690062 #690062 (bugs.ghostscript.com)]
+* v4 ICC support request for Ghostscript [http://bugs.ghostscript.com/show_bug.cgi?id=688036 #688036 (bugs.ghostscript.com)]
 * Poppler CM request [https://bugs.freedesktop.org/show_bug.cgi?id=17499 #17499 (bugs.fd.o)]
 
 [[Category:Concepts]]

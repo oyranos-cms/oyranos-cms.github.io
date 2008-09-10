@@ -222,8 +222,8 @@ Desireable APIs for Oyranos:
     [thread](http://lists.freedesktop.org/archives/openicc/2005q2/000208.html)
     on [OpenICC](/wiki/OpenICC "wikilink")
 -   CUPS on [linuxfoundation.org](http://linuxfoundation.org/en/CUPS)
--   v4 ICC support request for Ghostscript [\#690062
-    (bugs.ghostscript.com)](http://bugs.ghostscript.com/show_bug.cgi?id=690062)
+-   v4 ICC support request for Ghostscript [\#688036
+    (bugs.ghostscript.com)](http://bugs.ghostscript.com/show_bug.cgi?id=688036)
 -   Poppler CM request [\#17499
     (bugs.fd.o)](https://bugs.freedesktop.org/show_bug.cgi?id=17499)
 
