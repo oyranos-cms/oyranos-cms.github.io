@@ -27,6 +27,7 @@ The above approach is dependent on Ghostscript's Postscript interpreter. It uses
 * [http://www.adobe.com/products/postscript/pdfs/PLRM.pdf PLRM] Postscript Language Reference from Adobe - chapter 7 Rendering
 * [http://www.ghostscript.com/pipermail/gs-devel/2008-August/007871.html a short statement] about future CM in Ghostscript
 
-[[Applications|back -> Applications]]
+[[Applications|back -> Applications]]<br />
+[[Device_Settings|back -> Device Settings]]
 
 [[Category:Programms]]

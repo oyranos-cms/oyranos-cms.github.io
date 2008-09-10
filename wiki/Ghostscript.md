@@ -58,4 +58,5 @@ Links
     statement](http://www.ghostscript.com/pipermail/gs-devel/2008-August/007871.html)
     about future CM in Ghostscript
 
-[back -&gt; Applications](/wiki/Applications "wikilink")
+[back -&gt; Applications](/wiki/Applications "wikilink")  
+[back -&gt; Device Settings](/wiki/Device_Settings "wikilink")
