@@ -37,7 +37,8 @@ Examining the history:
 
 `$ git log -p`
 
-A script to automate the process is
+A script to automate the process, including a build of [ICC
+Examin](/wiki/ICC_Examin "wikilink"), is
 [here](https://www.behrmann.name/temp/icc_examin-build.sh).
 
 ### Links
