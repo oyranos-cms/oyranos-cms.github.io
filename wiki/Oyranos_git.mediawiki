@@ -20,6 +20,8 @@ Keeping Oyranos up to date:
 Examining the history:
  $ git log -p
 
+A script to automate the process is [https://www.behrmann.name/temp/icc_examin-build.sh here].
+
 === Links ===
 * [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#git-quick-start git introduction]
 * [http://cworth.org/hgbook-git/tour/ Carl Worth's git tour]

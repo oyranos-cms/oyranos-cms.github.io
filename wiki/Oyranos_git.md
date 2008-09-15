@@ -37,6 +37,9 @@ Examining the history:
 
 `$ git log -p`
 
+A script to automate the process is
+[here](https://www.behrmann.name/temp/icc_examin-build.sh).
+
 ### Links
 
 -   [git
