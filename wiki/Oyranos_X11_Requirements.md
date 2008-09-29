@@ -123,6 +123,8 @@ ICC Profiles in X
 -   [ICC Profile in X
     Specification](http://www.freedesktop.org/wiki/Specifications/icc_profiles_in_x_spec)
     @ fd.o
+-   older versions can be found in the
+    [Category:Standards](http://www.oyranos.org/wiki/index.php?title=Category:Standards)
 
 ### Further Tasks
 

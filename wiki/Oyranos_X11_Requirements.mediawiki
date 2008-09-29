@@ -66,6 +66,7 @@ Oyranos 0.1.5 obtained the oyranos-monitor-nvidia commandline tool to demonstrat
 === References ===
 * [[#Multi Monitor EDID in X11]]
 * [http://www.freedesktop.org/wiki/Specifications/icc_profiles_in_x_spec ICC Profile in X Specification] @ fd.o
+* older versions can be found in the [http://www.oyranos.org/wiki/index.php?title=Category:Standards Category:Standards]
 
 === Further Tasks ===
 [[ICC_Profiles_in_X_Specification_0.4|(Draft for a ICC Profiles in X Specification 0.4)]]
