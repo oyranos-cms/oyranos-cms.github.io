@@ -1,6 +1,6 @@
 Git is set up on www.oyranos.org. To use git install the git-core package.
 
-You need currently [http://www.markus-raab.org/ftp/elektra-0.7.0rc3.tar.gz this Elektra version] 10:42, 29 Apr 2008 (CEST)
+You need currently [http://www.markus-raab.org/ftp/elektra-0.7.0rc5.tar.gz this Elektra version] 10:42, 29 Apr 2008 (CEST)
 
 
 First check out:
