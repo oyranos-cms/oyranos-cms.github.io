@@ -197,6 +197,12 @@ to backends, e.g. the \*toraster family. Do the RPI's need to parse the
 PPD in order to read the cupsICCProfile PPD attribute? How copy localy
 stored profiles to remote printing hosts?
 
+Linux will [switch to
+PDF](http://www.linuxfoundation.org/en/OpenPrinting/PDF_as_Standard_Print_Job_Format)
+as standard format for printing. Unfortunedly
+[Ghostscript](/wiki/Ghostscript "wikilink") has a [not working
+pdftoraster](http://bugs.ghostscript.com/show_bug.cgi?id=690101) filter.
+
 Desireable APIs for Oyranos:
 
 -   obtain a profile by giving Oyranos a static PPD (one without all
