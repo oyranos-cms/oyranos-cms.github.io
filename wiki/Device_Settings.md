@@ -78,8 +78,6 @@ configuration
 
 ------------------------------------------------------------------------
 
-------------------------------------------------------------------------
-
 ### Advantages
 
 -   select an profile and the system/application selects the correct
@@ -226,6 +224,9 @@ Desireable APIs for Oyranos:
 ### References
 
 -   [Oyranos/X11 Requirements](/wiki/Oyranos/X11_Requirements "wikilink")
+-   [PDF colour management wiki
+    page](https://www.linuxfoundation.org/en/OpenPrinting/Color_Management)
+    @linuxfoundation/OpenPrinting
 -   CUPS and ICC colour management
     [email](http://lists.freedesktop.org/archives/openicc/2005q2/000227.html)
     [thread](http://lists.freedesktop.org/archives/openicc/2005q2/000208.html)
@@ -233,6 +234,9 @@ Desireable APIs for Oyranos:
 -   CUPS on [linuxfoundation.org](http://linuxfoundation.org/en/CUPS)
 -   v4 ICC support request for Ghostscript [\#688036
     (bugs.ghostscript.com)](http://bugs.ghostscript.com/show_bug.cgi?id=688036)
+-   [not working pdftoraster bug \#690101
+    (bugs.ghostscript.com)](http://bugs.ghostscript.com/show_bug.cgi?id=690101)
+    in Ghostscript
 -   Poppler CM request [\#17499
     (bugs.fd.o)](https://bugs.freedesktop.org/show_bug.cgi?id=17499)
 

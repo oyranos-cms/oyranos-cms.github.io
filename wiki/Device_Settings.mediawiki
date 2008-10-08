@@ -26,8 +26,6 @@ In the following proposal, I will draw sketchy, what I think is needed to make t
 
 ----
 
-----
-
 === Advantages ===
 * select an profile and the system/application selects the correct driver and knows about needed settings
 * change settings and the system can tell if an profile is available
@@ -138,9 +136,11 @@ Desireable APIs for Oyranos:
 
 === References ===
 * [[Oyranos/X11 Requirements]]
+* [https://www.linuxfoundation.org/en/OpenPrinting/Color_Management PDF colour management wiki page] @linuxfoundation/OpenPrinting
 * CUPS and ICC colour management [http://lists.freedesktop.org/archives/openicc/2005q2/000227.html email] [http://lists.freedesktop.org/archives/openicc/2005q2/000208.html thread] on [[OpenICC]]
 * CUPS on [http://linuxfoundation.org/en/CUPS linuxfoundation.org]
 * v4 ICC support request for Ghostscript [http://bugs.ghostscript.com/show_bug.cgi?id=688036 #688036 (bugs.ghostscript.com)]
+* [http://bugs.ghostscript.com/show_bug.cgi?id=690101 not working pdftoraster bug #690101 (bugs.ghostscript.com)] in Ghostscript
 * Poppler CM request [https://bugs.freedesktop.org/show_bug.cgi?id=17499 #17499 (bugs.fd.o)]
 
 [[Category:Concepts]]
