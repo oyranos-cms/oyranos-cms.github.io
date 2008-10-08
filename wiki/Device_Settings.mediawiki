@@ -123,7 +123,7 @@ A print job should reflect the users local settings in regards of rendering inte
 How are profiles, rendering intents and other settings passed from a printing application to backends, e.g. the *toraster family. Do the RPI's need to parse the PPD in order to read the cupsICCProfile PPD attribute? 
 How copy localy stored profiles to remote printing hosts?
 
-Linux will [http://www.linuxfoundation.org/en/OpenPrinting/PDF_as_Standard_Print_Job_Format switch to PDF] as standard format for printing. Unfortunedly [[Ghostscript]] has a [http://bugs.ghostscript.com/show_bug.cgi?id=690101 not working pdftoraster] filter.
+Linux will [http://www.linuxfoundation.org/en/OpenPrinting/PDF_as_Standard_Print_Job_Format switch to PDF] as standard format for printing. Unfortunedly [[Ghostscript]] has a [http://bugs.ghostscript.com/show_bug.cgi?id=690101 not working pdftoraster] filter. The advantage of Ghostscript would be to obtain [https://www.linuxfoundation.org/en/OpenPrinting/Color_Management PDF colour management] right from the beginning.
 
 Desireable APIs for Oyranos:
 * obtain a profile by giving Oyranos a static PPD (one without all open choices stripped).

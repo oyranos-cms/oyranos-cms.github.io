@@ -202,6 +202,9 @@ PDF](http://www.linuxfoundation.org/en/OpenPrinting/PDF_as_Standard_Print_Job_Fo
 as standard format for printing. Unfortunedly
 [Ghostscript](/wiki/Ghostscript "wikilink") has a [not working
 pdftoraster](http://bugs.ghostscript.com/show_bug.cgi?id=690101) filter.
+The advantage of Ghostscript would be to obtain [PDF colour
+management](https://www.linuxfoundation.org/en/OpenPrinting/Color_Management)
+right from the beginning.
 
 Desireable APIs for Oyranos:
 
