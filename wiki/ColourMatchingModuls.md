@@ -87,6 +87,8 @@ Profiler
 -   [dispcalGUI](http://hoech.net/dispcalGUI/) a display profiler
 -   [Stefan's review](http://colorhacks.blogspot.com/) of ArgyllCMSGUI,
     “Argyll CMS” and dispcalGUI : \[09:57, 27 Aug 2008 (CEST)\]
+-   [GaMapICC](http://digitalproof.info/gamapicc/) is a Mac OS X
+    droplet, which works like a intelligent CMM
 
 License: GPL
 
