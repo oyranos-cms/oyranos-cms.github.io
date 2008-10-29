@@ -197,12 +197,16 @@ stored profiles to remote printing hosts?
 
 Linux will [switch to
 PDF](http://www.linuxfoundation.org/en/OpenPrinting/PDF_as_Standard_Print_Job_Format)
-as standard format for printing. Unfortunedly
-[Ghostscript](/wiki/Ghostscript "wikilink") has a [not working
-pdftoraster](http://bugs.ghostscript.com/show_bug.cgi?id=690101) filter.
-The advantage of Ghostscript would be to obtain [PDF colour
+as standard format for printing. The advantage of Ghostscript would be
+to obtain [PDF colour
 management](https://www.linuxfoundation.org/en/OpenPrinting/Color_Management)
 right from the beginning.
+
+Issues:
+
+-   \[fixed\] [Ghostscript](/wiki/Ghostscript "wikilink") has a [not working
+    pdftoraster](http://bugs.ghostscript.com/show_bug.cgi?id=690101)
+    filter.
 
 Desireable APIs for Oyranos:
 
@@ -239,4 +243,7 @@ Desireable APIs for Oyranos:
     in Ghostscript
 -   Poppler CM request [\#17499
     (bugs.fd.o)](https://bugs.freedesktop.org/show_bug.cgi?id=17499)
+-   [OpenPrinting CM
+    page](https://www.linuxfoundation.org/en/OpenPrinting/Color_Management)
+    @ linuxfoundation
 
