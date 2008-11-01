@@ -1,7 +1,7 @@
 == Dependencies ==
-For the development version check out [http://www.markus-raab.org/ftp/elektra-0.7.0rc2-2.tar.gz this Elektra version] 15:33, 11 Apr 2008 (CEST) (Elektra 0.7.0rc2-2), build and install.
+For the development version check out [[Oyranos/git]] build and install.
 
-Additional you'd need FLTK and possibly xcalib. These dependencies are mentioned here: [http://www.behrmann.name/index.php?option=com_content&task=view&id=34&Itemid=68#compile compile]
+Additional you'd need FLTK and possibly xcalib. These dependencies are mentioned here: [http://www.oyranos.org/download.html download]
 
 == Packaging ==
 === Bundling ===
