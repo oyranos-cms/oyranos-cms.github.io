@@ -2,8 +2,14 @@
 title: Oyranos/Download
 permalink: wiki/Oyranos/Download/
 layout: wiki
+tags:
+ - Oyranos
 ---
 
+<h1>
+[Oyranos](/wiki/Oyranos "wikilink")
+
+</h1>
 Stable Versions
 ---------------
 
@@ -74,3 +80,5 @@ available for automated dependency checking, downloading and building.
 candidates](https://sourceforge.net/project/showfiles.php?group_id=177017)
 are available from the SourceForge site. They are released non
 regularily. The packages contain sources and all datas.
+
+[back -&gt; Oyranos](/wiki/Oyranos "wikilink")
