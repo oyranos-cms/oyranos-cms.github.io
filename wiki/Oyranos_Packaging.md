@@ -13,7 +13,7 @@ For the development version check out
 [Oyranos/git](/wiki/Oyranos/git "wikilink") build and install.
 
 Additional you'd need FLTK and possibly xcalib. These dependencies are
-mentioned here: [download](http://www.oyranos.org/download.html)
+mentioned here: [Oyranos/Download](/wiki/Oyranos/Download "wikilink")
 
 Packaging
 ---------

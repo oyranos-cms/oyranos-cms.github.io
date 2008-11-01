@@ -1,7 +1,7 @@
 == Dependencies ==
 For the development version check out [[Oyranos/git]] build and install.
 
-Additional you'd need FLTK and possibly xcalib. These dependencies are mentioned here: [http://www.oyranos.org/download.html download]
+Additional you'd need FLTK and possibly xcalib. These dependencies are mentioned here: [[Oyranos/Download]]
 
 == Packaging ==
 === Bundling ===
