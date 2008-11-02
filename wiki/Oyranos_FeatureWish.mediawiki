@@ -79,14 +79,14 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 * [[OpenIccDirectoryProposal|OpenICC path specification]]
 {| style="width:100%;text-align:left" colspan="20"
 |-
-| Progress: 75%
+| Progress: 100%
 | Version: x.x.x
 | Start: defacto 2004
 | Assigned to: open
 |-
 |}
 * (obsoleted by XDG variables) ICC_PROFILE_PATH ? how to interact with Oyranos
-* update Oyranos' internal path representation to the [[OpenIccDirectoryProposal|OpenICC Directory Proposal]]
+* (done) update Oyranos' internal path representation to the [[OpenIccDirectoryProposal|OpenICC Directory Proposal]]
 * (done) OY_MODULE_PATHS for CMM's
 
 === Standard Profiles ===
