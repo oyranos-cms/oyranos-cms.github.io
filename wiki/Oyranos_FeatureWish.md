@@ -268,7 +268,7 @@ Todo
 ### Target 0.1.8
 
 -   (done) error handling
--   information callback function:
+-   (done) information callback function:
 
 ` int (*callback)(int code, const char* format, ...)`
 
@@ -279,10 +279,11 @@ Todo
 
 -   override default settings, dependent whether they are inbuild or
     explicitely set by a user
-    [1](http://www.behrmann.name/wind/cinepaint/cinepaint_2007.04.13_1.html)
+    [1](http://www.behrmann.name/wind/cinepaint/cinepaint_2007.04.13_1.html):
+    delayed until options are inside a oyOptions\_s objetc
 -   (done) gray profile setting
 -   (done) license change as [stated](http://www.oyranos.org/#license)
--   new default profiles from
+-   (done) new default profiles from
     [ECI](http://www.eci.org/eci/de/060_downloads.php)
 -   (done) investigate in ColorSync ignoring some CMM:SGI marked
     profiles
