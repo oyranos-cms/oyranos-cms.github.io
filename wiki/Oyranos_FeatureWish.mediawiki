@@ -91,15 +91,16 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 
 === Standard Profiles ===
 * naming of ECI profiles to something FOGRA corresponding (Chris Murphy and others on OpenICC)
+* most ECI profiles are replaced with Argyll created ones
+* remains to relicense or replace the eciRGB ones
 {| style="width:100%;text-align:left" colspan="20"
 |-
-| Progress: 0%
+| Progress: 90%
 | Version: [[#Target 0.1.8|0.1.8]]
 | Start:
 | Assigned to: Kai-Uwe Behrmann
 |-
 |}
-
 
 === CMM Framework ===
 * backend API a typical CMM should provide
