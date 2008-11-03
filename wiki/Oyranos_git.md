@@ -19,7 +19,7 @@ First check out:
 
 The Oyranos included ICC profiles are not included in git. Take them
 from
-[oyranos-0.1.7.tar.gz](http://downloads.sourceforge.net/oyranos/oyranos-0.1.7.tar.gz)
+[oyranos-0.1.8.tar.gz](http://downloads.sourceforge.net/oyranos/oyranos-0.1.8.tar.gz)
 and move the standard\_profiles directory into the cloned git directory.
 
 Building Oyranos:

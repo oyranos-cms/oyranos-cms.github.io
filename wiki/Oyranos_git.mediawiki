@@ -6,7 +6,7 @@ You need currently [http://www.markus-raab.org/ftp/elektra-0.7.0.tar.gz this Ele
 First check out:
  $ git clone git://www.oyranos.org/git/oyranos
 
-The Oyranos included ICC profiles are not included in git. Take them from [http://downloads.sourceforge.net/oyranos/oyranos-0.1.7.tar.gz oyranos-0.1.7.tar.gz] and move the standard_profiles directory into the cloned git directory.
+The Oyranos included ICC profiles are not included in git. Take them from [http://downloads.sourceforge.net/oyranos/oyranos-0.1.8.tar.gz oyranos-0.1.8.tar.gz] and move the standard_profiles directory into the cloned git directory.
 
 Building Oyranos:
  $ cd oyranos/
