@@ -4,7 +4,7 @@ If you have the impression an important question is missed, feel free to add it.
 
 
 === What is Oyranos? ===
-The Oyranos project is a colour management system (CMS). It is comparable to KCMS, ICM or ColourSync except it is published with sources and is available for various platforms.
+The Oyranos project is a colour management system (CMS). It is intended to work in a comparable fashion like KCMS, ICM or ColourSync except it is published with sources and is available for various platforms.
 
 === What is the goal of Oyranos? ===
 Oyranos tries to provide colour management services for applications and services like Scribus, CinePaint, Krita, Gimp, Inkscape, Gutenprint, UFraw, Cups, Xorg, Sane and so on. 
