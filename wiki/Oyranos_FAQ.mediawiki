@@ -33,7 +33,7 @@ You could help by testing, reporting bugs or providing according patches, doing 
 
 We need people with fantasy for going possibly new paths, meticulousness for assuring quality, analytical, didactic and aesthetic skills and thinking around the corner or all together. Some knowledge or feeling of colour may be of help. But this is not a must, as uneducated persons bring in a very important view.
 
-See as well [http://www.oyranos.org/#devel].
+See as well [[Oyranos#Development|here]].
 
 === Which applications use Oyranos? ===
 A list of Oyranos users is [http://www.oyranos.org/#audience here].

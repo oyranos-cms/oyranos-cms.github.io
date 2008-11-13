@@ -80,7 +80,7 @@ thinking around the corner or all together. Some knowledge or feeling of
 colour may be of help. But this is not a must, as uneducated persons
 bring in a very important view.
 
-See as well [1](http://www.oyranos.org/#devel).
+See as well [here](/wiki/Oyranos#Development "wikilink").
 
 ### Which applications use Oyranos?
 
