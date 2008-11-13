@@ -45,10 +45,9 @@ to stay with the name.
 
 ### License(s)
 
-As of the writing Oyranos is GPL, which will change with version 0.1.8
-to BSD. It is possible that parts will be released under different
-licenses. But that is open. The goal is to not exclude anyone from using
-Oyranos.
+Oyranos is licensed under new BSD. It is possible that parts will be
+released under different licenses. But that is open. The goal is to not
+exclude anyone from using Oyranos.
 
 ### Where can I get Oyranos?
 

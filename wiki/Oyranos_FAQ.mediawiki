@@ -19,7 +19,7 @@ Oyranos is the greek word of sky.
 It was pointed out that ouranos is more adequate for english readers. Just as with the german Uranos and other variants it seems pretty good to stay with the name.
 
 === License(s) ===
-As of the writing Oyranos is GPL, which will change with version 0.1.8 to BSD. It is possible that parts will be released under different licenses. But that is open. The goal is to not exclude anyone from using Oyranos.
+Oyranos is licensed under new BSD. It is possible that parts will be released under different licenses. But that is open. The goal is to not exclude anyone from using Oyranos.
 
 === Where can I get Oyranos? ===
 Oyranos is officially published on [http://www.behrmann.name/index.php?option=com_content&task=view&id=34&Itemid=68 Kai-Uwe's site]
