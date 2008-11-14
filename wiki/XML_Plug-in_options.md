@@ -30,8 +30,14 @@ Oyranos side.
 What is all involved?
 
 -   user categories (filter categories ...)
+-   registration strings which can map to paths
+    -   e.g. “colour/oyranos.org/colour/lcms/preserve\_black”
 -   Oyranos backend API's mapping (CMM need images, profiles and
     options, filters want images + options?)
+    -   For backends common dynamic resources should be handled
+        elsewhere. Would'nt it be useful to register through a
+        specialised module key word handlers? The key words can then be
+        used to place specific resources into the UI.
 -   UI backend deploy xslt conversions to their xml UI representation
 -   event exchange
 
@@ -83,4 +89,5 @@ References
 -   [Open Source Java Implementation of the W3C XForms
     standard](http://chiba.sourceforge.net/)
 -   [Official XForms site](http://www.w3.org/TR/xforms/)
+-   [XFORMS](http://en.wikibooks.org/wiki/XForms) @ wikibooks
 

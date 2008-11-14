@@ -8,7 +8,10 @@ XForms and HTML elements need to be supported fo the UI definition. The idea is 
 
 What is all involved?
 * user categories (filter categories ...)
-* Oyranos backend API's mapping (CMM need images, profiles and options, filters want images + options?)
+* registration strings which can map to paths 
+** e.g. "colour/oyranos.org/colour/lcms/preserve_black"
+* Oyranos backend API's mapping (CMM need images, profiles and options, filters want images + options?) 
+** For backends common dynamic resources should be handled elsewhere. Would'nt it be useful to register through a specialised module key word handlers? The key words can then be used to place specific resources into the UI.
 * UI backend deploy xslt conversions to their xml UI representation
 * event exchange
 
@@ -41,6 +44,7 @@ What is all involved?
 * [http://www.freedesktop.org/wiki/OpenIccForGoogleSoC2008#head-07e05f69f1b4e331ba0d3741dc06ba53ae728459 Simple Toolkit Abstraction] OpenICC GSoC2008 project idea
 * [http://chiba.sourceforge.net/ Open Source Java Implementation of the W3C XForms standard]
 * [http://www.w3.org/TR/xforms/ Official XForms site]
+* [http://en.wikibooks.org/wiki/XForms XFORMS] @ wikibooks
 
 
 [[Category:Concepts]]
