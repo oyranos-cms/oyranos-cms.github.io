@@ -57,8 +57,9 @@ Requirements
         widgets using AJAX technology
     -   screenshots / forms selection
         -   currently I am exploring processors:
-        -   firefox 2.0.0.13 with XForms-v0.8.5 does with a xforms.xhtml
-            (not \*.html)
+        -   [Firefox 2 +
+            3](https://addons.mozilla.org/de/firefox/addon/824) 2.0.0.13
+            with XForms-v0.8.5 does with a xforms.xhtml (not \*.html)
         -   [Orbeon](http://www.orbeon.com) looks nice but seems rather
             big and needs a local tomcat compilation
 -   define orientation (horizontal/vertical for grouping inside a pack
