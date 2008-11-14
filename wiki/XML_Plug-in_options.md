@@ -91,4 +91,7 @@ References
     standard](http://chiba.sourceforge.net/)
 -   [Official XForms site](http://www.w3.org/TR/xforms/)
 -   [XFORMS](http://en.wikibooks.org/wiki/XForms) @ wikibooks
+-   [XFORMS in
+    Firefox](http://www.ibm.com/developerworks/xml/library/x-xformsfirefox/)
+    @ ibm
 
