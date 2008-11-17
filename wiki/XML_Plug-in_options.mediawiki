@@ -32,7 +32,7 @@ What is all involved?
 *** [https://addons.mozilla.org/de/firefox/addon/824 Firefox 2 + 3] 2.0.0.13 with XForms-v0.8.5 does with a xforms.xhtml (not *.html)
 *** [http://www.orbeon.com Orbeon] looks nice but seems rather big and needs a local tomcat compilation
 * select one widget per group for scaling; place this widget at top, bottom, right, left, centered or to fill as specified
-* serialise and deserialise from Oyranos C struct oyOpion_s to XML/XForms and back
+* serialise and deserialise from Oyranos C struct oyOption_s to XML/XForms and back
 * support console applications
 * converters for at least Qt, Gtk, FLTK ...
 * XML data models will be made by using XML_Schema (W3C).

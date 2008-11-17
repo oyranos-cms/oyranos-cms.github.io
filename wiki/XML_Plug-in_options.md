@@ -70,7 +70,7 @@ Requirements
             big and needs a local tomcat compilation
 -   select one widget per group for scaling; place this widget at top,
     bottom, right, left, centered or to fill as specified
--   serialise and deserialise from Oyranos C struct oyOpion\_s to
+-   serialise and deserialise from Oyranos C struct oyOption\_s to
     XML/XForms and back
 -   support console applications
 -   converters for at least Qt, Gtk, FLTK ...
