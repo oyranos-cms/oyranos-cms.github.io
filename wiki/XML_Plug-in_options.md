@@ -46,15 +46,21 @@ Requirements
 
 -   based on W3C technology (Xforms, Dom ...)
 -   ajax based technology ((X)HTML, CSS and Javascript)
+
+[`KaiUweBehrmann`](/wiki/User%3AKaiUweBehrmann "wikilink")`: does not think it is a good idea to bring too many dependencies into the plug-in system. `
+
+-   slim XML footprint
 -   callback mechanism (possibly to pass the changed serialised widget
     layout, like a diff, to the callback)
 -   callback as C function or CTL for portability?
 -   easy separation of layout (widgets) from data (options)
     -   should work fairly good with XForms
+    -   a form is required on how to present the Oyranos options in
+        XFORMS and an easy way to convert between both.
 -   widget set: tabs, groups, lists, choice list, sliders (range),
     buttons, check button, radio button, text box, drawing area
-    -   there shouldnt be a problem using interactive and non-inetactive
-        widgets using AJAX technology
+    -   there shouldnt be a problem using interactive and
+        non-interactive widgets using AJAX technology
     -   screenshots / forms selection
         -   currently I am exploring processors:
         -   [Firefox 2 +
@@ -62,13 +68,10 @@ Requirements
             with XForms-v0.8.5 does with a xforms.xhtml (not \*.html)
         -   [Orbeon](http://www.orbeon.com) looks nice but seems rather
             big and needs a local tomcat compilation
--   define orientation (horizontal/vertical for grouping inside a pack
-    style widget)
-    -   some definitions are in oyranos\_alpha.h -- oyWidget\_s ... but
-        may become obsolete with XForms
 -   select one widget per group for scaling; place this widget at top,
     bottom, right, left, centered or to fill as specified
--   serialise and deserialise from and to XML/XForms
+-   serialise and deserialise from Oyranos C struct oyOpion\_s to
+    XML/XForms and back
 -   support console applications
 -   converters for at least Qt, Gtk, FLTK ...
 -   XML data models will be made by using XML\_Schema (W3C).
