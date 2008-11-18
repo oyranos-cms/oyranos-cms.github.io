@@ -45,10 +45,6 @@ Requirements
 ------------
 
 -   based on W3C technology (Xforms, Dom ...)
--   ajax based technology ((X)HTML, CSS and Javascript)
-
-[`KaiUweBehrmann`](/wiki/User%3AKaiUweBehrmann "wikilink")`: does not think it is a good idea to bring too many dependencies into the plug-in system. `
-
 -   slim XML footprint
 -   callback mechanism (possibly to pass the changed serialised widget
     layout, like a diff, to the callback)
