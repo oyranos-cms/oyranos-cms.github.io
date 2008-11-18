@@ -27,36 +27,57 @@ grouping of their options, their type and icons, labels and so on. To
 automate processing, some default options need to be specified on
 Oyranos side.
 
+Who is who:
+
+`key handlers (Elektra) <------> XFORMS interpreters`  
+`                ^                   ^`  
+`                 \                 /`  
+`                  v               v`  
+`                   plug-in (hooks)`
+
+'''Key Values pairs ''' are stored in Elektra.
+
+**XFORMS interpreters** are selectable libraries to provide widgets or
+entire dialog windows for drawing the UI content. They draw XFORMS
+documents with toolkit widgets.
+
+**Plug-ins** register not only key, they provide a UI description for
+those keys and helpers to handle the key manipulations in a GUI.
+
 What is all involved?
 
--   user categories (filter categories ...)
--   key names or registration strings, which can map to Elektra paths
-    -   e.g. “colour/oyranos.org/colour/lcms/preserve\_black” (should be
-        suficient for Elektra)
+-   key names or registration strings, which map to Elektra paths and
+    the XFORMS data model
+    -   e.g. “colour/oyranos.org/colour\_icc/lcms/preserve\_black”
+        (should be suficient for Elektra)
+-   i18n for widget labels and tooltips translation
+    -   possibly through gettext or by dynamic XFORMS code generation,
+        where this can be done by plug-in code on the fly
+-   UI backends (toollkits) deploy xslt conversions to their native xml
+    UI representation
+-   event handling
+    -   plug-in side hook to verify user input
+    -   it is unclear to me whether [XFORMS
+        evaluation](http://www.w3.org/TR/xforms/#expr-lib) is sufficient
+    -   hooks to talk back to plug-in
+    -   according UI refreshing
+-   UI generation
+    -   plug-in side generator of new UI document part
+    -   hook to allow for fetching external data (ICC profiles from
+        disk, device informations from services, ...)
+-   differentiated representations and their conversions:
+    -   in memory C struct
+    -   permanent disk storage
+    -   XML/XFORMS de-/serialisation
+
+<!-- -->
+
 -   Oyranos backend API's mapping (CMM need images, profiles and
     options, filters want images + options?)
     -   For backends common dynamic resources should be handled
         elsewhere. Would'nt it be useful to register through a
         specialised module key word handlers? The key words can then be
         used to place specific resources into the UI.
--   i18n for widget labels and tooltips
--   UI backends (toollkits) deploy xslt conversions to their native xml
-    UI representation
--   event handling
-    -   client side hook to verify user input
-    -   it is unclear to me whether [XFORMS
-        evaluation](http://www.w3.org/TR/xforms/#expr-lib) is sufficient
--   UI generation
-    -   client side generator of new UI document part and rerendering
-    -   hook to allow for fetching external data (ICC profiles, device
-        informations, ...) to display
--   differentiated representations and their conversions:
-    -   in memory C struct
-    -   permanent disk storage
-    -   XML/XFORMS de-/serialisation
-
-`Elektra key set (K) -> xf:model (data)`  
-`  associated to K  xf:(whatever widgets + labels + ...)`
 
 Requirements
 ------------
