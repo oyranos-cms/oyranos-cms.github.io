@@ -20,26 +20,43 @@ The dataflow could be something like this:
 
 `XFORMS + XML -> xslt -> toolkit XML -> native toolkit widgets`
 
-XForms and HTML elements need to be supported fo the UI definition. The
+XForms and HTML elements need to be supported for the UI definition. The
 idea is to have as less layout code there as possible and let the UI
 engine decide how to display. The plug-ins should be able to expose the
 grouping of their options, their type and icons, labels and so on. To
-automate processing, the standard options need to be specified on
+automate processing, some default options need to be specified on
 Oyranos side.
 
 What is all involved?
 
 -   user categories (filter categories ...)
--   registration strings which can map to paths
-    -   e.g. “colour/oyranos.org/colour/lcms/preserve\_black”
+-   key names or registration strings, which can map to Elektra paths
+    -   e.g. “colour/oyranos.org/colour/lcms/preserve\_black” (should be
+        suficient for Elektra)
 -   Oyranos backend API's mapping (CMM need images, profiles and
     options, filters want images + options?)
     -   For backends common dynamic resources should be handled
         elsewhere. Would'nt it be useful to register through a
         specialised module key word handlers? The key words can then be
         used to place specific resources into the UI.
--   UI backend deploy xslt conversions to their xml UI representation
--   event exchange
+-   i18n for widget labels and tooltips
+-   UI backends (toollkits) deploy xslt conversions to their native xml
+    UI representation
+-   event handling
+    -   client side hook to verify user input
+    -   it is unclear to me whether [XFORMS
+        evaluation](http://www.w3.org/TR/xforms/#expr-lib) is sufficient
+-   UI generation
+    -   client side generator of new UI document part and rerendering
+    -   hook to allow for fetching external data (ICC profiles, device
+        informations, ...) to display
+-   differentiated representations and their conversions:
+    -   in memory C struct
+    -   permanent disk storage
+    -   XML/XFORMS de-/serialisation
+
+`Elektra key set (K) -> xf:model (data)`  
+`  associated to K  xf:(whatever widgets + labels + ...)`
 
 Requirements
 ------------
