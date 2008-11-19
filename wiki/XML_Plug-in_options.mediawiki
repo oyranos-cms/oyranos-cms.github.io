@@ -20,7 +20,7 @@ Who is who:
 '''Plug-ins''' register not only key, they provide a UI description for those keys and helpers to handle the key manipulations in a GUI.
 
 
-What is all involved?
+Which details should be take care of?
 * key names or registration strings, which map to Elektra paths and the XFORMS data model
 ** e.g. "colour/oyranos.org/colour_icc/lcms/preserve_black" (should be suficient for Elektra)
 * i18n for widget labels and tooltips translation

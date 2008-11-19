@@ -44,7 +44,7 @@ documents with toolkit widgets.
 **Plug-ins** register not only key, they provide a UI description for
 those keys and helpers to handle the key manipulations in a GUI.
 
-What is all involved?
+Which details should be take care of?
 
 -   key names or registration strings, which map to Elektra paths and
     the XFORMS data model
