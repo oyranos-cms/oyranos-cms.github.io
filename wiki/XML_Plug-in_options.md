@@ -193,9 +193,10 @@ Strategy on how to handle conflicts, updating, consitency ...
 How to deliver results without storing persitently in Elektra? Just
 return the model part containing the changed keys?
 
--   build UI
--   let interact
--   apply button returns XFORMS model changes
+-   build UI from elui:xforms\_ui and other keys
+-   update UI to user interaction
+-   applying a return or Ok style button returns XFORMS model changes to
+    the caller
 -   optionally read the model into the Elektra db or process otherwise
 
 References
