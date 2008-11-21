@@ -80,7 +80,7 @@ The key '''''xforms_ui''''' has a special meaning. It contains the render descri
    </ns_A_1>
  </ns_A>
 
-To allow for hooks the XFORMS ui part are integrated like:
+To allow for hooks the XFORMS ui part is integrated as keywords like:
  <xf:choices label="Editing RGB">
    <elui:choices:oyranos-profiles vars="" args="--elui" cspace="Rgb" class="prtr,mntr,scnr"/>
  </xf:choices>
@@ -99,6 +99,7 @@ The returned text will be parsed. The first element shall be a number indicating
   </xf:item>
  </xf:choices>
 
+Alternatively a system could be though of to call a updater which writes a complete XFORMS document in the current locale. This would as well solve the I18N issues.
 
 I18N:
 
@@ -115,6 +116,11 @@ How to work within non cli environments?
 
 Strategy on how to handle conflicts, updating, consitency ...
 
+How to deliver results without storing persitently in Elektra? Just return the model part containing the changed keys?
+* build UI
+* let interact
+* apply button returns XFORMS model changes
+* optionally read the model into the Elektra db or process otherwise
 
 == References ==
 * [http://www.w3.org/TR/xmlschema-2/#built-in-datatypes XML Schema] to get a grip on data inside XML
