@@ -63,6 +63,59 @@ Which details should be take care of?
 * converters for at least Qt, Gtk, FLTK ...
 * XML data models will be made by using XML_Schema (W3C).
 
+
+== RFC ==
+Key value pairs are stored in namespaces in Elektra expressed by paths. This proposal covers how to represent them to users.
+
+A user can select a namespace and a viewer conforming to this RFC is required to render the content according to the UI description found in the Elektra key namespace. A document applies to all children of a node, except a child node tree has own UI descriptions. Then these take precedence.
+
+The key '''''xforms_ui''''' has a special meaning. It contains the render descriptions expressed in a XFORMS syntax subset. The actual xforms model is extracted from the keys in the actual path level.
+
+ <ns_A>
+   <ns_A_1>
+     <ns_A_1_1>
+       <key name="xforms_ui">...</key>
+       <key name="my_key1">value1</key>
+     </ns_A_1_1>
+   </ns_A_1>
+ </ns_A>
+
+To allow for hooks the XFORMS ui part are integrated like:
+ <xf:choices label="Editing RGB">
+   <elui:choices:oyranos-profiles vars="" args="--elui" cspace="Rgb" class="prtr,mntr,scnr"/>
+ </xf:choices>
+
+'''''elui:choices:''''' indicates a namespace in the sense of this RFC. '''''elui''''' represents the abbreviated '''elektra_ui'''. The following command '''oyranos-profiles''' will be executed with the attributes appended. The args attribute shall be given without the '''args=''' part and without quotes. The content of vars= will be set in the environment of the call.
+ $ oyranos-profiles --elui cspace="Rgb" class="prtr,mntr,scnr"
+The returned text will be parsed. The first element shall be a number indicating how many items are to be expected. in to value pairs and will be expanded to label and value items. See the following example:
+ <xf:choices label="Editing RGB">
+  <xf:item>
+    <xf:label>sRGB.icc</xf:label>
+    <xf:value>/usr/local/share/color/icc/sRGB.icc</xf:value>
+  </xf:item>
+  <xf:item>
+    <xf:label>eciRGB_v2.icc</xf:label>
+    <xf:value>~/local/share/color/icc/eciRGB_v2.icc</xf:value>
+  </xf:item>
+ </xf:choices>
+
+
+I18N:
+
+An other keyword is '''''elui:i18n:'''''. It tells about the to be used translation programm and the namespace.
+ <elui:i18n:gettext vars="TEXTDOMAINDIR=/usr/local/share/locale;TEXTDOMAIN=oyranos" args="-n %label%">
+expands to:
+ $ TEXTDOMAINDIR=/usr/local/share/locale TEXTDOMAIN=oyranos gettext -n %translate%
+The actual text will be set at runtime for the %translate% string. Translated will be any kinds of labels and hint elements. Not so for values.
+
+
+TODO:
+
+How to work within non cli environments?
+
+Strategy on how to handle conflicts, updating, consitency ...
+
+
 == References ==
 * [http://www.w3.org/TR/xmlschema-2/#built-in-datatypes XML Schema] to get a grip on data inside XML
 * [http://xformsinstitute.com/essentials/browse/book.php#ch04-6-fm2xml "Useful Datatypes"] @ xformsinstitute
