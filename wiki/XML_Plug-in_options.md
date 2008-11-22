@@ -135,6 +135,8 @@ model is extracted from the keys in the actual path level.
 `  `</ns_A_1>  
 </ns_A>
 
+### A
+
 To allow for hooks the XFORMS ui part is integrated as keywords like:
 
 <xf:choices label="Editing RGB">  
@@ -165,16 +167,12 @@ be expanded to label and value items. See the following example:
 ` `</xf:item>  
 </xf:choices>
 
-Alternatively a system could be though of to call a updater which writes
-a complete XFORMS document in the current locale. This would as well
-solve the I18N issues.
-
 I18N:
 
 An other keyword is ***elui:i18n:***. It tells about the to be used
 translation programm and the namespace.
 
-<elui:i18n:gettext vars="TEXTDOMAINDIR=/usr/local/share/locale;TEXTDOMAIN=oyranos" args="-n %label%">
+<elui:i18n:gettext vars="TEXTDOMAINDIR=/usr/local/share/locale;TEXTDOMAIN=oyranos" args="-n %label%"/>
 
 expands to:
 
@@ -184,11 +182,26 @@ The actual text will be set at runtime for the %translate% string.
 Translated will be any kinds of labels and hint elements. Not so for
 values.
 
+### B
+
+Alternatively a system could be though of to call a updater, which
+writes a complete XFORMS document in the current locale. This would as
+well solve the I18N issues:
+
+<elui:init:oyranos-devices vars="" args="--scanner --xforms-ui"/>
+
+... will create a XFORMS document with all choices in place:
+
+`$ oyranos-devices --scanner --xforms-ui`
+
+<elui:update:oyranos-devices vars="" args="--scanner --xforms-ui --evaluate-file=%update%"/>  
+`$ oyranos-devices --scanner --xforms-ui --evaluate-file=temp_file_name.xforms`
+
 TODO:
 
 How to work within non cli environments?
 
-Strategy on how to handle conflicts, updating, consitency ...
+Strategy on how to handle consitency ...
 
 How to deliver results without storing persitently in Elektra? Just
 return the model part containing the changed keys?

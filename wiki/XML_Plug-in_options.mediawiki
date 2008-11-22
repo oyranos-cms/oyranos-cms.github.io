@@ -80,6 +80,8 @@ The key '''''xforms_ui''''' has a special meaning. It contains the render descri
    </ns_A_1>
  </ns_A>
 
+=== A ===
+
 To allow for hooks the XFORMS ui part is integrated as keywords like:
  <xf:choices label="Editing RGB">
    <elui:choices:oyranos-profiles vars="" args="--elui" cspace="Rgb" class="prtr,mntr,scnr"/>
@@ -99,22 +101,31 @@ The returned text will be parsed. The first element shall be a number indicating
   </xf:item>
  </xf:choices>
 
-Alternatively a system could be though of to call a updater which writes a complete XFORMS document in the current locale. This would as well solve the I18N issues.
-
 I18N:
 
 An other keyword is '''''elui:i18n:'''''. It tells about the to be used translation programm and the namespace.
- <elui:i18n:gettext vars="TEXTDOMAINDIR=/usr/local/share/locale;TEXTDOMAIN=oyranos" args="-n %label%">
+ <elui:i18n:gettext vars="TEXTDOMAINDIR=/usr/local/share/locale;TEXTDOMAIN=oyranos" args="-n %label%"/>
 expands to:
  $ TEXTDOMAINDIR=/usr/local/share/locale TEXTDOMAIN=oyranos gettext -n %translate%
 The actual text will be set at runtime for the %translate% string. Translated will be any kinds of labels and hint elements. Not so for values.
+
+=== B ===
+
+Alternatively a system could be though of to call a updater, which writes a complete XFORMS document in the current locale. This would as well solve the I18N issues:
+ <elui:init:oyranos-devices vars="" args="--scanner --xforms-ui"/>
+... will create a XFORMS document with all choices in place:
+ $ oyranos-devices --scanner --xforms-ui
+
+ <elui:update:oyranos-devices vars="" args="--scanner --xforms-ui --evaluate-file=%update%"/>
+ $ oyranos-devices --scanner --xforms-ui --evaluate-file=temp_file_name.xforms
+
 
 
 TODO:
 
 How to work within non cli environments?
 
-Strategy on how to handle conflicts, updating, consitency ...
+Strategy on how to handle consitency ...
 
 How to deliver results without storing persitently in Elektra? Just return the model part containing the changed keys?
 * build UI from elui:xforms_ui and other keys
