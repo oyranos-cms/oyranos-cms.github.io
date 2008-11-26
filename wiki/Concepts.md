@@ -367,10 +367,12 @@ implement.
 -   warn on export especially about a colour space different than the
     assumed one
 
-Policies
+Settings
 --------
 
-### Average User
+### Policies
+
+#### Average User
 
 Most people belong to the [Office User
 type](/wiki/What_the_users_want#Office_Users_.2F_Webdesigners "wikilink").
@@ -385,7 +387,7 @@ should be set to:
     repeatedly criticised)
 -   don't prefer mixed colour space documents (keep it simple)
 
-### Graphics Distribution
+#### Graphics Distribution
 
 [Graphic Designers](/wiki/What_the_users_want#Graphic_Designers "wikilink")
 and other specialist may want to use own settings. Here some defaults:
@@ -400,8 +402,7 @@ and other specialist may want to use own settings. Here some defaults:
     capabilities)
 -   allow mixed colour space documents (warning for internet PDF's?)
 
-Device Settings
----------------
+### Device Settings
 
 The device to device colour path contains as well the settings to
 receive and to output colours. This makes the storage of these settings
@@ -412,6 +413,74 @@ There should be a format developed and used, which makes it easy to
 combine both colour and settings characterisation.
 
 [Device Settings](/wiki/Device_Settings "wikilink")
+
+### Elektra namespace
+
+The idea is to comply to Elektra naming schemes and be extensible to
+other data bases too like XML files or possibly the JSON format
+suggested by Graeme.
+
+Elektra keys are ordered like paths, and thus separated by a slash. The
+top level entry is something like “sw” for application specific things.
+In order to get colour stuff recognised, I would suggest to use a top
+level category “shared” for system wide colour management settings in
+Elektra. Elektra has even a layer above to feature a user/system
+distinction, but it shall not matter here. This is the Elektra specific
+part. In Oyranos I call this the top part of a configuration path. Top:
+the top section for the Elektra data base; e.g.
+
+`             `“`share`”  
+`             `“`sw`”
+
+The following generic part is to create paths and keys based on the
+following arrangement. Each element has to be appended:
+
+Domain: a hint about the standard the keys adhere to; e.g.
+
+`             `“`freedesktop.org`”` for shared and specified keys`  
+`             `“`oyranos.org`”` for specific things`
+
+Type: tell about a classification; e.g.
+
+`             `“`colour`”` for default colour settings and `“`colour_icc`”` for ICC CMM specific keys`  
+`             `“`colour_icc`”` for a ICC colour conversion CMM`
+
+Possible is “colour” for a colour transformation workflow, “colour\_icc”
+for a ICC CMM, “tonemap” for HDR to LDR mapping, “image” for image
+handling, “generic” miscellaneous. Other words should be possible too
+but are probably outside of Oyranos' understanding.
+
+Application: a real application or a group for standard settings; e.g.
+
+`             `“`profile`”  
+`             `“`lcms`”
+
+Option: the actual value; e.g.
+
+`             `“`editing_xyz`”  
+`             `“`preserve_black`”
+
+This would lead to the following path + key: a default Rgb editing
+space:
+
+`  `“`share/freedesktop.org/colour/profile/editing_rgb`”
+
+for a plug-in or application setting:
+
+`  `“`sw/oyranos.org/colour_icc/lcms/preserve_black`”
+
+The actual value is then to be associated to the key. Which keys shall
+be visible to backends? The “Type” level seems the most easy one to
+handle that. The option would be passed to the CMM.
+
+`  `“`share/freedesktop.org/colour_icc/behaviour/rendering_intent`”
+
+How split into advanced and basic settings? Add keywords to the Option
+level? The point workes here slightly like a XML attribute. In the
+following example the key would not be visible to a CMM. The behaviour
+is to be matched on a higher level.
+
+`  `“`share/freedesktop.org/colour/behaviour/proof_soft.advanced`”
 
 User Interface
 --------------
