@@ -426,8 +426,9 @@ In order to get colour stuff recognised, I would suggest to use a top
 level category “shared” for system wide colour management settings in
 Elektra. Elektra has even a layer above to feature a user/system
 distinction, but it shall not matter here. This is the Elektra specific
-part. In Oyranos I call this the top part of a configuration path. Top:
-the top section for the Elektra data base; e.g.
+part. In Oyranos I call this the top part of a configuration path.
+
+*Top:* the top section for the Elektra data base; e.g.
 
 `             `“`share`”  
 `             `“`sw`”
@@ -435,12 +436,12 @@ the top section for the Elektra data base; e.g.
 The following generic part is to create paths and keys based on the
 following arrangement. Each element has to be appended:
 
-Domain: a hint about the standard the keys adhere to; e.g.
+*Domain:* a hint about the standard the keys adhere to; e.g.
 
 `             `“`freedesktop.org`”` for shared and specified keys`  
 `             `“`oyranos.org`”` for specific things`
 
-Type: tell about a classification; e.g.
+*Type:* tell about a classification; e.g.
 
 `             `“`colour`”` for default colour settings and `“`colour_icc`”` for ICC CMM specific keys`  
 `             `“`colour_icc`”` for a ICC colour conversion CMM`
@@ -450,15 +451,17 @@ for a ICC CMM, “tonemap” for HDR to LDR mapping, “image” for image
 handling, “generic” miscellaneous. Other words should be possible too
 but are probably outside of Oyranos' understanding.
 
-Application: a real application or a group for standard settings; e.g.
+*Application:* a real application or a group for standard settings; e.g.
 
 `             `“`profile`”  
 `             `“`lcms`”
 
-Option: the actual value; e.g.
+*Option:* the actual value; e.g.
 
 `             `“`editing_xyz`”  
 `             `“`preserve_black`”
+
+**Examples:**
 
 This would lead to the following path + key: a default Rgb editing
 space:
@@ -475,12 +478,12 @@ handle that. The option would be passed to the CMM.
 
 `  `“`share/freedesktop.org/colour_icc/behaviour/rendering_intent`”
 
-How split into advanced and basic settings? Add keywords to the Option
-level? The point workes here slightly like a XML attribute. In the
-following example the key would not be visible to a CMM. The behaviour
-is to be matched on a higher level.
+How split into **advanced** and **basic** settings? Add keywords to the
+Option level? The point workes here slightly like a XML attribute. In
+the following example the key would not be visible to a CMM. The
+behaviour is to be matched on a higher level.
 
-`  `“`share/freedesktop.org/colour/behaviour/proof_soft.advanced`”
+`  `“`share/freedesktop.org/colour/behaviour/proof_soft.`**`advanced`**”
 
 User Interface
 --------------
