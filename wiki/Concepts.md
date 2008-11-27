@@ -481,9 +481,9 @@ handle that. The option would be passed to the CMM.
 How split into **advanced** and basic settings? Add a **advanced**
 keyword to the Option level (last level) after a point. The point workes
 here slightly like a XML attribute. Basic is the default and maps to
-zero, so it should not be specified in the option level. In the
-following example the key would not be visible to a CMM. The behaviour
-is to be matched on a higher level.
+zero, so it should not be specified in the option level. The behaviour
+of the following example is to be matched on a higher level and thus the
+key would not be visible to a CMM.
 
 `  `“`share/freedesktop.org/colour/behaviour/proof_soft.`**`advanced`**”
 

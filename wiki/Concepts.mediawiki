@@ -250,7 +250,7 @@ The actual value is then to be associated to the key.
 Which keys shall be visible to backends? The "Type" level seems the most easy one to handle that. The option would be passed to the CMM.
    "share/freedesktop.org/colour_icc/behaviour/rendering_intent"
 
-How split into '''advanced''' and basic settings? Add a '''advanced''' keyword to the Option level (last level) after a point. The point workes here slightly like a XML attribute. Basic is the default and maps to zero, so it should not be specified in the option level. In the following example the key would not be visible to a CMM. The behaviour is to be matched on a higher level.
+How split into '''advanced''' and basic settings? Add a '''advanced''' keyword to the Option level (last level) after a point. The point workes here slightly like a XML attribute. Basic is the default and maps to zero, so it should not be specified in the option level. The behaviour of the following example is to be matched on a higher level and thus the key would not be visible to a CMM.
    "share/freedesktop.org/colour/behaviour/proof_soft.'''advanced'''"
 
 == User Interface ==
