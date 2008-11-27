@@ -487,6 +487,9 @@ key would not be visible to a CMM.
 
 `  `“`share/freedesktop.org/colour/behaviour/proof_soft.`**`advanced`**”
 
+An other keyword is **front** for frontend options, which are useless
+for backends and should not appear to them.
+
 User Interface
 --------------
 
