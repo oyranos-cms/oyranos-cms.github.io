@@ -106,7 +106,8 @@ profiles by accident.
 
 <!-- -->
 
--   rendering intent (Craig Ringer's suggestion)
+-   rendering intent [(Craig Ringer's
+    suggestion)](http://lists.freedesktop.org/archives/openicc/2007q4/000963.html)
     -   Perceptual
     -   Relative Colorimetric with BPC
     -   -- Rarely Needed --

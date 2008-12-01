@@ -63,7 +63,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 ** note: placing and editing files could equal react regarding mismatch (handles the mismatch question from above)
 ** mixed colour space documents for internet warning/quiet (OY_MIXED_COLOUR_INTERNET_DOCUMENT_WARNING)
 
-* rendering intent (Craig Ringer's suggestion)
+* rendering intent [http://lists.freedesktop.org/archives/openicc/2007q4/000963.html (Craig Ringer's suggestion)]
 ** Perceptual
 ** Relative Colorimetric with BPC
 ** -- Rarely Needed --
