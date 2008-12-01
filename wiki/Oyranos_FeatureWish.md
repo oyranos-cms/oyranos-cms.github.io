@@ -114,6 +114,8 @@ profiles by accident.
     -   Relative Colorimetric without BPC
     -   Absolute Colorimetric
     -   Saturation
+    -   Reference: [AdobeBPC
+        spec](http://www.adobe.com/devnet/photoshop/sdk/AdobeBPC.pdf)
 
 <!-- -->
 
