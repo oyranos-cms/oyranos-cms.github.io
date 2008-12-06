@@ -192,7 +192,7 @@ profiles by accident.
 
 |     |               |                |             |                                                        |
 |-----|---------------|----------------|-------------|--------------------------------------------------------|
-|     | Progress: 10% | Version: 1.x.x | Start: 2008 | Assigned to: [Marijana](/wiki/Marijana "wikilink") Novakovic |
+|     | Progress: 20% | Version: 1.x.x | Start: 2008 | Assigned to: [Marijana](/wiki/Marijana "wikilink") Novakovic |
 ||
 
 -   file support (tiff,png,jpeg), move from Colori
