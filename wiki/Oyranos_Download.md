@@ -29,6 +29,7 @@ are available from the behrmann site.
 
 Oyranos depends on following libraries and external applications:
 
+-   libxml2
 -   FLTK version &lt;= 1.1.4 neede to build the GUI (needed by FLU as
     well). You may configure FLTK with several options enabled:
 
@@ -46,6 +47,7 @@ Optionally:
     littleCMS and Oyranos.
 -   Xcalib for loading a given VideoCardGammaTag from profile to a
     running XFree86/Xorg session (optionally)
+-   Cairo
 
 #### Compile Instructions
 
