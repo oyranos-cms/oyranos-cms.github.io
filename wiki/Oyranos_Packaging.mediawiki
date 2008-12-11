@@ -14,7 +14,7 @@ You have to set the XDG veriables and others to match the paths relative to the 
 
 Again look at the ICC Examin bundle as an example: ICC Examin.app/Contents/MacOS/ICC Examin .
 
-Take the lastest ICC Examin bundle, the folder ending with app, similiar named to [https://sourceforge.net/project/showfiles.php?group_id=177017&package_id=247749&release_id=543945 icc_examin-x.xx_rcx.app.tgz].
+Take the lastest ICC Examin bundle, the folder ending with app, similiar named to [http://sourceforge.net/project/showfiles.php?group_id=177017&package_id=247749&release_id=543945 icc_examin-x.xx_rcx.app.tgz].
 
 
 A additional hint is to copy libelektra-filesys and libltdl into your bundle to satisfy Elektra. It will fix some warnings.
