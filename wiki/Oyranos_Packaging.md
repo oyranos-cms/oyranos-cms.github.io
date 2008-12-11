@@ -27,7 +27,7 @@ the files with 'oyranos' in their name.
 Or you can copy a complete installation into the bundle. The later is
 support by the following target in Oyranos:
 
-`make DESTDIR=/my/home/bundle.app/Contents/Resources/ install`
+`make DESTDIR=`“`/my/home/bundle.app/Contents/Resources/`”` install`
 
 You have to set the XDG veriables and others to match the paths relative
 to the bundle to allow Oyranos to locate various data in a bundle.

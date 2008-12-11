@@ -8,7 +8,7 @@ Additional you'd need FLTK and possibly xcalib. These dependencies are mentioned
 Oyranos has currently no osX Framework or bundling support in its make files. Eighter use the ICC Examin bundle and look there at profiles and the files with 'oyranos' in their name. 
 
 Or you can copy a complete installation into the bundle. The later is support by the following target in Oyranos:
- make DESTDIR=/my/home/bundle.app/Contents/Resources/ install
+ make DESTDIR="/my/home/bundle.app/Contents/Resources/" install
 
 You have to set the XDG veriables and others to match the paths relative to the bundle to allow Oyranos to locate various data in a bundle. 
 
