@@ -41,6 +41,11 @@ CM Preferences without Oyranos (v0.23-0):
 
 [[Image:Cinepaint screenshot 0.23 en.png]]
 
+
+[[ICC Examin]]'s CinéPaint plug-in showing collapsing colours of a proofed image:
+
+http://www.behrmann.name/images/artikel/cinetut/cinepaint_0.23-0_it8_colourvis_hardproof_de.png
+
 == Links ==
 *http://www.cinepaint.org - Project page
 *[http://cinepaint.bigasterisk.com/CinePaintDocumentation CinePaintDocumentation] - Wiki
