@@ -80,6 +80,19 @@ Detailed build instructions are as well included in the packages.
 [openSUSE-10.3](https://www.oyranos.org/wiki/images/a/a7/Bekun-openSUSE_10.3.rpm)
 [openSUSE-11.0](https://www.oyranos.org/wiki/images/0/02/Bekun-openSUSE_11.0.rpm)
 
+After installing one of the above setup RPM's the ***bekun*** repository
+is activated in yum. For a full installation install the icc\_examin
+package:
+
+`yum install icc_examin`
+
+Yum resolves all dependcies. The *icc\_examin-cinepaint* package is for
+a more indepth colour space exploration inside
+[CinéPaint](/wiki/CinePaint "wikilink").
+
+***bekun*** repository plain overview:  
+[bekun](http://download.opensuse.org/repositories/home:/bekun/)
+
 Development Versions
 --------------------
 
