@@ -64,7 +64,7 @@ install. Optionally you can specifiy an other than the default prefix
 
 Detailed build instructions are as well included in the packages.
 
-### Packages
+### Binary Packages
 
 <http://www.oyranos.org/images/fedora-logo.png>
 [Fedora](https://admin.fedoraproject.org/pkgdb/packages/name/oyranos)

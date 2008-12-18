@@ -41,7 +41,7 @@ Optionally you can specifiy an other than the default prefix /opt/local by typin
 
 Detailed build instructions are as well included in the packages.
 
-=== Packages ===
+=== Binary Packages ===
 
 http://www.oyranos.org/images/fedora-logo.png [https://admin.fedoraproject.org/pkgdb/packages/name/oyranos Fedora]
 
