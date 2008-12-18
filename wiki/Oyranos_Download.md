@@ -66,14 +66,19 @@ Detailed build instructions are as well included in the packages.
 
 ### Packages
 
-[Fedora](https://admin.fedoraproject.org/pkgdb/packages/name/oyranos)
 <http://www.oyranos.org/images/fedora-logo.png>
+[Fedora](https://admin.fedoraproject.org/pkgdb/packages/name/oyranos)
 
 #### openSUSE build server
 
-[bekun YUM repository for
-f-10](http://www.oyranos.org/wiki/images/b/b0/Bekun-Fedora_10.rpm)
-<http://www.oyranos.org/images/fedora-logo.png>
+***bekun*** YUM repositories for:
+
+<http://www.oyranos.org/images/fedora-logo.png>  
+[f-10](https://www.oyranos.org/wiki/images/b/b0/Bekun-Fedora_10.rpm)
+
+<http://www.oyranos.org/images/suse_logo.png>  
+[openSUSE-10.3](https://www.oyranos.org/wiki/images/a/a7/Bekun-openSUSE_10.3.rpm)
+[openSUSE-11.0](https://www.oyranos.org/wiki/images/0/02/Bekun-openSUSE_11.0.rpm)
 
 Development Versions
 --------------------
