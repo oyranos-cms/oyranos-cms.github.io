@@ -7,7 +7,8 @@ tags:
 ---
 
 <h1>
-[ICC Examin](/wiki/ICC_Examin "wikilink")
+[ICC
+Examin](http://www.behrmann.name/index.php?option=com_content&task=view&id=32&Itemid=70)
 
 </h1>
 Stable Versions
