@@ -64,6 +64,11 @@ Detailed build instructions are as well included in the packages.
 service](http://www.oyranos.org/wiki/index.php?title=Oyranos/Download#openSUSE_build_server)
 for Linux binary packages
 
+#### osX
+
+[1](https://sourceforge.net/project/showfiles.php?group_id=177017&package_id=247078)
+<http://www.behrmann.name/images/dmg.png>
+
 Development Versions
 --------------------
 
