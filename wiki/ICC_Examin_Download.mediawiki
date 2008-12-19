@@ -20,7 +20,7 @@ ICC Examin depends on following libraries and external applications:
     --enable-xft is ok for antialiased fonts
     --enable-debug is generally a good choice
     --enable-shared is sometimes a good choice for smaller executables
-* Oyranos CMS
+* [[Oyranos/Download|Oyranos]] CMS
 * FTGL
 
 

@@ -38,7 +38,7 @@ ICC Examin depends on following libraries and external applications:
 `   --enable-debug is generally a good choice`  
 `   --enable-shared is sometimes a good choice for smaller executables`
 
--   Oyranos CMS
+-   [Oyranos](/wiki/Oyranos/Download "wikilink") CMS
 -   FTGL
 
 #### Compile Instructions
