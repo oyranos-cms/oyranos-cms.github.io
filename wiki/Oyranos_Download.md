@@ -86,9 +86,17 @@ package:
 
 `yum install icc_examin`
 
-Yum resolves all dependcies. The *icc\_examin-cinepaint* package is for
-a more indepth colour space exploration inside
+Yum should resolve all dependcies. The *icc\_examin-cinepaint* package
+is for a more indepth colour space exploration inside
 [CinéPaint](/wiki/CinePaint "wikilink").
+
+In case a missed libelektra.so.2 message is shown, as can happen on
+Fedora, try first the following command:
+
+`yum erase elektra`
+
+and repeat the above *icc\_examin* or *icc\_examin-cinepaint*
+installation.
 
 ***bekun*** repository plain overview:  
 [bekun](http://download.opensuse.org/repositories/home:/bekun/)

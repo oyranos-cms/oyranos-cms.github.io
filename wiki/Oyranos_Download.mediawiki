@@ -62,7 +62,11 @@ http://www.oyranos.org/images/suse_logo.png<br>
 After installing one of the above setup RPM's the  '''''bekun''''' repository is activated in yum.
 For a full installation install the icc_examin package:
  yum install icc_examin
-Yum resolves all dependcies. The ''icc_examin-cinepaint'' package is for a more indepth colour space exploration inside [[CinePaint|CinéPaint]].
+Yum should resolve all dependcies. The ''icc_examin-cinepaint'' package is for a more indepth colour space exploration inside [[CinePaint|CinéPaint]].
+
+In case a missed libelektra.so.2 message is shown, as can happen on Fedora, try first the following command:
+ yum erase elektra
+and repeat the above ''icc_examin'' or ''icc_examin-cinepaint'' installation.
 
 
 '''''bekun''''' repository plain overview:<br>
