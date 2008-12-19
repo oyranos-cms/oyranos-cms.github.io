@@ -66,8 +66,9 @@ for Linux binary packages
 
 #### osX
 
-[1](https://sourceforge.net/project/showfiles.php?group_id=177017&package_id=247078)
-<http://www.behrmann.name/images/dmg.png>
+[disk
+image](https://sourceforge.net/project/showfiles.php?group_id=177017&package_id=247078)
+<http://www.behrmann.name/images/cms/dmg_64.png>
 
 Development Versions
 --------------------
