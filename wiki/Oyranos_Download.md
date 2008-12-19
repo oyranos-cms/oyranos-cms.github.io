@@ -42,9 +42,9 @@ Oyranos depends on following libraries and external applications:
 
 Optionally:
 
--   ICC Examin is the profile viewer of Oyranos' configuration GUI. It
-    provides a view on profile internals and a gamut view. It uses
-    littleCMS and Oyranos.
+-   [ICC Examin](/wiki/ICC_Examin/Download "wikilink") is the profile viewer
+    of Oyranos' configuration GUI. It provides a view on profile
+    internals and a gamut view. It uses littleCMS and Oyranos.
 -   Xcalib for loading a given VideoCardGammaTag from profile to a
     running XFree86/Xorg session (optionally)
 -   Cairo
