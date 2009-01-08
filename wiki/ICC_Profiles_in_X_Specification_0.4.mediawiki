@@ -1,0 +1,112 @@
+<h1> DRAFT </h1>
+
+{| style="width:100%;text-align:left;vertical-align:text-top"
+|+
+! style="background:#efefef;text-align:left" colspan="4" | Revision History
+|- style="text-align:left;vertical-align:text-top"
+| [http://www.burtonini.com/computing/x-icc-profiles-spec-0.1.html Revision 0.1]
+| 2005-06-24 
+| Ross Burton
+| Initial release. Thanks to Craig Ringer, Jim Gettys, Kai-Uwe Behrmann, and Matthew Allum for feedback.
+|- style="text-align:left;vertical-align:text-top"
+| [http://www.burtonini.com/computing/x-icc-profiles-spec-0.2.html Revision 0.2]
+| 2006-05-03 
+| Kai-Uwe Behrmann
+| Specify how to handle Xinerama setups.
+|- style="text-align:left;vertical-align:text-top" 
+| Draft 1 for Revision 0.3
+| 2007-11-15 
+| Kai-Uwe Behrmann
+| Clearify terminology suggested Hal V. Engel, Jon A. Cruz, sRGB default by<br>Craig Ringer and corrections by Kai-Uwe Behrmann
+|- style="text-align:left;vertical-align:text-top" 
+| Draft 2 for Revision 0.3
+| 2008-04-23
+| Kai-Uwe Behrmann
+| case corrections by Graeme Gill
+|- style="text-align:left;vertical-align:text-top" 
+| Draft 1 for Revision 0.4
+| 2008-01-08
+| Kai-Uwe Behrmann
+| Xrandr
+|-
+|}
+
+
+
+== Introduction ==
+
+This is a specification for associating ICC colour profiles with X monitors. With this specification applications can obtain the appropriate display profile for the monitor they are interessted in, and apply colour correction to any images, which are being shown to the user.
+
+== Specification ==
+
+The _ICC_PROFILE base name contains the literal ICC colour profile. A atom with
+name _ICC_PROFILE_IN_X_VERSION tells about awareness of the setting application 
+or service. The _ICC_PROFILE_LOCK base names are intented for dynamic changing 
+environments, especially the setup application or service.
+
+== _ICC_PROFILE ==
+
+The atom name for the first monitor in a root window is _ICC_PROFILE.
+
+For root windows spanning more than one monitor, as typical in Xinerama and XRandR
+multihead configurations, a atom for each monitor is added holding the 
+appropriate ICC profile. The first monitor uses the _ICC_PROFILE atom name. 
+All monitors in a root window starting from 
+number one use _ICC_PROFILE as atom name extended with an underscore plus 
+the monitor number, e.g. _ICC_PROFILE_1 . Monitor counting starts with zero.
+Thus a _ICC_PROFILE_0 atom should not appear.
+
+The atoms are of type <span class="type">XA_CARDINAL</span> with 8-bit
+elements. The value of the atom should be a literal ICC profile, that
+applications can read and parse directly.
+
+This property does not have to be set on every monitor.  When this
+property is not set for a monitor, this monitor is uncharacterised, and
+colour correction for this monitor should be done using the sRGB colour space.
+
+As profiles can be large, applications should read the profile for a
+particular screen once, and cache it. As a screen's profile may change
+during the lifetime of the process, applications should ask to receive
+property change notifications from the root window, even if they don't
+currently have a profile set. Applications which can change screens
+using mechanisms such as display migration should be aware that the new
+screen is likely to have different profiles assigned to monitors.
+
+== _ICC_PROFILE_IN_X_VERSION ==
+
+The _ICC_PROFILE_IN_X_VERSION atom specifies the version of this specification applied.
+To simplify parsing the minor revision number is multiplied by 1 plus the major number by 100.
+So for example revision 0.3 would result in:<br>
+0*100 + 3*1 => 3 <br/>
+The atom should be stored as ascii text of type <span class="type">XA_CARDINAL</span> 
+with 8-bit elements.
+
+== _ICC_PROFILE_SETUP_LOCK ==
+
+A application or service, which is able to setup the _ICC_PROFILE atom(s),
+may obtain notification for a server configuration change, e.g. after 
+dynamically connecting a new monitor. Then this service can try to evaluate the
+configuration and update appropriately.
+First a lock has to be set with the atom name _ICC_PROFILE_SETUP_LOCK. The
+content of this atom should contain the actual service PID and time() value.
+The string value should be:<br/>
+"pid:time", e.g. "293:1231432919".<br/>
+The atom should be stored as ascii text of type <span class="type">XA_CARDINAL</span> 
+with 8-bit elements.<br/>
+After the X server is configured again the _ICC_PROFILE_SETUP_LOCK should be
+removed by the the locking service.
+
+== References ==
+ 
+1. [http://www.color.org International Color Consortium]
+
+2. [http://www.freedesktop.org/wiki/Specifications/icc_profiles_in_x_spec central spec host] @ freedesktop.org
+
+2005 &copy; Ross Burton; 2006-2009 &copy; Kai-Uwe Behrmann
+
+
+
+[[Oyranos|back --> Oyranos]] or [[Oyranos X11 Requirements]]
+
+[[Category:Oyranos]]
+[[Category:Standards]]
