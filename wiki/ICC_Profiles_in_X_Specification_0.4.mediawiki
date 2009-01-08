@@ -35,14 +35,19 @@
 
 == Introduction ==
 
-This is a specification for associating ICC colour profiles with X monitors. With this specification applications can obtain the appropriate display profile for the monitor they are interessted in, and apply colour correction to any images, which are being shown to the user.
+This is a specification for associating ICC colour profiles with X monitors. 
+With this specification applications and services can obtain the appropriate 
+display profile for the monitor they are interessted in, and apply colour 
+correction to any images, which are being shown to the user.
 
 == Specification ==
 
 The _ICC_PROFILE base name contains the literal ICC colour profile. A atom with
 name _ICC_PROFILE_IN_X_VERSION tells about awareness of the setting application 
-or service. The _ICC_PROFILE_LOCK base names are intented for dynamic changing 
-environments, especially the setup application or service.
+or service. The _ICC_PROFILE_SETUP_LOCK atom is intented for locking in dynamic
+changing environments, especially for the setup application or service. The 
+_ICC_PROFILE_SETUP atom allowes for finding out whether a configuration is up 
+to date.
 
 == _ICC_PROFILE ==
 
@@ -96,11 +101,22 @@ with 8-bit elements.<br/>
 After the X server is configured again the _ICC_PROFILE_SETUP_LOCK should be
 removed by the the locking service.
 
+== _ICC_PROFILE_SETUP ==
+
+The atom with name _ICC_PROFILE_SETUP should be set by the configuring service. The
+content of this atom should contain the actual service PID and time() value.
+The string value should be:<br/>
+"pid:time", e.g. "293:1231432919".<br/>
+The atom should be stored as ascii text of type <span class="type">XA_CARDINAL</span> 
+with 8-bit elements.
+
+'''(How does a client know that a configuration is invalid? output count? regular check every 10 seconds?)'''
+
 == References ==
  
 1. [http://www.color.org International Color Consortium]
 
-2. [http://www.freedesktop.org/wiki/Specifications/icc_profiles_in_x_spec central spec host] @ freedesktop.org
+2. [http://www.freedesktop.org/wiki/Specifications/icc_profiles_in_x_spec central specification host] @ freedesktop.org
 
 2005 &copy; Ross Burton; 2006-2009 &copy; Kai-Uwe Behrmann
 

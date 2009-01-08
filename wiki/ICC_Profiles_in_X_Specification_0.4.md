@@ -42,9 +42,9 @@ Introduction
 ------------
 
 This is a specification for associating ICC colour profiles with X
-monitors. With this specification applications can obtain the
-appropriate display profile for the monitor they are interessted in, and
-apply colour correction to any images, which are being shown to the
+monitors. With this specification applications and services can obtain
+the appropriate display profile for the monitor they are interessted in,
+and apply colour correction to any images, which are being shown to the
 user.
 
 Specification
@@ -52,9 +52,10 @@ Specification
 
 The \_ICC\_PROFILE base name contains the literal ICC colour profile. A
 atom with name \_ICC\_PROFILE\_IN\_X\_VERSION tells about awareness of
-the setting application or service. The \_ICC\_PROFILE\_LOCK base names
-are intented for dynamic changing environments, especially the setup
-application or service.
+the setting application or service. The \_ICC\_PROFILE\_SETUP\_LOCK atom
+is intented for locking in dynamic changing environments, especially for
+the setup application or service. The \_ICC\_PROFILE\_SETUP atom allowes
+for finding out whether a configuration is up to date.
 
 \_ICC\_PROFILE
 --------------
@@ -113,12 +114,25 @@ The atom should be stored as ascii text of type
 After the X server is configured again the \_ICC\_PROFILE\_SETUP\_LOCK
 should be removed by the the locking service.
 
+\_ICC\_PROFILE\_SETUP
+---------------------
+
+The atom with name \_ICC\_PROFILE\_SETUP should be set by the
+configuring service. The content of this atom should contain the actual
+service PID and time() value. The string value should be:  
+“pid:time”, e.g. “293:1231432919”.  
+The atom should be stored as ascii text of type
+<span class="type">XA\_CARDINAL</span> with 8-bit elements.
+
+**(How does a client know that a configuration is invalid? output count?
+regular check every 10 seconds?)**
+
 References
 ----------
 
 1. [International Color Consortium](http://www.color.org)
 
-2. [central spec
+2. [central specification
 host](http://www.freedesktop.org/wiki/Specifications/icc_profiles_in_x_spec)
 @ freedesktop.org
 
