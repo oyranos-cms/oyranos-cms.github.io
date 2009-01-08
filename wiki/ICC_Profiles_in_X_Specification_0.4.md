@@ -119,13 +119,12 @@ should be removed by the the locking service.
 
 The atom with name \_ICC\_PROFILE\_SETUP should be set by the
 configuring service. The content of this atom should contain the actual
-service PID and time() value. The string value should be:  
-“pid:time”, e.g. “293:1231432919”.  
+service PID and XRRTimes value. The string value should be:  
+“pid:servertime”, e.g. “293:7148917”.  
 The atom should be stored as ascii text of type
 <span class="type">XA\_CARDINAL</span> with 8-bit elements.
 
-**(How does a client know that a configuration is invalid? output count?
-regular check every 10 seconds?)**
+`How does a client know that a configuration is invalid? regular check every 10 seconds?`
 
 References
 ----------
