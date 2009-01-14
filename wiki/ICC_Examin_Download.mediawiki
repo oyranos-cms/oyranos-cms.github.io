@@ -7,7 +7,7 @@ ICC Examin is known to work on Linux, BSD, osX and Solaris. Windows will current
 
 === Sources ===
 
-[https://sourceforge.net/project/showfiles.php?group_id=177017&package_id=247078 Sources] @ SourceForge
+[http://sourceforge.net/project/showfiles.php?group_id=177017&package_id=247078 Sources] @ SourceForge
 
 [http://www.behrmann.name/index.php?option=com_content&task=view&id=33 Elder Downloads] are available from the behrmann site.
 
@@ -45,13 +45,13 @@ Detailed build instructions are as well included in the packages.
 [http://www.oyranos.org/wiki/index.php?title=Oyranos/Download#openSUSE_build_server openSUSE build service] for Linux binary packages
 
 ==== osX ====
-[https://sourceforge.net/project/showfiles.php?group_id=177017&package_id=247078 disk image] http://www.behrmann.name/images/cms/dmg_64.png
+[http://sourceforge.net/project/showfiles.php?group_id=177017&package_id=247078 disk image] http://www.behrmann.name/images/cms/dmg_64.png
 
 == Development Versions ==
 
 [[Oyranos/git|Git]]: The actual development version can be obtained through git. Instructions on how to obtain the code and how to build, can be found on the Oyranos Wiki page [[Oyranos/git]]. There is as well a build script available for automated dependency checking, downloading and building.
 
-[https://sourceforge.net/project/showfiles.php?group_id=177017 Snapshots and release candidates] are available from the SourceForge site. They are released non regularily. The packages contain sources and all datas.
+[http://sourceforge.net/project/showfiles.php?group_id=177017 Snapshots and release candidates] are available from the SourceForge site. They are released non regularily. The packages contain sources and all datas.
 
 
 [[Oyranos|back -> Oyranos]]

@@ -19,7 +19,7 @@ currently not work.
 
 ### Sources
 
-[Sources](https://sourceforge.net/project/showfiles.php?group_id=177017&package_id=247078)
+[Sources](http://sourceforge.net/project/showfiles.php?group_id=177017&package_id=247078)
 @ SourceForge
 
 [Elder
@@ -67,7 +67,7 @@ for Linux binary packages
 #### osX
 
 [disk
-image](https://sourceforge.net/project/showfiles.php?group_id=177017&package_id=247078)
+image](http://sourceforge.net/project/showfiles.php?group_id=177017&package_id=247078)
 <http://www.behrmann.name/images/cms/dmg_64.png>
 
 Development Versions
@@ -80,7 +80,7 @@ build, can be found on the Oyranos Wiki page
 available for automated dependency checking, downloading and building.
 
 [Snapshots and release
-candidates](https://sourceforge.net/project/showfiles.php?group_id=177017)
+candidates](http://sourceforge.net/project/showfiles.php?group_id=177017)
 are available from the SourceForge site. They are released non
 regularily. The packages contain sources and all datas.
 
