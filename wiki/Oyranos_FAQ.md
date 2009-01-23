@@ -65,6 +65,9 @@ like for FOGRA, SWOP, SNAP and GRACoL printing conditions. The used
 printing condition character sets are as well included. More profiles
 can be found on this [link
 collection](http://www.behrmann.name/index.php?option=com_weblinks&catid=73&Itemid=95).
+They should be installed in the [system
+paths](/wiki/OpenIccDirectoryProposal "wikilink") to be seen by most
+applications.
 
 ### Who is developing Oyranos?
 
