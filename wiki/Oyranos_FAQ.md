@@ -57,6 +57,15 @@ are licensed, except a few, under
 Oyranos is officially published on
 [Oyranos/Download](/wiki/Oyranos/Download "wikilink").
 
+### Where Can I find ICC Profiles
+
+Some are already included in the package, like sRGB, ECI- and a Adobe
+RGB as well as Gray, CIE\*Lab, CIE\*XYZ, ITU-Lab and some press profiles
+like for FOGRA, SWOP, SNAP and GRACoL printing conditions. The used
+printing condition character sets are as well included. More profiles
+can be found on this [link
+collection](http://www.behrmann.name/index.php?option=com_weblinks&catid=73&Itemid=95).
+
 ### Who is developing Oyranos?
 
 Currently Oyranos is a one man project of [Kai-Uwe
