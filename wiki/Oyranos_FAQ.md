@@ -45,14 +45,17 @@ to stay with the name.
 
 ### License(s)
 
-Oyranos is licensed under new BSD. It is possible that parts will be
-released under different licenses. But that is open. The goal is to not
-exclude anyone from using Oyranos.
+Oyranos is licensed under [new
+BSD](http://opensource.org/licenses/bsd-license.php). It is possible
+that parts will be released under different licenses. But that is open.
+The goal is to not exclude anyone from using Oyranos. The ICC profiles
+are licensed, except a few, under
+[zip/libpng](http://opensource.org/licenses/zlib-license.php) license.
 
 ### Where can I get Oyranos?
 
-Oyranos is officially published on [Kai-Uwe's
-site](http://www.behrmann.name/index.php?option=com_content&task=view&id=34&Itemid=68)
+Oyranos is officially published on
+[Oyranos/Download](/wiki/Oyranos/Download "wikilink").
 
 ### Who is developing Oyranos?
 
@@ -71,8 +74,8 @@ of
 ### How can I help with the Oyranos CMS?
 
 You could help by testing, reporting bugs or providing according
-patches, doing translations, as well as suggesting useful changes or, if
-we all feel well with it, become part of the development team.
+patches, doing translations, as well as suggesting useful changes or
+becoming part of the development team.
 
 We need people with fantasy for going possibly new paths, meticulousness
 for assuring quality, analytical, didactic and aesthetic skills and

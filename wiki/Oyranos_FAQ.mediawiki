@@ -19,17 +19,17 @@ Oyranos is the greek word of sky.
 It was pointed out that ouranos is more adequate for english readers. Just as with the german Uranos and other variants it seems pretty good to stay with the name.
 
 === License(s) ===
-Oyranos is licensed under new BSD. It is possible that parts will be released under different licenses. But that is open. The goal is to not exclude anyone from using Oyranos.
+Oyranos is licensed under [http://opensource.org/licenses/bsd-license.php new BSD]. It is possible that parts will be released under different licenses. But that is open. The goal is to not exclude anyone from using Oyranos. The ICC profiles are licensed, except a few, under [http://opensource.org/licenses/zlib-license.php zip/libpng] license.
 
 === Where can I get Oyranos? ===
-Oyranos is officially published on [http://www.behrmann.name/index.php?option=com_content&task=view&id=34&Itemid=68 Kai-Uwe's site]
+Oyranos is officially published on [[Oyranos/Download]].
 
 === Who is developing Oyranos? ===
 Currently Oyranos is a one man project of [http://www.behrmann.name Kai-Uwe Behrmann]. I see myself as a photographer, who came in the situation of creating its own imaging workflow through the lack of adequate GUI's on the Linux OS. Still I am searching for [[#How_can_I_help_with_the_Oyranos_CMS.3F|help]].
 Contributions came from students through their [http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX Summer] of [http://code.google.com/p/google-summer-of-code-2008-openicc/downloads/list Code] [http://freedesktop.org/wiki/OpenIccForGoogleSoC2008 projects] at [[OpenICC]].
 
 === How can I help with the Oyranos CMS? ===
-You could help by testing, reporting bugs or providing according patches, doing translations, as well as suggesting useful changes or, if we all feel well with it, become part of the development team.
+You could help by testing, reporting bugs or providing according patches, doing translations, as well as suggesting useful changes or becoming part of the development team.
 
 We need people with fantasy for going possibly new paths, meticulousness for assuring quality, analytical, didactic and aesthetic skills and thinking around the corner or all together. Some knowledge or feeling of colour may be of help. But this is not a must, as uneducated persons bring in a very important view.
 
