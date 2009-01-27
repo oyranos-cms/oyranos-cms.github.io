@@ -1,0 +1,8 @@
+==Links==
+* [http://www.svgopen.org/2008/papers/88-Color_Management_Open_Source_and_Inkscape/ Color Management, Open Source, and Inkscape] a toppic over @svgopen.org
+* [http://wiki.inkscape.org/wiki/index.php/SpecIccForCairo SpecIccForCairo - Inkscape Wiki] a initiative to integrate colour management into Cairo
+* [http://www.inkscape.org Inkscape project page]
+
+[[Applications|back -> Applications]]
+
+[[Category:Programms]]
