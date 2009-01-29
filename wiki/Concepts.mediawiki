@@ -271,6 +271,7 @@ Should be possible by accepting of options not only as keys, but as logical endi
 
 === Common Gui elements ===
 * [http://www.freedesktop.org/wiki/OpenIcc/Icons Colour management Icon]
+* [http://lukast.mediablog.sk/log/?p=55 Colour Chooser]
 
 Profile selectors can to a user present the internal stored name and the external file name. Ideally both should coincide, with the possible exceptions of the space sign and the file type ending.
 In case the profile is a in memory one the internal name might not be detectable.

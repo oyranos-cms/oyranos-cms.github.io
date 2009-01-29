@@ -517,6 +517,7 @@ User Interface
 
 -   [Colour management
     Icon](http://www.freedesktop.org/wiki/OpenIcc/Icons)
+-   [Colour Chooser](http://lukast.mediablog.sk/log/?p=55)
 
 Profile selectors can to a user present the internal stored name and the
 external file name. Ideally both should coincide, with the possible
