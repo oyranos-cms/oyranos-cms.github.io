@@ -39,7 +39,15 @@ Examining the history:
 
 A script to automate the process, including a build of [ICC
 Examin](/wiki/ICC_Examin "wikilink"), is
-[here](https://www.behrmann.name/temp/icc_examin-build.sh).
+[here](https://www.behrmann.name/temp/icc_examin-build.sh). The script
+accepts options for configure and will pass them unchanged.
+
+E.g. --prefix=/my/reachable/path might be a good idea to avoid the
+requirement root rights for installation of a test build.
+
+ICC Examin git can be obtained without the above script like follows:
+
+`$ git clone `[`git://www.oyranos.org/git/icc_examin`](git://www.oyranos.org/git/icc_examin)
 
 ### Links
 

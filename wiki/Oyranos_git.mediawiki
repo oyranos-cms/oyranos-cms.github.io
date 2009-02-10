@@ -21,6 +21,12 @@ Examining the history:
  $ git log -p
 
 A script to automate the process, including a build of [[ICC Examin]], is [https://www.behrmann.name/temp/icc_examin-build.sh here].
+The script accepts options for configure and will pass them unchanged. 
+
+E.g. --prefix=/my/reachable/path might be a good idea to avoid the requirement root rights for installation of a test build.
+
+ICC Examin git can be obtained without the above script like follows:
+ $ git clone git://www.oyranos.org/git/icc_examin
 
 === Links ===
 * [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#git-quick-start git introduction]
