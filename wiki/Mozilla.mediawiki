@@ -4,3 +4,4 @@
 ** cairo context
 ** untagged content matching (or not matching to flash, video)
 ** CSS standard, (as well [[Standards#File_Formats|on site]])
+* [https://bugzilla.mozilla.org/show_bug.cgi?id=462398 bug entry] Firefox color management does not honor _ICC_PROFILE X11 atoms. by Hal V. Engel

@@ -12,4 +12,7 @@ layout: wiki
     -   untagged content matching (or not matching to flash, video)
     -   CSS standard, (as well [on
         site](/wiki/Standards#File_Formats "wikilink"))
+-   [bug entry](https://bugzilla.mozilla.org/show_bug.cgi?id=462398)
+    Firefox color management does not honor \_ICC\_PROFILE X11 atoms. by
+    Hal V. Engel
 
