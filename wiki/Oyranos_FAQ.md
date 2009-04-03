@@ -85,17 +85,27 @@ of
 
 ### How can I help with the Oyranos CMS?
 
-You could help by testing, reporting bugs or providing according
-patches, doing translations, as well as suggesting useful changes or
-becoming part of the development team.
+You could help by testing,
+
+-   reporting bugs or
+-   providing according patches,
+-   doing translations,
+-   suggesting useful changes or
+-   proofreading, updating and extenting the documentation.
+
+Becoming part of the development team is easy.
 
 We need people with fantasy for going possibly new paths, meticulousness
 for assuring quality, analytical, didactic and aesthetic skills and
 thinking around the corner or all together. Some knowledge or feeling of
-colour may be of help. But this is not a must, as uneducated persons
-bring in a very important view.
+colour may be of help. But this is not a must. Uneducated persons bring
+in a very important view. So do not be shy to ask or suggest something.
 
 See as well [here](/wiki/Oyranos#Development "wikilink").
+
+A TODO list can be found [here](/wiki/Oyranos/FeatureWish "wikilink"). More
+project ideas can be found on the [OpenICC GSoC
+pages](http://www.freedesktop.org/wiki/OpenIcc/GoogleSoC2009).
 
 ### Which applications use Oyranos?
 

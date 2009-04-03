@@ -32,11 +32,20 @@ Currently Oyranos is a one man project of [http://www.behrmann.name Kai-Uwe Behr
 Contributions came from students through their [http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX Summer] of [http://code.google.com/p/google-summer-of-code-2008-openicc/downloads/list Code] [http://freedesktop.org/wiki/OpenIccForGoogleSoC2008 projects] at [[OpenICC]].
 
 === How can I help with the Oyranos CMS? ===
-You could help by testing, reporting bugs or providing according patches, doing translations, as well as suggesting useful changes or becoming part of the development team.
+You could help by testing, 
+* reporting bugs or 
+* providing according patches,
+* doing translations,
+* suggesting useful changes or
+* proofreading, updating and extenting the documentation. 
 
-We need people with fantasy for going possibly new paths, meticulousness for assuring quality, analytical, didactic and aesthetic skills and thinking around the corner or all together. Some knowledge or feeling of colour may be of help. But this is not a must, as uneducated persons bring in a very important view.
+Becoming part of the development team is easy.
+
+We need people with fantasy for going possibly new paths, meticulousness for assuring quality, analytical, didactic and aesthetic skills and thinking around the corner or all together. Some knowledge or feeling of colour may be of help. But this is not a must. Uneducated persons bring in a very important view. So do not be shy to ask or suggest something.
 
 See as well [[Oyranos#Development|here]].
+
+A TODO list can be found [[Oyranos/FeatureWish|here]]. More project ideas can be found on the [http://www.freedesktop.org/wiki/OpenIcc/GoogleSoC2009 OpenICC GSoC pages].
 
 === Which applications use Oyranos? ===
 A list of Oyranos users is [http://www.oyranos.org/#audience here].
