@@ -11,7 +11,9 @@ Feature Wishes for [Oyranos](/wiki/Oyranos "wikilink")
 
 They come often from discussions at the [OpenICC](/wiki/OpenICC "wikilink")
 email list. It is a good place to annotate, suggest, or ask. Writing
-here is better than forget elsewhere.
+here is better than forget elsewhere. The assigment of items to a person
+does not mean there happens currently work. So offering help is better
+than waiting with a item of interesst.
 
 ### Devices
 
