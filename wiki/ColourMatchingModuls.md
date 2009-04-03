@@ -73,6 +73,9 @@ different implementations.
 
 License: LGPL
 
+-   [A simple video tutorial on how to use PixelBender alias
+    Hydra](http://www.gotoandlearn.com/play?id=83) from Lee Brimelow
+
 Profiler
 --------
 

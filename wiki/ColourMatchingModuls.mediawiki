@@ -38,6 +38,7 @@ Currently the focus is on developing two languages, designed for two different i
 
 License: LGPL
 
+* [http://www.gotoandlearn.com/play?id=83 A simple video tutorial on how to use PixelBender alias Hydra] from Lee Brimelow
 
 == Profiler ==
 ==== ArgyllCMS ====
