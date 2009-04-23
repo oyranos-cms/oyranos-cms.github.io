@@ -168,6 +168,11 @@ specification and procedure suggestion, implement in
 | [v0.2](/wiki/Device_Settings_in_ICC_0.2 "wikilink")                         |
 ||
 
+TODO (v0.3):
+
+-   The Priority field should be limited to one profiler. Otherwise its
+    value is object for concurency, which is not desireable.
+
 ### Specific Considerations
 
 #### Printing
