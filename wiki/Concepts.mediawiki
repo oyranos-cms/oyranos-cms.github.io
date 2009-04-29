@@ -20,7 +20,7 @@ In an architectural sense consistency means to include all parties to colour man
 * an other strategy might be to establish rules, which all parties should apply to. But thats not so easy to get them all, as many applications or toolkits might simply not be interested in the first place.
 * a thierd path is to provide the means for tracking colour conversions
 === History tracking for colour conversions ===
-* embed profile ID's into DL's (done - psid)
+* embed profile ID's into DL's (done - [http://www.color.org/ICCSpecRevision_11_04_07_ProfileSeqID_tag.pdf psid])
 * export colour conversions as DL's (done - is a CMM backend API requirement)
 * embed DL's into the output profile API:oyColourConversion_OutputProfile()
 * optional e.g. oyProfile_OptionSet( "history_tracking" )

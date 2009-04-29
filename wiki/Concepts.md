@@ -63,7 +63,8 @@ colour manage.
 
 ### History tracking for colour conversions
 
--   embed profile ID's into DL's (done - psid)
+-   embed profile ID's into DL's (done -
+    [psid](http://www.color.org/ICCSpecRevision_11_04_07_ProfileSeqID_tag.pdf))
 -   export colour conversions as DL's (done - is a CMM backend API
     requirement)
 -   embed DL's into the output profile
