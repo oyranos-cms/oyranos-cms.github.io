@@ -40,7 +40,7 @@ In the following proposal, I will draw sketchy, what I think is needed to make t
 * extract ICC information easily
 * alert for expired configuration
 
-[[Image:Device_profiles_01.png]][[Image:Device_profiles_01.svg]]
+[[Image:Device_profiles_01.png]][http://www.oyranos.org/wiki/images/d/da/Device_profiles_01.svg as Inkscape SVG]
 
 === Implementation Details ===
 * easy accessible text format to store and handle driver informations (key/value pairs)
