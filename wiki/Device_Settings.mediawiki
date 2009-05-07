@@ -40,6 +40,8 @@ In the following proposal, I will draw sketchy, what I think is needed to make t
 * extract ICC information easily
 * alert for expired configuration
 
+[[Image:Device_profiles_01.png]][[Image:Device_profiles_01.svg]]
+
 === Implementation Details ===
 * easy accessible text format to store and handle driver informations (key/value pairs)
 * driver identifier (which every application can either understand or reject the whole profile)

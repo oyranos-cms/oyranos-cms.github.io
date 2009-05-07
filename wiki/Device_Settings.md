@@ -98,6 +98,8 @@ configuration
 -   extract ICC information easily
 -   alert for expired configuration
 
+![](Device_profiles_01.png "fig:Device_profiles_01.png")![](Device_profiles_01.svg "fig:Device_profiles_01.svg")
+
 ### Implementation Details
 
 -   easy accessible text format to store and handle driver informations
