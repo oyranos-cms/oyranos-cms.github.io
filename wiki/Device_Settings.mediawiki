@@ -44,6 +44,7 @@ In the following proposal, I will draw sketchy, what I think is needed to make t
 
 === Implementation Details ===
 * easy accessible text format to store and handle driver informations (key/value pairs)
+[[Image:Device profiles 02.png]]
 * driver identifier (which every application can either understand or reject the whole profile)
 * possibly allow data blobs too, to allow compressed content
 * Graeme Gill suggested to use an magic number to identify the blob.

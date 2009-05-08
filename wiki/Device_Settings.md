@@ -105,6 +105,9 @@ SVG](http://www.oyranos.org/wiki/images/d/da/Device_profiles_01.svg)
 
 -   easy accessible text format to store and handle driver informations
     (key/value pairs)
+
+![](Device_profiles_02.png "Device_profiles_02.png")
+
 -   driver identifier (which every application can either understand or
     reject the whole profile)
 -   possibly allow data blobs too, to allow compressed content
