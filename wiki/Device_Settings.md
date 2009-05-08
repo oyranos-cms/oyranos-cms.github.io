@@ -104,7 +104,7 @@ SVG](http://www.oyranos.org/wiki/images/d/da/Device_profiles_01.svg)
 ### Implementation Details
 
 -   easy accessible text format to store and handle driver informations
-    (key/value pairs)
+    (key/value pairs) in the Oyranos DB
 
 ![](Device_profiles_02.png "Device_profiles_02.png")
 
