@@ -101,6 +101,8 @@ configuration
 ![](Device_profiles_01.png "fig:Device_profiles_01.png")[as Inkscape
 SVG](http://www.oyranos.org/wiki/images/d/da/Device_profiles_01.svg)
 
+![](Device_profiles_03.png "Device_profiles_03.png")
+
 ### Implementation Details
 
 -   easy accessible text format to store and handle driver informations
