@@ -103,6 +103,12 @@ SVG](http://www.oyranos.org/wiki/images/d/da/Device_profiles_01.svg)
 
 ![](Device_profiles_03.png "Device_profiles_03.png")
 
+The big question is, where are driver properties are agreed upon between
+two applications. The device part will be handled by Oyranos, thats
+clear. The device configuration backends handle especially the device
+property to Oyranos DB key mapping. Does it make sense to facilitate a
+driver backend API to do the same for various drivers? Logical?
+
 ### Implementation Details
 
 -   easy accessible text format to store and handle driver informations

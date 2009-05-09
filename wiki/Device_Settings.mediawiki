@@ -44,6 +44,8 @@ In the following proposal, I will draw sketchy, what I think is needed to make t
 
 [[Image:Device profiles 03.png]]
 
+The big question is, where are driver properties are agreed upon between two applications. The device part will be handled by Oyranos, thats clear. The device configuration backends handle especially the device property to Oyranos DB key mapping. Does it make sense to facilitate a driver backend API to do the same for various drivers? Logical?
+
 === Implementation Details ===
 * easy accessible text format to store and handle driver informations (key/value pairs) in the Oyranos DB
 [[Image:Device profiles 02.png]]
