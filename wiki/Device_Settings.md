@@ -186,6 +186,10 @@ TODO (v0.3):
 
 -   The Priority field should be limited to one profiler. Otherwise its
     value is object for concurency, which is not desireable.
+-   change the name to 'drvS' to tell its dedication is about driver
+    settings not device resolving
+    -   remove the device resolving and hint to use the 'pddt' tag
+        instead
 
 ### Specific Considerations
 
