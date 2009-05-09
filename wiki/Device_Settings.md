@@ -190,6 +190,7 @@ TODO (v0.3):
     settings not device resolving
     -   remove the device resolving and hint to use the 'pddt' tag
         instead
+-   rename the **Device Settings in ICC** to **Driver Settings in ICC**
 
 ### Specific Considerations
 
