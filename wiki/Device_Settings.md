@@ -111,6 +111,7 @@ clear. The device configuration backends handle especially the device
 property to Oyranos DB key mapping. Does it make sense to facilitate a
 driver backend API to do the same for various drivers? Logical?
 
+`/* possible sequence to get a device profile - unimplemented */`  
 `oyDriver_s * driver = 0;`  
 `oyDevice_s * device = 0;`  
 `oyOptions_s * options = 0;`  

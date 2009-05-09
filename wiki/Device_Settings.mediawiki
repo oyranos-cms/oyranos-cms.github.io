@@ -47,6 +47,7 @@ In the following proposal, I will draw sketchy, what I think is needed to make t
 
 The big question is, where are driver properties are agreed upon between two applications. The device part will be handled by Oyranos, thats clear. The device configuration backends handle especially the device property to Oyranos DB key mapping. Does it make sense to facilitate a driver backend API to do the same for various drivers? Logical?
 
+ /* possible sequence to get a device profile - unimplemented */
  oyDriver_s * driver = 0;
  oyDevice_s * device = 0;
  oyOptions_s * options = 0;
