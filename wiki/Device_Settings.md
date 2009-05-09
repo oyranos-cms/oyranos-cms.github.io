@@ -101,6 +101,8 @@ configuration
 ![](Device_profiles_01.png "fig:Device_profiles_01.png")[as Inkscape
 SVG](http://www.oyranos.org/wiki/images/d/da/Device_profiles_01.svg)
 
+### Driver
+
 ![](Device_profiles_03.png "Device_profiles_03.png")
 
 The big question is, where are driver properties are agreed upon between
@@ -108,6 +110,16 @@ two applications. The device part will be handled by Oyranos, thats
 clear. The device configuration backends handle especially the device
 property to Oyranos DB key mapping. Does it make sense to facilitate a
 driver backend API to do the same for various drivers? Logical?
+
+`oyDriver_s * driver = 0;`  
+`oyDevice_s * device = 0;`  
+`oyOptions_s * options = 0;`  
+`oyProfile_s * profile = 0;`  
+  
+`oyDeviceGet( `“`config`”`, `“`camera`”`, `“`absorber-2.0`”`, 0, &device );`  
+`oyDeviceGetDriver( device, `“`dcraw`”`, 0, &driver );`  
+`options = oyDriverGetOptions( driver, driver_context_pointer, `“`string.dcraw`”`, (size_t)0 );`  
+`oyDriverGetProfile( driver, &profile );`
 
 ### Implementation Details
 
