@@ -271,6 +271,14 @@ Desireable APIs for Oyranos:
 
 ...
 
+#### Configuration
+
+-   [Kolor-manager](/wiki/Kolor-manager "wikilink")
+-   [configuration dialog](/wiki/Oyranos/Configuration_Dialog "wikilink") of
+    Oyranos - plans to use XMLised GUI
+-   [oyranos-monitor](/wiki/Oyranos/Device_Profiles "wikilink"), ... - command
+    line tools
+
 ### References
 
 -   [Oyranos/X11 Requirements](/wiki/Oyranos/X11_Requirements "wikilink")

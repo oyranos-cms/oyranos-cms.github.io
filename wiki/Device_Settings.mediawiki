@@ -166,6 +166,11 @@ Desireable APIs for Oyranos:
 * [http://www.adobe.com/products/dng DNG]
 ...
 
+==== Configuration ====
+* [[Kolor-manager]]
+* [[Oyranos/Configuration_Dialog|configuration dialog]] of Oyranos - plans to use XMLised GUI
+* [[Oyranos/Device_Profiles|oyranos-monitor]], ... - command line tools
+
 === References ===
 * [[Oyranos/X11 Requirements]]
 * [https://www.linuxfoundation.org/en/OpenPrinting/Color_Management PDF colour management wiki page] @linuxfoundation/OpenPrinting
