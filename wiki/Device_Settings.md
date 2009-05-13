@@ -180,8 +180,9 @@ driver backend API to do the same for various drivers? Logical?
 
 `/** a function to extract the device settings tag from a existing profile */`  
 `oyDeviceSettings_s* oyIccDeviceSettingsDataGet( oyProfile_s* profile,`  
-`                                                size_t*     data_size )`  
-`For the oyDeviceSettings_s structure see below.`
+`                                                size_t*     data_size )`
+
+For the oyDeviceSettings\_s structure see the proposal below.
 
 TODO: proof the available options (ICC, XML...), choose, publish a
 specification and procedure suggestion, implement in
