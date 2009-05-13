@@ -84,6 +84,7 @@ The big question is, where are driver properties are agreed upon between two app
 *** clear to handle, to be covered by an specification
 *** forces a switch first
 * the driver version should be editable (ICC Examin?), so a older drivers can be still used
+* fuzzy matching should be possible see [[#Informations_Incorporated|here]]
 
 === Oyranos API suggestion ===
  /** The following function includes all information to create and return the device 

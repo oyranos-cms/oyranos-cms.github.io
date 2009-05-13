@@ -165,6 +165,8 @@ split them.
         -   forces a switch first
 -   the driver version should be editable (ICC Examin?), so a older
     drivers can be still used
+-   fuzzy matching should be possible see
+    [here](#Informations_Incorporated "wikilink")
 
 ### Oyranos API suggestion
 
