@@ -122,6 +122,10 @@ driver backend API to do the same for various drivers? Logical?
 `options = oyDriverGetOptions( driver, driver_context_pointer, `“`string.dcraw`”`, (size_t)0 );`  
 `oyDriverGetProfile( driver, &profile );`
 
+### Profiling
+
+![](Device_profiles_04.png "Device_profiles_04.png")
+
 ### Implementation Details
 
 -   easy accessible text format to store and handle driver informations
