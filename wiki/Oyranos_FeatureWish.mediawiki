@@ -221,6 +221,9 @@ Constitute a colour patch presentation:
 * see [http://www.oyranos.org/doc/html/concept_1.0.html inline] documentation
 
 
+=== Target 0.1.10 ===
+* [[Device Settings#Implementation_Details|device DB framework]]
+
 === Target 0.1.8 ===
 * (done) error handling 
 * (done) information callback function:

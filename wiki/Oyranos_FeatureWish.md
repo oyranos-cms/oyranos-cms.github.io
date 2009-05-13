@@ -273,6 +273,11 @@ Todo
 -   see [inline](http://www.oyranos.org/doc/html/concept_1.0.html)
     documentation
 
+### Target 0.1.10
+
+-   [device DB
+    framework](/wiki/Device_Settings#Implementation_Details "wikilink")
+
 ### Target 0.1.8
 
 -   (done) error handling
