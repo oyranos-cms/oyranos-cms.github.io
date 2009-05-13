@@ -161,7 +161,7 @@ profiles by accident.
 
 |     |               |                |             |                                          |
 |-----|---------------|----------------|-------------|------------------------------------------|
-|     | Progress: 70% | Version: x.x.x | Start: 2007 | Assigned to: Kai-Uwe Behrmann (Scribus?) |
+|     | Progress: 75% | Version: x.x.x | Start: 2007 | Assigned to: Kai-Uwe Behrmann (Scribus?) |
 ||
 
 -   frontend API, transforms, caching, image description - buffer layout

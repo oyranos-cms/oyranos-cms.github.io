@@ -110,7 +110,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | style="width:1%" |
-| style="width:20%" | Progress: 70%
+| style="width:20%" | Progress: 75%
 | style="width:20%" | Version: x.x.x
 | style="width:20%" | Start: 2007
 | style="width:20%" | Assigned to: Kai-Uwe Behrmann (Scribus?)
