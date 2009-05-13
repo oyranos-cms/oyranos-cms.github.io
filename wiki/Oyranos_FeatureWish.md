@@ -141,12 +141,13 @@ profiles by accident.
     Directory Proposal](/wiki/OpenIccDirectoryProposal "wikilink")
 -   (done) OY\_MODULE\_PATHS for CMM's
 
-### Standard Profiles
+### Default Profiles
 
 -   naming of ECI profiles to something FOGRA corresponding (Chris
     Murphy and others on OpenICC)
 -   most ECI profiles are replaced with Argyll created ones
 -   remains to relicense or replace the eciRGB ones
+-   country specific settings
 
 |               |                                            |        |                               |
 |---------------|--------------------------------------------|--------|-------------------------------|

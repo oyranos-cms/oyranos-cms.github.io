@@ -90,10 +90,11 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 * (done) update Oyranos' internal path representation to the [[OpenIccDirectoryProposal|OpenICC Directory Proposal]]
 * (done) OY_MODULE_PATHS for CMM's
 
-=== Standard Profiles ===
+=== Default Profiles ===
 * naming of ECI profiles to something FOGRA corresponding (Chris Murphy and others on OpenICC)
 * most ECI profiles are replaced with Argyll created ones
 * remains to relicense or replace the eciRGB ones
+* country specific settings
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | Progress: 90%
