@@ -69,6 +69,8 @@ with specified options
         mix
     -   priority among selected profiles (generic profile - low, self
         calibrated - high) can be a profile property
+    -   fuzzy device/driver settings match [outlined by Graeme
+        here](http://lists.freedesktop.org/archives/openicc/2005q2/000313.html)
 -   distribute by combining above information
     -   packing all informations into one piece
 
