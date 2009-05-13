@@ -167,6 +167,7 @@ split them.
     drivers can be still used
 -   fuzzy matching should be possible see
     [here](#Informations_Incorporated "wikilink")
+    -   oyConfig\_Check\_f // should help with that
 
 ### Oyranos API suggestion
 
