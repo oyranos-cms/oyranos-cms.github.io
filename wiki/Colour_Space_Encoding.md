@@ -1,0 +1,52 @@
+---
+title: Colour Space Encoding
+permalink: wiki/Colour_Space_Encoding/
+layout: wiki
+---
+
+Colour information in the various colour spaces can be encoded in
+different ways. This encoding on the one hand refers to the specific
+colour space used, and on the other hand the encoding into a numerical
+value. There are enough pages dealing with various colour spaces
+already. This little HOWTO tries to enlighten on how often the
+**numbers** are encoded
+
+Positive-Only Colour Spaces
+---------------------------
+
+Colour spaces with positive values only (e. g. RGB, XYZ, CMY(K)) are
+fairly simple. Their origin is at a zero vector (0.0, 0.0, 0.0), and
+their maximum at the ones vector (1.0, 1.0, 1.0) in floating point
+notation. For a notation with 8 or 16 bit (unsigned) integers they are
+just scaled by the maximum per channel encoding value (255 or 65535) and
+rounded by some means to the full integers. Although, strictly speaking
+some colour spaces like XYZ **can** contain negative coordinate values.
+Although, these are usually then not encodable by the commonly used
+systems.
+
+CIE LAB
+-------
+
+For CIE LAB the issue is not quite as simple. Many ways of encoding are
+used. Some are exposing the positive and negative values through signed
+8/16 bit integers, others project them all into the positive integer
+space, and they are also then often using different origin offsets. And
+then there is also the [ICC V4 16 bit, ICC 8 bit
+standard](http://color.org/icc_specs2.xalter). Below summarised into a
+simple formula is the way [LCMS](http://littlecms.com) handles the
+conversion for their 8 and 16 bit unsigned integer colour space
+encoding.
+
+Conversion floating point Lab encoding ...
+
+-   ... to 8 bit integer encoding:
+
+`L' = 2.54 * L`  
+`a' = a + 127`  
+`b' = b + 127`
+
+-   ... to 16 bit integer encoding:
+
+`L' = 650.26 * L`  
+`a' = 255.02 * a + 32640`  
+`b' = 255.02 * b + 32640`
