@@ -18,6 +18,7 @@ Now, we need to edit/add the necessary sections for the chart file:
 ** All corners of diagram
 ** Fiducial marks
 ** All lines used in patch grid marks
+*** When identifying which (of several) "ticks" to use, find one with a high value in the second column, and discard the ones with a low value
 ** Adjust the integer after the <code>XLIST</code> and <code>YLIST</code> tags to reflect the number of entries following in that section
 * '''<code>BOXES</code>''' -- Add this section between the <code>REF_ROTATION</code> and the <code>XLIST</code> sections
 ** Tweak the integer after the <code>BOXES</code> tag until it fits (for me number of patches + 1 worked, but others are seen in other chart files ...)

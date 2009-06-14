@@ -43,6 +43,9 @@ Now, we need to edit/add the necessary sections for the chart file:
     -   All corners of diagram
     -   Fiducial marks
     -   All lines used in patch grid marks
+        -   When identifying which (of several) “ticks” to use, find one
+            with a high value in the second column, and discard the ones
+            with a low value
     -   Adjust the integer after the `XLIST` and `YLIST` tags to reflect
         the number of entries following in that section
 -   **`BOXES`** -- Add this section between the `REF_ROTATION` and the
