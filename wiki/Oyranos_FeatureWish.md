@@ -29,15 +29,15 @@ than waiting with a item of interesst.
 
 -   check for validity of a display setup (calibrated: yes/no, expired,
     ...)
--   add non EDID monitor support - by a mix of X description and by
-    Xinerama geometry (prepared for 0.1.8)
+-   done (add non EDID monitor support - by a mix of X description and
+    by Xinerama geometry (prepared for 0.1.8))
 
 |     |                         |               |                   |                               |
 |-----|-------------------------|---------------|-------------------|-------------------------------|
 |     | Progress: 100% \[done\] | Target: 0.1.8 | Start: 2007.08.00 | Assigned to: Kai-Uwe Behrmann |
 ||
 
--   common screen naming sheme for X11, osX and Windows
+-   done (common screen naming sheme for X11, osX and Windows)
 -   [Named Colours](#Named_Colours "wikilink") in X11, osX ,Windows
     representation
 -   clear about VCGT handling, use Xcalib (licensing?) or ArgyllCMS,
@@ -45,8 +45,9 @@ than waiting with a item of interesst.
     load VCGT”
 -   support the upcomming [X11 CM
     protokolls](http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX)
-    developed by Tomas Carnecky.
--   XRandR support
+    developed by Tomas Carnecky. implemented in graph buit need
+    darfting/specification
+-   done (XRandR support)
 
 ### ICC profile handling
 

@@ -8,7 +8,7 @@ They come often from discussions at the [[OpenICC]] email list. It is a good pla
 
 ==== Monitor ====
 * check for validity of a display setup (calibrated: yes/no, expired, ...)
-* add non EDID monitor support - by a mix of X description and by Xinerama geometry (prepared for 0.1.8)
+* done (add non EDID monitor support - by a mix of X description and by Xinerama geometry (prepared for 0.1.8))
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | 
@@ -18,11 +18,11 @@ They come often from discussions at the [[OpenICC]] email list. It is a good pla
 | Assigned to: Kai-Uwe Behrmann
 |-
 |}
-* common screen naming sheme for X11, osX and Windows
+* done (common screen naming sheme for X11, osX and Windows)
 * [[#Named Colours|Named Colours]] in X11, osX ,Windows representation
 * clear about VCGT handling, use Xcalib (licensing?) or ArgyllCMS, give at least a hint at configure time "found Xcalib/Argyll - can load VCGT"
-* support the upcomming [http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX X11 CM protokolls] developed by Tomas Carnecky.
-* XRandR support
+* support the upcomming [http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX X11 CM protokolls] developed by Tomas Carnecky. implemented in graph buit need darfting/specification
+* done (XRandR support)
 
 === ICC profile handling ===
 * check for well behaving of Editing colour spaces (Matrix, RGB: gamma equally over all channels, Gray axis, ...)
