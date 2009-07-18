@@ -234,6 +234,11 @@ other directories. The cupsICCProfile attribute should therefore allow
 for absolute locations, not just relative to a CUPS profile directory.
 The CUPS\_DATADIR seems not a appropriate mechanism.
 
+CUPS passes data from the data directory, e.g. the web documentation
+pages. It is possible to link the CUPS profile directory to that and the
+above mentioned wget <http://localhost:631/profiles/sRGB.icc> should
+work. Open is, how to know the data\_root path.
+
 A print job should reflect the users local settings in regards of
 rendering intent selection, editing space and so on. How are profiles,
 rendering intents and other settings passed from a printing application
