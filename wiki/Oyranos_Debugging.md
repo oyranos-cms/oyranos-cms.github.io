@@ -66,3 +66,5 @@ XCode is included in Apples development tools.
 
 VC++ can be obtained from Microsoft. Since 2005 exists a free of charge
 version for C and C++ development.
+
+Back =&gt; [Oyranos\#Development](/wiki/Oyranos#Development "wikilink")

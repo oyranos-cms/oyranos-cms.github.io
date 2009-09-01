@@ -27,3 +27,6 @@ GDB and DDD come with most Linux distributions and expectedly can be easily inst
 XCode is included in Apples development tools. 
 
 VC++ can be obtained from Microsoft. Since 2005 exists a free of charge version for C and C++ development.
+
+
+Back => [[Oyranos#Development]]
