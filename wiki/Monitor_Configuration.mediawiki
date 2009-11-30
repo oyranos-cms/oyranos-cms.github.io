@@ -19,6 +19,8 @@ The communication with a monitor can happen eigther over [http://en.wikipedia.or
 
 * [http://www.technocage.com/~caskey/acdctl Apple Cinema Display control] open source project
 
+* [http://ookala-mcf.sourceforge.net/ Ookala MCF '''M'''onitor '''C'''alibration '''F'''ramework] C++ open source project from HP
+
 * [[Oyranos X11 Requirements]]
 
 * [[Oyranos#Information_about_X_and_CM]] links

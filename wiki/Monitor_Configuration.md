@@ -55,6 +55,12 @@ separate UBS cable.
 
 <!-- -->
 
+-   [Ookala MCF **M**onitor **C**alibration
+    **F**ramework](http://ookala-mcf.sourceforge.net/) C++ open source
+    project from HP
+
+<!-- -->
+
 -   [Oyranos X11 Requirements](/wiki/Oyranos_X11_Requirements "wikilink")
 
 <!-- -->
