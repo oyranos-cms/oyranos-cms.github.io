@@ -26,6 +26,7 @@ The above would fit along all the path:
   application -> toolkit -> composite manager -> X11 -> OpenGL -> shader.
 There remains to find an endpoint where most paths meet. This could be the composite manager or a additional layer between composite manager and Xorg.
 
+
 == Multi Monitor EDID in X11 ==
 
 EDID information describes monitor parameters like description, serial number and gives hints about colourimetric behaviour. 
@@ -71,6 +72,12 @@ Oyranos 0.1.5 obtained the oyranos-monitor-nvidia commandline tool to demonstrat
 === Further Tasks ===
 [[ICC_Profiles_in_X_Specification_0.4|(Draft for a ICC Profiles in X Specification 0.4)]]
 * add xrandr-1.2 porperties per each physical output device
+
+
+== Miscellaneous ==
+
+=== References ===
+* [https://bugs.kde.org/show_bug.cgi?id=214011 Graphical corruption in the splash screen when using a depth 30 desktop]
 
 
 [[Oyranos|back -> Oyranos]]

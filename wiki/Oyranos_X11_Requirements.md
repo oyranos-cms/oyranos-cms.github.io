@@ -133,4 +133,12 @@ ICC Profiles in X
 
 -   add xrandr-1.2 porperties per each physical output device
 
+Miscellaneous
+-------------
+
+### References
+
+-   [Graphical corruption in the splash screen when using a depth 30
+    desktop](https://bugs.kde.org/show_bug.cgi?id=214011)
+
 [back -&gt; Oyranos](/wiki/Oyranos "wikilink")
