@@ -15,6 +15,10 @@ here is better than forget elsewhere. The assigment of items to a person
 does not mean there happens currently work. So offering help is better
 than waiting with a item of interesst.
 
+A closely related source for project ideas is the *Google Summer of
+Code* [wiki page of
+OpenICC](http://www.freedesktop.org/wiki/OpenIcc/GoogleSoC2009).
+
 ### Devices
 
 -   (done as pddt) implement

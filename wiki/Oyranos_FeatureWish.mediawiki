@@ -1,6 +1,8 @@
 == Feature Wishes for [[Oyranos]] ==
 They come often from discussions at the [[OpenICC]] email list. It is a good place to annotate, suggest, or ask. Writing here is better than forget elsewhere. The assigment of items to a person does not mean there happens currently work. So offering help is better than waiting with a item of interesst.
 
+A closely related source for project ideas is the ''Google Summer of Code'' [http://www.freedesktop.org/wiki/OpenIcc/GoogleSoC2009 wiki page of OpenICC].
+
 === Devices ===
 * (done as pddt) implement [[Device_Settings]] in ICC profiles
 {| style="width:100%;text-align:left" colspan="20"
