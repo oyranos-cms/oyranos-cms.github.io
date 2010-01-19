@@ -2,9 +2,38 @@
 They come often from discussions at the [[OpenICC]] email list. It is a good place to annotate, suggest, or ask. Writing here is better than forget elsewhere. The assigment of items to a person does not mean there happens currently work. So offering help is better than waiting with a item of interesst.
 
 === Devices ===
-* implement [[Device_Settings]] in ICC profiles
+* (done as pddt) implement [[Device_Settings]] in ICC profiles
+{| style="width:100%;text-align:left" colspan="20"
+|-
+| 
+| Progress: 100% [done]
+| Target: 0.1.10
+| Start: 2008.00.00
+| Assigned to: Kai-Uwe Behrmann
+|-
+|}
 * generalise to Sane, CUPS ... see as well [[Device_Settings#Specific_Considerations|here]]
+{| style="width:100%;text-align:left" colspan="20"
+|-
+| 
+| Progress: 98% [done]
+| Target: 0.1.10
+| Start: 2009.03.00
+| Assigned to: Kai-Uwe Behrmann, Yiannis Belias
+|-
+|}
+** publicise the [[Device_Settings#Module_Protocol|device module communication protocol]] on a separate ColourWiki page
 * integrate into the [http://code.google.com/soc/2008/openicc/appinfo.html?csaid=9EFC0E521D25020 KDE Kolormanager] mentored by [[OpenICC]] developers
+{| style="width:100%;text-align:left" colspan="20"
+|-
+| 
+| Progress: 75% [done]
+| Target: 0.1.10
+| Start: 2008.03.00
+| Assigned to: Joe Simon, Hal V. Engel, Cyrille Berger, Kai-Uwe Behrmann
+|-
+|}
+
 
 ==== Monitor ====
 * check for validity of a display setup (calibrated: yes/no, expired, ...)

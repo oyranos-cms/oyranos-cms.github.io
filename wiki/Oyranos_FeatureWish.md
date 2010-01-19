@@ -17,13 +17,34 @@ than waiting with a item of interesst.
 
 ### Devices
 
--   implement [Device\_Settings](/wiki/Device_Settings "wikilink") in ICC
-    profiles
+-   (done as pddt) implement
+    [Device\_Settings](/wiki/Device_Settings "wikilink") in ICC profiles
+
+|     |                         |                |                   |                               |
+|-----|-------------------------|----------------|-------------------|-------------------------------|
+|     | Progress: 100% \[done\] | Target: 0.1.10 | Start: 2008.00.00 | Assigned to: Kai-Uwe Behrmann |
+||
+
 -   generalise to Sane, CUPS ... see as well
     [here](/wiki/Device_Settings#Specific_Considerations "wikilink")
+
+|     |                        |                |                   |                                               |
+|-----|------------------------|----------------|-------------------|-----------------------------------------------|
+|     | Progress: 98% \[done\] | Target: 0.1.10 | Start: 2009.03.00 | Assigned to: Kai-Uwe Behrmann, Yiannis Belias |
+||
+
+-   -   publicise the [device module communication
+        protocol](/wiki/Device_Settings#Module_Protocol "wikilink") on a
+        separate ColourWiki page
+
 -   integrate into the [KDE
     Kolormanager](http://code.google.com/soc/2008/openicc/appinfo.html?csaid=9EFC0E521D25020)
     mentored by [OpenICC](/wiki/OpenICC "wikilink") developers
+
+|     |                        |                |                   |                                                                        |
+|-----|------------------------|----------------|-------------------|------------------------------------------------------------------------|
+|     | Progress: 75% \[done\] | Target: 0.1.10 | Start: 2008.03.00 | Assigned to: Joe Simon, Hal V. Engel, Cyrille Berger, Kai-Uwe Behrmann |
+||
 
 #### Monitor
 
