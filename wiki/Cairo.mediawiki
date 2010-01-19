@@ -1,7 +1,8 @@
-==Links==
-* [http://wiki.inkscape.org/wiki/index.php/SpecIccForCairo SpecIccForCairo - Inkscape Wiki]
-* [http://www.cairographics.org Cairo project page]
-* [http://www.freedesktop.org/wiki/OpenIcc/Cairo OpenICC's suggestions for Cairo]
+This topic is covered on the OpenICC wiki:
+
+[http://www.freedesktop.org/wiki/OpenIcc/Cairo OpenICC's suggestions for Cairo]
+
+
 
 [[Applications|back -> Applications]]
 
