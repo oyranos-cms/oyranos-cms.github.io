@@ -71,17 +71,17 @@ applications.
 
 ### Who is developing Oyranos?
 
-Currently Oyranos is a one man project of [Kai-Uwe
-Behrmann](http://www.behrmann.name). I see myself as a photographer, who
-came in the situation of creating its own imaging workflow through the
-lack of adequate GUI's on the Linux OS. Still I am searching for
-[help](#How_can_I_help_with_the_Oyranos_CMS.3F "wikilink").
-Contributions came from students through their
+Oyranos was started by [Kai-Uwe Behrmann](http://www.behrmann.name).
+Yiannis Belias has joined. More details can be read in the AUTHORS file
+in the sources. Still we are searching for
+[help](#How_can_I_help_with_the_Oyranos_CMS.3F "wikilink"). Code
+contributions came from students through their
 [Summer](http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX)
 of
 [Code](http://code.google.com/p/google-summer-of-code-2008-openicc/downloads/list)
 [projects](http://freedesktop.org/wiki/OpenIccForGoogleSoC2008) at
-[OpenICC](/wiki/OpenICC "wikilink").
+[OpenICC](/wiki/OpenICC "wikilink"). OpenICC people help very much around
+organisation of GSoC.
 
 ### How can I help with the Oyranos CMS?
 

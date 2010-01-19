@@ -28,8 +28,8 @@ Oyranos is officially published on [[Oyranos/Download]].
 Some are already included in the package, like sRGB, ECI- and a Adobe RGB as well as Gray, CIE*Lab, CIE*XYZ, ITU-Lab and some press profiles like for FOGRA, SWOP, SNAP and GRACoL printing conditions. The used printing condition character sets are as well included. More profiles can be found on this [http://www.behrmann.name/index.php?option=com_weblinks&catid=73&Itemid=95 link collection]. They should be installed in the [[OpenIccDirectoryProposal|system paths]] to be seen by most applications.
 
 === Who is developing Oyranos? ===
-Currently Oyranos is a one man project of [http://www.behrmann.name Kai-Uwe Behrmann]. I see myself as a photographer, who came in the situation of creating its own imaging workflow through the lack of adequate GUI's on the Linux OS. Still I am searching for [[#How_can_I_help_with_the_Oyranos_CMS.3F|help]].
-Contributions came from students through their [http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX Summer] of [http://code.google.com/p/google-summer-of-code-2008-openicc/downloads/list Code] [http://freedesktop.org/wiki/OpenIccForGoogleSoC2008 projects] at [[OpenICC]].
+Oyranos was started by [http://www.behrmann.name Kai-Uwe Behrmann]. Yiannis Belias has joined. More details can be read in the AUTHORS file in the sources. Still we are searching for [[#How_can_I_help_with_the_Oyranos_CMS.3F|help]].
+Code contributions came from students through their [http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX Summer] of [http://code.google.com/p/google-summer-of-code-2008-openicc/downloads/list Code] [http://freedesktop.org/wiki/OpenIccForGoogleSoC2008 projects] at [[OpenICC]]. OpenICC people help very much around organisation of GSoC.
 
 === How can I help with the Oyranos CMS? ===
 You could help by testing, 
