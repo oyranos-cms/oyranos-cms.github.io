@@ -20,20 +20,24 @@ is published with sources and is available for various platforms.
 
 ### What is the goal of Oyranos?
 
-Oyranos tries to provide colour management services for applications and
-services like Scribus, CinePaint, Krita, Gimp, Inkscape, Gutenprint,
-UFraw, Cups, Xorg, Sane and so on.
+Oyranos shall help in making end to end colour management working for
+open source operating systems. Ideally that works for most users without
+intervention.
 
 With colour management being a often complicated pattern, the need rises
 to easily understand what goes on behind the scenes. Doing this once is
 often hard enough. Having different colour settings in every application
-and service may easily multiply the work to relyable understand how
+and service may easily multiply the work to reliable understand how
 colours get managed. Thus Oyranos is a call to collaborate between
 applications to make them all more attractive.
 
 For instance all Oyranos conform applications should display colour
 content on the monitor in the same manner, equally if the user has set
 soft proofing on by default in the Oyranos configuration panel or not.
+
+Oyranos provides colour management services for desktops, applications
+and services like KDE, Gnome, Scribus, CinePaint, Krita, Gimp, Inkscape,
+Gutenprint, UFraw, Cups, Xorg, Sane and so on.
 
 ### Where comes the name Oyranos from?
 
