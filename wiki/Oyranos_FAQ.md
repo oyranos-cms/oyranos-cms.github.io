@@ -97,9 +97,9 @@ Becoming part of the development team is easy.
 
 We need people with fantasy for going possibly new paths, meticulousness
 for assuring quality, analytical, didactic and aesthetic skills and
-thinking around the corner or all together. Some knowledge or feeling of
-colour may be of help. But this is not a must. Uneducated persons bring
-in a very important view. So do not be shy to ask or suggest something.
+thinking around the corner or all together. Ideally Oyranos shall be
+invisible to most users and simply work for their colour devices. So if
+your have a question around Oyranos thats a good sign to start ask that.
 
 See as well [here](/wiki/Oyranos#Development "wikilink").
 
