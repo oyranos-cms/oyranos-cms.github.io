@@ -15,4 +15,7 @@ layout: wiki
 -   [bug entry](https://bugzilla.mozilla.org/show_bug.cgi?id=462398)
     Firefox color management does not honor \_ICC\_PROFILE X11 atoms. by
     Hal V. Engel
+-   [Jeff Muizelaar's blog post about
+    qcms](http://muizelaar.blogspot.com/2009/06/qcms-color-management-for-web.html) -
+    the Mozilla CMM
 
