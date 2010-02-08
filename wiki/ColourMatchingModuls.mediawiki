@@ -11,7 +11,7 @@ In Open Source applications, LittleCMS is the most used CMM. Other widely used C
 License: GPL, with an exception to libicc and libcgats
 
 ==== LittleCMS ====
-*http://www.littlecms.com/
+* http://www.littlecms.com/
 
 License: MIT
 
@@ -20,8 +20,12 @@ License: MIT
 
 License: 4 clause BSD [http://www.fsf.org/licensing/licenses/index_html#OriginalBSD (not very handy for distribution)]
 
+==== QCMS ====
+* Mozillas implementation of a CMM: http://muizelaar.blogspot.com/2009/06/qcms-color-management-for-web.html
+* code: git://git.freedesktop.org/~jrmuizel/qcms
+
 ==== GCMS ====
-*an historical CMM effort: http://www.gcms.coloraid.de/
+* an historical CMM effort: http://www.gcms.coloraid.de/
 
 ==== CTL ====
 *http://sourceforge.net/projects/ampasctl - Ilm's effort to handle floating point colours precisely and according to the needs in the [http://www.oscars.org/council/ctl.html film industry].

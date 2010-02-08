@@ -39,6 +39,12 @@ License: MIT
 License: 4 clause BSD [(not very handy for
 distribution)](http://www.fsf.org/licensing/licenses/index_html#OriginalBSD)
 
+#### QCMS
+
+-   Mozillas implementation of a CMM:
+    <http://muizelaar.blogspot.com/2009/06/qcms-color-management-for-web.html>
+-   code: <git://git.freedesktop.org/~jrmuizel/qcms>
+
 #### GCMS
 
 -   an historical CMM effort: <http://www.gcms.coloraid.de/>
