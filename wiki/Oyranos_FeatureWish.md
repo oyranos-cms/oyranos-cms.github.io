@@ -143,6 +143,9 @@ profiles by accident.
     -   Relative Colorimetric without BPC
     -   Absolute Colorimetric
     -   Saturation
+    -   BPC affect all RIs; a Relative Colorimetric with BPC can only be
+        used for convenience
+    -   implement like a skin?
     -   Reference: [AdobeBPC
         spec](http://www.adobe.com/devnet/photoshop/sdk/AdobeBPC.pdf)
 

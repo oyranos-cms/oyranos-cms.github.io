@@ -102,6 +102,8 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 ** Relative Colorimetric without BPC
 ** Absolute Colorimetric
 ** Saturation
+** BPC affect all RIs; a Relative Colorimetric with BPC can only be used for convenience
+** implement like a skin?
 ** Reference: [http://www.adobe.com/devnet/photoshop/sdk/AdobeBPC.pdf AdobeBPC spec]
 
 * allow non persistent settings, examples:
