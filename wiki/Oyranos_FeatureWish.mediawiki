@@ -49,11 +49,12 @@ A closely related source for project ideas is the ''Google Summer of Code'' [htt
 | Assigned to: Kai-Uwe Behrmann
 |-
 |}
-* done (common screen naming sheme for X11, osX and Windows)
+* done (common screen naming scheme for X11, osX and Windows)
 * [[#Named Colours|Named Colours]] in X11, osX ,Windows representation
 * clear about VCGT handling, use Xcalib (licensing?) or ArgyllCMS, give at least a hint at configure time "found Xcalib/Argyll - can load VCGT"
-* support the upcomming [http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX X11 CM protokolls] developed by Tomas Carnecky. implemented in graph buit need darfting/specification
+* support the upcoming [http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX X11 CM protocols] developed by Tomas Carnecky. implemented in graph but need drafting/specification
 * done (XRandR support)
+* support Apples X11
 
 === ICC profile handling ===
 * check for well behaving of Editing colour spaces (Matrix, RGB: gamma equally over all channels, Gray axis, ...)

@@ -62,17 +62,18 @@ OpenICC](http://www.freedesktop.org/wiki/OpenIcc/GoogleSoC2009).
 |     | Progress: 100% \[done\] | Target: 0.1.8 | Start: 2007.08.00 | Assigned to: Kai-Uwe Behrmann |
 ||
 
--   done (common screen naming sheme for X11, osX and Windows)
+-   done (common screen naming scheme for X11, osX and Windows)
 -   [Named Colours](#Named_Colours "wikilink") in X11, osX ,Windows
     representation
 -   clear about VCGT handling, use Xcalib (licensing?) or ArgyllCMS,
     give at least a hint at configure time “found Xcalib/Argyll - can
     load VCGT”
--   support the upcomming [X11 CM
-    protokolls](http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX)
-    developed by Tomas Carnecky. implemented in graph buit need
-    darfting/specification
+-   support the upcoming [X11 CM
+    protocols](http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX)
+    developed by Tomas Carnecky. implemented in graph but need
+    drafting/specification
 -   done (XRandR support)
+-   support Apples X11
 
 ### ICC profile handling
 
