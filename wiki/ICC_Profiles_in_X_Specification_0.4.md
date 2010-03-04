@@ -28,10 +28,10 @@ DRAFT
 <td><p><a href="http://www.freedesktop.org/wiki/OpenIcc/ICC_Profiles_in_X_Specification_0.3">Revision 0.3</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Draft 2 for Revision 0.3</p></td>
+<td><p>Draft 1 for Revision 0.4</p></td>
 </tr>
 <tr class="odd">
-<td><p>Draft 1 for Revision 0.4</p></td>
+<td><p>Draft 2 for Revision 0.4</p></td>
 </tr>
 <tr class="even">
 </tr>
@@ -87,6 +87,35 @@ currently have a profile set. Applications which can change screens
 using mechanisms such as display migration should be aware that the new
 screen is likely to have different profiles assigned to monitors.
 
+The meaning of the \_ICC\_PROFILE(\_xxx) atom(s) is that of a simple
+target colour space. If your application renders to that space it should
+be fine. However In situations with a server side colour correction that
+ICC profile might represent sRGB as the systems target colour space.
+
+\_ICC\_DEVICE\_PROFILE
+----------------------
+
+To do early colour binding and sending unaltered colour numbers to the
+device, the application must mark the document region with the Xcolor
+library and assign no profile to that region. To colour correct the
+numbers the application needs to check for a
+\_ICC\_DEVICE\_PROFILE(\_xxx). The counting is the same as for
+\_ICC\_PROFILE(\_xxx).
+
+A colour server, the service, which does converts the given numbers of a
+document to the numbers of the screen has to switch the ICC profile
+atoms. It copies in start the \_ICC\_PROFILE(\_xxx) into the according
+\_ICC\_DEVICE\_PROFILE(\_xxx) atoms and sets the \_ICC\_PROFILE(\_xxx)
+to the target document space, which will typical be a sRGB ICC profile.
+If a given colour region has no profile assigned then this region is not
+touched and considered to be prematched to the device colour space. For
+all areas without a Xcolor region the colour service assumes the colour
+space of the \_ICC\_PROFILE(\_xxx) as source.
+
+-   Xcolor region no ICC profile ==&gt; ignore
+-   no Xcolor region marked : convert \_ICC\_PROFILE(\_xxx) -&gt;
+    \_ICC\_DEVICE\_PROFILE(\_xxx)
+
 \_ICC\_PROFILE\_IN\_X\_VERSION
 ------------------------------
 
@@ -134,6 +163,9 @@ References
 2. [central specification
 host](http://www.freedesktop.org/wiki/Specifications/icc_profiles_in_x_spec)
 @ freedesktop.org
+
+3. net-color spec *git clone <git://www.oyranos.org/git/xcolor>* in
+xcolor/docs/net-color-spec
 
 2005 © Ross Burton; 2006-2009 © Kai-Uwe Behrmann
 
