@@ -25,7 +25,7 @@ DRAFT
 <td><p><a href="http://www.burtonini.com/computing/x-icc-profiles-spec-0.2.html">Revision 0.2</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Draft 1 for Revision 0.3</p></td>
+<td><p><a href="http://www.freedesktop.org/wiki/OpenIcc/ICC_Profiles_in_X_Specification_0.3">Revision 0.3</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Draft 2 for Revision 0.3</p></td>

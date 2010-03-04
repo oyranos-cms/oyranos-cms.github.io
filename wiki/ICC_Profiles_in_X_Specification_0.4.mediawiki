@@ -14,8 +14,8 @@
 | Kai-Uwe Behrmann
 | Specify how to handle Xinerama setups.
 |- style="text-align:left;vertical-align:text-top" 
-| Draft 1 for Revision 0.3
-| 2007-11-15 
+| [http://www.freedesktop.org/wiki/OpenIcc/ICC_Profiles_in_X_Specification_0.3 Revision 0.3]
+| 2008-04-24 
 | Kai-Uwe Behrmann
 | Clearify terminology suggested Hal V. Engel, Jon A. Cruz, sRGB default by<br>Craig Ringer and corrections by Kai-Uwe Behrmann
 |- style="text-align:left;vertical-align:text-top" 
