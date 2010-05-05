@@ -1,7 +1,13 @@
 Git is set up on www.oyranos.org. To use git install the git-core package.
 
-You need currently [http://www.markus-raab.org/ftp/elektra-0.7.0.tar.gz this Elektra version] 10:42, 29 Apr 2008 (CEST)
+Here is a [https://www.behrmann.name/temp/icc_examin-build.sh '''download and build script'''] to automate the process, including a build of [[ICC Examin]]. The script accepts options for configure and will pass them unchanged. 
 
+E.g. --prefix=~/.local  might be a good idea to avoid the requirement root rights for installation of a test build.
+
+
+For troubleshooting and reference below are the basic single steps.
+
+You need currently [http://www.markus-raab.org/ftp/elektra-0.7.0.tar.gz this Elektra version] 10:42, 29 Apr 2008 (CEST)
 
 First check out:
  $ git clone git://www.oyranos.org/git/oyranos
@@ -20,10 +26,7 @@ Keeping Oyranos up to date:
 Examining the history:
  $ git log -p
 
-A script to automate the process, including a build of [[ICC Examin]], is [https://www.behrmann.name/temp/icc_examin-build.sh here].
-The script accepts options for configure and will pass them unchanged. 
 
-E.g. --prefix=/my/reachable/path might be a good idea to avoid the requirement root rights for installation of a test build.
 
 ICC Examin git can be obtained without the above script like follows:
  $ git clone git://www.oyranos.org/git/icc_examin
@@ -32,7 +35,7 @@ ICC Examin git can be obtained without the above script like follows:
 * [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#git-quick-start git introduction]
 * [http://cworth.org/hgbook-git/tour/ Carl Worth's git tour]
 * [http://git.or.cz/ Homepage] and wiki
-
+* [http://www.oyranos.org/scm gitweb] of Oyranos, Xcolor and ICC Examin
 
 [[Oyranos|back -> Oyranos]]
 [[Category:Oyranos]]
