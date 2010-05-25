@@ -67,7 +67,7 @@ Detailed build instructions are as well included in the packages.
 ### Binary Packages
 
 <http://www.oyranos.org/images/fedora-logo.png>
-[Fedora](https://admin.fedoraproject.org/pkgdb/packages/name/oyranos)
+[Fedora](https://admin.fedoraproject.org/pkgdb/acls/name/oyranos)
 
 #### openSUSE build server
 
