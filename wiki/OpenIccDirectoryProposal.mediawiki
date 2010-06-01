@@ -48,6 +48,11 @@
 | Kai-Uwe Behrmann
 | remove "Subdirectory naming rules" subsection from "Colour Profile Paths"
 |-
+| Revision 0.2
+| 2010-05-30
+| Richard Hughes, Kai-Uwe Behrmann
+| add /var/lib/color for local machine data
+|-
 |}
 
 
@@ -90,13 +95,17 @@ As system wide installation paths exist the '''''XDG_DATA_DIRS''''' and '''''XDG
 
 '''''$XDG_DATA_DIRS'''''[0]'''''/color''''', '''''$XDG_DATA_DIRS'''''[1]'''''/color''''' and so on, plus
 
-two system paths, due to different system directory layouts, exist and should always be searched for:
+three system paths, due to different system directory layouts, exist and should always be searched for:
 
 '''''/usr/local/share/color'''''
 
+,
+
+'''''/usr/share/color''''' 
+
 and
 
-'''''/usr/share/color''''' as typical for Linux packages.
+'''''/val/lib/color''''' as typical for Linux packages.
 
 These above paths are considered top level entry points and should contain almost no files.
 Each specific data path, containing the actual data, is each located below these general OpenICC paths.
@@ -139,6 +148,7 @@ In contrary to create packages with static file locations, like RPM, use the pro
 For ICC profiles this would be:
 : ''/usr/local/share/color/icc''
 : ''/usr/share/color/icc''
+: ''/var/lib/color/icc''
 : ''~/.local/share/icc''
 
 
@@ -162,7 +172,12 @@ The presented concepts where discussed on the OpenICC email list at fd.o, or rea
 
 [2] [http://bugs.freestandards.org/show_bug.cgi?id=77 freestandards.org bug #77]
 
+== Discussion ==
 
+The /var/lib/color path is required to
+store system wide local machine data by a administrator. 
+/usr/share/color is not suitable for machine specific data, as 
+this may be shared between different computers or mounted read only.
 
 [[Category:Concepts]]
 [[Category:Oyranos]]

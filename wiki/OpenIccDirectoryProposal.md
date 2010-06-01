@@ -19,6 +19,7 @@ tags:
 | Revision 0.1.6   |
 | Revision 0.1.7   |
 | Revision 0.1.8   |
+| Revision 0.2     |
 ||
 
 <H1>
@@ -68,14 +69,18 @@ directory entries:
 ***$XDG\_DATA\_DIRS***\[0\]***/color***,
 ***$XDG\_DATA\_DIRS***\[1\]***/color*** and so on, plus
 
-two system paths, due to different system directory layouts, exist and
+three system paths, due to different system directory layouts, exist and
 should always be searched for:
 
 ***/usr/local/share/color***
 
+,
+
+***/usr/share/color***
+
 and
 
-***/usr/share/color*** as typical for Linux packages.
+***/val/lib/color*** as typical for Linux packages.
 
 These above paths are considered top level entry points and should
 contain almost no files. Each specific data path, containing the actual
@@ -139,6 +144,8 @@ For ICC profiles this would be:
 
 */usr/share/color/icc*
 
+*/var/lib/color/icc*
+
 *~/.local/share/icc*
 
 Technical implementation
@@ -176,3 +183,11 @@ specification](http://standards.freedesktop.org/freedesktop-platform-specs/1.0/b
 
 \[2\] [freestandards.org bug
 \#77](http://bugs.freestandards.org/show_bug.cgi?id=77)
+
+Discussion
+----------
+
+The /var/lib/color path is required to store system wide local machine
+data by a administrator. /usr/share/color is not suitable for machine
+specific data, as this may be shared between different computers or
+mounted read only.
