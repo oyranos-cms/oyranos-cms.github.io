@@ -77,6 +77,7 @@ Detailed build instructions are as well included in the packages.
 [f-10](https://www.oyranos.org/wiki/images/b/b0/Bekun-Fedora_10.rpm)
 
 -   12
+-   13
 
 <http://www.oyranos.org/images/suse_logo.png>  
 [openSUSE-10.3](https://www.oyranos.org/wiki/images/a/a7/Bekun-openSUSE_10.3.rpm)
