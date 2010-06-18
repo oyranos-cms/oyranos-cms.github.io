@@ -305,7 +305,7 @@ Todo
 
 ### Target 0.1.10
 
--   [device DB
+-   (done) [device DB
     framework](/wiki/Device_Settings#Implementation_Details "wikilink")
 
 ### Target 0.1.8

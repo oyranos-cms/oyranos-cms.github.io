@@ -256,7 +256,7 @@ Constitute a colour patch presentation:
 
 
 === Target 0.1.10 ===
-* [[Device Settings#Implementation_Details|device DB framework]]
+* (done) [[Device Settings#Implementation_Details|device DB framework]]
 
 === Target 0.1.8 ===
 * (done) error handling 
