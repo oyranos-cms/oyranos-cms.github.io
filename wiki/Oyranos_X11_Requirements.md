@@ -57,7 +57,23 @@ The above would fit along all the path:
 
 There remains to find an endpoint where most paths meet. This could be
 the composite manager or a additional layer between composite manager
-and Xorg.
+and Xorg or inside Xorg itself.
+
+The OpenICC project [Colour Management Near
+X](http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX)
+implemented the idea. As a result the net-color spec was born to
+describe the basic communication. A plugin for
+[compiz](http://www.compiz.org/) can be installed through the
+oyranos-xorg-compiz RPM.
+
+#### net-color spec
+
+[Version 0.2 Draft
+1](http://www.oyranos.org/scm?p=xcolor.git;a=blob;f=docs/net-color-spec;h=a8d46ab8d66a1ecf6776b26af0695d5aeefd3292;hb=master)
+is public. The goal is to communicate ICC colour regions between server
+and clients. The implementation is available in libXcm-0.2.x. Some tools
+and a compiz plugin in the Oyranos examples directory support the draft
+by using libXcm.
 
 Multi Monitor EDID in X11
 -------------------------
