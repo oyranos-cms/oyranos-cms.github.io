@@ -62,9 +62,8 @@ and Xorg or inside Xorg itself.
 The OpenICC project [Colour Management Near
 X](http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX)
 implemented the idea. As a result the net-color spec was born to
-describe the basic communication. A plugin for
-[compiz](http://www.compiz.org/) can be installed through the
-oyranos-xorg-compiz RPM.
+describe the basic communication. It covers and continues most of the
+above outlined ideas.
 
 #### net-color spec
 
@@ -73,7 +72,8 @@ oyranos-xorg-compiz RPM.
 is public. The goal is to communicate ICC colour regions between server
 and clients. The implementation is available in libXcm-0.2.x. Some tools
 and a compiz plugin in the Oyranos examples directory support the draft
-by using libXcm.
+by using libXcm. Ideas exist to support the spec in a Gnome window
+manager.
 
 Multi Monitor EDID in X11
 -------------------------

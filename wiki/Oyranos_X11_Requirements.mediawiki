@@ -26,11 +26,11 @@ The above would fit along all the path:
   application -> toolkit -> composite manager -> X11 -> OpenGL -> shader.
 There remains to find an endpoint where most paths meet. This could be the composite manager or a additional layer between composite manager and Xorg or inside Xorg itself.
 
-The OpenICC project [http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX Colour Management Near X] implemented the idea. As a result the net-color spec was born to describe the basic communication. A plugin for [http://www.compiz.org/ compiz] can be installed through the oyranos-xorg-compiz RPM.
+The OpenICC project [http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX Colour Management Near X] implemented the idea. As a result the net-color spec was born to describe the basic communication. It covers and continues most of the above outlined ideas.
 
 ==== net-color spec ====
 
-[http://www.oyranos.org/scm?p=xcolor.git;a=blob;f=docs/net-color-spec;h=a8d46ab8d66a1ecf6776b26af0695d5aeefd3292;hb=master Version 0.2 Draft 1] is public. The goal is to communicate ICC colour regions between server and clients. The implementation is available in libXcm-0.2.x. Some tools and a compiz plugin in the Oyranos examples directory support the draft by using libXcm.
+[http://www.oyranos.org/scm?p=xcolor.git;a=blob;f=docs/net-color-spec;h=a8d46ab8d66a1ecf6776b26af0695d5aeefd3292;hb=master Version 0.2 Draft 1] is public. The goal is to communicate ICC colour regions between server and clients. The implementation is available in libXcm-0.2.x. Some tools and a compiz plugin in the Oyranos examples directory support the draft by using libXcm. Ideas exist to support the spec in a Gnome window manager.
 
 == Multi Monitor EDID in X11 ==
 
