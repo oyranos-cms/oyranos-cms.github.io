@@ -108,12 +108,15 @@ This way compatibility is enshured for existing applications.
 
 ### Parsing
 
-The section decribes the EDID 1 parsing in Oyranos.
+This section is incomplete. But at least the code can be found here
+[oyranos\_edid\_parse.c](http://www.oyranos.org/scm?p=oyranos.git;a=tree;f=modules/devices)
 
-Oyranos parses EDID 1 information for monitor identification. It uses
-the 18 byte blocks starting from 54 for a monitor manufacturer, model
-and serial ID string. In case the manufacturer was omitted, it switches
-back to scan the 2 byte ID's starting at position 8. The later could be
+The section decribes the EDID parsing in Oyranos.
+
+Oyranos parses EDID information for monitor identification. It uses the
+18 byte blocks starting from 54 for a monitor manufacturer, model and
+serial ID string. In case the manufacturer was omitted, it switches back
+to scan the 2 byte ID's starting at position 8. The later could be
 extended to model(10) and serial(12).
 
 ### References
