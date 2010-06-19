@@ -65,16 +65,6 @@ implemented the idea. As a result the net-color spec was born to
 describe the basic communication. It covers and continues most of the
 above outlined ideas.
 
-#### net-color spec
-
-[Version 0.2 Draft
-1](http://www.oyranos.org/scm?p=xcolor.git;a=blob;f=docs/net-color-spec;h=a8d46ab8d66a1ecf6776b26af0695d5aeefd3292;hb=master)
-is public. The goal is to communicate ICC colour regions between server
-and clients. The implementation is available in libXcm-0.2.x. Some tools
-and a compiz plugin in the Oyranos examples directory support the draft
-by using libXcm. Ideas exist to support the spec in a Gnome window
-manager.
-
 Multi Monitor EDID in X11
 -------------------------
 
@@ -151,6 +141,25 @@ ICC Profiles in X
 0.4)](/wiki/ICC_Profiles_in_X_Specification_0.4 "wikilink")
 
 -   add xrandr-1.2 porperties per each physical output device
+
+net-color spec
+--------------
+
+[Version 0.2 Draft
+1](http://www.oyranos.org/scm?p=xcolor.git;a=blob;f=docs/net-color-spec;h=a8d46ab8d66a1ecf6776b26af0695d5aeefd3292;hb=master)
+is public. The goal is to communicate ICC colour regions between a
+colour server and clients.
+
+### Implementations
+
+The implementation is available in
+[libXcm-0.2.x](http://www.spinics.net/lists/xorg/msg50027.html).
+
+Some tools and a compiz plugin in the Oyranos examples directory support
+the draft by using libXcm. The Oyranos compiz plugin supports complete
+desktop colour correction and is multi monitor aware.
+
+Ideas exist to support the spec in a Gnome window manager.
 
 Miscellaneous
 -------------
