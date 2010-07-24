@@ -89,7 +89,9 @@ Ideas exist to support the spec in a Gnome window manager.
 == Miscellaneous ==
 
 === References ===
+30-bit visual bugs
 * [https://bugs.kde.org/show_bug.cgi?id=214011 Graphical corruption in the splash screen when using a depth 30 desktop]
+* [https://bugzilla.gnome.org/show_bug.cgi?id=625202 30-bit drawables remain black]
 
 
 [[Oyranos|back -> Oyranos]]

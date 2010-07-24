@@ -166,7 +166,11 @@ Miscellaneous
 
 ### References
 
+30-bit visual bugs
+
 -   [Graphical corruption in the splash screen when using a depth 30
     desktop](https://bugs.kde.org/show_bug.cgi?id=214011)
+-   [30-bit drawables remain
+    black](https://bugzilla.gnome.org/show_bug.cgi?id=625202)
 
 [back -&gt; Oyranos](/wiki/Oyranos "wikilink")
