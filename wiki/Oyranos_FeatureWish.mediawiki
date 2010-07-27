@@ -255,6 +255,15 @@ Constitute a colour patch presentation:
 === Target 1.0.0 ===
 * see [http://www.oyranos.org/doc/html/concept_1.0.html inline] documentation
 
+=== Target 0.2.x ===
+* embed Elektra for easier distribution
+* patch SANE and add SANE module
+* clarify image_display example (FLTK/native X/...)
+* install compiz plug-in (split out like ICC Examin?)
+* install Xorg tools
+* work with 'meta' tag
+* add script host (OpenGTL/OpenCL/...)
+* write new host for oForms (Qt/Gtk/...)
 
 === Target 0.1.10 ===
 * (done) [[Device Settings#Implementation_Details|device DB framework]]

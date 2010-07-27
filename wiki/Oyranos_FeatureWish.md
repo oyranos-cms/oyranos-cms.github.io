@@ -304,6 +304,17 @@ Todo
 -   see [inline](http://www.oyranos.org/doc/html/concept_1.0.html)
     documentation
 
+### Target 0.2.x
+
+-   embed Elektra for easier distribution
+-   patch SANE and add SANE module
+-   clarify image\_display example (FLTK/native X/...)
+-   install compiz plug-in (split out like ICC Examin?)
+-   install Xorg tools
+-   work with 'meta' tag
+-   add script host (OpenGTL/OpenCL/...)
+-   write new host for oForms (Qt/Gtk/...)
+
 ### Target 0.1.10
 
 -   (done) [device DB
