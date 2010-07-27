@@ -301,7 +301,7 @@ Todo
 
 ### Target 1.0.0
 
--   see [inline](http://www.oyranos.org/doc/html/concept_1.0.html)
+-   see [inline](http://www.oyranos.org/doc/concept_1.0.html)
     documentation
 
 ### Target 0.2.x
