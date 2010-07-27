@@ -74,16 +74,20 @@ Detailed build instructions are as well included in the packages.
 ***bekun*** YUM repositories for:
 
 <http://www.oyranos.org/images/fedora-logo.png>  
-[f-10](https://www.oyranos.org/wiki/images/b/b0/Bekun-Fedora_10.rpm)
+\* 12
 
--   12
 -   13
 
-<http://www.oyranos.org/images/suse_logo.png>  
-[openSUSE-10.3](https://www.oyranos.org/wiki/images/a/a7/Bekun-openSUSE_10.3.rpm)
-[openSUSE-11.0](https://www.oyranos.org/wiki/images/0/02/Bekun-openSUSE_11.0.rpm)
+<http://www.oyranos.org/images/mandriva-logo-opt.png>  
+\* 10
 
+<http://www.oyranos.org/images/suse_logo.png>  
+\* SLE\_11
+
+-   11.1
 -   11.2
+-   11.3
+-   Factory
 
 After installing one of the above setup RPM's the ***bekun*** repository
 is activated in yum. For a full installation install the icc\_examin
