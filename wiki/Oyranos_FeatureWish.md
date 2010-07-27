@@ -177,12 +177,12 @@ profiles by accident.
 -   naming of ECI profiles to something FOGRA corresponding (Chris
     Murphy and others on OpenICC)
 -   most ECI profiles are replaced with Argyll created ones
--   remains to relicense or replace the eciRGB ones
+-   (done) remains to relicense or replace the eciRGB ones
 -   country specific settings
 
 |               |                                            |        |                               |
 |---------------|--------------------------------------------|--------|-------------------------------|
-| Progress: 90% | Version: [0.1.8](#Target_0.1.8 "wikilink") | Start: | Assigned to: Kai-Uwe Behrmann |
+| Progress: 92% | Version: [0.1.8](#Target_0.1.8 "wikilink") | Start: | Assigned to: Kai-Uwe Behrmann |
 ||
 
 ### CMM Framework

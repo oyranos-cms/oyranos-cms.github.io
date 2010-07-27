@@ -128,11 +128,11 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 === Default Profiles ===
 * naming of ECI profiles to something FOGRA corresponding (Chris Murphy and others on OpenICC)
 * most ECI profiles are replaced with Argyll created ones
-* remains to relicense or replace the eciRGB ones
+* (done) remains to relicense or replace the eciRGB ones
 * country specific settings
 {| style="width:100%;text-align:left" colspan="20"
 |-
-| Progress: 90%
+| Progress: 92%
 | Version: [[#Target 0.1.8|0.1.8]]
 | Start:
 | Assigned to: Kai-Uwe Behrmann
