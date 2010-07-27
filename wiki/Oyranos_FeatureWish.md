@@ -312,7 +312,7 @@ Todo
 
 -   embed Elektra for easier distribution
 -   patch SANE and add SANE module
--   clarify image\_display example (FLTK/native X/...)
+-   clarify image\_display example (FLTK CM policy on osX/native X/...)
 -   install compiz plug-in (split out like ICC Examin?)
 -   install Xorg tools
 -   work with 'meta' tag
