@@ -301,8 +301,12 @@ Todo
 
 ### Target 1.0.0
 
--   see [inline](http://www.oyranos.org/doc/concept_1.0.html)
-    documentation
+-   stable API
+    -   settings, profile query - seems a good candidate (oyranos.h +
+        oyranos\_icc.h)
+    -   device and profile APIs - with the help of the GSoC2010 code
+        refactoring
+    -   graph API - work in progress
 
 ### Target 0.2.x
 

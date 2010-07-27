@@ -253,7 +253,10 @@ Constitute a colour patch presentation:
 == Todo ==
 [[Oyranos]] Roadmap
 === Target 1.0.0 ===
-* see [http://www.oyranos.org/doc/concept_1.0.html inline] documentation
+* stable API
+** settings, profile query - seems a good candidate (oyranos.h + oyranos_icc.h)
+** device and profile APIs - with the help of the GSoC2010 code refactoring
+** graph API - work in progress
 
 === Target 0.2.x ===
 * embed Elektra for easier distribution
