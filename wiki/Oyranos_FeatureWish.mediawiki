@@ -123,6 +123,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 * (obsoleted by XDG variables) ICC_PROFILE_PATH ? how to interact with Oyranos
 * (done) update Oyranos' internal path representation to the [[OpenIccDirectoryProposal|OpenICC Directory Proposal]]
 * (done) OY_MODULE_PATHS for CMM's
+* update to v0.2
 
 === Default Profiles ===
 * naming of ECI profiles to something FOGRA corresponding (Chris Murphy and others on OpenICC)

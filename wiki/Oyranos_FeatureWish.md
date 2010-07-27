@@ -170,6 +170,7 @@ profiles by accident.
 -   (done) update Oyranos' internal path representation to the [OpenICC
     Directory Proposal](/wiki/OpenIccDirectoryProposal "wikilink")
 -   (done) OY\_MODULE\_PATHS for CMM's
+-   update to v0.2
 
 ### Default Profiles
 
