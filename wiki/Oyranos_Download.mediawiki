@@ -79,6 +79,10 @@ and repeat the above ''icc_examin'' or ''icc_examin-cinepaint'' installation.
 [http://download.opensuse.org/repositories/home:/bekun/ bekun]
 supported are Fedora, openSUSE and to some extent Mandriva.
 
+
+=== Oyranos LiveCD ===
+The Oyranos LiveCD is based on openSUSE and the preinstalled packages from home:bekun. It contains the nvidia binary graphics drivers. Download from [http://susegallery.com/a/8Kr6tw/oyranos suse gallery].
+
 == Development Versions ==
 
 [[Oyranos/git|Git]]: The actual development version can be obtained through git. Instructions on how to obtain the code and how to build, can be found on the Oyranos Wiki page [[Oyranos/git]]. There is as well a build script available for automated dependency checking, downloading and building.

@@ -111,6 +111,12 @@ installation.
 [bekun](http://download.opensuse.org/repositories/home:/bekun/)
 supported are Fedora, openSUSE and to some extent Mandriva.
 
+### Oyranos LiveCD
+
+The Oyranos LiveCD is based on openSUSE and the preinstalled packages
+from home:bekun. It contains the nvidia binary graphics drivers.
+Download from [suse gallery](http://susegallery.com/a/8Kr6tw/oyranos).
+
 Development Versions
 --------------------
 
