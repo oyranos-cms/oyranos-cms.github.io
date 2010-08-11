@@ -53,9 +53,28 @@ So, how is a new source code file auto-generated?
     files. They have a special file name in the form of
     file\_name.*template*.ext, e.g. oyranos\_module.*template*.h
 -   Then the various template variables are loaded (taken from the
-    source code metadata) and the template is rendered in memmory
+    source code metadata) and the template is rendered in memory
 -   A new file is created in API\_generated/ with the *.template.*
     removed, e.g. oyranos\_module.h
+
+#### Template file structure
+
+There are mainly two kinds of template files.
+
+-   A *base* template.
+-   A *child* template that extends a *base* template. Most templates
+    are *child* templates.
+
+The *child* templates use the {% extends %} **tag**, which is how
+[template
+inheritance](http://docs.djangoproject.com/en/dev/topics/templates/#template-inheritance)
+is implemented in the django language. There is a 1-1 relationship
+between the class inheritance of the Oyranos object system and the
+django template inheritance. For example, that means if *oyCMMapi10\_s*
+inherits from *oyCMMapiFilter\_s*, then *CMMapi10\_s.template.c* will
+extend *CMMapiFilter\_s.template.c*. And if *oyCMMapiFilter\_s* extends
+*oyCMMapi\_s*, then *CMMapiFilters\_s.template.h* will extend
+*CMMapi\_s.template.h*.
 
 Code Organisation
 -----------------

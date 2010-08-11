@@ -34,8 +34,22 @@ but is written in C++ and depends on [http://qt.nokia.com/ Qt].
 
 So, how is a new source code file auto-generated?
 * First the ''generator'' scans the templates/ directory for template files. They have a special file name in the form of file_name.''template''.ext, e.g. oyranos_module.''template''.h
-* Then the various template variables are loaded (taken from the source code metadata) and the template is rendered in memmory
+* Then the various template variables are loaded (taken from the source code metadata) and the template is rendered in memory
 * A new file is created in API_generated/ with the ''.template.'' removed, e.g. oyranos_module.h
+
+==== Template file structure ====
+
+There are mainly two kinds of template files.
+* A ''base'' template.
+* A ''child'' template that extends a ''base'' template. Most templates are ''child'' templates.
+
+The ''child'' templates use the {% extends %} '''tag''', which is how
+[http://docs.djangoproject.com/en/dev/topics/templates/#template-inheritance template inheritance] is implemented in the django language. There is a 1-1 relationship between the
+class inheritance of the Oyranos object system and the django template inheritance.
+For example, that means if ''oyCMMapi10_s'' inherits from ''oyCMMapiFilter_s'',
+then ''CMMapi10_s.template.c'' will extend ''CMMapiFilter_s.template.c''. And if 
+''oyCMMapiFilter_s'' extends ''oyCMMapi_s'', then ''CMMapiFilters_s.template.h'' will
+extend ''CMMapi_s.template.h''.
 
 == Code Organisation ==
 === API_generated/ ===
