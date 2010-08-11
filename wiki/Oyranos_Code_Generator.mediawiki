@@ -42,46 +42,47 @@ The following steps are used.
 ==== 2. Import class members like enums,typedefs,... ====
 oyranos/: grep 'memberof *oy<calss>_s' * -B3
 *(a) Private ones in sources/<class>.private.h
-; git short comment
+;git short comment
 : [sources] Import oy<class>_s private [enums,typedefs,...]
 *(b) Public ones in sources/<class>.public.h
-; git short comment
+;git short comment
 : [sources] Import oy<class>_s public [enums,typedefs,...]
 
-3. Implement constructor [oyClass_New]
-sources/
- .private_custom_definitions.c
-[review] [sources] Implement the constructor for oyClass_s
+==== 3. Implement constructor [oyClass_New] ====
+;files:
+ sources/<class>.private_custom_definitions.c
+;git short comment
+: [review] [sources] Implement the constructor for oyClass_s
 
-4. Implement copy constructor [oyClass_Copy]
+==== 4. Implement copy constructor [oyClass_Copy] ====
 sources/
  .private_custom_definitions.c
 [review] [sources] Implement the copy constructor for oyClass_s
 
-5. Implement destructor [oyClass_Release]
+==== 5. Implement destructor [oyClass_Release] ====
 sources/
  .private_custom_definitions.c
 [review] [sources] Implement the destructor for oyClass_s
 
-6. Import private methods for oyClass_s
+==== 6. Import private methods for oyClass_s ====
 sources/
  .private_methods_declarations.h
  .private_methods_definitions.c
 [sources] Import private methods for oyClass_s
 
-7. Adopt oyClass_s private methods
+==== 7. Adopt oyClass_s private methods ====
 sources/
  .private_methods_declarations.h
  .private_methods_definitions.c
 [review] [sources] Adopt oyClass_XXX_() to "hidden struct" interface.
 
-8. Import public methods for oyClass_s
+==== 8. Import public methods for oyClass_s ====
 sources/
  .public_methods_declarations.h
  .public_methods_definitions.c
 [sources] Import public methods for oyClass_s
 
-9. Adopt oyClass_s public methods
+==== 9. Adopt oyClass_s public methods ====
 sources/
  .public_methods_declarations.h
  .public_methods_definitions.c

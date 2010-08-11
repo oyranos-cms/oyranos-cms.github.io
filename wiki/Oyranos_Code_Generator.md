@@ -70,32 +70,43 @@ git short comment
 git short comment  
 \[sources\] Import oy<class>\_s public \[enums,typedefs,...\]
 
-3. Implement constructor \[oyClass\_New\] sources/
+#### 3. Implement constructor \[oyClass\_New\]
 
-`.private_custom_definitions.c`
+files:  
 
+`sources/`<class>`.private_custom_definitions.c`
+
+git short comment  
 \[review\] \[sources\] Implement the constructor for oyClass\_s
 
-4. Implement copy constructor \[oyClass\_Copy\] sources/
+#### 4. Implement copy constructor \[oyClass\_Copy\]
+
+sources/
 
 `.private_custom_definitions.c`
 
 \[review\] \[sources\] Implement the copy constructor for oyClass\_s
 
-5. Implement destructor \[oyClass\_Release\] sources/
+#### 5. Implement destructor \[oyClass\_Release\]
+
+sources/
 
 `.private_custom_definitions.c`
 
 \[review\] \[sources\] Implement the destructor for oyClass\_s
 
-6. Import private methods for oyClass\_s sources/
+#### 6. Import private methods for oyClass\_s
+
+sources/
 
 `.private_methods_declarations.h`  
 `.private_methods_definitions.c`
 
 \[sources\] Import private methods for oyClass\_s
 
-7. Adopt oyClass\_s private methods sources/
+#### 7. Adopt oyClass\_s private methods
+
+sources/
 
 `.private_methods_declarations.h`  
 `.private_methods_definitions.c`
@@ -103,14 +114,18 @@ git short comment
 \[review\] \[sources\] Adopt oyClass\_XXX\_() to “hidden struct”
 interface.
 
-8. Import public methods for oyClass\_s sources/
+#### 8. Import public methods for oyClass\_s
+
+sources/
 
 `.public_methods_declarations.h`  
 `.public_methods_definitions.c`
 
 \[sources\] Import public methods for oyClass\_s
 
-9. Adopt oyClass\_s public methods sources/
+#### 9. Adopt oyClass\_s public methods
+
+sources/
 
 `.public_methods_declarations.h`  
 `.public_methods_definitions.c`
