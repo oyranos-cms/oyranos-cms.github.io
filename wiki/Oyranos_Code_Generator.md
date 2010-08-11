@@ -28,7 +28,34 @@ and then builds it. The paths work for an *in source* build.
 
 ### The details
 
-`TBD`
+#### Template system
+
+The templates are written in the [Django template
+language](http://docs.djangoproject.com/en/dev/topics/templates/). A
+Django template is a plain text file with some specially formatted
+**tags** and **variables**. So, a template is just a C or C++ file that
+contains some extra **{% tag %}** and **{{ variable }}** embedded code
+that is replaced by the code generator. This is much like *php* code is
+replaced in *html* files. The built in **tags** and **variables** are
+[documented
+here](http://docs.djangoproject.com/en/dev/ref/templates/builtins/). The
+Django template engine is written in python and can be used [in stand
+alone
+mode](http://docs.djangoproject.com/en/dev/ref/templates/api/#configuring-the-template-system-in-standalone-mode).
+Instead, the *generator* is using the [Grantlee template
+system](http://www.grantlee.org/), which uses the same template
+language, but is written in C++ and depends on
+[Qt](http://qt.nokia.com/).
+
+So, how is a new source code file auto-generated?
+
+-   First the *generator* scans the templates/ directory for template
+    files. They have a special file name in the form of
+    file\_name.*template*.ext, e.g. oyranos\_module.*template*.h
+-   Then the various template variables are loaded (taken from the
+    source code metadata) and the template is rendered in memmory
+-   A new file is created in API\_generated/ with the *.template.*
+    removed, e.g. oyranos\_module.h
 
 Code Organisation
 -----------------
