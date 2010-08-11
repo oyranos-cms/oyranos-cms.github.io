@@ -203,8 +203,8 @@ Here goes code for the oyClass\_s.h public header file, e.g. for
 
 #### Directories
 
-The directories are named by the group name (*@ingroup* tag) and in each
-one are the template files of the classes that belong to that group.
+The directories are named by the group name (*@ingroup* tag) and hold
+the template files of the classes that belong to that group.
 
 How to import a new class
 -------------------------
