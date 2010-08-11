@@ -43,25 +43,88 @@ templates.
 Here is all the source code that does not need to be inside the
 templates.
 
-<class>.dox  
+##### <class>.dox
+
 This is the Doxygen description for the class, with some additional
 tags.
 
+<code>
+
 `/** @struct  oyClass_s`  
-`*  @ingroup some_group`  
-`*  @extends oyStruct_s`  
-`*  @brief   Brief description`  
-`*  @internal`  
-`*`  
-`*  Multi line description`  
-`*  @note New templates will not be created automaticly [notemplates]`  
-`*  @note Create templates using `“`opaque`` ``pointer`”` [opaquepointer]`  
-`*  @note This class holds a list of objects [list]`  
-`*`  
-`*  @version Oyranos: x.x.x`  
-`*  @since   YYYY/MM/DD (Oyranos: x.x.x)`  
-`*  @date    YYYY/MM/DD`  
-`*/`
+` *  @ingroup some_group`  
+` *  @extends oyStruct_s`  
+` *  @brief   Brief description`  
+` *  @internal`  
+` *`  
+` *  Multi line description`  
+` *  @note New templates will not be created automaticly [notemplates]`  
+` *  @note Create templates using `“`opaque`` ``pointer`”` [opaquepointer]`  
+` *  @note This class holds a list of objects [list]`  
+` *`  
+` *  @version Oyranos: x.x.x`  
+` *  @since   YYYY/MM/DD (Oyranos: x.x.x)`  
+` *  @date    YYYY/MM/DD`  
+` */`
+
+</code>
+
+The basic idea is that the *generator* needs to know all kinds of
+information **(metadata)** about the class and these are provided here.
+Along with the doxygen tags, a few additional are also needed and are
+put in the *@note* tag.
+
+\[notemplates\]  
+Each class has a template file for each generated source file. At class
+creation, these are
+
+also created automaticly and are read-only. When for any reason you want
+to override some
+
+default template block and edit the class templates, change their
+permissions to read-write
+
+and remove the \[notemplates\] tag
+
+\[list\]  
+This tag specifies that the class is a special kind of class, a *list*
+of values. The
+
+convention is that the class name is in plural *(ends with s)* and the
+list item type
+
+is the class with the same name without the *s*. E.g. oyFilterPlugs\_s
+-&gt; oyFilterPlug\_s
+
+\[opaquepointer\]  
+This is an alternative way of the API and should not be used now.
+
+##### <class>.members.h
+
+A list of all the class members, e.g. for **CMMapi6.members.h**
+
+<code>
+
+` /** oyCMMapi4_s::context_type typic data; e.g. `“`oyDL`”` */`  
+` char           * data_type_in;`  
+` /** oyCMMapi7_s::context_type specific data; e.g. `“`lcCC`”` */`  
+` char           * data_type_out;`  
+` oyCMMdata_Convert_f oyCMMdata_Convert;`
+
+</code>
+
+##### <class>.public.h
+
+##### <class>.public\_methods\_declarations.h
+
+##### <class>.public\_methods\_definitions.c
+
+##### <class>.private\_custom\_definitions.c
+
+##### <class>.private.h
+
+##### <class>.private\_methods\_declarations.h
+
+##### <class>.private\_methods\_definitions.c
 
 ### templates/
 
