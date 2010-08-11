@@ -118,9 +118,11 @@ oyranos/: grep 'memberof *oy<calss>_s' * -B3
 : [review] [sources] Implement the constructor for oyClass_s
 
 ==== 4. Implement copy constructor [oyClass_Copy] ====
-sources/
- .private_custom_definitions.c
-[review] [sources] Implement the copy constructor for oyClass_s
+Files:
+ sources/<class>.private_custom_definitions.c
+
+;git short comment
+: [review] [sources] Implement the copy constructor for oyClass_s
 
 ==== 5. Implement destructor [oyClass_Release] ====
 sources/

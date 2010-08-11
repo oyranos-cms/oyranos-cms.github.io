@@ -179,10 +179,11 @@ git short comment
 
 #### 4. Implement copy constructor \[oyClass\_Copy\]
 
-sources/
+Files:
 
-`.private_custom_definitions.c`
+`sources/`<class>`.private_custom_definitions.c`
 
+git short comment  
 \[review\] \[sources\] Implement the copy constructor for oyClass\_s
 
 #### 5. Implement destructor \[oyClass\_Release\]
