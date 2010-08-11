@@ -71,6 +71,20 @@ A list of all the class members, e.g. for '''CMMapi6.members.h'''
   oyCMMdata_Convert_f oyCMMdata_Convert;
 </code>
 ===== <class>.public.h =====
+
+Here goes code for the oyClass_s.h public header file, e.g. for '''Options.public.h'''
+<code>
+ typedef oyStruct_s * (*oyStruct_Copy_f ) ( oyStruct_s *, oyPointer );
+ typedef int       (*oyStruct_Release_f ) ( oyStruct_s ** );
+ typedef oyPointer (*oyStruct_LockCreate_f)(oyStruct_s * obj );
+ ...
+ extern oyStruct_LockCreate_f   oyStruct_LockCreateFunc_;
+ extern oyLockRelease_f         oyLockReleaseFunc_;
+ extern oyLock_f                oyLockFunc_;
+ extern oyUnLock_f              oyUnLockFunc_;
+ ...
+</code>
+
 ===== <class>.public_methods_declarations.h =====
 ===== <class>.public_methods_definitions.c =====
 ===== <class>.private_custom_definitions.c =====

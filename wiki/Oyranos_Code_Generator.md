@@ -114,6 +114,21 @@ A list of all the class members, e.g. for **CMMapi6.members.h**
 
 ##### <class>.public.h
 
+Here goes code for the oyClass\_s.h public header file, e.g. for
+**Options.public.h** <code>
+
+`typedef oyStruct_s * (*oyStruct_Copy_f ) ( oyStruct_s *, oyPointer );`  
+`typedef int       (*oyStruct_Release_f ) ( oyStruct_s ** );`  
+`typedef oyPointer (*oyStruct_LockCreate_f)(oyStruct_s * obj );`  
+`...`  
+`extern oyStruct_LockCreate_f   oyStruct_LockCreateFunc_;`  
+`extern oyLockRelease_f         oyLockReleaseFunc_;`  
+`extern oyLock_f                oyLockFunc_;`  
+`extern oyUnLock_f              oyUnLockFunc_;`  
+`...`
+
+</code>
+
 ##### <class>.public\_methods\_declarations.h
 
 ##### <class>.public\_methods\_definitions.c
