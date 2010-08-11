@@ -36,7 +36,16 @@ Code Organisation
 ### API\_generated/
 
 Not much to say, all the files here are auto-generated from the
-templates.
+templates. Each class is implemented by four files.
+
+oyClass\_s.h  
+This is the public header file that exports the class API
+
+oyClass\_s.c  
+Here is all the public code implementation.
+
+oyClass\_s\_.h  
+Private declarations
 
 ### sources/
 
@@ -133,15 +142,42 @@ Here goes code for the oyClass\_s.h public header file, e.g. for
 
 ##### <class>.public\_methods\_definitions.c
 
-##### <class>.private\_custom\_definitions.c
-
 ##### <class>.private.h
 
 ##### <class>.private\_methods\_declarations.h
 
 ##### <class>.private\_methods\_definitions.c
 
+##### <class>.private\_custom\_definitions.c
+
 ### templates/
+
+#### Files
+
+##### Base\_s.h
+
+##### Base\_s.c
+
+##### Base\_s\_.h
+
+##### Base\_s\_.c
+
+##### BaseList\_s.h
+
+##### BaseList\_s.c
+
+##### BaseList\_s\_.h
+
+##### BaseList\_s\_.c
+
+##### CMakeLists.template.txt
+
+##### oyTest.template.h / oyTest.template.cc
+
+#### Directories
+
+The directories are named by the group name (*@ingroup* tag) and in each
+one are the template files of the classes that belong to that group.
 
 How to import a new class
 -------------------------
