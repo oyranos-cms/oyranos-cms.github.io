@@ -57,7 +57,7 @@ So, how is a new source code file auto-generated?
 -   A new file is created in API\_generated/ with the *.template.*
     removed, e.g. oyranos\_module.h
 
-#### Template file structure
+#### Template files
 
 There are mainly two kinds of template files.
 
@@ -75,6 +75,18 @@ inherits from *oyCMMapiFilter\_s*, then *CMMapi10\_s.template.c* will
 extend *CMMapiFilter\_s.template.c*. And if *oyCMMapiFilter\_s* extends
 *oyCMMapi\_s*, then *CMMapiFilters\_s.template.h* will extend
 *CMMapi\_s.template.h*.
+
+| Oyranos Objects   |     | Template Files             |
+|-------------------|-----|----------------------------|
+| oyStruct\_s       | ↔   | Struct\_s.template.h       |
+|                   |     | ↑                          |
+| ↑                 |     | Base\_s.h                  |
+|                   |     | ↑                          |
+| oyCMMapi\_s       | ↔   | CMMapi\_s.template.h       |
+| ↑                 |     | ↑                          |
+| oyCMMapiFilter\_s | ↔   | CMMapiFilter\_s.template.h |
+| ↑                 |     | ↑                          |
+| oyCMMapi10\_s     | ↔   | CMMapi10\_s.template.h     |
 
 Code Organisation
 -----------------
