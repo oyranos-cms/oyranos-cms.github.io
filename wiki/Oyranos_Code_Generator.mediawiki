@@ -155,7 +155,9 @@ The following steps are used.
 *(g) rm templates/<group>/<class>_s_private_custom_definitions.template.c
 *(h) run generator
 
- Skip steps (c) to (h) for list classes
+ ''NOTE'' Skip steps (c) to (h) for list classes.
+
+ ''TODO'' Implement (d) to (e) in the code generator, so that only steps (a) to (c) are needed.
 
 ;git short comment
 : <nowiki>*</nowiki> Create skeleton files for oyClass_s

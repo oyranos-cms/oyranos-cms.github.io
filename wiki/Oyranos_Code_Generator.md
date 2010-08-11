@@ -227,7 +227,9 @@ sources/
     templates/<group>/<class>\_s\_private\_custom\_definitions.template.c
 -   (h) run generator
 
-`Skip steps (c) to (h) for list classes`
+*`NOTE`*` Skip steps (c) to (h) for list classes.`
+
+*`TODO`*` Implement (d) to (e) in the code generator, so that only steps (a) to (c) are needed.`
 
 git short comment  
 \* Create skeleton files for oyClass\_s
