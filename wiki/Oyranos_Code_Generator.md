@@ -141,16 +141,15 @@ Along with the doxygen tags, a few additional are also needed and are
 put in the *@note* tag.
 
 \[notemplates\]  
-Each class has a template file for each generated source file. At class
-creation, these are
+Each class has a template file for each generated source file.
 
-also created automaticly and are read-only. When for any reason you want
-to override some
+At class creation, these are also created automaticly and are read-only.
 
-default template block and edit the class templates, change their
-permissions to read-write
+When for any reason you want to override some default template block and
 
-and remove the \[notemplates\] tag
+edit the class templates, change their permissions to read-write and
+
+remove the \[notemplates\] tag
 
 \[list\]  
 This tag specifies that the class is a special kind of class, a *list*

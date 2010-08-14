@@ -113,10 +113,11 @@ The basic idea is that the ''generator'' needs to know all kinds of information 
 about the class and these are provided here. Along with the doxygen tags, a few additional
 are also needed and are put in the ''@note'' tag.
 ;[notemplates]
-: Each class has a template file for each generated source file. At class creation, these are
-: also created automaticly and are read-only. When for any reason you want to override some
-: default template block and edit the class templates, change their permissions to read-write
-: and remove the [notemplates] tag
+: Each class has a template file for each generated source file.
+: At class creation, these are also created automaticly and are read-only.
+: When for any reason you want to override some default template block and
+: edit the class templates, change their permissions to read-write and
+: remove the [notemplates] tag
 ;[list]
 : This tag specifies that the class is a special kind of class, a ''list'' of values. The
 : convention is that the class name is in plural ''(ends with s)'' and the list item type
