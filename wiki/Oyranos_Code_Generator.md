@@ -269,15 +269,15 @@ git short comment
 Search for them in oyranos sources  
 grep 'memberof \*oy<calss>\_s' \* -B3
 
--   (a) Private ones in sources/<class>.private.h
+-   Private ones in sources/<class>.private.h
     git short comment  
     \[sources\] Import oy<class>\_s private \[enums,typedefs,...\]
 
--   (b) Public ones in sources/<class>.public.h
+-   Public ones in sources/<class>.public.h
     git short comment  
     \[sources\] Import oy<class>\_s public \[enums,typedefs,...\]
 
--   (c) Add proper include files in oyClass\_s.h and oyClass\_s\_.h
+-   Add proper include files in oyClass\_s.h and oyClass\_s\_.h
     Find them by trying to compile the object files  
     cd /API\_generated/
 
