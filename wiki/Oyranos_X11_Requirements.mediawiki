@@ -82,7 +82,7 @@ Oyranos 0.1.5 obtained the oyranos-monitor-nvidia commandline tool to demonstrat
 === Implementations ===
 The implementation is available in [http://www.spinics.net/lists/xorg/msg50027.html libXcm-0.2.x].
 
-Some tools and a compiz plugin in the Oyranos examples directory support the draft by using libXcm. The Oyranos compiz plugin supports complete desktop colour correction and is multi monitor aware.
+The CompIcc ICC colour server for compiz plugin supports the draft. The plugin supports complete desktop colour correction and is multi monitor aware.
 
 Ideas exist to support the spec in a Gnome window manager.
 

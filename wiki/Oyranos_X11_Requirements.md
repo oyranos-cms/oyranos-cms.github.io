@@ -155,9 +155,9 @@ colour server and clients.
 The implementation is available in
 [libXcm-0.2.x](http://www.spinics.net/lists/xorg/msg50027.html).
 
-Some tools and a compiz plugin in the Oyranos examples directory support
-the draft by using libXcm. The Oyranos compiz plugin supports complete
-desktop colour correction and is multi monitor aware.
+The CompIcc ICC colour server for compiz plugin supports the draft. The
+plugin supports complete desktop colour correction and is multi monitor
+aware.
 
 Ideas exist to support the spec in a Gnome window manager.
 
