@@ -16,7 +16,7 @@ Oyranos is known to work on Linux, BSD, osX and Solaris. Windows will currently 
 Oyranos depends on following libraries and external applications:
 
 * libxml2
-* FLTK version <= 1.1.4 neede to build the GUI (needed by FLU as well). You may configure FLTK with several options enabled:
+* FLTK version <= 1.1.4 neede to build the GUI. You may configure FLTK with several options enabled:
     --enable-threads is needed for threads support (in ICC Examin)
     --enable-xft is ok for antialiased fonts
     --enable-debug is generally a good choice
@@ -26,6 +26,10 @@ Optionally:
 * [[ICC Examin/Download|ICC Examin]] is the profile viewer of Oyranos' configuration GUI. It provides a view on profile internals and a gamut view. It uses littleCMS and Oyranos.
 * Xcalib for loading a given VideoCardGammaTag from profile to a running XFree86/Xorg session (optionally)
 * Cairo
+* Compiz
+* CUPS
+* libraw
+
 
 ==== Compile Instructions ====
 
@@ -45,7 +49,7 @@ Detailed build instructions are as well included in the packages.
 
 http://www.oyranos.org/images/fedora-logo.png [https://admin.fedoraproject.org/pkgdb/acls/name/oyranos Fedora]
 
-
+http://www.oyranos.org/images/ubuntu_logo.png [http://www.ubuntuupdates.org/oyranos Ubuntu]
 
 ==== openSUSE build server ====
 '''''bekun''''' YUM repositories for:

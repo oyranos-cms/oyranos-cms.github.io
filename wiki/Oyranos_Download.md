@@ -30,8 +30,8 @@ are available from the behrmann site.
 Oyranos depends on following libraries and external applications:
 
 -   libxml2
--   FLTK version &lt;= 1.1.4 neede to build the GUI (needed by FLU as
-    well). You may configure FLTK with several options enabled:
+-   FLTK version &lt;= 1.1.4 neede to build the GUI. You may configure
+    FLTK with several options enabled:
 
 `   --enable-threads is needed for threads support (in ICC Examin)`  
 `   --enable-xft is ok for antialiased fonts`  
@@ -48,6 +48,9 @@ Optionally:
 -   Xcalib for loading a given VideoCardGammaTag from profile to a
     running XFree86/Xorg session (optionally)
 -   Cairo
+-   Compiz
+-   CUPS
+-   libraw
 
 #### Compile Instructions
 
@@ -68,6 +71,9 @@ Detailed build instructions are as well included in the packages.
 
 <http://www.oyranos.org/images/fedora-logo.png>
 [Fedora](https://admin.fedoraproject.org/pkgdb/acls/name/oyranos)
+
+<http://www.oyranos.org/images/ubuntu_logo.png>
+[Ubuntu](http://www.ubuntuupdates.org/oyranos)
 
 #### openSUSE build server
 
