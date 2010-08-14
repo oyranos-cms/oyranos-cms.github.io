@@ -46,9 +46,9 @@ License: LGPL
 
 == Profiler ==
 ==== ArgyllCMS ====
-* [http://blackfiveservices.co.uk/imgtarget.shtml ImgTarget] resembles a intelligent CMM in a GUI
+* [http://www.blackfiveimaging.co.uk/index.php?article=02Software%2F02ImgTarget ImgTarget] resembles a intelligent CMM in a GUI
 * [http://www.digifab.com/ArgyllCMSGUI/ ArgyllCMSGUI] a GUI for some Argyll's command line tools
-* [http://x3.ntf.uni-lj.si/~gojc/Argyll CMS/ Argyll CMS] a Argyll command line resampler
+* [http://x3.ntf.uni-lj.si/~gojc/ArgyllCMS_GUI/ Argyll CMS] a Argyll command line resampler
 * [http://hoech.net/dispcalGUI/ dispcalGUI] a display profiler
 * [http://colorhacks.blogspot.com/ Stefan's review] of ArgyllCMSGUI, "Argyll CMS" and dispcalGUI : [09:57, 27 Aug 2008 (CEST)]
 * [http://digitalproof.info/gamapicc/ GaMapICC] is a Mac OS X droplet, which works like a intelligent CMM

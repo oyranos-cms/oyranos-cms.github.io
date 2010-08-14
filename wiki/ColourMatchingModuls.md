@@ -87,11 +87,11 @@ Profiler
 
 #### ArgyllCMS
 
--   [ImgTarget](http://blackfiveservices.co.uk/imgtarget.shtml)
+-   [ImgTarget](http://www.blackfiveimaging.co.uk/index.php?article=02Software%2F02ImgTarget)
     resembles a intelligent CMM in a GUI
 -   [ArgyllCMSGUI](http://www.digifab.com/ArgyllCMSGUI/) a GUI for some
     Argyll's command line tools
--   [CMS/ Argyll CMS](http://x3.ntf.uni-lj.si/~gojc/Argyll) a Argyll
+-   [Argyll CMS](http://x3.ntf.uni-lj.si/~gojc/ArgyllCMS_GUI/) a Argyll
     command line resampler
 -   [dispcalGUI](http://hoech.net/dispcalGUI/) a display profiler
 -   [Stefan's review](http://colorhacks.blogspot.com/) of ArgyllCMSGUI,
