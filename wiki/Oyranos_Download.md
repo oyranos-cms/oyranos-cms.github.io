@@ -132,9 +132,4 @@ build, can be found on the Oyranos Wiki page
 [Oyranos/git](/wiki/Oyranos/git "wikilink"). There is as well a build script
 available for automated dependency checking, downloading and building.
 
-[Snapshots and release
-candidates](https://sourceforge.net/project/showfiles.php?group_id=177017)
-are available from the SourceForge site. They are released non
-regularily. The packages contain sources and all datas.
-
 [back -&gt; Oyranos](/wiki/Oyranos "wikilink")

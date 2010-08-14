@@ -91,8 +91,6 @@ The Oyranos LiveCD is based on openSUSE and the preinstalled packages from home:
 
 [[Oyranos/git|Git]]: The actual development version can be obtained through git. Instructions on how to obtain the code and how to build, can be found on the Oyranos Wiki page [[Oyranos/git]]. There is as well a build script available for automated dependency checking, downloading and building.
 
-[https://sourceforge.net/project/showfiles.php?group_id=177017 Snapshots and release candidates] are available from the SourceForge site. They are released non regularily. The packages contain sources and all datas.
-
 
 [[Oyranos|back -> Oyranos]]
 [[Category:Oyranos]]
