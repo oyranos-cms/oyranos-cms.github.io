@@ -304,8 +304,8 @@ Todo
 -   stable API
     -   settings, profile query - seems a good candidate (oyranos.h +
         oyranos\_icc.h)
-    -   device and profile APIs - with the help of the GSoC2010 code
-        refactoring
+    -   device and profile APIs - with the help of the [GSoC2010 code
+        refactoring](/wiki/Oyranos/Code_Generator "wikilink")
     -   graph API - work in progress
 
 ### Target 0.2.x
