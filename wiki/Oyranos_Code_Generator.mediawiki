@@ -98,6 +98,10 @@ Each class is implemented by four files.
 : This file includes some private oyranos headers and definitions necessary for,
 : but '''not''' part of the object system.
 : It is included by the private ''oyClass_s_.c'' implementation files.
+;oyranos_generic.h
+: For everything that belongs to the Generic Objects API and is not part of a specific class.
+;oyranos_generic_internal.h
+: All Generic Objects API helper code, that is for internal usage only.
 ;oyranos_devices.h
 : Exports all public declarations that are part of the Device API.
 ;oyranos_devices.c
@@ -105,7 +109,7 @@ Each class is implemented by four files.
 ;oyranos_devices_internal.[ch]
 : All Device API code that is for internal usage.
 ;oyranos_module.h
-: All declarations that are are part of the Module APIs, but not part of a specific class,
+: All declarations that are part of the Module APIs, but not part of a specific class,
 : and should be exported.
 ;oyranos_module_internal.h
 : Used for all members of the Module APIs that are not part of any class and should not be exported.

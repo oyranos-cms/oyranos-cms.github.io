@@ -131,6 +131,13 @@ but **not** part of the object system.
 
 It is included by the private *oyClass\_s\_.c* implementation files.
 
+oyranos\_generic.h  
+For everything that belongs to the Generic Objects API and is not part
+of a specific class.
+
+oyranos\_generic\_internal.h  
+All Generic Objects API helper code, that is for internal usage only.
+
 oyranos\_devices.h  
 Exports all public declarations that are part of the Device API.
 
@@ -141,7 +148,7 @@ oyranos\_devices\_internal.\[ch\]
 All Device API code that is for internal usage.
 
 oyranos\_module.h  
-All declarations that are are part of the Module APIs, but not part of a
+All declarations that are part of the Module APIs, but not part of a
 specific class,
 
 and should be exported.
