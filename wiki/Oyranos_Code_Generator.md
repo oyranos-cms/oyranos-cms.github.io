@@ -121,7 +121,7 @@ This file includes some vital oyranos headers and also contains
 
 definitions necessary for, but **not** part of the object system.
 
-It is included by all the oyClass\_s.h headers.
+It is included by all the *oyClass\_s.h* headers.
 
 oyranos\_object\_internal.h  
 This file includes some private oyranos headers and definitions
@@ -129,7 +129,7 @@ necessary for,
 
 but **not** part of the object system.
 
-It is included by the private oyClass\_s\_.c implementation files.
+It is included by the private *oyClass\_s\_.c* implementation files.
 
 oyranos\_devices.h  
 Exports all public declarations that are part of the Device API.
@@ -149,6 +149,11 @@ and should be exported.
 oyranos\_module\_internal.h  
 Used for all members of the Module APIs that are not part of any class
 and should not be exported.
+
+It is included by all the private implementations (*oyClass\_s\_.c*
+sources) that belong to
+
+the Module APIs group.
 
 oyranos\_profile.h  
 All declarations that are are part of the Profile API, but not part of a
