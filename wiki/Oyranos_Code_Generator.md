@@ -138,6 +138,11 @@ of a specific class.
 oyranos\_generic\_internal.h  
 All Generic Objects API helper code, that is for internal usage only.
 
+It is included by all the private implementations (*oyClass\_s\_.c*
+sources) that belong to
+
+the Generic Objects group.
+
 oyranos\_devices.h  
 Exports all public declarations that are part of the Device API.
 
