@@ -107,6 +107,8 @@ Each class is implemented by four files.
 ;oyranos_module.h
 : All declarations that are are part of the Module APIs, but not part of a specific class,
 : and should be exported.
+;oyranos_module_internal.h
+: Used for all members of the Module APIs that are not part of any class and should not be exported.
 ;oyranos_profile.h
 : All declarations that are are part of the Profile API, but not part of a specific class,
 : and should be exported.

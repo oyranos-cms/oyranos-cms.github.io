@@ -146,6 +146,10 @@ specific class,
 
 and should be exported.
 
+oyranos\_module\_internal.h  
+Used for all members of the Module APIs that are not part of any class
+and should not be exported.
+
 oyranos\_profile.h  
 All declarations that are are part of the Profile API, but not part of a
 specific class,
