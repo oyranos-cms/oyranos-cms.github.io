@@ -107,6 +107,20 @@ Here is all the public code implementation.
 oyClass\_s\_.h  
 Private declarations
 
+oyClass\_s\_.c  
+Private definitions
+
+oyranos\_object.h  
+This file includes some vital oyranos headers and also contains
+
+definitions necessary for, but **not** part of the object system.
+
+oyranos\_object\_internal.h  
+This file includes some private oyranos headers and definitions
+necessary for,
+
+but **not** part of the object system.
+
 #### sources/
 
 Here is all the source code that does not need to be inside the
