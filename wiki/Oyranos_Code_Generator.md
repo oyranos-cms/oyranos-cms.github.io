@@ -96,13 +96,17 @@ Code Organisation
 #### API\_generated/
 
 Not much to say, all the files here are auto-generated from the
-templates. Each class is implemented by four files.
+templates.
+
+##### Classes
+
+Each class is implemented by four files.
 
 oyClass\_s.h  
 This is the public header file that exports the class API
 
 oyClass\_s.c  
-Here is all the public code implementation.
+The implementation of all the public class parts.
 
 oyClass\_s\_.h  
 Private declarations
@@ -110,16 +114,43 @@ Private declarations
 oyClass\_s\_.c  
 Private definitions
 
+##### Modules
+
 oyranos\_object.h  
 This file includes some vital oyranos headers and also contains
 
 definitions necessary for, but **not** part of the object system.
+
+It is included by all the oyClass\_s.h headers.
 
 oyranos\_object\_internal.h  
 This file includes some private oyranos headers and definitions
 necessary for,
 
 but **not** part of the object system.
+
+It is included by the private oyClass\_s\_.c implementation files.
+
+oyranos\_devices.h  
+Exports all public declarations that are part of the Device API.
+
+oyranos\_devices.c  
+The implementation for the Device API.
+
+oyranos\_devices\_internal.\[ch\]  
+All Device API code that is for internal usage.
+
+oyranos\_module.h  
+All declarations that are are part of the Module APIs, but not part of a
+specific class,
+
+and should be exported.
+
+oyranos\_profile.h  
+All declarations that are are part of the Profile API, but not part of a
+specific class,
+
+and should be exported.
 
 #### sources/
 

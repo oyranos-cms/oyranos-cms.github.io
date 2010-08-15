@@ -79,21 +79,37 @@ extend ''CMMapi_s.template.h''.
 === File Structure ===
 ==== API_generated/ ====
 Not much to say, all the files here are auto-generated from the templates.
+===== Classes =====
 Each class is implemented by four files.
 ;oyClass_s.h
 : This is the public header file that exports the class API
 ;oyClass_s.c
-: Here is all the public code implementation.
+: The implementation of all the public class parts.
 ;oyClass_s_.h
 : Private declarations
 ;oyClass_s_.c
 : Private definitions
+===== Modules =====
 ;oyranos_object.h
 : This file includes some vital oyranos headers and also contains
 : definitions necessary for, but '''not''' part of the object system.
+: It is included by all the oyClass_s.h headers.
 ;oyranos_object_internal.h
 : This file includes some private oyranos headers and definitions necessary for,
 : but '''not''' part of the object system.
+: It is included by the private oyClass_s_.c implementation files.
+;oyranos_devices.h
+: Exports all public declarations that are part of the Device API.
+;oyranos_devices.c
+: The implementation for the Device API.
+;oyranos_devices_internal.[ch]
+: All Device API code that is for internal usage.
+;oyranos_module.h
+: All declarations that are are part of the Module APIs, but not part of a specific class,
+: and should be exported.
+;oyranos_profile.h
+: All declarations that are are part of the Profile API, but not part of a specific class,
+: and should be exported.
 
 ==== sources/ ====
 Here is all the source code that does not need to be inside the templates.
