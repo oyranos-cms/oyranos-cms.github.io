@@ -91,7 +91,9 @@ extend *CMMapiFilter\_s.template.c*. And if *oyCMMapiFilter\_s* extends
 Code Organisation
 -----------------
 
-### API\_generated/
+### File Structure
+
+#### API\_generated/
 
 Not much to say, all the files here are auto-generated from the
 templates. Each class is implemented by four files.
@@ -105,7 +107,7 @@ Here is all the public code implementation.
 oyClass\_s\_.h  
 Private declarations
 
-### sources/
+#### sources/
 
 Here is all the source code that does not need to be inside the
 templates.
@@ -207,34 +209,72 @@ Here goes code for the oyClass\_s.h public header file, e.g. for
 
 ##### <class>.private\_custom\_definitions.c
 
-### templates/
+#### templates/
 
-#### Files
+##### Files
 
-##### Base\_s.h
+###### Base\_s.h
 
-##### Base\_s.c
+###### Base\_s.c
 
-##### Base\_s\_.h
+###### Base\_s\_.h
 
-##### Base\_s\_.c
+###### Base\_s\_.c
 
-##### BaseList\_s.h
+###### BaseList\_s.h
 
-##### BaseList\_s.c
+###### BaseList\_s.c
 
-##### BaseList\_s\_.h
+###### BaseList\_s\_.h
 
-##### BaseList\_s\_.c
+###### BaseList\_s\_.c
 
-##### CMakeLists.template.txt
+###### CMakeLists.template.txt
 
-##### oyTest.template.h / oyTest.template.cc
+###### oyTest.template.h / oyTest.template.cc
 
-#### Directories
+##### Directories
 
 The directories are named by the group name (*@ingroup* tag) and hold
 the template files of the classes that belong to that group.
+
+### Naming conventions
+
+#### Function prototypes
+
+Public member functions  
+All input/output variables use the public class interface. E.g:
+
+<code>
+
+`OYAPI oyProfile_s* OYEXPORT`  
+`  oyProfile_Copy( oyProfile_s *profile, oyObject_s obj );`
+
+</code>
+
+Private member functions  
+The input/output variables of the function class type use the private
+class interface. E.g:
+
+<code>
+
+`oyProfile_s_*`  
+`  oyProfile_Copy_( oyProfile_s_ *profile, oyObject_s object);`
+
+</code>
+
+  
+The rest variables use their public interface. E.g:
+
+<code>
+
+`oyProfileTag_s * oyProfile_GetTagByPos_ ( oyProfile_s_    * profile,`  
+`                                          int                 pos );`  
+`int                oyProfile_TagMoveIn_ ( oyProfile_s_      * profile,`  
+`                                          oyProfileTag_s   ** obj,`  
+`                                          int                 pos );`
+
+</code>
 
 How to import a new class
 -------------------------
