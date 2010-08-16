@@ -102,6 +102,9 @@ extend ''CMMapi_s.template.h''.
  template does not extend a supposed ''oyStruct_s_.template.c'' file, because oyStruct_s
  only has a public interface and so no private ''oyStruct_s_.*'' implementation files.
 
+If in doubt, each generated source file has it's inheritance graph embedded,
+at the top of the ''@file'' doxygen comment.
+
 == Code Organisation ==
 === File Structure ===
 ==== API_generated/ ====

@@ -105,6 +105,9 @@ extend *CMMapiFilter\_s.template.c*. And if *oyCMMapiFilter\_s* extends
 `template does not extend a supposed `*`oyStruct_s_.template.c`*` file, because oyStruct_s`  
 `only has a public interface and so no private `*`oyStruct_s_.*`*` implementation files.`
 
+If in doubt, each generated source file has it's inheritance graph
+embedded, at the top of the *@file* doxygen comment.
+
 Code Organisation
 -----------------
 
