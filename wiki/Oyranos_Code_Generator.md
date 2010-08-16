@@ -88,6 +88,23 @@ extend *CMMapiFilter\_s.template.c*. And if *oyCMMapiFilter\_s* extends
 | ↑                 |     | ↑                          |
 | oyCMMapi10\_s     | ↔   | CMMapi10\_s.template.h     |
 
+`The example above shows the inheritance graph for a public header file,`  
+`of a common Oyranos class.`
+
+| Oyranos Objects |     | Template Files          |
+|-----------------|-----|-------------------------|
+| oyStruct\_s     |     |                         |
+|                 |     | Base\_s\_.c             |
+| ↑               |     | ↑                       |
+|                 |     | BaseList\_s\_.c         |
+|                 |     | ↑                       |
+| oyOptions\_s\_  | ↔   | Options\_s\_.template.c |
+
+`The example table above shows the inheritance for a private implementation file,`  
+`of a special kind of Oyranos class - a `*“`list`”*` class. Note that the `*`Base_s_.c`*  
+`template does not extend a supposed `*`oyStruct_s_.template.c`*` file, because oyStruct_s`  
+`only has a public interface and so no private `*`oyStruct_s_.*`*` implementation files.`
+
 Code Organisation
 -----------------
 

@@ -53,7 +53,7 @@ extend ''CMMapi_s.template.h''.
 
 
 {| align="center"
-|+ style="background-color:#AAAAAA;" | Inheritance Example Table
+|+ style="background-color:#AAAAAA;" | Inheritance Example Table - Common Class
 !  Oyranos Objects !!        !! Template Files
 |- align="center"
 |  oyStruct_s      || &harr; || Struct_s.template.h
@@ -74,6 +74,33 @@ extend ''CMMapi_s.template.h''.
 |- align="center"
 |  oyCMMapi10_s    || &harr; ||  CMMapi10_s.template.h
 |}
+
+ The example above shows the inheritance graph for a public header file,
+ of a common Oyranos class.
+
+
+
+{| align="center"
+|+ style="background-color:#AAAAAA;" | Inheritance Example Table - List Class
+!  Oyranos Objects !!        !! Template Files
+|- align="center"
+|  oyStruct_s      ||        ||
+|- align="center"
+|                  ||        || Base_s_.c
+|- align="center"
+|  &uarr;          ||        || &uarr;
+|- align="center"
+|                  ||        || BaseList_s_.c
+|- align="center"
+|                  ||        || &uarr;
+|- align="center"
+|  oyOptions_s_    || &harr; ||  Options_s_.template.c
+|}
+
+ The example table above shows the inheritance for a private implementation file,
+ of a special kind of Oyranos class - a ''"list"'' class. Note that the ''Base_s_.c''
+ template does not extend a supposed ''oyStruct_s_.template.c'' file, because oyStruct_s
+ only has a public interface and so no private ''oyStruct_s_.*'' implementation files.
 
 == Code Organisation ==
 === File Structure ===
