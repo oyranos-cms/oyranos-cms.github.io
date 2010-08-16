@@ -40,7 +40,7 @@ So, how is a new source code file auto-generated?
 ==== Template files ====
 
 There are mainly two kinds of template files.
-* A ''base'' template.
+* A [[#Files|''base'']] template.
 * A ''child'' template that extends a ''base'' template. Most templates are ''child'' templates.
 
 The ''child'' templates use the {% extends %} '''tag''', which is how

@@ -61,7 +61,7 @@ So, how is a new source code file auto-generated?
 
 There are mainly two kinds of template files.
 
--   A *base* template.
+-   A [*base*](#Files "wikilink") template.
 -   A *child* template that extends a *base* template. Most templates
     are *child* templates.
 
