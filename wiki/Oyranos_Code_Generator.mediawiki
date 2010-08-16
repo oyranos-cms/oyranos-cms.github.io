@@ -401,14 +401,14 @@ For example, to include a system ''icc34.h'' file in ''oyProfile_s_.h'', add the
 following in ''Profile_s_.template.h'':
 <code>
  {% block GlobalIncludeFiles %}
- {{ block.super }}
+ &#123;{ block.super }}
  #include <icc34.h>
  {% endblock %}
 </code>
 To also include ''oyStructList_s.h'', ''oyProfileTag_s.h'', ''oyConfig_s.h'':
 <code>
  {% block LocalIncludeFiles %}
- {{ block.super }}
+ &#123;{ block.super }}
  #include "oyStructList_s.h"
  #include "oyProfileTag_s.h"
  #include "oyConfig_s.h"
