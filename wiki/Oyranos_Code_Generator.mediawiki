@@ -307,7 +307,7 @@ template files of the classes that belong to that group.
 
 == How to import a new class ==
 
-The following steps are used.
+=== Steps to use ===
 
 ====1. Initial commit ====
 ;Directory
@@ -386,3 +386,49 @@ sources/
  .public_methods_declarations.h
  .public_methods_definitions.c
 [review] [sources] Adopt oyClass_XXX() to "hidden struct" interface.
+
+=== Tips n' Tricks ===
+==== How to insert include files ====
+To use include files in e.g. ''oyClass_s.c'' override the LocalIncludeFiles block
+in the ''Class_s.template.c'' template file. There are 2 blocks available for
+every template.
+;LocalIncludeFiles
+: For local tree include files
+;GlobalIncludeFiles
+: For system files
+
+For example, to include a system ''icc34.h'' file in ''oyProfile_s_.h'', add the
+following in ''Profile_s_.template.h'':
+<code>
+ {% block GlobalIncludeFiles %}
+ {{ block.super }}
+ #include <icc34.h>
+ {% endblock %}
+</code>
+To also include ''oyStructList_s.h'', ''oyProfileTag_s.h'', ''oyConfig_s.h'':
+<code>
+ {% block LocalIncludeFiles %}
+ {{ block.super }}
+ #include "oyStructList_s.h"
+ #include "oyProfileTag_s.h"
+ #include "oyConfig_s.h"
+ {% endblock %}
+</code>
+The above blocks will render as (in ''oyProfile_s_.h''):
+<code>
+ ...
+ #define oyProfilePriv_m( var ) ((oyProfile_s_*) (var))
+ 
+ #include <icc34.h>
+ 
+ #include <oyranos_object.h>
+ 
+ #include "oyStructList_s.h"
+ #include "oyProfileTag_s.h"
+ #include "oyConfig_s.h"
+ 
+ #include "oyProfile_s.h"
+ 
+ typedef struct oyProfile_s_ oyProfile_s_;
+ ...
+</code>

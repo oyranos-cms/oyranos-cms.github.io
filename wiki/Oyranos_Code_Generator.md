@@ -419,7 +419,7 @@ The rest variables use their public interface. E.g:
 How to import a new class
 -------------------------
 
-The following steps are used.
+### Steps to use
 
 #### 1. Initial commit
 
@@ -531,3 +531,55 @@ sources/
 
 \[review\] \[sources\] Adopt oyClass\_XXX() to “hidden struct”
 interface.
+
+### Tips n' Tricks
+
+#### How to insert include files
+
+To use include files in e.g. *oyClass\_s.c* override the
+LocalIncludeFiles block in the *Class\_s.template.c* template file.
+There are 2 blocks available for every template.
+
+LocalIncludeFiles  
+For local tree include files
+
+GlobalIncludeFiles  
+For system files
+
+For example, to include a system *icc34.h* file in *oyProfile\_s\_.h*,
+add the following in *Profile\_s\_.template.h*: <code>
+
+`{% block GlobalIncludeFiles %}`  
+`{{ block.super }}`  
+`#include <icc34.h>`  
+`{% endblock %}`
+
+</code> To also include *oyStructList\_s.h*, *oyProfileTag\_s.h*,
+*oyConfig\_s.h*: <code>
+
+`{% block LocalIncludeFiles %}`  
+`{{ block.super }}`  
+`#include `“`oyStructList_s.h`”  
+`#include `“`oyProfileTag_s.h`”  
+`#include `“`oyConfig_s.h`”  
+`{% endblock %}`
+
+</code> The above blocks will render as (in *oyProfile\_s\_.h*): <code>
+
+`...`  
+`#define oyProfilePriv_m( var ) ((oyProfile_s_*) (var))`  
+  
+`#include <icc34.h>`  
+  
+`#include <oyranos_object.h>`  
+  
+`#include `“`oyStructList_s.h`”  
+`#include `“`oyProfileTag_s.h`”  
+`#include `“`oyConfig_s.h`”  
+  
+`#include `“`oyProfile_s.h`”  
+  
+`typedef struct oyProfile_s_ oyProfile_s_;`  
+`...`
+
+</code>
