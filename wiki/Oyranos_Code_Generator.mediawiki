@@ -196,6 +196,7 @@ are also needed and are put in the ''@note'' tag.
 ;[opaquepointer]
 : This is an alternative way of the API and should not be used now.
 
+'''<u>NOTE:</u>''' This file will be embedded in the ''oyClass_s.h'' file.
 ===== <class>.members.h =====
 A list of all the class members, e.g. for '''CMMapi6.members.h'''
 
@@ -206,6 +207,8 @@ A list of all the class members, e.g. for '''CMMapi6.members.h'''
   char           * data_type_out;
   oyCMMdata_Convert_f oyCMMdata_Convert;
 </code>
+
+'''<u>NOTE:</u>''' This file will be embedded in the ''oyClass_s_.h'' file.
 ===== <class>.public.h =====
 
 Here goes code for the oyClass_s.h public header file, e.g. for '''Options.public.h'''
@@ -221,6 +224,7 @@ Here goes code for the oyClass_s.h public header file, e.g. for '''Options.publi
  ...
 </code>
 
+'''<u>NOTE:</u>''' This file will be embedded in the ''oyClass_s.h'' file.
 ===== <class>.public_methods_declarations.h =====
 All declarations of the class's public interface, that
 is not generated automaticly. E.g, for Profile.public_methods_declarations.h:
@@ -237,16 +241,25 @@ is not generated automaticly. E.g, for Profile.public_methods_declarations.h:
  ...
 </code>
 
+'''<u>NOTE:</u>''' This file will be embedded in the ''oyClass_s.h'' file.
 ===== <class>.public_methods_definitions.c =====
 The implementation file of the above public interface.
 
+'''<u>NOTE:</u>''' This file will be embedded in the ''oyClass_s.c'' file.
 ===== <class>.private.h =====
 All class definitions, enums, structs, etc that should not be exported
 should go here.
 
+'''<u>NOTE:</u>''' This file will be embedded in the ''oyClass_s_.h'' file.
 ===== <class>.private_methods_declarations.h =====
+
+'''<u>NOTE:</u>''' This file will be embedded in the ''oyClass_s_.h'' file.
 ===== <class>.private_methods_definitions.c =====
+
+'''<u>NOTE:</u>''' This file will be embedded in the ''oyClass_s_.c'' file.
 ===== <class>.private_custom_definitions.c =====
+
+'''<u>NOTE:</u>''' This file will be embedded in the ''oyClass_s_.c'' file.
 
 ==== templates/ ====
 

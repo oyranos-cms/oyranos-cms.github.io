@@ -262,6 +262,8 @@ is the class with the same name without the *s*. E.g. oyFilterPlugs\_s
 \[opaquepointer\]  
 This is an alternative way of the API and should not be used now.
 
+**<u>NOTE:</u>** This file will be embedded in the *oyClass\_s.h* file.
+
 ##### <class>.members.h
 
 A list of all the class members, e.g. for **CMMapi6.members.h**
@@ -275,6 +277,9 @@ A list of all the class members, e.g. for **CMMapi6.members.h**
 ` oyCMMdata_Convert_f oyCMMdata_Convert;`
 
 </code>
+
+**<u>NOTE:</u>** This file will be embedded in the *oyClass\_s\_.h*
+file.
 
 ##### <class>.public.h
 
@@ -292,6 +297,8 @@ Here goes code for the oyClass\_s.h public header file, e.g. for
 `...`
 
 </code>
+
+**<u>NOTE:</u>** This file will be embedded in the *oyClass\_s.h* file.
 
 ##### <class>.public\_methods\_declarations.h
 
@@ -311,20 +318,36 @@ automaticly. E.g, for Profile.public\_methods\_declarations.h: <code>
 
 </code>
 
+**<u>NOTE:</u>** This file will be embedded in the *oyClass\_s.h* file.
+
 ##### <class>.public\_methods\_definitions.c
 
 The implementation file of the above public interface.
+
+**<u>NOTE:</u>** This file will be embedded in the *oyClass\_s.c* file.
 
 ##### <class>.private.h
 
 All class definitions, enums, structs, etc that should not be exported
 should go here.
 
+**<u>NOTE:</u>** This file will be embedded in the *oyClass\_s\_.h*
+file.
+
 ##### <class>.private\_methods\_declarations.h
+
+**<u>NOTE:</u>** This file will be embedded in the *oyClass\_s\_.h*
+file.
 
 ##### <class>.private\_methods\_definitions.c
 
+**<u>NOTE:</u>** This file will be embedded in the *oyClass\_s\_.c*
+file.
+
 ##### <class>.private\_custom\_definitions.c
+
+**<u>NOTE:</u>** This file will be embedded in the *oyClass\_s\_.c*
+file.
 
 #### templates/
 
