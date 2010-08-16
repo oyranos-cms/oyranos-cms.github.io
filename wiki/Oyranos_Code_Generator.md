@@ -313,6 +313,8 @@ automaticly. E.g, for Profile.public\_methods\_declarations.h: <code>
 
 ##### <class>.public\_methods\_definitions.c
 
+The implementation file of the above public interface.
+
 ##### <class>.private.h
 
 ##### <class>.private\_methods\_declarations.h

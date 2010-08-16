@@ -238,6 +238,8 @@ is not generated automaticly. E.g, for Profile.public_methods_declarations.h:
 </code>
 
 ===== <class>.public_methods_definitions.c =====
+The implementation file of the above public interface.
+
 ===== <class>.private.h =====
 ===== <class>.private_methods_declarations.h =====
 ===== <class>.private_methods_definitions.c =====
