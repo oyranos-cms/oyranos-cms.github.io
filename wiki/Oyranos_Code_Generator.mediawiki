@@ -108,7 +108,7 @@ at the top of the ''@file'' doxygen comment.
 == Code Organisation ==
 === File Structure ===
 ==== API_generated/ ====
-Not much to say, all the files here are auto-generated from the templates.
+All the files in this directory are auto-generated from the templates.
 ===== Classes =====
 Each class is implemented by four files.
 ;oyClass_s.h
@@ -119,7 +119,7 @@ Each class is implemented by four files.
 : Private declarations
 ;oyClass_s_.c
 : Private definitions
-===== Modules =====
+===== Misc =====
 ;oyranos_object.h
 : This file includes some vital oyranos headers and also contains
 : definitions necessary for, but '''not''' part of the object system.
@@ -128,6 +128,12 @@ Each class is implemented by four files.
 : This file includes some private oyranos headers and definitions necessary for,
 : but '''not''' part of the object system.
 : It is included by the private ''oyClass_s_.c'' implementation files.
+;oyTest.[cc|h]
+: Tests using the Qt test framework. For every generated class the basic functionality
+: like create, copy destroy is tested.
+;CMakeLists.txt
+: The generated file for building the code with cmake.
+===== Modules =====
 ;oyranos_generic.h
 : For everything that belongs to the Generic Objects API and is not part of a specific class.
 ;oyranos_generic_internal.h

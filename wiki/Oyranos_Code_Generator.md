@@ -115,8 +115,7 @@ Code Organisation
 
 #### API\_generated/
 
-Not much to say, all the files here are auto-generated from the
-templates.
+All the files in this directory are auto-generated from the templates.
 
 ##### Classes
 
@@ -134,7 +133,7 @@ Private declarations
 oyClass\_s\_.c  
 Private definitions
 
-##### Modules
+##### Misc
 
 oyranos\_object.h  
 This file includes some vital oyranos headers and also contains
@@ -150,6 +149,17 @@ necessary for,
 but **not** part of the object system.
 
 It is included by the private *oyClass\_s\_.c* implementation files.
+
+oyTest.\[cc|h\]  
+Tests using the Qt test framework. For every generated class the basic
+functionality
+
+like create, copy destroy is tested.
+
+CMakeLists.txt  
+The generated file for building the code with cmake.
+
+##### Modules
 
 oyranos\_generic.h  
 For everything that belongs to the Generic Objects API and is not part
