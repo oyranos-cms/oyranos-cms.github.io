@@ -317,6 +317,9 @@ The implementation file of the above public interface.
 
 ##### <class>.private.h
 
+All class definitions, enums, structs, etc that should not be exported
+should go here.
+
 ##### <class>.private\_methods\_declarations.h
 
 ##### <class>.private\_methods\_definitions.c

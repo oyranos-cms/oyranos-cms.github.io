@@ -241,6 +241,9 @@ is not generated automaticly. E.g, for Profile.public_methods_declarations.h:
 The implementation file of the above public interface.
 
 ===== <class>.private.h =====
+All class definitions, enums, structs, etc that should not be exported
+should go here.
+
 ===== <class>.private_methods_declarations.h =====
 ===== <class>.private_methods_definitions.c =====
 ===== <class>.private_custom_definitions.c =====
