@@ -222,6 +222,21 @@ Here goes code for the oyClass_s.h public header file, e.g. for '''Options.publi
 </code>
 
 ===== <class>.public_methods_declarations.h =====
+All declarations of the class's public interface, that
+is not generated automaticly. E.g, for Profile.public_methods_declarations.h:
+<code>
+ ...
+ OYAPI oyProfile_s * OYEXPORT
+                    oyProfile_FromMD5(  uint32_t          * md5,
+                                        oyObject_s          object );
+ OYAPI int OYEXPORT
+          oyProfile_GetChannelsCount ( oyProfile_s * colour );
+ OYAPI icSignature OYEXPORT
+              oyProfile_GetSignature (  oyProfile_s       * profile,
+                                        oySIGNATURE_TYPE_e  type );
+ ...
+</code>
+
 ===== <class>.public_methods_definitions.c =====
 ===== <class>.private.h =====
 ===== <class>.private_methods_declarations.h =====
