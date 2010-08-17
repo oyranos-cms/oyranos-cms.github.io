@@ -9,6 +9,8 @@ layout: wiki
 -   [GNOME Color
     Manager](http://projects.gnome.org/gnome-color-manager/)
 
+<http://www.oyranos.org/images/gcm_20100817.png>
+
 gnome-color-manager
 
 Pros:

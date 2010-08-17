@@ -1,6 +1,8 @@
 * [http://live.gnome.org/ColourManagement Gnome colour management wiki page]
 * [http://projects.gnome.org/gnome-color-manager/ GNOME Color Manager]
 
+http://www.oyranos.org/images/gcm_20100817.png
+
 gnome-color-manager
 
 Pros:
