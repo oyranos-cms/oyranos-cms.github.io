@@ -46,13 +46,15 @@ Optionally you can specifiy an other than the default prefix /opt/local by typin
 Detailed build instructions are as well included in the packages.
 
 === Binary Packages ===
-
+==== Distribution packages ====
 http://www.oyranos.org/images/fedora-logo.png [https://admin.fedoraproject.org/pkgdb/acls/name/oyranos Fedora]
 
 http://www.oyranos.org/images/ubuntu_logo.png [http://www.ubuntuupdates.org/oyranos Ubuntu]
 
+
+
 ==== openSUSE build server ====
-'''''bekun''''' YUM repositories for:
+'''''bekun''''' OBS repositories for:
 
 http://www.oyranos.org/images/fedora-logo.png<br>
 * 12
@@ -69,23 +71,13 @@ http://www.oyranos.org/images/suse_logo.png<br>
 * Factory
 
 
-After installing one of the above setup RPM's the  '''''bekun''''' repository is activated in yum.
-For a full installation install the icc_examin package:
- yum install icc_examin
-Yum should resolve all dependcies. The ''icc_examin-cinepaint'' package is for a more indepth colour space exploration inside [[CinePaint|CinéPaint]].
+'''''[http://software.opensuse.org/search?q=icc_examin&exclude_debug=true openSUSE build server icc_examin search]'''''
 
-In case a missed libelektra.so.2 message is shown, as can happen on Fedora, try first the following command:
- yum erase elektra
-and repeat the above ''icc_examin'' or ''icc_examin-cinepaint'' installation.
-
-
-'''''bekun''''' repository plain overview:<br>
-[http://download.opensuse.org/repositories/home:/bekun/ bekun]
-supported are Fedora, openSUSE and to some extent Mandriva.
+'''''[http://download.opensuse.org/repositories/home:/bekun/ home:bekun]''''' repository plain overview<br>
 
 
 === Oyranos LiveCD ===
-The Oyranos LiveCD is based on openSUSE and the preinstalled packages from home:bekun. It contains the nvidia binary graphics drivers. Download from [http://susegallery.com/a/8Kr6tw/oyranos suse gallery].
+The Oyranos LiveCD is based on openSUSE and the preinstalled Oyranos packages from home:bekun at OBS. It contains the nvidia binary graphics drivers. Download from [http://susegallery.com/a/8Kr6tw/oyranos suse gallery].
 
 == Development Versions ==
 

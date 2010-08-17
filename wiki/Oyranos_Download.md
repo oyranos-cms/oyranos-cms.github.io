@@ -69,6 +69,8 @@ Detailed build instructions are as well included in the packages.
 
 ### Binary Packages
 
+#### Distribution packages
+
 <http://www.oyranos.org/images/fedora-logo.png>
 [Fedora](https://admin.fedoraproject.org/pkgdb/acls/name/oyranos)
 
@@ -77,7 +79,7 @@ Detailed build instructions are as well included in the packages.
 
 #### openSUSE build server
 
-***bekun*** YUM repositories for:
+***bekun*** OBS repositories for:
 
 <http://www.oyranos.org/images/fedora-logo.png>  
 \* 12
@@ -95,33 +97,18 @@ Detailed build instructions are as well included in the packages.
 -   11.3
 -   Factory
 
-After installing one of the above setup RPM's the ***bekun*** repository
-is activated in yum. For a full installation install the icc\_examin
-package:
+***[openSUSE build server icc\_examin
+search](http://software.opensuse.org/search?q=icc_examin&exclude_debug=true)***
 
-`yum install icc_examin`
-
-Yum should resolve all dependcies. The *icc\_examin-cinepaint* package
-is for a more indepth colour space exploration inside
-[CinéPaint](/wiki/CinePaint "wikilink").
-
-In case a missed libelektra.so.2 message is shown, as can happen on
-Fedora, try first the following command:
-
-`yum erase elektra`
-
-and repeat the above *icc\_examin* or *icc\_examin-cinepaint*
-installation.
-
-***bekun*** repository plain overview:  
-[bekun](http://download.opensuse.org/repositories/home:/bekun/)
-supported are Fedora, openSUSE and to some extent Mandriva.
+***[home:bekun](http://download.opensuse.org/repositories/home:/bekun/)***
+repository plain overview  
 
 ### Oyranos LiveCD
 
-The Oyranos LiveCD is based on openSUSE and the preinstalled packages
-from home:bekun. It contains the nvidia binary graphics drivers.
-Download from [suse gallery](http://susegallery.com/a/8Kr6tw/oyranos).
+The Oyranos LiveCD is based on openSUSE and the preinstalled Oyranos
+packages from home:bekun at OBS. It contains the nvidia binary graphics
+drivers. Download from [suse
+gallery](http://susegallery.com/a/8Kr6tw/oyranos).
 
 Development Versions
 --------------------
