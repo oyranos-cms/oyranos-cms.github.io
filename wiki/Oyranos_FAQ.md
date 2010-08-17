@@ -133,4 +133,53 @@ behaviour.
 Naturally advanced features will be unlikely to get supported as they
 are not cross platform, and would have to been accessed directly.
 
+### Does Oyranos rely on FLTK?
+
+Oyranos comes with a UI written for FLTK. However that can easily be
+stripped if a desktop decides to have a equivalent or better replacement
+as front end. E.g. KDE might not ship with oyranos-config-fltk but use
+kolor-manager instead.
+
+### Elektra dictates the core design?
+
+No. Elektra uses a scheme of storing configurations in a file system
+analogy. This scheme is shared for the configuration part. The Elektra
+API calls are abstracted in Oyranos. So Elektra could be replaced by an
+other desktop independent configuration engine. But as the Elektra
+project sees continuing development there is currently no reason.
+
+### What about “Mixing the configuration, with the UI, with the back end.”?
+
+You guess it right. This statement is nonsense. Configuration, UI and
+back ends are very well separated. E.g. you do not need to call into a
+toolkit to access the configuration data base. oyranos-policy as a
+command line tool is an examples for not relying on Xorg to be usable.
+
+### What about “Reliance on compiz for full screen color management.”?
+
+The compiz ICC colour server is at the time of writing the only
+available open source solution to allow multi monitor colour management
+across the full desktop on multiple monitors. So naturaly it is
+recommended because it is technical superior to most other desktop
+colour correction strategies. E.g. The loading or the 'vcgt' tag is only
+a calibration, which helps not much with wide gamut displays. However
+the underlying net-color spec is open and free to be implemented in say
+Xorg.
+
+### Why has Oyranos a own type and object system?
+
+The decision came as we realised the project needs some efficient way to
+manage its internal objects and classes alike structures. As the
+selected programming language comes with no explicit support for that it
+was written from scratch. We looked as well on other systems for
+instance Glib. But we found that the language extension for inheritance
+and so on where realised outside of the core C language specification in
+a Macro called second language, which is commonly referred to as bad
+style programming. So Glib would have come with lots of disadvantages.
+
+### What about “No distribution is planning to ship elektra or Oyranos.”?
+
+Many distributions plan or have considered shipping Oyranos. Like Fedora
+does since years.
+
 [back -&gt; Oyranos](/wiki/Oyranos "wikilink")
