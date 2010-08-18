@@ -447,7 +447,7 @@ git short comment
 #### 2. Import class members like enums,typedefs,...
 
 Search for them in oyranos sources  
-grep 'memberof \*oy<calss>\_s' \* -B3
+grep 'memberof \*oy<class>\_s' \* -B3
 
 -   Private ones in sources/<class>.private.h
     git short comment  
