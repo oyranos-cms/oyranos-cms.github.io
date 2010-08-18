@@ -50,10 +50,11 @@ use Oyranos we have to prepare some bits.
 
 SB has to put a
 
-`#include `<oyranos/oyranos.h>
+`#include <oyranos.h>`
 
 in the code, in order to use Oyranos. oyranos-config --cflags delivers
-the compiler flags and oyranos-config --ldflags the linker flags.
+the compiler flags and oyranos-config --ldflags the linker flags. Or use
+pkg-config if installed.
 
 You can then link Oyranos into your application with:
 

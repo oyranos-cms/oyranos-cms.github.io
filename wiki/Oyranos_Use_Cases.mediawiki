@@ -21,8 +21,8 @@ In case no profile is returned, SB will ask Oyranos what to do next. To use Oyra
 
 === Code Preparation ===
 SB has to put a 
- #include <oyranos/oyranos.h>
-in the code, in order to use Oyranos. oyranos-config --cflags delivers the compiler flags and oyranos-config --ldflags the linker flags.
+ #include <oyranos.h>
+in the code, in order to use Oyranos. oyranos-config --cflags delivers the compiler flags and oyranos-config --ldflags the linker flags. Or use pkg-config if installed.
 
 You can then link Oyranos into your application with:
  cc `oyranos-config --cflags` `oyranos-config --ldflags` mycode.c -o SB
