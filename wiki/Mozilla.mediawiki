@@ -8,3 +8,9 @@
 **[https://bugzilla.mozilla.org/show_bug.cgi?id=462398 bug entry] Firefox color management does not honor _ICC_PROFILE X11 atoms. by Hal V. Engel
 * [http://muizelaar.blogspot.com/2009/06/qcms-color-management-for-web.html Jeff Muizelaar's blog post about qcms] - the Mozilla CMM
 * [http://kb.mozillazine.org/Special:Whatlinkshere/Gfx.color_management.mode CM configuration]
+
+
+
+[[Applications|back -> Applications]]
+
+[[Category:Programms]]

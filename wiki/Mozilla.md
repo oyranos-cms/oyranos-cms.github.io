@@ -2,6 +2,8 @@
 title: Mozilla
 permalink: wiki/Mozilla/
 layout: wiki
+tags:
+ - Programms
 ---
 
 -   [bug
@@ -25,3 +27,4 @@ layout: wiki
 -   [CM
     configuration](http://kb.mozillazine.org/Special:Whatlinkshere/Gfx.color_management.mode)
 
+[back -&gt; Applications](/wiki/Applications "wikilink")
