@@ -9,3 +9,7 @@ He is working again on it during is [http://freedesktop.org/wiki/OpenIcc/GoogleS
 * [http://websvn.kde.org/trunk/playground/graphics/kolor-manager/README?view=markup Project README]
 * [[KDE|KDE]] page on ColourWiki
 * [http://oyranos-cms.blogspot.com/2010/06/libxcm-and-full-screen-colour.html libXcm and full screen colour correction with a GPU] entry on the Oyranos blog
+
+[[Applications|back -> Applications]]
+
+[[Category:Programms]]

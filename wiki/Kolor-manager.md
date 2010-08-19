@@ -2,6 +2,8 @@
 title: Kolor-manager
 permalink: wiki/Kolor-manager/
 layout: wiki
+tags:
+ - Programms
 ---
 
 Screenshot from December 2008 with the device configuration part:
@@ -22,3 +24,4 @@ project](http://freedesktop.org/wiki/OpenIcc/GoogleSoC2009#head-21f415043e2bf233
     GPU](http://oyranos-cms.blogspot.com/2010/06/libxcm-and-full-screen-colour.html)
     entry on the Oyranos blog
 
+[back -&gt; Applications](/wiki/Applications "wikilink")
