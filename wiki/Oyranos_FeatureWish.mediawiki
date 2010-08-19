@@ -1,5 +1,5 @@
 == Feature Wishes for [[Oyranos]] ==
-They come often from discussions at the [[OpenICC]] email list. It is a good place to annotate, suggest, or ask. Writing here is better than forget elsewhere. The assigment of items to a person does not mean there happens currently work. So offering help is better than waiting with a item of interesst.
+The assignment of items to a person does not mean there happens currently work. So offering help is better than waiting with a item of interest.
 
 A closely related source for project ideas is the ''Google Summer of Code'' [http://www.freedesktop.org/wiki/OpenIcc/GoogleSoC2009 wiki page of OpenICC].
 
@@ -24,8 +24,8 @@ A closely related source for project ideas is the ''Google Summer of Code'' [htt
 | Assigned to: Kai-Uwe Behrmann, Yiannis Belias
 |-
 |}
-** publicise the [[Device_Settings#Module_Protocol|device module communication protocol]] on a separate ColourWiki page
-* integrate into the [http://code.google.com/soc/2008/openicc/appinfo.html?csaid=9EFC0E521D25020 KDE Kolormanager] mentored by [[OpenICC]] developers
+** (done) publicise the [[Device_Settings#Module_Protocol|device module communication protocol]] on a separate ColourWiki page
+* integrate into the [http://code.google.com/soc/2008/openicc/appinfo.html?csaid=9EFC0E521D25020 KDE Kolor-manager] mentored by [[OpenICC]] developers
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | 
@@ -68,7 +68,7 @@ A closely related source for project ideas is the ''Google Summer of Code'' [htt
 |-
 |}
 
-* extraction of colorimetric informations from a profile like primaries, gamma or profile type
+* (obsolete) extraction of colorimetric informations from a profile like primaries, gamma or profile type
 
 === Settings and Policies ===
 * use of standard folders for: display profiles, RGB editing profiles, CMYK editing profiles.
@@ -126,8 +126,8 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 * update to v0.2
 
 === Default Profiles ===
-* naming of ECI profiles to something FOGRA corresponding (Chris Murphy and others on OpenICC)
-* most ECI profiles are replaced with Argyll created ones
+* (done) naming of ECI profiles to something FOGRA corresponding (Chris Murphy and others on OpenICC)
+* (done) most ECI profiles are replaced with Argyll created ones
 * (done) remains to relicense or replace the eciRGB ones
 * country specific settings
 {| style="width:100%;text-align:left" colspan="20"
@@ -140,7 +140,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 |}
 
 === CMM Framework ===
-* backend API a typical CMM should provide
+* back end API a typical CMM should provide
 ** (done) transform caching (file format - device link)
 {| style="width:100%;text-align:left" colspan="20"
 |-
@@ -151,7 +151,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 | style="width:20%" | Assigned to: Kai-Uwe Behrmann (Scribus?)
 |-
 |}
-* frontend API, transforms, caching, image description - buffer layout / screen position
+* front end API, transforms, caching, image description - buffer layout / screen position
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | style="width:1%" |
@@ -192,7 +192,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 | style="width:20%" | Assigned to: [[Marijana]] Novakovic
 |-
 |}
-* file support (tiff,png,jpeg), move from Colori
+* file support (tiff,png,jpeg)
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | style="width:1%" |
@@ -214,7 +214,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 |-
 |}
 
-Constitute a colour patch presentation:
+Constitute a colour patch representation:
 
 * done - CIELab representation
 * done - arbitrary channels (32)
@@ -235,7 +235,7 @@ Constitute a colour patch presentation:
 * gamut warning with the device, which is exceeded - monitor, printer, colour space
 * to sRGB float conversion from Lab(D50)/XYZ or from channels over ICC profile with lcms
 * gamma handling?
-* extra channel handling (sheme fo explicitely naming alpha, UV ...) enums? string tags? ...
+* extra channel handling (scheme for explicitly naming alpha, UV ...) enums? string tags? ...
 
 === Miscellaneous ===
 * done (split Oyranos headers for users, configuration)
@@ -247,8 +247,7 @@ Constitute a colour patch presentation:
 ** and modify policy, advanced or custom
 
 * done(v0.1.5) Bob Friesenhahn suggested Oyranos should be completely relocatable
-* publicate Colori
-* IPC
+* IPC (Xorg, ...?)
 
 == Todo ==
 [[Oyranos]] Roadmap
@@ -258,15 +257,16 @@ Constitute a colour patch presentation:
 ** device and profile APIs - with the help of the [[Oyranos/Code Generator|GSoC2010 code refactoring]]
 ** graph API - work in progress
 
-=== Target 0.2.x ===
-* embed Elektra for easier distribution
-* (done) patch SANE and add SANE module
-* clarify image_display example (FLTK CM policy on osX/native X/...)
-* install compiz plug-in (split out like ICC Examin?)
-* install Xorg tools
-* work with 'meta' tag
 * add script host (OpenGTL/OpenCL/...)
 * write new host for oForms (Qt/Gtk/...)
+
+=== Target 0.2.x ===
+* (done) embed Elektra for easier distribution
+* (done) patch SANE and add SANE module
+* clarify image_display example (FLTK CM policy on osX/native X/...)
+* (done) install compiz plug-in (split out like ICC Examin?)
+* install Xorg tools
+* work with 'meta' tag
 
 === Target 0.1.10 ===
 * (done) [[Device Settings#Implementation_Details|device DB framework]]

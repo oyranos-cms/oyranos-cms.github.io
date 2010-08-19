@@ -9,11 +9,9 @@ tags:
 Feature Wishes for [Oyranos](/wiki/Oyranos "wikilink")
 ------------------------------------------------
 
-They come often from discussions at the [OpenICC](/wiki/OpenICC "wikilink")
-email list. It is a good place to annotate, suggest, or ask. Writing
-here is better than forget elsewhere. The assigment of items to a person
-does not mean there happens currently work. So offering help is better
-than waiting with a item of interesst.
+The assignment of items to a person does not mean there happens
+currently work. So offering help is better than waiting with a item of
+interest.
 
 A closely related source for project ideas is the *Google Summer of
 Code* [wiki page of
@@ -37,12 +35,12 @@ OpenICC](http://www.freedesktop.org/wiki/OpenIcc/GoogleSoC2009).
 |     | Progress: 98% \[done\] | Target: 0.1.10 | Start: 2009.03.00 | Assigned to: Kai-Uwe Behrmann, Yiannis Belias |
 ||
 
--   -   publicise the [device module communication
+-   -   (done) publicise the [device module communication
         protocol](/wiki/Device_Settings#Module_Protocol "wikilink") on a
         separate ColourWiki page
 
 -   integrate into the [KDE
-    Kolormanager](http://code.google.com/soc/2008/openicc/appinfo.html?csaid=9EFC0E521D25020)
+    Kolor-manager](http://code.google.com/soc/2008/openicc/appinfo.html?csaid=9EFC0E521D25020)
     mentored by [OpenICC](/wiki/OpenICC "wikilink") developers
 
 |     |                        |                |                   |                                                                        |
@@ -86,8 +84,8 @@ OpenICC](http://www.freedesktop.org/wiki/OpenIcc/GoogleSoC2009).
 | Progress 25% | Version: x.x.x | Start: 2006 | Assigned to: Kai-Uwe Behrmann |
 ||
 
--   extraction of colorimetric informations from a profile like
-    primaries, gamma or profile type
+-   (obsolete) extraction of colorimetric informations from a profile
+    like primaries, gamma or profile type
 
 ### Settings and Policies
 
@@ -174,9 +172,9 @@ profiles by accident.
 
 ### Default Profiles
 
--   naming of ECI profiles to something FOGRA corresponding (Chris
-    Murphy and others on OpenICC)
--   most ECI profiles are replaced with Argyll created ones
+-   (done) naming of ECI profiles to something FOGRA corresponding
+    (Chris Murphy and others on OpenICC)
+-   (done) most ECI profiles are replaced with Argyll created ones
 -   (done) remains to relicense or replace the eciRGB ones
 -   country specific settings
 
@@ -187,7 +185,7 @@ profiles by accident.
 
 ### CMM Framework
 
--   backend API a typical CMM should provide
+-   back end API a typical CMM should provide
     -   (done) transform caching (file format - device link)
 
 |     |               |                |             |                                          |
@@ -195,8 +193,8 @@ profiles by accident.
 |     | Progress: 75% | Version: x.x.x | Start: 2007 | Assigned to: Kai-Uwe Behrmann (Scribus?) |
 ||
 
--   frontend API, transforms, caching, image description - buffer layout
-    / screen position
+-   front end API, transforms, caching, image description - buffer
+    layout / screen position
 
 |     |               |                |             |                               |
 |-----|---------------|----------------|-------------|-------------------------------|
@@ -229,7 +227,7 @@ profiles by accident.
 |     | Progress: 20% | Version: 1.x.x | Start: 2008 | Assigned to: [Marijana](/wiki/Marijana "wikilink") Novakovic |
 ||
 
--   file support (tiff,png,jpeg), move from Colori
+-   file support (tiff,png,jpeg)
 
 |     |               |                              |                   |                               |
 |-----|---------------|------------------------------|-------------------|-------------------------------|
@@ -245,7 +243,7 @@ profiles by accident.
 | Progress: 30% | Version: first use in ICC Examin v0.45 | Start: 2007-09-03 | Assigned to: Kai-Uwe Behrmann |
 ||
 
-Constitute a colour patch presentation:
+Constitute a colour patch representation:
 
 -   done - CIELab representation
 -   done - arbitrary channels (32)
@@ -272,7 +270,7 @@ Constitute a colour patch presentation:
 -   to sRGB float conversion from Lab(D50)/XYZ or from channels over ICC
     profile with lcms
 -   gamma handling?
--   extra channel handling (sheme fo explicitely naming alpha, UV ...)
+-   extra channel handling (scheme for explicitly naming alpha, UV ...)
     enums? string tags? ...
 
 ### Miscellaneous
@@ -291,8 +289,7 @@ Constitute a colour patch presentation:
 
 -   done(v0.1.5) Bob Friesenhahn suggested Oyranos should be completely
     relocatable
--   publicate Colori
--   IPC
+-   IPC (Xorg, ...?)
 
 Todo
 ----
@@ -308,16 +305,19 @@ Todo
         refactoring](/wiki/Oyranos/Code_Generator "wikilink")
     -   graph API - work in progress
 
-### Target 0.2.x
+<!-- -->
 
--   embed Elektra for easier distribution
--   (done) patch SANE and add SANE module
--   clarify image\_display example (FLTK CM policy on osX/native X/...)
--   install compiz plug-in (split out like ICC Examin?)
--   install Xorg tools
--   work with 'meta' tag
 -   add script host (OpenGTL/OpenCL/...)
 -   write new host for oForms (Qt/Gtk/...)
+
+### Target 0.2.x
+
+-   (done) embed Elektra for easier distribution
+-   (done) patch SANE and add SANE module
+-   clarify image\_display example (FLTK CM policy on osX/native X/...)
+-   (done) install compiz plug-in (split out like ICC Examin?)
+-   install Xorg tools
+-   work with 'meta' tag
 
 ### Target 0.1.10
 
