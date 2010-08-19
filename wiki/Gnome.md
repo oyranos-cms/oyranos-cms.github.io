@@ -2,6 +2,8 @@
 title: Gnome
 permalink: wiki/Gnome/
 layout: wiki
+tags:
+ - Programms
 ---
 
 -   [Gnome colour management wiki
@@ -29,3 +31,4 @@ Contras:
 -   very fat solution as it offers profiling as well, that part should
     better be split out
 
+[back -&gt; Applications](/wiki/Applications "wikilink")
