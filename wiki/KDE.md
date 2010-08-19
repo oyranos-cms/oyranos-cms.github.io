@@ -13,3 +13,6 @@ the KDE configuration manager shall become a colour management tab based
 on the system wide settings in [Oyranos](/wiki/Oyranos "wikilink"). See
 [Control Panel for Colour
 Management](http://www.freedesktop.org/wiki/OpenIccForGoogleSoC2007#head-98b54ec09dfb3d4545661e5964e9ccb9fbf8d11a)
+
+-   [Kolor-manager](/wiki/Kolor-manager "wikilink") page on ColourWiki
+
