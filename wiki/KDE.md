@@ -2,6 +2,8 @@
 title: KDE
 permalink: wiki/KDE/
 layout: wiki
+tags:
+ - Programms
 ---
 
 [Koffice](http://wiki.koffice.org/index.php?title=Color_management)
@@ -16,3 +18,4 @@ Management](http://www.freedesktop.org/wiki/OpenIccForGoogleSoC2007#head-98b54ec
 
 -   [Kolor-manager](/wiki/Kolor-manager "wikilink") page on ColourWiki
 
+[back -&gt; Applications](/wiki/Applications "wikilink")
