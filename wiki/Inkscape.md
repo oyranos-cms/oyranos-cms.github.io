@@ -17,4 +17,8 @@ Links
     initiative to integrate colour management into Cairo
 -   [Inkscape project page](http://www.inkscape.org)
 
+Inkscape v0.48 CM panel:
+
+<http://www.oyranos.org/wiki/images/inkscape-v0_48_CMpanel.png>
+
 [back -&gt; Applications](/wiki/Applications "wikilink")
