@@ -313,11 +313,13 @@ Todo
 ### Target 0.2.x
 
 -   (done) embed Elektra for easier distribution
--   (done) patch SANE and add SANE module
+-   (done) patch SANE
+-   add SANE module
 -   clarify image\_display example (FLTK CM policy on osX/native X/...)
 -   (done) install compiz plug-in (split out like ICC Examin?)
 -   install Xorg tools
 -   work with 'meta' tag
+-   split out icc-profiles
 
 ### Target 0.1.10
 
