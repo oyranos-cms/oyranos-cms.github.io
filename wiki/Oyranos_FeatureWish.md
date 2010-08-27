@@ -320,6 +320,8 @@ Todo
 -   install Xorg tools
 -   work with 'meta' tag
 -   split out icc-profiles
+-   finish lcms2 CMM
+    [1](https://sourceforge.net/tracker/?func=detail&aid=3054285&group_id=177017&atid=879553)
 
 ### Target 0.1.10
 
@@ -340,7 +342,7 @@ Todo
 
 -   override default settings, dependent whether they are inbuild or
     explicitely set by a user
-    [1](http://www.behrmann.name/wind/cinepaint/cinepaint_2007.04.13_1.html):
+    [2](http://www.behrmann.name/wind/cinepaint/cinepaint_2007.04.13_1.html):
     delayed until options are inside a oyOptions\_s objetc
 -   (done) gray profile setting
 -   (done) license change as [stated](http://www.oyranos.org/#license)
