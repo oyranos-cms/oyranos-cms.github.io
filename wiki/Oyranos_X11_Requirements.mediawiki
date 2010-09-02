@@ -94,6 +94,11 @@ Ideas exist to support the spec in a Gnome window manager.
 * [https://bugzilla.gnome.org/show_bug.cgi?id=625202 30-bit drawables remain black] (in Gtk)
 
 
+Colour Management and Toolkits
+* ICC colour management policiy
+** [http://www.fltk.org/str.php?L2411 FLTK feature request]
+** [http://bugreports.qt.nokia.com/browse/QTBUG-13370 Qt feature request]
+
 [[Oyranos|back -> Oyranos]]
 [[Category:Oyranos]]
 [[Category:Standards]]

@@ -173,4 +173,11 @@ Miscellaneous
 -   [30-bit drawables remain
     black](https://bugzilla.gnome.org/show_bug.cgi?id=625202) (in Gtk)
 
+Colour Management and Toolkits
+
+-   ICC colour management policiy
+    -   [FLTK feature request](http://www.fltk.org/str.php?L2411)
+    -   [Qt feature
+        request](http://bugreports.qt.nokia.com/browse/QTBUG-13370)
+
 [back -&gt; Oyranos](/wiki/Oyranos "wikilink")
