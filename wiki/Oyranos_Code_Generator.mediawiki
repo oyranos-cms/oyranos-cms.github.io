@@ -198,7 +198,7 @@ are also needed and are put in the ''@note'' tag.
 
 '''<u>NOTE:</u>''' This file will be embedded in the ''oyClass_s.h'' file.
 ===== <class>.members.h =====
-A list of all the class members, e.g. for '''CMMapi6.members.h'''
+A list of the class members, but ''not'' inherited members from parent classes, e.g. for '''CMMapi6.members.h'''
 
 <code>
   /** oyCMMapi4_s::context_type typic data; e.g. "oyDL" */
@@ -209,6 +209,7 @@ A list of all the class members, e.g. for '''CMMapi6.members.h'''
 </code>
 
 '''<u>NOTE:</u>''' This file will be embedded in the ''oyClass_s_.h'' file.
+
 ===== <class>.public.h =====
 
 Here goes code for the oyClass_s.h public header file, e.g. for '''Options.public.h'''

@@ -266,7 +266,8 @@ This is an alternative way of the API and should not be used now.
 
 ##### <class>.members.h
 
-A list of all the class members, e.g. for **CMMapi6.members.h**
+A list of the class members, but *not* inherited members from parent
+classes, e.g. for **CMMapi6.members.h**
 
 <code>
 
