@@ -316,15 +316,9 @@ template files of the classes that belong to that group.
 *(a) cp Class.dox <class>.dox  & edit
 *(b) run generator
 *(c) Edit <class>.members.h
-*(d) cp .private_methods_definitions.c
-*(e) run generator
-*(f) cp API_generated/oy<class>_s_private_custom_definitions.c  sources/<class>.private_custom_definitions.c
-*(g) rm templates/<group>/<class>_s_private_custom_definitions.template.c
 *(h) run generator
 
- ''NOTE'' Skip steps (c) to (h) for list classes.
-
- ''TODO'' Implement (d) to (e) in the code generator, so that only steps (a) to (c) are needed.
+ ''NOTE'' Skip step (c) for list classes.
 
 ;git short comment
 : <nowiki>*</nowiki> Create skeleton files for oyClass_s

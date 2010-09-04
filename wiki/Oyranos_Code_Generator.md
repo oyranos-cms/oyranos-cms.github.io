@@ -430,17 +430,9 @@ sources/
 -   (a) cp Class.dox <class>.dox & edit
 -   (b) run generator
 -   (c) Edit <class>.members.h
--   (d) cp .private\_methods\_definitions.c
--   (e) run generator
--   (f) cp API\_generated/oy<class>\_s\_private\_custom\_definitions.c
-    sources/<class>.private\_custom\_definitions.c
--   (g) rm
-    templates/<group>/<class>\_s\_private\_custom\_definitions.template.c
 -   (h) run generator
 
-*`NOTE`*` Skip steps (c) to (h) for list classes.`
-
-*`TODO`*` Implement (d) to (e) in the code generator, so that only steps (a) to (c) are needed.`
+*`NOTE`*` Skip step (c) for list classes.`
 
 git short comment  
 \* Create skeleton files for oyClass\_s
