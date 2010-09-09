@@ -318,7 +318,7 @@ template files of the classes that belong to that group.
 *(c) Edit <class>.members.h
 *(h) run generator
 
- ''NOTE'' Skip step (c) for list classes.
+ ''NOTE'' Skip steps (c)&(h) for list classes.
 
 ;git short comment
 : <nowiki>*</nowiki> Create skeleton files for oyClass_s

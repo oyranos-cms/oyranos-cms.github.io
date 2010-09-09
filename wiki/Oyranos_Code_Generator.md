@@ -432,7 +432,7 @@ sources/
 -   (c) Edit <class>.members.h
 -   (h) run generator
 
-*`NOTE`*` Skip step (c) for list classes.`
+*`NOTE`*` Skip steps (c)&(h) for list classes.`
 
 git short comment  
 \* Create skeleton files for oyClass\_s
