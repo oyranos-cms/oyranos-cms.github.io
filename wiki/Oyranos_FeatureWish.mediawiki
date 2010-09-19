@@ -269,7 +269,10 @@ Constitute a colour patch representation:
 * install Xorg tools
 * work with 'meta' tag
 * split out icc-profiles
-* finish lcms2 CMM [https://sourceforge.net/tracker/?func=detail&aid=3054285&group_id=177017&atid=879553]
+* (done) finish lcms2 CMM [https://sourceforge.net/tracker/?func=detail&aid=3054285&group_id=177017&atid=879553]
+* 
+* missed monitor API in doxygen documentation
+* _ICC_PROFILE_IN_X_VERSION lost?
 
 === Target 0.1.10 ===
 * (done) [[Device Settings#Implementation_Details|device DB framework]]

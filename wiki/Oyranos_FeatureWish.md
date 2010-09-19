@@ -320,8 +320,10 @@ Todo
 -   install Xorg tools
 -   work with 'meta' tag
 -   split out icc-profiles
--   finish lcms2 CMM
+-   (done) finish lcms2 CMM
     [1](https://sourceforge.net/tracker/?func=detail&aid=3054285&group_id=177017&atid=879553)
+-   -   missed monitor API in doxygen documentation
+-   \_ICC\_PROFILE\_IN\_X\_VERSION lost?
 
 ### Target 0.1.10
 
