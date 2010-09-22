@@ -319,7 +319,8 @@ Todo
 -   (done) install compiz plug-in (split out like ICC Examin?)
 -   install Xorg tools
 -   work with 'meta' tag
--   split out icc-profiles
+-   (done) split out icc-profiles -
+    <http://sourceforge.net/projects/openicc/files/OpenICC-Profiles/>
 -   (done) finish lcms2 CMM
     [1](https://sourceforge.net/tracker/?func=detail&aid=3054285&group_id=177017&atid=879553)
 -   -   missed monitor API in doxygen documentation
