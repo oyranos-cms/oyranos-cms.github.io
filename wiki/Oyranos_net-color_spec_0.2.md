@@ -12,12 +12,13 @@ DRAFT
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Revision 0.0](http://www.oyranos.org/scm?p=xcolor.git;a=blob;f=docs/net-color-spec;h=c3a5776124cf16d9636cf1a65bc130082b531049;hb=1cf1107d8679161e990c3cf67371f0acb630686e)         |
 | [Revision 0.2 DRAFT 1](http://www.oyranos.org/scm?p=xcolor.git;a=blob;f=docs/net-color-spec;h=94a8349f81670f23088959a6e4b524af8a8f11b7;hb=ab8775f7e8777de5da3be04cc92bc6a883432261) |
+| [Revision 0.2 DRAFT 2](http://www.oyranos.org/scm?p=xcolor.git;a=blob;f=docs/net-color-spec;h=e27ff95b4ebc0ab985a2ffcffbde5fca56071e8f;hb=refs/heads/master)                        |
 ||
 
 Introduction
 ------------
 
-The net-color spec defines a protocol which can be used by X11 clients
+The net-color spec defines a protocol, which can be used by X11 clients
 to offload color correction and transformation into the compositing
 manager. The basic idea is to communicate client side regions to the X11
 server. The regions can of this version have no ICC profile attached,
@@ -72,7 +73,7 @@ epoch GMT as returned by time(NULL). The thired section contains the bar
 '|' separated and surrounded capabilities: - NCP \_NET\_COLOR\_PROFILES
 - NCT \_NET\_COLOR\_TARGET - NCM \_NET\_COLOR\_MANAGEMENT - NCR
 \_NET\_COLOR\_REGIONS - V0.3 indicates version compliance to the
-\_ICC\_Profile in X spec The fourth section contains the server name
+\_ICC\_Profile in X spec The fourth section contains the servers name
 identifier.
 
 As of this specification the third section must contain NCR and the
@@ -80,6 +81,37 @@ supported \_ICC\_PROFILE in X version. NCT is optional.
 
 A example of a valid atom might look like: \_NET\_COLOR\_DESKTOP(STRING)
 = “4518 1274001512 |NCR|V0.3| compiz\_colour\_desktop”
+
+### \_ICC\_DEVICE\_PROFILE(\_xxx)
+
+The atom will hold a native ICC profile with the exposed device
+characteristics at the compositing window manager level. The colour
+server shall if no \_ICC\_DEVICE\_PROFILE(\_xxx) is set, copy the
+\_ICC\_PROFILE(\_xxx) profiles to each equivalent
+\_ICC\_DEVICE\_PROFILE(\_xxx) atom. The \_ICC\_PROFILE(\_xxx) profiles
+shall be replaced by a sRGB ICC profile. The counting in the atoms
+(\_xxx) name section follows the rules outlined in the ICC Profile in X
+recommendation. After finishing the session the the old state has to be
+recovered by copying any \_ICC\_DEVICE\_PROFILE(\_xxx) atoms content
+into the appropriate \_ICC\_PROFILE(\_xxx) atoms and removing all
+\_ICC\_DEVICE\_PROFILE(\_xxx) atoms. The colour server must be aware
+about change property events indicating that a \_ICC\_PROFILE(\_xxx)
+atom has changed by a external application and needs to move that
+profile to the appropriate \_ICC\_DEVICE\_PROFILE(\_xxx) atom and set
+the \_ICC\_PROFILE(\_xxx) atom to sRGB as well. The modification of the
+\_ICC\_DEVICE\_PROFILE(\_xxx) atoms by external applications is
+undefined.
+
+Discussion
+----------
+
+Elder desktop applications might not be aware of the capabilities
+exposed through a implementation of this recommendation. Thus a way is
+needed to enshure backward compatibility. The
+\_ICC\_DEVICE\_PROFILE(\_xxx) atom provides a means to expose capable
+clients the desired information about the monitor characteristics at the
+discussed level. The \_ICC\_PROFILE(\_xxx) atom is maintained to enshure
+the desired backward compatibility.
 
 References
 ----------
@@ -90,20 +122,9 @@ References
     (http://www.freedesktop.org/wiki/Specifications/icc\_profiles\_in\_x\_spec)
 -   Xcolor reference implementation (git clone
     <git://www.oyranos.org/git/xcolor>)
--   colour\_deskop colour server for compiz (git clone
-    <git://www.oyranos.org/git/oyranos>)
+-   CompIcc colour server for compiz
+    (http://sourceforge.net/apps/mediawiki/compicc/index.php?title=Main\_Page)
 -   xcmsevents monitor tool (git clone
     <git://www.oyranos.org/git/oyranos>)
-
-Todo
-----
-
-The relation to the \_ICC\_Profile in X spec is undefined in that a
-monitor profile as provided by the \_ICC\_PROFILE(\_xxx) atom is for
-unaware applications not correct during the run of the color server.
-Necessarily a double color conversion will happen for net-color spec
-unaware applications, which is a clear conflict. A
-\_ICC\_DEVICE\_PROFILE(\_xxx) atom during color server run is in
-discussion.
 
 2008 (c) Tomas Carnecky, 2010 (c) Kai-Uwe Behrmann
