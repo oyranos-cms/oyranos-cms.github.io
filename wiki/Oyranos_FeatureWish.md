@@ -314,7 +314,7 @@ Todo
 
 -   (done) embed Elektra for easier distribution
 -   (done) patch SANE
--   add SANE module
+-   (done) add SANE module
 -   clarify image\_display example (FLTK CM policy on osX/native X/...)
 -   (done) install compiz plug-in (split out like ICC Examin?)
 -   install Xorg tools

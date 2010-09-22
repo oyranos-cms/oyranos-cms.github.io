@@ -263,7 +263,7 @@ Constitute a colour patch representation:
 === Target 0.2.x ===
 * (done) embed Elektra for easier distribution
 * (done) patch SANE
-* add SANE module
+* (done) add SANE module
 * clarify image_display example (FLTK CM policy on osX/native X/...)
 * (done) install compiz plug-in (split out like ICC Examin?)
 * install Xorg tools
