@@ -18,18 +18,18 @@ A closely related source for project ideas is the ''Google Summer of Code'' [htt
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | 
-| Progress: 98% [done]
+| Progress: 100% [done]
 | Target: 0.1.10
 | Start: 2009.03.00
 | Assigned to: Kai-Uwe Behrmann, Yiannis Belias
 |-
 |}
 ** (done) publicise the [[Device_Settings#Module_Protocol|device module communication protocol]] on a separate ColourWiki page
-* integrate into the [http://code.google.com/soc/2008/openicc/appinfo.html?csaid=9EFC0E521D25020 KDE Kolor-manager] mentored by [[OpenICC]] developers
+* (done) integrate into the [http://code.google.com/soc/2008/openicc/appinfo.html?csaid=9EFC0E521D25020 KDE Kolor-manager] mentored by [[OpenICC]] developers
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | 
-| Progress: 75% [done]
+| Progress: 100% [done]
 | Target: 0.1.10
 | Start: 2008.03.00
 | Assigned to: Joe Simon, Hal V. Engel, Cyrille Berger, Kai-Uwe Behrmann
@@ -52,22 +52,13 @@ A closely related source for project ideas is the ''Google Summer of Code'' [htt
 * done (common screen naming scheme for X11, osX and Windows)
 * [[#Named Colours|Named Colours]] in X11, osX ,Windows representation
 * clear about VCGT handling, use Xcalib (licensing?) or ArgyllCMS, give at least a hint at configure time "found Xcalib/Argyll - can load VCGT"
-* support the upcoming [http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX X11 CM protocols] developed by Tomas Carnecky. implemented in graph but need drafting/specification
+* (done) support the upcoming [http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX X11 CM protocols] developed by Tomas Carnecky. implemented in graph but need drafting/specification
 * done (XRandR support)
 * support Apples X11
 
 === ICC profile handling ===
 * check for well behaving of Editing colour spaces (Matrix, RGB: gamma equally over all channels, Gray axis, ...)
-* check ICC profiles
-{| style="width:100%;text-align:left" colspan="20"
-|-
-| Progress 25%
-| Version: x.x.x
-| Start: 2006
-| Assigned to: Kai-Uwe Behrmann
-|-
-|}
-
+* (done) check ICC profiles It is something better suited for SampleICC - packaged on OBS.
 * (obsolete) extraction of colorimetric informations from a profile like primaries, gamma or profile type
 
 === Settings and Policies ===
@@ -77,7 +68,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 * color management policies
 {| style="width:100%;text-align:left" colspan="20"
 |-
-| Progress 70%
+| Progress 90%
 | Version: 0.1.x
 | Start: 2004
 | Assigned to: Kai-Uwe Behrmann
@@ -93,7 +84,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 ** done (add RGB/CMYK opening mismatch policy (convert / leave attached profile/pop-up) , in an pure sRGB environment it could be used to make all unknown RGB content equal (OY_MISMATCH_RGB_OPEN_ACTION ...))
 ** done (profile assigning for mismatched data during editing policy, harmonise during editing for homogeneous colour space documents (OY_MISMATCH_CMYK_CHANGE_ACTION ...))
 ** note: placing and editing files could equal react regarding mismatch (handles the mismatch question from above)
-** mixed colour space documents for internet warning/quiet (OY_MIXED_COLOUR_INTERNET_DOCUMENT_WARNING)
+** (done) mixed colour space documents for internet warning/quiet (OY_MIXED_COLOUR_INTERNET_DOCUMENT_WARNING)
 
 * rendering intent [http://lists.freedesktop.org/archives/openicc/2007q4/000963.html (Craig Ringer's suggestion)]
 ** Perceptual
@@ -196,7 +187,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | style="width:1%" |
-| style="width:20%" | Progress: 25%
+| style="width:20%" | Progress: 35%
 | style="width:20%" | Version: first use in Colori
 | style="width:20%" | Start: 2007-09-10
 | style="width:20%" | Assigned to: Kai-Uwe Behrmann
@@ -207,7 +198,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 * colour information structure
 {| style="width:100%;text-align:left" colspan="20"
 |-
-| Progress: 30%
+| Progress: 50%
 | Version: first use in ICC Examin v0.45
 | Start: 2007-09-03
 | Assigned to: Kai-Uwe Behrmann

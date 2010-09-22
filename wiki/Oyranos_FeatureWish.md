@@ -30,22 +30,22 @@ OpenICC](http://www.freedesktop.org/wiki/OpenIcc/GoogleSoC2009).
 -   generalise to Sane, CUPS ... see as well
     [here](/wiki/Device_Settings#Specific_Considerations "wikilink")
 
-|     |                        |                |                   |                                               |
-|-----|------------------------|----------------|-------------------|-----------------------------------------------|
-|     | Progress: 98% \[done\] | Target: 0.1.10 | Start: 2009.03.00 | Assigned to: Kai-Uwe Behrmann, Yiannis Belias |
+|     |                         |                |                   |                                               |
+|-----|-------------------------|----------------|-------------------|-----------------------------------------------|
+|     | Progress: 100% \[done\] | Target: 0.1.10 | Start: 2009.03.00 | Assigned to: Kai-Uwe Behrmann, Yiannis Belias |
 ||
 
 -   -   (done) publicise the [device module communication
         protocol](/wiki/Device_Settings#Module_Protocol "wikilink") on a
         separate ColourWiki page
 
--   integrate into the [KDE
+-   (done) integrate into the [KDE
     Kolor-manager](http://code.google.com/soc/2008/openicc/appinfo.html?csaid=9EFC0E521D25020)
     mentored by [OpenICC](/wiki/OpenICC "wikilink") developers
 
-|     |                        |                |                   |                                                                        |
-|-----|------------------------|----------------|-------------------|------------------------------------------------------------------------|
-|     | Progress: 75% \[done\] | Target: 0.1.10 | Start: 2008.03.00 | Assigned to: Joe Simon, Hal V. Engel, Cyrille Berger, Kai-Uwe Behrmann |
+|     |                         |                |                   |                                                                        |
+|-----|-------------------------|----------------|-------------------|------------------------------------------------------------------------|
+|     | Progress: 100% \[done\] | Target: 0.1.10 | Start: 2008.03.00 | Assigned to: Joe Simon, Hal V. Engel, Cyrille Berger, Kai-Uwe Behrmann |
 ||
 
 #### Monitor
@@ -66,7 +66,7 @@ OpenICC](http://www.freedesktop.org/wiki/OpenIcc/GoogleSoC2009).
 -   clear about VCGT handling, use Xcalib (licensing?) or ArgyllCMS,
     give at least a hint at configure time “found Xcalib/Argyll - can
     load VCGT”
--   support the upcoming [X11 CM
+-   (done) support the upcoming [X11 CM
     protocols](http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX)
     developed by Tomas Carnecky. implemented in graph but need
     drafting/specification
@@ -77,13 +77,8 @@ OpenICC](http://www.freedesktop.org/wiki/OpenIcc/GoogleSoC2009).
 
 -   check for well behaving of Editing colour spaces (Matrix, RGB: gamma
     equally over all channels, Gray axis, ...)
--   check ICC profiles
-
-|              |                |             |                               |
-|--------------|----------------|-------------|-------------------------------|
-| Progress 25% | Version: x.x.x | Start: 2006 | Assigned to: Kai-Uwe Behrmann |
-||
-
+-   (done) check ICC profiles It is something better suited for
+    SampleICC - packaged on OBS.
 -   (obsolete) extraction of colorimetric informations from a profile
     like primaries, gamma or profile type
 
@@ -101,7 +96,7 @@ profiles by accident.
 
 |              |                |             |                               |
 |--------------|----------------|-------------|-------------------------------|
-| Progress 70% | Version: 0.1.x | Start: 2004 | Assigned to: Kai-Uwe Behrmann |
+| Progress 90% | Version: 0.1.x | Start: 2004 | Assigned to: Kai-Uwe Behrmann |
 ||
 
 -   -   done (only allow flat color documents or allow mixed mode
@@ -128,7 +123,7 @@ profiles by accident.
         documents (OY\_MISMATCH\_CMYK\_CHANGE\_ACTION ...))
     -   note: placing and editing files could equal react regarding
         mismatch (handles the mismatch question from above)
-    -   mixed colour space documents for internet warning/quiet
+    -   (done) mixed colour space documents for internet warning/quiet
         (OY\_MIXED\_COLOUR\_INTERNET\_DOCUMENT\_WARNING)
 
 <!-- -->
@@ -231,7 +226,7 @@ profiles by accident.
 
 |     |               |                              |                   |                               |
 |-----|---------------|------------------------------|-------------------|-------------------------------|
-|     | Progress: 25% | Version: first use in Colori | Start: 2007-09-10 | Assigned to: Kai-Uwe Behrmann |
+|     | Progress: 35% | Version: first use in Colori | Start: 2007-09-10 | Assigned to: Kai-Uwe Behrmann |
 ||
 
 ### Named Colour
@@ -240,7 +235,7 @@ profiles by accident.
 
 |               |                                        |                   |                               |
 |---------------|----------------------------------------|-------------------|-------------------------------|
-| Progress: 30% | Version: first use in ICC Examin v0.45 | Start: 2007-09-03 | Assigned to: Kai-Uwe Behrmann |
+| Progress: 50% | Version: first use in ICC Examin v0.45 | Start: 2007-09-03 | Assigned to: Kai-Uwe Behrmann |
 ||
 
 Constitute a colour patch representation:
