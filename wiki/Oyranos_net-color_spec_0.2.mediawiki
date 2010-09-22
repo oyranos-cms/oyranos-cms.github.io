@@ -69,9 +69,9 @@ The atom is attached on the root window to tell about a color servers activity.
 The content is of type XA_STRING and has four sections separated by a 
 empty space char ' '. 
 The _NET_COLOR_DESKTOP atom is a string with following usages:
-- uniquely identify the colour server
-- tell the name of the colour server
-- tell the colour server is alive
+* uniquely identify the colour server
+* tell the name of the colour server
+* tell the colour server is alive
 All sections are separated by one space char ' ' for easy parsing.
 
 The first section contains the process id (pid_t) of the color server process, 
@@ -79,11 +79,11 @@ which has set the atom.
 The second section contains time since epoch GMT as returned by time(NULL).
 The thired section contains the bar '|' separated and surrounded
 capabilities:
-- NCP  _NET_COLOR_PROFILES
-- NCT  _NET_COLOR_TARGET
-- NCM  _NET_COLOR_MANAGEMENT
-- NCR  _NET_COLOR_REGIONS
-- V0.3 indicates version compliance to the _ICC_Profile in X spec
+* NCP  _NET_COLOR_PROFILES
+* NCT  _NET_COLOR_TARGET
+* NCM  _NET_COLOR_MANAGEMENT
+* NCR  _NET_COLOR_REGIONS
+* V0.3 indicates version compliance to the _ICC_Profile in X spec
 The fourth section contains the servers name identifier.
 
 As of this specification the third section must contain NCR and the 

@@ -63,18 +63,26 @@ look correctly. The type is XA\_STRING.
 The atom is attached on the root window to tell about a color servers
 activity. The content is of type XA\_STRING and has four sections
 separated by a empty space char ' '. The \_NET\_COLOR\_DESKTOP atom is a
-string with following usages: - uniquely identify the colour server -
-tell the name of the colour server - tell the colour server is alive All
-sections are separated by one space char ' ' for easy parsing.
+string with following usages:
+
+-   uniquely identify the colour server
+-   tell the name of the colour server
+-   tell the colour server is alive
+
+All sections are separated by one space char ' ' for easy parsing.
 
 The first section contains the process id (pid\_t) of the color server
 process, which has set the atom. The second section contains time since
 epoch GMT as returned by time(NULL). The thired section contains the bar
-'|' separated and surrounded capabilities: - NCP \_NET\_COLOR\_PROFILES
-- NCT \_NET\_COLOR\_TARGET - NCM \_NET\_COLOR\_MANAGEMENT - NCR
-\_NET\_COLOR\_REGIONS - V0.3 indicates version compliance to the
-\_ICC\_Profile in X spec The fourth section contains the servers name
-identifier.
+'|' separated and surrounded capabilities:
+
+-   NCP \_NET\_COLOR\_PROFILES
+-   NCT \_NET\_COLOR\_TARGET
+-   NCM \_NET\_COLOR\_MANAGEMENT
+-   NCR \_NET\_COLOR\_REGIONS
+-   V0.3 indicates version compliance to the \_ICC\_Profile in X spec
+
+The fourth section contains the servers name identifier.
 
 As of this specification the third section must contain NCR and the
 supported \_ICC\_PROFILE in X version. NCT is optional.
