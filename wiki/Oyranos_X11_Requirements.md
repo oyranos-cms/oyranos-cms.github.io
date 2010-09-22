@@ -145,10 +145,12 @@ ICC Profiles in X
 net-color spec
 --------------
 
-[Version 0.2 Draft
-1](http://www.oyranos.org/scm?p=xcolor.git;a=blob;f=docs/net-color-spec;h=a8d46ab8d66a1ecf6776b26af0695d5aeefd3292;hb=master)
-is public. The goal is to communicate ICC colour regions between a
-colour server and clients.
+The goal is to communicate ICC colour regions between a colour server
+and clients.
+
+### References
+
+[Draft of net-color spec 0.2](/wiki/Oyranos/net-color_spec_0.2 "wikilink")
 
 ### Implementations
 
@@ -160,6 +162,18 @@ plugin supports complete desktop colour correction and is multi monitor
 aware.
 
 Ideas exist to support the spec in a Gnome window manager.
+
+### Further Tasks
+
+-   screenshot tools
+    -   take tagged regions as is - they are already colour corrected
+    -   convert remaining desktop from native monitor space to document
+        colour space
+    -   use document colour space from \_ICC\_PROFILE(\_xxx) (typical
+        sRGB)
+-   describe \_NET\_COLOR\_PROFILES (3D scene/2D vector colour
+    correction)
+    -   server and client side implementation
 
 Miscellaneous
 -------------
