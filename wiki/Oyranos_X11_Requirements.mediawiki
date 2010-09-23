@@ -110,7 +110,7 @@ Ideas exist to support the spec in a Gnome window manager.
 Colour Management and Toolkits
 * ICC colour management policiy
 ** [http://www.fltk.org/str.php?L2411 FLTK feature request]
-** [http://bugreports.qt.nokia.com/browse/QTBUG-13370 Qt feature request]
+** [http://bugreports.qt.nokia.com/browse/QTBUG-6582 Qt feature request]
 
 [[Oyranos|back -> Oyranos]]
 [[Category:Oyranos]]

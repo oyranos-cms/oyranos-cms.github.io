@@ -192,6 +192,6 @@ Colour Management and Toolkits
 -   ICC colour management policiy
     -   [FLTK feature request](http://www.fltk.org/str.php?L2411)
     -   [Qt feature
-        request](http://bugreports.qt.nokia.com/browse/QTBUG-13370)
+        request](http://bugreports.qt.nokia.com/browse/QTBUG-6582)
 
 [back -&gt; Oyranos](/wiki/Oyranos "wikilink")
