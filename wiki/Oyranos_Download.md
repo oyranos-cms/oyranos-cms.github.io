@@ -100,7 +100,7 @@ Detailed build instructions are as well included in the packages.
 ***[openSUSE build server icc\_examin
 search](http://software.opensuse.org/search?q=icc_examin&exclude_debug=true)***
 
-***[home:bekun](http://download.opensuse.org/repositories/home:/bekun/)***
+***[multimedia:color\_management](http://download.opensuse.org/repositories/multimedia:/color_management/)***
 repository plain overview  
 
 ### Oyranos LiveCD

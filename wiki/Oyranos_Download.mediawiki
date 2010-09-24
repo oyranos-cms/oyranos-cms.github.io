@@ -73,7 +73,7 @@ http://www.oyranos.org/images/suse_logo.png<br>
 
 '''''[http://software.opensuse.org/search?q=icc_examin&exclude_debug=true openSUSE build server icc_examin search]'''''
 
-'''''[http://download.opensuse.org/repositories/home:/bekun/ home:bekun]''''' repository plain overview<br>
+'''''[http://download.opensuse.org/repositories/multimedia:/color_management/ multimedia:color_management]''''' repository plain overview<br>
 
 
 === Oyranos LiveCD ===
