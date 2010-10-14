@@ -312,7 +312,7 @@ Todo
 -   (done) add SANE module
 -   clarify image\_display example (FLTK CM policy on osX/native X/...)
 -   (done) install compiz plug-in (split out like ICC Examin?)
--   install Xorg tools
+-   (done) install Xorg tools
 -   work with 'meta' tag
 -   (done) split out icc-profiles -
     <http://sourceforge.net/projects/openicc/files/OpenICC-Profiles/>
