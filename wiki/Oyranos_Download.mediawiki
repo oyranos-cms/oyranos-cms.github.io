@@ -77,7 +77,7 @@ http://www.oyranos.org/images/suse_logo.png<br>
 
 
 === Oyranos LiveCD ===
-The Oyranos LiveCD is based on openSUSE and the preinstalled Oyranos packages from home:bekun at OBS. It contains the nvidia binary graphics drivers. Download from [http://susegallery.com/a/8Kr6tw/oyranos suse gallery].
+The Oyranos LiveCD is based on openSUSE and the preinstalled Oyranos packages from home:bekun at OBS. It contains the nvidia binary graphics drivers. Download from [http://susegallery.com/a/8Kr6tw/oyranos-multimedia-113a suse gallery].
 
 == Development Versions ==
 

@@ -108,7 +108,7 @@ repository plain overview
 The Oyranos LiveCD is based on openSUSE and the preinstalled Oyranos
 packages from home:bekun at OBS. It contains the nvidia binary graphics
 drivers. Download from [suse
-gallery](http://susegallery.com/a/8Kr6tw/oyranos).
+gallery](http://susegallery.com/a/8Kr6tw/oyranos-multimedia-113a).
 
 Development Versions
 --------------------
