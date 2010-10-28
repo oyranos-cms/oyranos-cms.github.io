@@ -313,12 +313,12 @@ Todo
 -   clarify image\_display example (FLTK CM policy on osX/native X/...)
 -   (done) install compiz plug-in (split out like ICC Examin?)
 -   (done) install Xorg tools
--   work with 'meta' tag
+-   (70%) work with 'meta' tag
 -   (done) split out icc-profiles -
     <http://sourceforge.net/projects/openicc/files/OpenICC-Profiles/>
 -   (done) finish lcms2 CMM
     [1](https://sourceforge.net/tracker/?func=detail&aid=3054285&group_id=177017&atid=879553)
--   -   missed monitor API in doxygen documentation
+-   -   (done)missed monitor API in doxygen documentation
 -   \_ICC\_PROFILE\_IN\_X\_VERSION lost?
 
 ### Target 0.1.10
