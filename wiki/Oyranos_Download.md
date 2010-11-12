@@ -28,8 +28,15 @@ are available from the behrmann site.
 #### Dependencies
 
 Oyranos depends on following libraries and external applications:
+Mandatory:
 
 -   libxml2
+-   libXcm - for X11 and Quarz monitor support
+-   libXinerama, libXrandr, libXfixes and libXxf86vm for X11 support
+-   lcms and/or lcms2 - for colour conversions
+
+Optionally:
+
 -   FLTK version &lt;= 1.1.4 neede to build the GUI. You may configure
     FLTK with several options enabled:
 
@@ -38,19 +45,17 @@ Oyranos depends on following libraries and external applications:
 `   --enable-debug is generally a good choice`  
 `   --enable-shared is sometimes a good choice for smaller executables`
 
+-   Qt - for a nice observer utility
 -   Elektra, this is the configuration system used under linux.
-
-Optionally:
-
 -   [ICC Examin](/wiki/ICC_Examin/Download "wikilink") is the profile viewer
     of Oyranos' configuration GUI. It provides a view on profile
     internals and a gamut view. It uses littleCMS and Oyranos.
 -   Xcalib for loading a given VideoCardGammaTag from profile to a
     running XFree86/Xorg session (optionally)
--   Cairo
--   Compiz
--   CUPS
--   libraw
+-   CUPS - for CUPS ICC configuration support
+-   libraw - for cameraRAW decoding
+-   SANE - only with Oyranos SANE\_CAP\_COLOUR patch
+-   Cairo - for a example
 
 #### Compile Instructions
 
