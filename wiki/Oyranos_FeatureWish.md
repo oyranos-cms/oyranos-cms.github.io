@@ -324,7 +324,7 @@ Todo
 -   (done) finish lcms2 CMM
     [1](https://sourceforge.net/tracker/?func=detail&aid=3054285&group_id=177017&atid=879553)
 -   (done)missed monitor API in doxygen documentation
--   \_ICC\_PROFILE\_IN\_X\_VERSION lost?
+-   (done)\_ICC\_PROFILE\_IN\_X\_VERSION lost?
 
 ### Target 0.1.10
 
