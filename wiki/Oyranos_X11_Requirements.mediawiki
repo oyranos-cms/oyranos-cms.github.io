@@ -48,7 +48,7 @@ Xinerama_screen_number >= 1 => XFree86_DDC_EDID1_RAWDATA_1 + XFree86_DDC_EDID1_R
 This way compatibility is enshured for existing applications.
 
 === Parsing ===
-This section is incomplete. But at least the code can be found here [http://www.oyranos.org/scm?p=oyranos.git;a=tree;f=modules/devices oyranos_edid_parse.c]
+This section is incomplete. But at least the code can be found here in libXcm-0.3.x and higher.
 
 The section decribes the EDID parsing in Oyranos.
 
@@ -73,7 +73,7 @@ Oyranos 0.1.5 obtained the oyranos-monitor-nvidia commandline tool to demonstrat
 * older versions can be found in the [http://www.oyranos.org/wiki/index.php?title=Category:Standards Category:Standards]
 
 === Further Tasks ===
-[[ICC_Profiles_in_X_Specification_0.4|(Draft for a ICC Profiles in X Specification 0.4)]]
+[[ICC_Profiles_in_X_Specification_0.5|(Draft for a ICC Profiles in X Specification 0.5)]]
 * add xrandr-1.2 porperties per each physical output device
 
 == net-color spec ==
@@ -83,7 +83,7 @@ The goal is to communicate ICC colour regions between a colour server and client
 [[Oyranos/net-color_spec_0.2|Draft of net-color spec 0.2]]
 
 === Implementations ===
-The implementation is available in [http://www.spinics.net/lists/xorg/msg50027.html libXcm-0.2.x].
+The implementation is available in [http://www.spinics.net/lists/xorg/msg50027.html libXcm-0.2.x] and later.
 
 The CompIcc ICC colour server for compiz plugin supports the draft. The plugin supports complete desktop colour correction and is multi monitor aware.
 

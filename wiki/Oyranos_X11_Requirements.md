@@ -98,8 +98,8 @@ This way compatibility is enshured for existing applications.
 
 ### Parsing
 
-This section is incomplete. But at least the code can be found here
-[oyranos\_edid\_parse.c](http://www.oyranos.org/scm?p=oyranos.git;a=tree;f=modules/devices)
+This section is incomplete. But at least the code can be found here in
+libXcm-0.3.x and higher.
 
 The section decribes the EDID parsing in Oyranos.
 
@@ -138,7 +138,7 @@ ICC Profiles in X
 ### Further Tasks
 
 [(Draft for a ICC Profiles in X Specification
-0.4)](/wiki/ICC_Profiles_in_X_Specification_0.4 "wikilink")
+0.5)](/wiki/ICC_Profiles_in_X_Specification_0.5 "wikilink")
 
 -   add xrandr-1.2 porperties per each physical output device
 
@@ -155,7 +155,8 @@ and clients.
 ### Implementations
 
 The implementation is available in
-[libXcm-0.2.x](http://www.spinics.net/lists/xorg/msg50027.html).
+[libXcm-0.2.x](http://www.spinics.net/lists/xorg/msg50027.html) and
+later.
 
 The CompIcc ICC colour server for compiz plugin supports the draft. The
 plugin supports complete desktop colour correction and is multi monitor
