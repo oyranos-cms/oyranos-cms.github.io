@@ -63,15 +63,15 @@ OpenICC](http://www.freedesktop.org/wiki/OpenIcc/GoogleSoC2009).
 -   done (common screen naming scheme for X11, osX and Windows)
 -   [Named Colours](#Named_Colours "wikilink") in X11, osX ,Windows
     representation
--   clear about VCGT handling, use Xcalib (licensing?) or ArgyllCMS,
-    give at least a hint at configure time “found Xcalib/Argyll - can
-    load VCGT”
+-   (done) clear about VCGT handling, use Xcalib (licensing?) or
+    ArgyllCMS, give at least a hint at configure time “found
+    Xcalib/Argyll - can load VCGT” - Oyranos shells out for xcalib
 -   (done) support the upcoming [X11 CM
     protocols](http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX)
     developed by Tomas Carnecky. implemented in graph but need
     drafting/specification
 -   done (XRandR support)
--   support Apples X11
+-   (done) support Apples X11
 
 ### ICC profile handling
 
@@ -145,7 +145,8 @@ profiles by accident.
 <!-- -->
 
 -   allow non persistent settings, examples:
-    -   useful for temporarily adding profile paths in osX bundles
+    -   (done) useful for temporarily adding profile paths in osX
+        bundles - paths follow the OpenICC spec through XDG\_DATA\_DIRS
     -   switching default profiles to gamma 1.0 versions in one
         application, without touching other applications
 
@@ -250,7 +251,7 @@ Constitute a colour patch representation:
 -   done - colour reference (ICC profile)
 -   done - cgats representation, this can contain additional observer
     characteristics or spectral data
--   current state is shown
+-   state is shown
     [here](http://www.behrmann.name/wind/oyranos/icc_examin_2007.09.24.html)
 -   done - allow for grouping ( swatches )
 -   exchange as colour selection(s) in X11, Quartz ...
@@ -263,7 +264,7 @@ Constitute a colour patch representation:
 -   gamut warning with the device, which is exceeded - monitor, printer,
     colour space
 -   to sRGB float conversion from Lab(D50)/XYZ or from channels over ICC
-    profile with lcms
+    profile with lcms2
 -   gamma handling?
 -   extra channel handling (scheme for explicitly naming alpha, UV ...)
     enums? string tags? ...
@@ -276,7 +277,7 @@ Constitute a colour patch representation:
 
 <!-- -->
 
--   later show only advanced options to those users who like it
+-   (done) later show only advanced options to those users who like it
     -   something like default settings / policy
     -   and modify policy, advanced or custom
 
@@ -284,12 +285,22 @@ Constitute a colour patch representation:
 
 -   done(v0.1.5) Bob Friesenhahn suggested Oyranos should be completely
     relocatable
--   IPC (Xorg, ...?)
+-   (done) IPC (Xorg, ...?)
 
 Todo
 ----
 
 [Oyranos](/wiki/Oyranos "wikilink") Roadmap
+
+### Target 2.x.x
+
+-   stable API
+    -   graph API - work in progress
+
+<!-- -->
+
+-   add script host (OpenGTL/OpenCL/...)
+-   write new host for oForms (Qt/Gtk/...)
 
 ### Target 1.0.0
 
@@ -298,12 +309,6 @@ Todo
         oyranos\_icc.h)
     -   device and profile APIs - with the help of the [GSoC2010 code
         refactoring](/wiki/Oyranos/Code_Generator "wikilink")
-    -   graph API - work in progress
-
-<!-- -->
-
--   add script host (OpenGTL/OpenCL/...)
--   write new host for oForms (Qt/Gtk/...)
 
 ### Target 0.2.x
 
@@ -313,12 +318,12 @@ Todo
 -   clarify image\_display example (FLTK CM policy on osX/native X/...)
 -   (done) install compiz plug-in (split out like ICC Examin?)
 -   (done) install Xorg tools
--   (70%) work with 'meta' tag
+-   (90%) work with 'meta' tag
 -   (done) split out icc-profiles -
     <http://sourceforge.net/projects/openicc/files/OpenICC-Profiles/>
 -   (done) finish lcms2 CMM
     [1](https://sourceforge.net/tracker/?func=detail&aid=3054285&group_id=177017&atid=879553)
--   -   (done)missed monitor API in doxygen documentation
+-   (done)missed monitor API in doxygen documentation
 -   \_ICC\_PROFILE\_IN\_X\_VERSION lost?
 
 ### Target 0.1.10
