@@ -318,7 +318,10 @@ Todo
 -   clarify image\_display example (FLTK CM policy on osX/native X/...)
 -   (done) install compiz plug-in (split out like ICC Examin?)
 -   (done) install Xorg tools
--   (90%) work with 'meta' tag
+-   (94%) work with 'meta' tag
+-   embed meta tag
+    -   use intermediate XML to allow for easy editing, or...
+    -   couple close to the according driver, e.g. oyX1, oyRE ...
 -   (done) split out icc-profiles -
     <http://sourceforge.net/projects/openicc/files/OpenICC-Profiles/>
 -   (done) finish lcms2 CMM
