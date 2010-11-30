@@ -318,9 +318,11 @@ Todo
 -   clarify image\_display example (FLTK CM policy on osX/native X/...)
 -   (done) install compiz plug-in (split out like ICC Examin?)
 -   (done) install Xorg tools
--   (94%) work with 'meta' tag
--   embed meta tag
-    -   use intermediate XML to allow for easy editing, or...
+-   (done) work with 'meta' tag
+-   (done) embed meta tag - in device specific tools like
+    oyranos-monitor
+    -   use intermediate XML to allow for easy editing let specialised
+        tools care about, like SampleICC, or...
     -   couple close to the according driver, e.g. oyX1, oyRE ...
 -   (done) split out icc-profiles -
     <http://sourceforge.net/projects/openicc/files/OpenICC-Profiles/>
