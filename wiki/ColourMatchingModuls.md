@@ -3,7 +3,7 @@ title: ColourMatchingModuls
 permalink: wiki/ColourMatchingModuls/
 layout: wiki
 tags:
- - Programms
+ - Programs
 ---
 
 The CMM colormatching module is the “engine” for color conversions in
@@ -36,8 +36,7 @@ License: MIT
 -   <http://sampleicc.sourceforge.net/> — The ICC's official sample
     implementation.
 
-License: 4 clause BSD [(not very handy for
-distribution)](http://www.fsf.org/licensing/licenses/index_html#OriginalBSD)
+License: newBSD (3 clauses)
 
 #### QCMS
 
@@ -70,8 +69,8 @@ different implementations.
 
 -   OpenCTL which is a GPL compatible of the Color Transformation
     Language, this language is dedicated at transforming the value of a
-    single pixel (for instance Brightness adjustement or desaturate).
-    CTL is designed to be part of the Color Management process.
+    single pixel (for instance Brightness adjustment or desaturate). CTL
+    is designed to be part of the Color Management process.
 -   OpenShiva is inspired by Adobe's Hydra language from the AIF
     Toolkit, Shiva is a language that apply a kernel-like
     transformations on an image, that means it works using more than one
@@ -87,22 +86,35 @@ Profiler
 
 #### ArgyllCMS
 
--   [ImgTarget](http://www.blackfiveimaging.co.uk/index.php?article=02Software%2F02ImgTarget)
-    resembles a intelligent CMM in a GUI
--   [ArgyllCMSGUI](http://www.digifab.com/ArgyllCMSGUI/) a GUI for some
-    Argyll's command line tools
--   [Argyll CMS](http://x3.ntf.uni-lj.si/~gojc/ArgyllCMS_GUI/) a Argyll
-    command line resampler
 -   [dispcalGUI](http://hoech.net/dispcalGUI/) a display profiler
 -   [Stefan's review](http://colorhacks.blogspot.com/) of ArgyllCMSGUI,
     “Argyll CMS” and dispcalGUI : \[09:57, 27 Aug 2008 (CEST)\]
--   [GaMapICC](http://digitalproof.info/gamapicc/) is a Mac OS X
-    droplet, which works like a intelligent CMM
-
-License: GPL
+-   [Gnome Color Manager](http://live.gnome.org/GnomeColorManager) is a
+    CMS, but as well a front end to the ArgyllCMS profiler
 
 #### LProf
 
 [LProf](http://lprof.sourceforge.net/) a scanner and display profiler
 
 License: GPL
+
+Tools
+-----
+
+#### ArgyllCMS
+
+-   [ImgTarget](http://www.blackfiveimaging.co.uk/index.php?article=02Software%2F02ImgTarget)
+    resembles a intelligent CMM in a GUI
+-   [ArgyllCMSGUI](http://www.digifab.com/ArgyllCMSGUI/) a GUI for some
+    Argyll's command line tools
+-   [Argyll CMS](http://x3.ntf.uni-lj.si/~gojc/ArgyllCMS_GUI/) a Argyll
+    command line resampler
+-   [Stefan's review](http://colorhacks.blogspot.com/) of ArgyllCMSGUI,
+    “Argyll CMS” and dispcalGUI : \[09:57, 27 Aug 2008 (CEST)\]
+-   [GaMapICC](http://digitalproof.info/gamapicc/) is a Mac OS X
+    droplet, which works like a intelligent CMM
+
+#### SampleICC
+
+-   [IccXML](http://iccxml.sf.net) a ICC &lt;-&gt; XML serialiser
+
