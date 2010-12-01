@@ -67,4 +67,4 @@ License: GPL
 ==== SampleICC ====
 * [http://iccxml.sf.net IccXML] a ICC <-> XML serialiser
 
-[[Category:Programs]]
+[[Category:Programms]]

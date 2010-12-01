@@ -3,7 +3,7 @@ title: ColourMatchingModuls
 permalink: wiki/ColourMatchingModuls/
 layout: wiki
 tags:
- - Programs
+ - Programms
 ---
 
 The CMM colormatching module is the “engine” for color conversions in
