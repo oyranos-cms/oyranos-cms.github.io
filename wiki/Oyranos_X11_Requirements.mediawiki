@@ -37,6 +37,9 @@ Oyranos uses this information to identify a particular monitor and search for a 
 You can check independently whether a EDID atom is set by calling in a X11 environment:
  xprop -root | grep EDID
 
+The modern way is to search for the EDID data in the xrandr output:
+ xrandr --prop | grep EDID
+
 === Specification ===
 X servers export the EDID inormation typically in the "XFree86_DDC_EDID1_RAWDATA" and "XFree86_DDC_EDID2_RAWDATA" atom. If there are more monitors connected to the root window, the following atoms get a underscore and the monitor number appended, like in 
 

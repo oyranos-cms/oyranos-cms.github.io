@@ -80,6 +80,10 @@ X11 environment:
 
 `xprop -root | grep EDID`
 
+The modern way is to search for the EDID data in the xrandr output:
+
+`xrandr --prop | grep EDID`
+
 ### Specification
 
 X servers export the EDID inormation typically in the
