@@ -21,6 +21,7 @@ OpenICC](http://www.freedesktop.org/wiki/OpenIcc/GoogleSoC2009).
 
 -   (done as pddt) implement
     [Device\_Settings](/wiki/Device_Settings "wikilink") in ICC profiles
+    -   changed to ICC meta tag of type dict in v0.1.13
 
 |     |                         |                |                   |                               |
 |-----|-------------------------|----------------|-------------------|-------------------------------|
@@ -139,6 +140,8 @@ profiles by accident.
     -   BPC affect all RIs; a Relative Colorimetric with BPC can only be
         used for convenience
     -   implement like a skin?
+    -   Where to translate the general CMS options into the above
+        suggested combined options? In the 'oicc' module?
     -   Reference: [AdobeBPC
         spec](http://www.adobe.com/devnet/photoshop/sdk/AdobeBPC.pdf)
 
@@ -164,7 +167,7 @@ profiles by accident.
 -   (done) update Oyranos' internal path representation to the [OpenICC
     Directory Proposal](/wiki/OpenIccDirectoryProposal "wikilink")
 -   (done) OY\_MODULE\_PATHS for CMM's
--   update to v0.2
+-   (done) update to v0.2
 
 ### Default Profiles
 
@@ -182,6 +185,7 @@ profiles by accident.
 ### CMM Framework
 
 -   back end API a typical CMM should provide
+    -   on disk caching
     -   (done) transform caching (file format - device link)
 
 |     |               |                |             |                                          |
@@ -194,7 +198,7 @@ profiles by accident.
 
 |     |               |                |             |                               |
 |-----|---------------|----------------|-------------|-------------------------------|
-|     | Progress: 70% | Version: 1.x.x | Start: 2007 | Assigned to: Kai-Uwe Behrmann |
+|     | Progress: 80% | Version: 1.x.x | Start: 2007 | Assigned to: Kai-Uwe Behrmann |
 ||
 
 -   [Oyranos/Null Transform
@@ -207,13 +211,13 @@ profiles by accident.
 ||
 
 -   -   options handling (xml, GUI)
-        -   static options should be displayed to users according to
-            preferences (for instance [mismatch
+        -   (done) static options should be displayed to users according
+            to preferences (for instance [mismatch
             option](/wiki/Oyranos_Configuration_Dialog#Colour_Space_Mismatch "wikilink"))
 
-|     |               |                |             |                                   |
-|-----|---------------|----------------|-------------|-----------------------------------|
-|     | Progress: 25% | Version: x.x.x | Start: 2006 | Assigned to: Kai-Uwe Behrmann + ? |
+|     |                |                |             |                                   |
+|-----|----------------|----------------|-------------|-----------------------------------|
+|     | Progress: 100% | Version: x.x.x | Start: 2006 | Assigned to: Kai-Uwe Behrmann + ? |
 ||
 
 -   -   [Plug-in options / dynamic GUI](/wiki/XML_Plug-in_options "wikilink")
@@ -236,7 +240,7 @@ profiles by accident.
 
 |               |                                        |                   |                               |
 |---------------|----------------------------------------|-------------------|-------------------------------|
-| Progress: 50% | Version: first use in ICC Examin v0.45 | Start: 2007-09-03 | Assigned to: Kai-Uwe Behrmann |
+| Progress: 60% | Version: first use in ICC Examin v0.45 | Start: 2007-09-03 | Assigned to: Kai-Uwe Behrmann |
 ||
 
 Constitute a colour patch representation:
@@ -300,7 +304,7 @@ Todo
 <!-- -->
 
 -   add script host (OpenGTL/OpenCL/...)
--   write new host for oForms (Qt/Gtk/...)
+-   write new renderer for oForms (Qt/Gtk/...)
 
 ### Target 1.0.0
 
@@ -323,7 +327,7 @@ Todo
     oyranos-monitor
     -   use intermediate XML to allow for easy editing let specialised
         tools care about, like SampleICC, or...
-    -   couple close to the according driver, e.g. oyX1, oyRE ...
+    -   (done) couple close to the according driver, e.g. oyX1, oyRE ...
 -   (done) split out icc-profiles -
     <http://sourceforge.net/projects/openicc/files/OpenICC-Profiles/>
 -   (done) finish lcms2 CMM

@@ -5,6 +5,7 @@ A closely related source for project ideas is the ''Google Summer of Code'' [htt
 
 === Devices ===
 * (done as pddt) implement [[Device_Settings]] in ICC profiles
+** changed to ICC meta tag of type dict in v0.1.13
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | 
@@ -95,6 +96,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 ** Saturation
 ** BPC affect all RIs; a Relative Colorimetric with BPC can only be used for convenience
 ** implement like a skin?
+** Where to translate the general CMS options into the above suggested combined options? In the 'oicc' module?
 ** Reference: [http://www.adobe.com/devnet/photoshop/sdk/AdobeBPC.pdf AdobeBPC spec]
 
 * allow non persistent settings, examples:
@@ -114,7 +116,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 * (obsoleted by XDG variables) ICC_PROFILE_PATH ? how to interact with Oyranos
 * (done) update Oyranos' internal path representation to the [[OpenIccDirectoryProposal|OpenICC Directory Proposal]]
 * (done) OY_MODULE_PATHS for CMM's
-* update to v0.2
+* (done) update to v0.2
 
 === Default Profiles ===
 * (done) naming of ECI profiles to something FOGRA corresponding (Chris Murphy and others on OpenICC)
@@ -132,6 +134,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 
 === CMM Framework ===
 * back end API a typical CMM should provide
+** on disk caching
 ** (done) transform caching (file format - device link)
 {| style="width:100%;text-align:left" colspan="20"
 |-
@@ -146,7 +149,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | style="width:1%" |
-| style="width:20%" | Progress: 70%
+| style="width:20%" | Progress: 80%
 | style="width:20%" | Version: 1.x.x
 | style="width:20%" | Start: 2007
 | style="width:20%" | Assigned to: Kai-Uwe Behrmann
@@ -163,11 +166,11 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 |-
 |}
 ** options handling (xml, GUI)
-*** static options should be displayed to users according to preferences (for instance [[Oyranos_Configuration_Dialog#Colour_Space_Mismatch|mismatch option]])
+*** (done) static options should be displayed to users according to preferences (for instance [[Oyranos_Configuration_Dialog#Colour_Space_Mismatch|mismatch option]])
 {| style="width:100%;text-align:left" colspan="20"
 |-
 | style="width:1%" |
-| style="width:20%" | Progress: 25%
+| style="width:20%" | Progress: 100%
 | style="width:20%" | Version: x.x.x
 | style="width:20%" | Start: 2006
 | style="width:20%" | Assigned to: Kai-Uwe Behrmann + ?
@@ -198,7 +201,7 @@ If advanced users want to use special profiles e.g. for editing, they have manua
 * colour information structure
 {| style="width:100%;text-align:left" colspan="20"
 |-
-| Progress: 50%
+| Progress: 60%
 | Version: first use in ICC Examin v0.45
 | Start: 2007-09-03
 | Assigned to: Kai-Uwe Behrmann
@@ -248,7 +251,7 @@ Constitute a colour patch representation:
 ** graph API - work in progress
 
 * add script host (OpenGTL/OpenCL/...)
-* write new host for oForms (Qt/Gtk/...)
+* write new renderer for oForms (Qt/Gtk/...)
 
 === Target 1.0.0 ===
 * stable API
@@ -265,7 +268,7 @@ Constitute a colour patch representation:
 * (done) work with 'meta' tag
 * (done) embed meta tag - in device specific tools like oyranos-monitor
 ** use intermediate XML to allow for easy editing let specialised tools care about, like SampleICC, or...
-** couple close to the according driver, e.g. oyX1, oyRE ...
+** (done) couple close to the according driver, e.g. oyX1, oyRE ...
 * (done) split out icc-profiles - http://sourceforge.net/projects/openicc/files/OpenICC-Profiles/
 * (done) finish lcms2 CMM [https://sourceforge.net/tracker/?func=detail&aid=3054285&group_id=177017&atid=879553]
 * (done)missed monitor API in doxygen documentation
