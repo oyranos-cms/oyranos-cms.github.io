@@ -12,8 +12,9 @@ package.
 Here is a [**download and build
 script**](https://www.behrmann.name/temp/icc_examin-build.sh) to
 automate the process, including a build of [ICC
-Examin](/wiki/ICC_Examin "wikilink"). The script accepts options for configure
-and will pass them unchanged.
+Examin](/wiki/ICC_Examin "wikilink"), [CompIcc](http://compicc.sf.net) and
+some requirements. The script accepts options for configure and will
+pass them unchanged.
 
 E.g. --prefix=~/.local might be a good idea to avoid the requirement
 root rights for installation of a test build.

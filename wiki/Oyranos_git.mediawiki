@@ -1,6 +1,6 @@
 Git is set up on www.oyranos.org. To use git install the git-core package.
 
-Here is a [https://www.behrmann.name/temp/icc_examin-build.sh '''download and build script'''] to automate the process, including a build of [[ICC Examin]]. The script accepts options for configure and will pass them unchanged. 
+Here is a [https://www.behrmann.name/temp/icc_examin-build.sh '''download and build script'''] to automate the process, including a build of [[ICC Examin]], [http://compicc.sf.net CompIcc] and some requirements. The script accepts options for configure and will pass them unchanged. 
 
 E.g. --prefix=~/.local  might be a good idea to avoid the requirement root rights for installation of a test build.
 
