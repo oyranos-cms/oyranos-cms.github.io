@@ -21,7 +21,7 @@ root rights for installation of a test build.
 
 For troubleshooting and reference below are the basic single steps.
 
-You need currently [this Elektra
+For the git version You need currently [this Elektra
 version](http://www.markus-raab.org/ftp/elektra-0.7.0.tar.gz) 10:42, 29
 Apr 2008 (CEST)
 
@@ -29,10 +29,9 @@ First check out:
 
 `$ git clone `[`git://www.oyranos.org/git/oyranos`](git://www.oyranos.org/git/oyranos)
 
-The Oyranos included ICC profiles are not included in git. Take them
-from
-[oyranos-0.1.8.tar.gz](http://downloads.sourceforge.net/oyranos/oyranos-0.1.8.tar.gz)
-and move the standard\_profiles directory into the cloned git directory.
+Oyranos relies on some certain ICC profiles by default, which are not
+included in git. Take them from [OpenICC-data
+package](https://sourceforge.net/projects/openicc/files/OpenICC-Profiles).
 
 Building Oyranos:
 
