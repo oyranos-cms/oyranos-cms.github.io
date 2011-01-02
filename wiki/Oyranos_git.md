@@ -16,8 +16,10 @@ Examin](/wiki/ICC_Examin "wikilink"), [CompIcc](http://compicc.sf.net) and
 some requirements. The script accepts options for configure and will
 pass them unchanged.
 
-E.g. --prefix=~/.local might be a good idea to avoid the requirement
-root rights for installation of a test build.
+E.g. --prefix=~/.local might be a good idea to avoid the otherwise
+required root rights for installation of a test build. For compicc one
+might add similiar --plugindir=$HOME/.compiz/plugins
+--icondir=$HOME/.local/share/icons --regdir=$HOME/.compiz/metadata .
 
 For troubleshooting and reference below are the basic single steps.
 
