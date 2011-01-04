@@ -18,8 +18,8 @@ currently not work.
 
 ### Sources
 
-[Download](http://sourceforge.net/project/showfiles.php?group_id=177017&package_id=203716)
-from the SourceForge site.
+[Download](http://sourceforge.net/projects/oyranos/files/) from the
+SourceForge site.
 
 [Elder
 Downloads](http://www.behrmann.name/index.php?option=com_content&task=view&id=34&Itemid=68)

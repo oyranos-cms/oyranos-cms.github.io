@@ -7,7 +7,7 @@ Oyranos is known to work on Linux, BSD, osX and Solaris. Windows will currently 
 
 === Sources ===
 
-[http://sourceforge.net/project/showfiles.php?group_id=177017&package_id=203716 Download] from the SourceForge site.
+[http://sourceforge.net/projects/oyranos/files/ Download] from the SourceForge site.
 
 [http://www.behrmann.name/index.php?option=com_content&task=view&id=34&Itemid=68 Elder Downloads] are available from the behrmann site.
 
