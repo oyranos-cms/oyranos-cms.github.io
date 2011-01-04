@@ -7,7 +7,7 @@ ICC Examin is known to work on Linux, BSD, osX and Solaris. Windows will current
 
 === Sources ===
 
-[http://sourceforge.net/project/showfiles.php?group_id=177017&package_id=247078 Sources] @ SourceForge
+[http://sourceforge.net/projects/oyranos/files/ICC%20Examin/ Sources] @ SourceForge
 
 [http://www.behrmann.name/index.php?option=com_content&task=view&id=33 Elder Downloads] are available from the behrmann site.
 
