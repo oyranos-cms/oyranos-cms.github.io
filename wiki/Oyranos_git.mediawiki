@@ -4,12 +4,17 @@ Here is a [http://www.oyranos.org/scm?p=icc_examin.git;a=blob_plain;f=icc_examin
 
 E.g. --prefix=~/.local  might be a good idea to avoid the otherwise required root rights for installation of a test build. For compicc one might add similiar --plugindir=$HOME/.compiz/plugins --icondir=$HOME/.local/share/icons --regdir=$HOME/.compiz/metadata .
 
+Read as well the [http://www.oyranos.org/scm?p=oyranos.git;a=blob_plain;f=README;hb=HEAD README] to see what else might be needed on your system.
 
-For troubleshooting and reference below are the basic single steps.
+For troubleshooting and some reference, below are the basic single steps. However the script will be most actual.
 
-For the git version You need currently [http://www.markus-raab.org/ftp/elektra-0.7.0.tar.gz this Elektra version] 10:42, 29 Apr 2008 (CEST)
+For the git version you need currently [http://www.markus-raab.org/ftp/elektra-0.7.0.tar.gz this Elektra version] 10:42, 29 Apr 2008 (CEST)
 
 First check out:
+ $ git clone git://www.oyranos.org/git/xcolor
+ $ git clone git://www.oyranos.org/git/xcm
+
+Then try with
  $ git clone git://www.oyranos.org/git/oyranos
 
 Oyranos relies on some certain ICC profiles by default, which are not included in git. Take them from [https://sourceforge.net/projects/openicc/files/OpenICC-Profiles OpenICC-data package].
@@ -27,6 +32,10 @@ Examining the history:
  $ git log -p
 
 
+Some more interesting projects:
+ $ git clone git://compicc.git.sourceforge.net/gitroot/compicc/compicc
+ $ svn checkout svn://anonsvn.kde.org/home/kde/trunk/playground/graphics/kolor-manager
+ $ git clone git://www.oyranos.org/git/cinepaint cinepaint
 
 ICC Examin git can be obtained without the above script like follows:
  $ git clone git://www.oyranos.org/git/icc_examin

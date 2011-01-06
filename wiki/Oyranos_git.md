@@ -22,13 +22,23 @@ required root rights for installation of a test build. For compicc one
 might add similiar --plugindir=$HOME/.compiz/plugins
 --icondir=$HOME/.local/share/icons --regdir=$HOME/.compiz/metadata .
 
-For troubleshooting and reference below are the basic single steps.
+Read as well the
+[README](http://www.oyranos.org/scm?p=oyranos.git;a=blob_plain;f=README;hb=HEAD)
+to see what else might be needed on your system.
 
-For the git version You need currently [this Elektra
+For troubleshooting and some reference, below are the basic single
+steps. However the script will be most actual.
+
+For the git version you need currently [this Elektra
 version](http://www.markus-raab.org/ftp/elektra-0.7.0.tar.gz) 10:42, 29
 Apr 2008 (CEST)
 
 First check out:
+
+`$ git clone `[`git://www.oyranos.org/git/xcolor`](git://www.oyranos.org/git/xcolor)  
+`$ git clone `[`git://www.oyranos.org/git/xcm`](git://www.oyranos.org/git/xcm)
+
+Then try with
 
 `$ git clone `[`git://www.oyranos.org/git/oyranos`](git://www.oyranos.org/git/oyranos)
 
@@ -50,6 +60,12 @@ Keeping Oyranos up to date:
 Examining the history:
 
 `$ git log -p`
+
+Some more interesting projects:
+
+`$ git clone `[`git://compicc.git.sourceforge.net/gitroot/compicc/compicc`](git://compicc.git.sourceforge.net/gitroot/compicc/compicc)  
+`$ svn checkout `[`svn://anonsvn.kde.org/home/kde/trunk/playground/graphics/kolor-manager`](svn://anonsvn.kde.org/home/kde/trunk/playground/graphics/kolor-manager)  
+`$ git clone `[`git://www.oyranos.org/git/cinepaint`](git://www.oyranos.org/git/cinepaint)` cinepaint`
 
 ICC Examin git can be obtained without the above script like follows:
 
