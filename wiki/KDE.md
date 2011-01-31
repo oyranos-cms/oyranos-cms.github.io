@@ -17,5 +17,6 @@ on the system wide settings in [Oyranos](/wiki/Oyranos "wikilink"). See
 Management](http://www.freedesktop.org/wiki/OpenIccForGoogleSoC2007#head-98b54ec09dfb3d4545661e5964e9ccb9fbf8d11a)
 
 -   [Kolor-manager](/wiki/Kolor-manager "wikilink") page on ColourWiki
+-   [Calligra/Color\_management](http://community.kde.org/Calligra/Color_management)
 
 [back -&gt; Applications](/wiki/Applications "wikilink")
