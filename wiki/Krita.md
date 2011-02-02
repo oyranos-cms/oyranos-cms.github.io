@@ -11,9 +11,7 @@ Screenshots
 
 The Preferences:
 
-<http://docs.kde.org/development/en/koffice/krita/preferences-sidebar.png>
-=&gt;
-<http://docs.kde.org/development/en/koffice/krita/preferences-color.png>
+<http://cyrille.diwi.org/tmp/krita/krita-color-management.png>
 
 Links
 -----
