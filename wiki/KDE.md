@@ -7,7 +7,7 @@ tags:
 ---
 
 [Calligra/Color\_management](http://community.kde.org/Calligra/Color_management)
-contains the [Pigment](http://wiki.koffice.org/index.php?title=Pigment)
+contains the [Pigment](http://community.kde.org/Calligra/Libs/Pigment)
 colour conversion library originating from [Krita](/wiki/Krita "wikilink").
 
 It was discussed on the [OpenICC](/wiki/OpenICC "wikilink") email list, that
