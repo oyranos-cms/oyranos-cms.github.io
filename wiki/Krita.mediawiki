@@ -5,9 +5,8 @@ http://docs.kde.org/development/en/koffice/krita/preferences-sidebar.png =>
 http://docs.kde.org/development/en/koffice/krita/preferences-color.png
 
 == Links ==
-*[http://www.koffice.org/krita Krita]
-*[http://docs.kde.org/development/en/koffice/krita Manual]
-*[http://wiki.koffice.org/index.php?title=Pigment/Color_Conversion_System Pigment/Color Conversion System]
+*[http://www.krita.org Krita]
+*[[KDE|KDE Color Management]]
 
 [[Applications|back -> Applications]]
 
