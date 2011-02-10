@@ -13,6 +13,8 @@ Features
     CDA's
 -   convert complex colour documents to flat representations, e.g. Tiff,
     PNG
+-   modular ICC based colour management since version 9.00 (lcms as
+    default CMM)
 
 Investigation
 -------------
