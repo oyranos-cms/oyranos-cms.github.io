@@ -55,6 +55,7 @@ that parts will be released under different licenses. But that is open.
 The goal is to not exclude anyone from using Oyranos. The ICC profiles
 are licensed, except a few, under
 [zip/libpng](http://opensource.org/licenses/zlib-license.php) license.
+They are separately packaged.
 
 ### Where can I get Oyranos?
 
@@ -63,11 +64,11 @@ Oyranos is officially published on
 
 ### Where Can I find ICC Profiles
 
-Some are already included in the package, like sRGB, ECI- and a Adobe
-RGB as well as Gray, CIE\*Lab, CIE\*XYZ, ITU-Lab and some press profiles
-like for FOGRA, SWOP, SNAP and GRACoL printing conditions. The used
-printing condition character sets are as well included. More profiles
-can be found on this [link
+Some are already packaged in OpenICC on www.sourceforge.net, like sRGB,
+ECI- and a Adobe RGB as well as Gray, CIE\*Lab, CIE\*XYZ, ITU-Lab and
+some press profiles like for FOGRA, SWOP, SNAP and GRACoL printing
+conditions. The used printing condition character sets are as well
+included. More profiles can be found on this [link
 collection](http://www.behrmann.name/index.php?option=com_weblinks&catid=73&Itemid=95).
 They should be installed in the [system
 paths](/wiki/OpenIccDirectoryProposal "wikilink") to be seen by most
@@ -95,9 +96,12 @@ You could help by testing,
 -   providing according patches,
 -   doing translations,
 -   suggesting useful changes or
--   proofreading, updating and extenting the documentation.
+-   proofreading, updating and extenting the documentation or
+-   write a tutorial on installing and using or
+-   package Oyranos, the OpenICC profiles and the other depending
+    projects
 
-Becoming part of the development team is easy.
+Becoming part of the development team is easy, just ask.
 
 We need people with fantasy for going possibly new paths, meticulousness
 for assuring quality, analytical, didactic and aesthetic skills and
@@ -135,18 +139,29 @@ are not cross platform, and would have to been accessed directly.
 
 ### Does Oyranos rely on FLTK?
 
-Oyranos comes with a UI written for FLTK. However that can easily be
-stripped if a desktop decides to have a equivalent or better replacement
-as front end. E.g. KDE might not ship with oyranos-config-fltk but use
-kolor-manager instead.
+Oyranos comes with a UI written for FLTK. However that can switched off
+during configure, if a desktop decides to have a equivalent or better
+replacement as front end. E.g. KDE might not ship with
+oyranos-config-fltk but use the kolor-manager font end to Oyranos
+instead. A Gtk front end would be great too.
 
 ### Elektra dictates the core design?
 
-No. Elektra uses a scheme of storing configurations in a file system
-analogy. This scheme is shared for the configuration part. The Elektra
-API calls are abstracted in Oyranos. So Elektra could be replaced by an
-other desktop independent configuration engine. But as the Elektra
-project sees continuing development there is currently no reason.
+No. Elektra provides just a API to store settings in a data base. Thats
+a very common task and available through gconf or the Qt framework. But
+Elektra is cross desktop. The Elektra API calls are abstracted in
+Oyranos. So Elektra could be replaced by an other desktop independent
+configuration engine. But as the Elektra project sees continuing
+development there is currently no reason. It is planed to formalise
+settings storage and share that among CMS's.
+
+### Elektra is a lively project?
+
+As of writing, in 2011, Elektra exists after more than 5 years
+continually development. The noise on email lists is not very loud, but
+there is academic interest and industry use for Elektra. Its a small and
+specialised project with a very focused problem to solve. Thus is is not
+uncommon to see fewer comments around the project.
 
 ### What about “Mixing the configuration, with the UI, with the back end.”?
 
@@ -158,13 +173,12 @@ command line tool is an examples for not relying on Xorg to be usable.
 ### What about “Reliance on compiz for full screen color management.”?
 
 The compiz ICC colour server is at the time of writing the only
-available open source solution to allow multi monitor colour management
-across the full desktop on multiple monitors. So naturaly it is
-recommended because it is technical superior to most other desktop
-colour correction strategies. E.g. The loading or the 'vcgt' tag is only
-a calibration, which helps not much with wide gamut displays. However
-the underlying net-color spec is open and free to be implemented in say
-Xorg.
+available open source solution to allow colour management across the
+full desktop on multiple monitors. So naturally it is recommended,
+because it is technical superior to most other desktop colour correction
+strategies. E.g. The loading or the 'vcgt' tag is only a calibration,
+which helps not much with wide gamut displays. However the underlying
+net-color spec is open and free to be implemented in say Xorg.
 
 ### Why has Oyranos a own type and object system?
 
