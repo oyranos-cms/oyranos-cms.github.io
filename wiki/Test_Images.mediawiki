@@ -5,7 +5,9 @@ The blow images should look the same.
 FakedRGB:
 
 http://www.oyranos.org/temp/colourTestFakeBRG.png
+[http://www.oyranos.org/temp/colourTestFakeBRG.tif Tiff version]
 
 sRGB:
 
 http://www.oyranos.org/temp/colourTestsRGB.png
+[http://www.oyranos.org/temp/colourTestsRGB.tif Tiff version]
