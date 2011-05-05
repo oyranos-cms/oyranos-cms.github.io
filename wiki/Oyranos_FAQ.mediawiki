@@ -21,7 +21,7 @@ Oyranos is the greek word of sky.
 It was pointed out that ouranos is more adequate for english readers. Just as with the german Uranos and other variants it seems pretty good to stay with the name.
 
 === License(s) ===
-Oyranos is licensed under [http://opensource.org/licenses/bsd-license.php new BSD]. It is possible that parts will be released under different licenses. But that is open. The goal is to not exclude anyone from using Oyranos. The ICC profiles are licensed, except a few, under [http://opensource.org/licenses/zlib-license.php zip/libpng] license. They are separately packaged.
+Oyranos is licensed under [http://opensource.org/licenses/bsd-license.php new BSD]. It is possible that parts will be released under different licenses. But that is open. The goal is to not exclude anyone from using Oyranos. The ICC profiles are licensed under [http://opensource.org/licenses/zlib-license.php zip/libpng] license. They are separately packaged in the OpenICC-data package.
 
 === Where can I get Oyranos? ===
 Oyranos is officially published on [[Oyranos/Download]].

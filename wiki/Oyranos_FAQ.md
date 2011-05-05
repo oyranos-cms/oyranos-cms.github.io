@@ -53,9 +53,9 @@ Oyranos is licensed under [new
 BSD](http://opensource.org/licenses/bsd-license.php). It is possible
 that parts will be released under different licenses. But that is open.
 The goal is to not exclude anyone from using Oyranos. The ICC profiles
-are licensed, except a few, under
+are licensed under
 [zip/libpng](http://opensource.org/licenses/zlib-license.php) license.
-They are separately packaged.
+They are separately packaged in the OpenICC-data package.
 
 ### Where can I get Oyranos?
 
