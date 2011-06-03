@@ -547,6 +547,8 @@ sources/
 `.public_methods_declarations.h`  
 `.public_methods_definitions.c`
 
+Make a different commit for each refactored function:
+
 \[review\] \[sources\] Adopt oyClass\_XXX() to “hidden struct”
 interface.
 
