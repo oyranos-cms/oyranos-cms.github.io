@@ -374,6 +374,9 @@ sources/
 sources/
  .private_methods_declarations.h
  .private_methods_definitions.c
+
+Make a different commit for each refactored function:
+
 [review] [sources] Adopt oyClass_XXX_() to "hidden struct" interface.
 
 ==== 8. Import public methods for oyClass_s ====
