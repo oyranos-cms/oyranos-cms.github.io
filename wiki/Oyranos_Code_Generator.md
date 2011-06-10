@@ -192,9 +192,7 @@ oyranos\_generic\_internal.h
 All Generic Objects API helper code, that is for internal usage only.
 
 It is included by all the private implementations (*oyClass\_s\_.c*
-sources) that belong to
-
-the Generic Objects group.
+sources) that belong to the Generic Objects group.
 
 oyranos\_devices.h  
 Exports all public declarations that are part of the Device API.
@@ -207,24 +205,18 @@ All Device API code that is for internal usage.
 
 oyranos\_module.h  
 All declarations that are part of the Module APIs, but not part of a
-specific class,
-
-and should be exported.
+specific class, and should be exported.
 
 oyranos\_module\_internal.h  
 Used for all members of the Module APIs that are not part of any class
 and should not be exported.
 
 It is included by all the private implementations (*oyClass\_s\_.c*
-sources) that belong to
-
-the Module APIs group.
+sources) that belong to the Module APIs group.
 
 oyranos\_profile.h  
 All declarations that are are part of the Profile API, but not part of a
-specific class,
-
-and should be exported.
+specific class, and should be exported.
 
 #### sources/
 
