@@ -145,6 +145,9 @@ Each class is implemented by four files.
 ;oyranos_generic_internal.h
 : All Generic Objects API helper code, that is for internal usage only.
 : It is included by all the private implementations (''oyClass_s_.c'' sources) that belong to the Generic Objects group.
+;oyranos_generic.c
+: For private/public functions that belong to the Generic Objects API but do not belong to a specific class.
+
 ;oyranos_devices.h
 : Exports all public declarations that are part of the Device API.
 ;oyranos_devices.c
