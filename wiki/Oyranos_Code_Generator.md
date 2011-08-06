@@ -228,6 +228,10 @@ oyranos\_conversion.h
 All public declarations of the Conversion API's that do not belong to a
 specific class, go here.
 
+oyranos\_image.h  
+All public definitions of the Image API that do not belong to a specific
+class, go here.
+
 #### sources/
 
 Here is all the source code that does not need to be inside the
