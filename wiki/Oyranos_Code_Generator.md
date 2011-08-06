@@ -224,6 +224,10 @@ oyranos\_profile.h
 All declarations that are are part of the Profile API, but not part of a
 specific class, and should be exported.
 
+oyranos\_conversion.h  
+All public declarations of the Conversion API's that do not belong to a
+specific class, go here.
+
 #### sources/
 
 Here is all the source code that does not need to be inside the

@@ -161,6 +161,8 @@ Each class is implemented by four files.
 : It is included by all the private implementations (''oyClass_s_.c'' sources) that belong to the Module APIs group.
 ;oyranos_profile.h
 : All declarations that are are part of the Profile API, but not part of a specific class, and should be exported.
+;oyranos_conversion.h
+: All public declarations of the Conversion API's that do not belong to a specific class, go here.
 
 ==== sources/ ====
 Here is all the source code that does not need to be inside the templates.
