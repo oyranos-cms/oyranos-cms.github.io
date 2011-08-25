@@ -613,3 +613,38 @@ add the following in *Profile\_s\_.template.h*: <code>
 `...`
 
 </code>
+
+#### How to use the f\_compare.sh script
+
+This script can show you the differences of a function definition
+between two branches. The function should have a doxygen header (even an
+empty one). <code>
+
+`Usage: extras/f_compare.sh [-h|-s] `<function>` [branch:]`<file1>` [branch:]`<file2>  
+  
+`-h      Show this help message`  
+`-s      Show just the diff output`
+
+</code> If *branch* is ommited, the current branch is assumed. Two files
+are created at the working directory, each having the function body as
+it's contents. Without the *-s* switch, *vimdiff* is run on those two
+files. They are named as: *branchname-filename-funcname.c*
+
+So, why is this script useful? When a function is imported to the
+template system, it is copied from the oyranos\_alpha.c or
+oyranos\_cmm.c files, into the relevant one in the sources/ directory.
+That happens in the *gsoc2011* branch. If the function is changed in
+*master*, before the working branch gets merged back, then the copied
+function in sources/ has to be updated, too.
+
+For example, *oyConfig\_Find()* is imported from oyranos\_alpha.c in
+sources/Config.public\_methods\_definitions.c. If we are in the
+*gsoc2011* branch and want to check if the function has been updated in
+master, we have to call the f\_compare.sh script like: <code>
+
+` ./extras/f_compare.sh oyConfig_Find master:oyranos_alpha.c sources/Config.public_methods_definitions.c`
+
+</code> Now you can add the updates to the function in vimdiff, save the
+file, and then replace the function in
+*sources/Config.public\_methods\_definitions.c* with the
+*gsoc2011-Config.public\_methods\_definitions.c-oyConfig\_Find.c* file.
