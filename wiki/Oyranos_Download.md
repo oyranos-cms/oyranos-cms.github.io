@@ -77,11 +77,16 @@ Detailed build instructions are as well included in the packages.
 
 #### Distribution packages
 
+<http://www.oyranos.org/images/archlogo.png>
+[ArchLinux](https://aur.archlinux.org/packages.php?O=0&K=oyranos&do_Search=Go)
+
 <http://www.oyranos.org/images/fedora-logo.png>
 [Fedora](https://admin.fedoraproject.org/pkgdb/acls/name/oyranos)
 
 <http://www.oyranos.org/images/suse_logo.png>
 [openSUSE](http://software.opensuse.org/search?q=oyranos)
+
+[Slackware](http://slackbuilds.org/result/?search=oyranos)
 
 <http://www.oyranos.org/images/ubuntu_logo.png>
 [Ubuntu](http://www.ubuntuupdates.org/oyranos)
@@ -91,7 +96,9 @@ Detailed build instructions are as well included in the packages.
 OBS repositories for:
 
 <http://www.oyranos.org/images/fedora-logo.png>  
+
 <http://www.oyranos.org/images/mandriva-logo-opt.png>  
+
 <http://www.oyranos.org/images/suse_logo.png>  
 
 ***[openSUSE build server icc\_examin

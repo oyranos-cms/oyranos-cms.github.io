@@ -51,9 +51,17 @@ Detailed build instructions are as well included in the packages.
 
 === Binary Packages ===
 ==== Distribution packages ====
+http://www.oyranos.org/images/archlogo.png [https://aur.archlinux.org/packages.php?O=0&K=oyranos&do_Search=Go ArchLinux]
+
+
 http://www.oyranos.org/images/fedora-logo.png [https://admin.fedoraproject.org/pkgdb/acls/name/oyranos Fedora]
 
+
 http://www.oyranos.org/images/suse_logo.png [http://software.opensuse.org/search?q=oyranos openSUSE]
+
+
+[http://slackbuilds.org/result/?search=oyranos Slackware]
+
 
 http://www.oyranos.org/images/ubuntu_logo.png [http://www.ubuntuupdates.org/oyranos Ubuntu]
 
@@ -64,7 +72,9 @@ OBS repositories for:
 
 http://www.oyranos.org/images/fedora-logo.png<br>
 
+
 http://www.oyranos.org/images/mandriva-logo-opt.png<br>
+
 
 http://www.oyranos.org/images/suse_logo.png<br>
 
