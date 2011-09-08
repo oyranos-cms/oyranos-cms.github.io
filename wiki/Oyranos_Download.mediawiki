@@ -18,7 +18,7 @@ Mandatory:
 * libxml2
 * libXcm - for X11 and Quarz monitor support
 * libXinerama, libXrandr, libXfixes and libXxf86vm for X11 support
-* lcms and/or lcms2 - for colour conversions
+* lcms2 - for colour conversions
 Optionally:
 * FLTK version <= 1.1.4 neede to build the GUI. You may configure FLTK with several options enabled:
     --enable-threads is needed for threads support (in ICC Examin)
@@ -27,6 +27,7 @@ Optionally:
     --enable-shared is sometimes a good choice for smaller executables
 * Qt - for a nice observer utility
 * Elektra, this is the configuration system used under linux.
+* yajl, a JSON parser library
 * [[ICC Examin/Download|ICC Examin]] is the profile viewer of Oyranos' configuration GUI. It provides a view on profile internals and a gamut view. It uses littleCMS and Oyranos.
 * Xcalib for loading a given VideoCardGammaTag from profile to a running XFree86/Xorg session (optionally)
 * CUPS - for CUPS ICC configuration support
@@ -52,26 +53,20 @@ Detailed build instructions are as well included in the packages.
 ==== Distribution packages ====
 http://www.oyranos.org/images/fedora-logo.png [https://admin.fedoraproject.org/pkgdb/acls/name/oyranos Fedora]
 
+http://www.oyranos.org/images/suse_logo.png [http://software.opensuse.org/search?q=oyranos openSUSE]
+
 http://www.oyranos.org/images/ubuntu_logo.png [http://www.ubuntuupdates.org/oyranos Ubuntu]
 
 
 
 ==== openSUSE build server ====
-'''''bekun''''' OBS repositories for:
+OBS repositories for:
 
 http://www.oyranos.org/images/fedora-logo.png<br>
-* 12
-* 13
 
 http://www.oyranos.org/images/mandriva-logo-opt.png<br>
-* 10
 
 http://www.oyranos.org/images/suse_logo.png<br>
-* SLE_11
-* 11.1
-* 11.2
-* 11.3
-* Factory
 
 
 '''''[http://software.opensuse.org/search?q=icc_examin&exclude_debug=true openSUSE build server icc_examin search]'''''

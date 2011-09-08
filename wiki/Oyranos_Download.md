@@ -33,7 +33,7 @@ Mandatory:
 -   libxml2
 -   libXcm - for X11 and Quarz monitor support
 -   libXinerama, libXrandr, libXfixes and libXxf86vm for X11 support
--   lcms and/or lcms2 - for colour conversions
+-   lcms2 - for colour conversions
 
 Optionally:
 
@@ -47,6 +47,7 @@ Optionally:
 
 -   Qt - for a nice observer utility
 -   Elektra, this is the configuration system used under linux.
+-   yajl, a JSON parser library
 -   [ICC Examin](/wiki/ICC_Examin/Download "wikilink") is the profile viewer
     of Oyranos' configuration GUI. It provides a view on profile
     internals and a gamut view. It uses littleCMS and Oyranos.
@@ -79,28 +80,19 @@ Detailed build instructions are as well included in the packages.
 <http://www.oyranos.org/images/fedora-logo.png>
 [Fedora](https://admin.fedoraproject.org/pkgdb/acls/name/oyranos)
 
+<http://www.oyranos.org/images/suse_logo.png>
+[openSUSE](http://software.opensuse.org/search?q=oyranos)
+
 <http://www.oyranos.org/images/ubuntu_logo.png>
 [Ubuntu](http://www.ubuntuupdates.org/oyranos)
 
 #### openSUSE build server
 
-***bekun*** OBS repositories for:
+OBS repositories for:
 
 <http://www.oyranos.org/images/fedora-logo.png>  
-\* 12
-
--   13
-
 <http://www.oyranos.org/images/mandriva-logo-opt.png>  
-\* 10
-
 <http://www.oyranos.org/images/suse_logo.png>  
-\* SLE\_11
-
--   11.1
--   11.2
--   11.3
--   Factory
 
 ***[openSUSE build server icc\_examin
 search](http://software.opensuse.org/search?q=icc_examin&exclude_debug=true)***
