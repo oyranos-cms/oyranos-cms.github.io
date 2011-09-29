@@ -79,11 +79,11 @@ Oyranos 0.1.5 obtained the oyranos-monitor-nvidia commandline tool to demonstrat
 [[ICC_Profiles_in_X_Specification_0.5|(Draft for a ICC Profiles in X Specification 0.5)]]
 * add xrandr-1.2 porperties per each physical output device
 
-== net-color spec ==
+== X Color Management spec ==
 The goal is to communicate ICC colour regions between a colour server and clients.
 
 === References ===
-[[Oyranos/net-color_spec_0.2|Draft of net-color spec 0.2]]
+[http://www.oyranos.org/scm?p=xcolor.git;a=blob;f=docs/X_Color_Management.txt X Color Management in libXcm git]
 
 === Implementations ===
 The implementation is available in [http://www.spinics.net/lists/xorg/msg50027.html libXcm-0.2.x] and later.
@@ -99,8 +99,8 @@ Ideas exist to support the spec in a Gnome window manager.
 ** convert remaining desktop from native monitor space to document colour space
 ** use document colour space from _ICC_PROFILE(_xxx) (typical sRGB)
 * describe _NET_COLOR_PROFILES (3D scene/2D vector colour correction)
-** server and client side implementation
-
+** server side implementation
+** client is the xcm tool in the Xcm package
 
 == Miscellaneous ==
 

@@ -146,15 +146,16 @@ ICC Profiles in X
 
 -   add xrandr-1.2 porperties per each physical output device
 
-net-color spec
---------------
+X Color Management spec
+-----------------------
 
 The goal is to communicate ICC colour regions between a colour server
 and clients.
 
 ### References
 
-[Draft of net-color spec 0.2](/wiki/Oyranos/net-color_spec_0.2 "wikilink")
+[X Color Management in libXcm
+git](http://www.oyranos.org/scm?p=xcolor.git;a=blob;f=docs/X_Color_Management.txt)
 
 ### Implementations
 
@@ -178,7 +179,8 @@ Ideas exist to support the spec in a Gnome window manager.
         sRGB)
 -   describe \_NET\_COLOR\_PROFILES (3D scene/2D vector colour
     correction)
-    -   server and client side implementation
+    -   server side implementation
+    -   client is the xcm tool in the Xcm package
 
 Miscellaneous
 -------------
