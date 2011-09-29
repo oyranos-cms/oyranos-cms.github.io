@@ -48,8 +48,8 @@ Two things are needed,
     can handle colour management on their own
     -   a “no colour conversions” flag
     -   a “no calibration from graphic card gamma tables” flag
--   the virtually thierd is that every other content is expected as
-    sRGB, as is the case today
+-   the virtually third is that every other content is expected as sRGB,
+    as is the case today
 
 The above would fit along all the path:
 
@@ -61,8 +61,8 @@ and Xorg or inside Xorg itself.
 
 The OpenICC project [Colour Management Near
 X](http://www.freedesktop.org/wiki/OpenIcc/ColorManagementNearX)
-implemented the idea. As a result the net-color spec was born to
-describe the basic communication. It covers and continues most of the
+implemented the idea. As a result the X Color Management spec was born
+to describe the basic communication. It covers and continues most of the
 above outlined ideas.
 
 Multi Monitor EDID in X11
