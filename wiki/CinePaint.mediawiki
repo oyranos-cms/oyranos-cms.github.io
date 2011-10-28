@@ -11,7 +11,7 @@ CinePaint became its colour management during the work of Stefan Klein at the pr
 * Cineon profiles are available as part of the [[Oyranos]] project at [http://www.behrmann.name/index.php?option=com_content&task=view&id=34&Itemid=68#profiles Oyranos download page]
 * on the fly manipulation (look) profiles assignable and useable for conversion
 * film playback with colour correction and effects; slow, needs further improvement
-* capablility to show image colours in an 3D colour viewer including various gamuts (3D histogram) -  [http://www.behrmann.name/index.php?option=com_content&task=view&id=32&Itemid=70 ICC Examin]
+* capablility to show image colours in an 3D colour viewer including various gamuts (3D histogram) -  [http://www.oyranos.org/icc-examin ICC Examin]
 * littleCMS is a fixed dependency [[ColourMatchingModuls|CMM]]
 * standard paths: /usr/share/color/icc;~/.color/icc + free selectable additional directories
 * one proofing profile per loaded image

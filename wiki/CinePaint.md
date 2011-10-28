@@ -31,7 +31,7 @@ Features
     further improvement
 -   capablility to show image colours in an 3D colour viewer including
     various gamuts (3D histogram) - [ICC
-    Examin](http://www.behrmann.name/index.php?option=com_content&task=view&id=32&Itemid=70)
+    Examin](http://www.oyranos.org/icc-examin)
 -   littleCMS is a fixed dependency
     [CMM](/wiki/ColourMatchingModuls "wikilink")
 -   standard paths: /usr/share/color/icc;~/.color/icc + free selectable
