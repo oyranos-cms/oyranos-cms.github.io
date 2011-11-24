@@ -98,7 +98,7 @@ Ideas exist to support the spec in a Gnome window manager.
 ** take tagged regions as is - they are already colour corrected
 ** convert remaining desktop from native monitor space to document colour space
 ** use document colour space from _ICC_PROFILE(_xxx) (typical sRGB)
-* describe _NET_COLOR_PROFILES (3D scene/2D vector colour correction)
+* describe _ICC_COLOR_PROFILES (3D scene/2D vector colour correction)
 ** server side implementation
 ** client is the xcm tool in the Xcm package
 

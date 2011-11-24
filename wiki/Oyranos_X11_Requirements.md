@@ -177,7 +177,7 @@ Ideas exist to support the spec in a Gnome window manager.
         colour space
     -   use document colour space from \_ICC\_PROFILE(\_xxx) (typical
         sRGB)
--   describe \_NET\_COLOR\_PROFILES (3D scene/2D vector colour
+-   describe \_ICC\_COLOR\_PROFILES (3D scene/2D vector colour
     correction)
     -   server side implementation
     -   client is the xcm tool in the Xcm package
