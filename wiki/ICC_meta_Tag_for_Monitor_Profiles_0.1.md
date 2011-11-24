@@ -8,9 +8,9 @@ layout: wiki
 DRAFT
 
 </h1>
-| Revision History                                                                                                |            |
-|-----------------------------------------------------------------------------------------------------------------|------------|
-| [ICC meta Tag for Monitor Profiles - DRAFT 4](http://lists.freedesktop.org/archives/openicc/2010q4/002293.html) | 2010-12-01 |
+| Revision History                      |            |
+|---------------------------------------|------------|
+| ICC meta Tag for Monitor Profiles 0.1 | 2010-12-01 |
 ||
 
 Introduction
@@ -158,6 +158,8 @@ Changes
 -   DRAFT 2 - splitting of colorimetry compound, Richard Hughes, use
     EDID\_ prefix, Max Derhack and Lars Borg, use ISO 8601 for dates,
     Lars Borg
--   DRAFT 3 - remove redundant key name parts, synchronise names,
-    Kai-Uwe Behrmann
+-   [ICC meta Tag for Monitor Profiles - DRAFT
+    3](http://lists.freedesktop.org/archives/openicc/2010q4/002293.html) -
+    remove redundant key name parts, synchronise names, Kai-Uwe Behrmann
+-   DRAFT 4 - use JSON example
 

@@ -5,10 +5,10 @@
 ! style="background:#efefef;text-align:left" colspan="4" | Revision History
 |
 |- style="text-align:left;vertical-align:text-top"
-| [http://lists.freedesktop.org/archives/openicc/2010q4/002293.html ICC meta Tag for Monitor Profiles - DRAFT 4]
+| ICC meta Tag for Monitor Profiles 0.1
 | 2010-12-01
 | Kai-Uwe Behrmann, Richard Hughes, Max Derhack, Lars Borg and others
-| use JSON example
+| initial version
 |-
 |}
 
@@ -139,4 +139,5 @@ value ranges as allowed by the ICC meta tag definition.
 == Changes ==
 * DRAFT 1 - initial
 * DRAFT 2 - splitting of colorimetry compound, Richard Hughes, use EDID_ prefix, Max Derhack and Lars Borg, use ISO 8601 for dates, Lars Borg
-* DRAFT 3 - remove redundant key name parts, synchronise names, Kai-Uwe Behrmann
+* [http://lists.freedesktop.org/archives/openicc/2010q4/002293.html ICC meta Tag for Monitor Profiles - DRAFT 3] - remove redundant key name parts, synchronise names, Kai-Uwe Behrmann
+* DRAFT 4 - use JSON example
