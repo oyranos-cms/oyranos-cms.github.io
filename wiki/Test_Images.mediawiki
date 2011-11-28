@@ -11,3 +11,10 @@ sRGB:
 
 http://www.oyranos.org/temp/colourTestsRGB.png
 [http://www.oyranos.org/temp/colourTestsRGB.tif Tiff version]
+
+
+[http://www.color.org/browsertest.xalter Browsertest] @ www.color.org:
+
+http://www.color.org/images/browsertest.jpg
+
+http://www.color.org/images/browsertest_lut.jpg
