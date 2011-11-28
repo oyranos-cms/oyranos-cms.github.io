@@ -24,3 +24,6 @@ version](http://www.oyranos.org/temp/colourTestsRGB.tif)
 <http://www.color.org/images/browsertest.jpg>
 
 <http://www.color.org/images/browsertest_lut.jpg>
+
+[V4 Browsertest](http://www.color.org/version4html.xalter) @
+www.color.org
