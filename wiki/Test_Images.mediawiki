@@ -13,6 +13,10 @@ http://www.oyranos.org/temp/colourTestsRGB.png
 [http://www.oyranos.org/temp/colourTestsRGB.tif Tiff version]
 
 
+== SVG ==
+
+<svg>http://www.oyranos.org/images/ImageWithEmbeddedICC.svg</svg>
+
 == ICC Tests ==
 
 [http://www.color.org/browsertest.xalter Browsertest] @ www.color.org:
