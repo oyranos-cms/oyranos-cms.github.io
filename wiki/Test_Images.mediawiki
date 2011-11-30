@@ -15,7 +15,7 @@ http://www.oyranos.org/temp/colourTestsRGB.png
 
 == SVG ==
 
-<svg>http://www.oyranos.org/images/ImageWithEmbeddedICC.svg</svg>
+http://www.oyranos.org/images/ImageWithEmbeddedICC.svg
 
 == ICC Tests ==
 

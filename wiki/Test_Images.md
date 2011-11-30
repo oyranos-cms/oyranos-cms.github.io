@@ -22,10 +22,8 @@ version](http://www.oyranos.org/temp/colourTestsRGB.tif)
 SVG
 ---
 
-<svg>
 <http://www.oyranos.org/images/ImageWithEmbeddedICC.svg>
 
-</svg>
 ICC Tests
 ---------
 
