@@ -11,20 +11,22 @@ package.
 
 Here is a [**download and build
 script**](http://www.oyranos.org/scm?p=icc_examin.git;a=blob_plain;f=icc_examin-build.sh;hb=HEAD)
-to automate the process, including a build of [ICC
-Examin](/wiki/ICC_Examin "wikilink"), [CompIcc](http://compicc.sf.net),
-kolor-manager (a KDE configuration panel entry), CinePaint (a net-color
-enabled version, which works nicely with CompIcc) and some requirements.
-The script accepts options for configure and will pass them unchanged.
+to automate the process, including a build of ICC Examin, CompICC (X
+Color Management spec based desktop colour server), kolor-manager (a KDE
+configuration panel entry), CinePaint (a X Color Management enabled
+version) and some requirements. The script accepts options for configure
+and will pass them unchanged. For some options and variables see a
+[**local build
+script**](http://www.oyranos.org/scm?p=icc_examin.git;a=blob_plain;f=icc_examin-build-local.sh;hb=HEAD).
 
 E.g. --prefix=~/.local might be a good idea to avoid the otherwise
 required root rights for installation of a test build. For compicc one
 might add similiar --plugindir=$HOME/.compiz/plugins
 --icondir=$HOME/.local/share/icons --regdir=$HOME/.compiz/metadata .
 
-Read as well the
-[README](http://www.oyranos.org/scm?p=oyranos.git;a=blob_plain;f=README;hb=HEAD)
-to see what else might be needed on your system.
+Dependencies are listed in
+[**README**](http://www.oyranos.org/scm?p=oyranos.git;a=blob_plain;f=README;hb=HEAD)
+for some major distributions.
 
 For troubleshooting and some reference, below are the basic single
 steps. However the script will be most actual.
