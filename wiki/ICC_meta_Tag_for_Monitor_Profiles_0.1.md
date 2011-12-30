@@ -10,7 +10,7 @@ DRAFT
 </h1>
 | Revision History                      |            |
 |---------------------------------------|------------|
-| ICC meta Tag for Monitor Profiles 0.1 | 2010-12-01 |
+| ICC meta Tag for Monitor Profiles 0.1 | 2010-12-30 |
 ||
 
 Introduction
@@ -94,20 +94,20 @@ and not always textual as is preferred.
 `        `“`device`”`: {`  
 `          `“`monitor`”`: {`  
 `            `“`prefix`”`: `“`EDID_`”`, `  
-`            `“`EDID_redy`”`: `“`0.339844`”`, `  
-`            `“`EDID_redx`”`: `“`0.639648`”`, `  
+`            `“`EDID_red_y`”`: `“`0.339844`”`, `  
+`            `“`EDID_red_x`”`: `“`0.639648`”`, `  
 `            `“`EDID_mnft_id`”`: `“`7789`”`, `  
-`            `“`EDID_bluex`”`: `“`0.144531`”`, `  
+`            `“`EDID_blue_x`”`: `“`0.144531`”`, `  
 `            `“`EDID_manufacturer`”`: `“`Goldstar`` ``Company`` ``Ltd`”`, `  
-`            `“`EDID_greeny`”`: `“`0.615234`”`, `  
-`            `“`EDID_greenx`”`: `“`0.290039`”`, `  
-`            `“`EDID_whitey`”`: `“`0.329102`”`, `  
-`            `“`EDID_whitex`”`: `“`0.313477`”`, `  
+`            `“`EDID_green_y`”`: `“`0.615234`”`, `  
+`            `“`EDID_green_x`”`: `“`0.290039`”`, `  
+`            `“`EDID_white_y`”`: `“`0.329102`”`, `  
+`            `“`EDID_white_x`”`: `“`0.313477`”`, `  
 `            `“`EDID_date`”`: `“`2007-T5`”`, `  
 `            `“`EDID_gamma`”`: `“`2.2`”`, `  
 `            `“`manufacturer`”`: `“`Goldstar`` ``Company`` ``Ltd`”`, `  
 `            `“`mnft`”`: `“`GSM`”`, `  
-`            `“`EDID_bluey`”`: `“`0.0703125`”`, `  
+`            `“`EDID_blue_y`”`: `“`0.0703125`”`, `  
 `            `“`EDID_mnft`”`: `“`GSM`”`, `  
 `            `“`EDID_model`”`: `“`L203WT`”`, `  
 `            `“`model`”`: `“`LG`` ``Flatron`` ``L203W`”`, `  
@@ -162,4 +162,5 @@ Changes
     3](http://lists.freedesktop.org/archives/openicc/2010q4/002293.html) -
     remove redundant key name parts, synchronise names, Kai-Uwe Behrmann
 -   DRAFT 4 - use JSON example
+-   DRAFT 5 - correct JSON example, as pointed out by Florian Höch
 
