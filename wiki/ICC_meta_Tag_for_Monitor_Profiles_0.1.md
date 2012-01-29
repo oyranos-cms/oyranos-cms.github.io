@@ -2,6 +2,9 @@
 title: ICC meta Tag for Monitor Profiles 0.1
 permalink: wiki/ICC_meta_Tag_for_Monitor_Profiles_0.1/
 layout: wiki
+tags:
+ - Oyranos
+ - Standards
 ---
 
 <h1>
@@ -164,3 +167,5 @@ Changes
 -   DRAFT 4 - use JSON example
 -   DRAFT 5 - correct JSON example, as pointed out by Florian Höch
 
+[back --&gt; Oyranos](/wiki/Oyranos "wikilink") or [Oyranos X11
+Requirements](/wiki/Oyranos_X11_Requirements "wikilink")

@@ -142,3 +142,9 @@ value ranges as allowed by the ICC meta tag definition.
 * [http://lists.freedesktop.org/archives/openicc/2010q4/002293.html ICC meta Tag for Monitor Profiles - DRAFT 3] - remove redundant key name parts, synchronise names, Kai-Uwe Behrmann
 * DRAFT 4 - use JSON example
 * DRAFT 5 - correct JSON example, as pointed out by Florian Höch
+
+
+[[Oyranos|back --> Oyranos]] or [[Oyranos X11 Requirements]]
+
+[[Category:Oyranos]]
+[[Category:Standards]]
