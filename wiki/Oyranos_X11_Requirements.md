@@ -182,6 +182,38 @@ Ideas exist to support the spec in a Gnome window manager.
     -   server side implementation
     -   client is the xcm tool in the Xcm package
 
+ICC meta Tag for Monitor Profiles
+---------------------------------
+
+The specification provides means to embed monitor information into ICC
+profiles.
+
+### References
+
+-   [ICC meta Tag for Monitor
+    Profiles](http://www.freedesktop.org/wiki/Specifications/icc_meta_tag_for_monitor_profiles)
+    @ fd.o
+-   older versions can be found in the
+    [Category:Standards](http://www.oyranos.org/wiki/index.php?title=Category:Standards)
+
+### Implementations
+
+-   xcmedid provides a JSON format output with complying keys and
+    values, which can be used to embed that data into a ICC profile.
+
+<!-- -->
+
+-   dispcalGUI supports writing of these meta data.
+
+<!-- -->
+
+-   Taxi stores these meta data along with ICC profiles online.
+
+<!-- -->
+
+-   Oyranos CMS can lockup meta data from profiles on disk or search in
+    the Taxi ICC DB for matching profiles.
+
 Miscellaneous
 -------------
 
