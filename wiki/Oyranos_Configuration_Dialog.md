@@ -21,9 +21,9 @@ Policy
 Directory Paths
 ---------------
 
-|                                                                              |                                                                                                                                                                                                                                        |
-|------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![](/wiki/Oyranos-config-flu-0.1.5_paths.png "Oyranos-config-flu-0.1.5_paths.png") | Paths can be configured by the [XDG environment variables](OpenIccDirectoryProposal "wikilink") and freely chosen as many as one needs. The defaults for the profile home, system and Oyranos configuration paths are always included. |
+|                                                                              |                                                                                                                                                                                                           |
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![](/wiki/Oyranos-config-flu-0.1.5_paths.png "Oyranos-config-flu-0.1.5_paths.png") | Paths can be configured by the [XDG environment variables](OpenIccDirectoryProposal "wikilink") and are read only. The defaults for the profile home, system and Oyranos configuration paths are covered. |
 ||
 
 Default Profiles

@@ -14,7 +14,7 @@ The <b> oyranos-config-fltk</b> configuration dialog gives hints, what options a
 |+ style="background:#efefef;text-align:left" | Tab II : paths overview
 |-
 | [[Image:Oyranos-config-flu-0.1.5 paths.png]]
-| valign="top" | Paths can be configured by the [[OpenIccDirectoryProposal|XDG environment variables]] and freely chosen as many as one needs. The defaults for the profile home, system and Oyranos configuration paths are always included.
+| valign="top" | Paths can be configured by the [[OpenIccDirectoryProposal|XDG environment variables]] and are read only. The defaults for the profile home, system and Oyranos configuration paths are covered.
 |-
 |}
 
