@@ -7,6 +7,26 @@ layout: wiki
 The ***Color-Managed Printing eXtension (libCmpx)*** is a library that
 will add color management support to print dialogs.
 
+Installation
+------------
+
+libCmpx can be obtained through git.
+
+`$ git clone `[`git://gitorious.org/libcmpx/libcmpx.git`](git://gitorious.org/libcmpx/libcmpx.git)
+
+Once the project is downloaded, enter its root directory and type the
+following:
+
+`$ mkdir build`  
+`$ cd build`  
+`$ cmake ..`  
+`$ make`  
+`$ make install`
+
+Updates can be made by typing:
+
+`$ git pull`
+
 API Usage
 ---------
 
