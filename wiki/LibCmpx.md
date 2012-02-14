@@ -37,7 +37,7 @@ following:
 `$ make`  
 `$ make install`
 
-Updates can be made by typing:
+Updates can be obtained by typing:
 
 `$ git pull`
 

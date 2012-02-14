@@ -24,7 +24,7 @@ Once the project is downloaded, enter its root directory and type the following:
  $ make
  $ make install
 
-Updates can be made by typing:
+Updates can be obtained by typing:
 
  $ git pull
 
