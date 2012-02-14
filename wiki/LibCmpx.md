@@ -30,6 +30,10 @@ Updates can be made by typing:
 API Usage
 ---------
 
+The libCmpx API is based on the prototype library invented for the
+[XCPD](http://www.oyranos.org/wiki/index.php?title=XCPD#API_Usage). As
+such, the API usage is very similar between the two.
+
 ##### Sample Code
 
 The following code demonstrates printer profile selection and PDF
