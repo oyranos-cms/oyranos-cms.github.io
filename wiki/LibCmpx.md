@@ -41,7 +41,7 @@ rendering using the libCmpx API.
 
 `<libcmpx.h>`
 
-`libcmpx_selectormode_t getSelectionMode();`  
+`libcmpx_selectormode_t getProfileSelectionMode();`  
 `void setManualProfile(libcmpx_cm_t*);`
 
 `int main()`  
@@ -57,7 +57,7 @@ rendering using the libCmpx API.
 `   ppd_file_t* ppd = ppdOpenFile(`“`ppdfile.ppd`”`);`  
   
 `   /* Get profile selection mode from the GUI. (see box below) */`  
-`   libcmpx_selectormode_t mode = getDialogSelectionMode(cm); `  
+`   libcmpx_selectormode_t mode = getProfileSelectionMode(cm); `  
   
 `   /* Set the profile based on the dialog selection */`  
 `   if(mode == LIBCMPX_USERSELECT_MODE)`  
@@ -66,7 +66,7 @@ rendering using the libCmpx API.
 `     selector_status = libcmpxCM_setProfileFromPPD(cm, ppd, mode);`  
   
 `   /* Render the PDF */`  
-`   render_status = libcmpxCM_setSpoolPdf(cm);`  
+`   renderer_status = libcmpxCM_setSpoolPdf(cm);`  
   
 `   libcmpxCM_close(cm);`  
   
@@ -79,7 +79,7 @@ the UI. (Using Qt.)
 `QString iccModeString;`  
 `QComboBox iccModeComboBox;`
 
-`libcmpx_selectormode_t getSelectionMode()`  
+`libcmpx_selectormode_t getProfileSelectionMode()`  
 `{`  
 `  iccModeString = iccModeComboBox.currentText(); `  
   
@@ -87,13 +87,15 @@ the UI. (Using Qt.)
 `   return LIBCMPX_AUTOSELECT_MODE;`  
 `  else if (iccModeString == `“`Application`` ``Set`”`)`  
 `   return LIBCMPX_SYSTEMSELECT_MODE;`  
-`  else if (iccModeString == `“`Manual`”`) {`  
+`  else if (iccModeString == `“`Manual`”`) `  
 `   return LIBCMPX_USERSELECT_MODE; `  
+`  else`  
+`   return LIBCMPX_SELECTORMODE_NOTSET;`  
 `}`  
   
 `void setManualProfile(libcmpx_cm_t* cm_obj)`  
 `{`  
-`   QString userSelection = QFileDialog::getOpenFileName();`  
+`   QString userSelection = QFileDialog::getOpenFileName(. . .);`  
 `   const char* user_profile = userSelection.toLocal8Bit();`  
   
 `   libcmpxCM_setProfile(user_profile, cm_obj);  `  
