@@ -1,0 +1,67 @@
+The '''''Color-Managed Printing eXtension (libCmpx)''''' is a library that will add color management support to print dialogs.  
+
+== API Usage ==
+
+===== Sample Code =====
+
+The following code demonstrates printer profile selection and PDF rendering using the libCmpx API.
+
+ <libcmpx.h>
+
+ libcmpx_selectormode_t getSelectionMode();
+ void setManualProfile(libcmpx_cm_t*);
+
+ int main()
+ {
+    /* Optional status enums */
+    libcmpx_sstatus_t selector_status;
+    libcmpx_rstatus_t renderer_status;
+ 
+    /* Initialize API color management */
+    libcmpx_cm_t* cm = libcmpxCM_initialize();     
+ 
+    /* Open PPD file. */
+    ppd_file_t* ppd = ppdOpenFile("ppdfile.ppd");
+ 
+    /* Get profile selection mode from the GUI. (see box below) */
+    libcmpx_selectormode_t mode = getDialogSelectionMode(cm); 
+ 
+    /* Set the profile based on the dialog selection */
+    if(mode == LIBCMPX_USERSELECT_MODE)
+      setManualProfile(cm);
+    else if (mode != LIBCMPX_SELECTORMODE_NOTSET)
+      selector_status = libcmpxCM_setProfileFromPPD(cm, ppd, mode);
+ 
+    /* Render the PDF */
+    render_status = libcmpxCM_setSpoolPdf(cm);
+ 
+    libcmpxCM_close(cm);
+ 
+    return 0;
+ }
+
+
+The following helper functions are part of the ICC profile selection in the UI. (Using Qt.)
+
+ QString iccModeString;
+ QComboBox iccModeComboBox;
+
+ libcmpx_selectormode_t getSelectionMode()
+ {
+   iccModeString = iccModeComboBox.currentText(); 
+ 
+   if(iccModeString == "Auto Set")
+    return LIBCMPX_AUTOSELECT_MODE;
+   else if (iccModeString == "Application Set")
+    return LIBCMPX_SYSTEMSELECT_MODE;
+   else if (iccModeString == "Manual") {
+    return LIBCMPX_USERSELECT_MODE; 
+ }
+ 
+ void setManualProfile(libcmpx_cm_t* cm_obj)
+ {
+    QString userSelection = QFileDialog::getOpenFileName();
+    const char* user_profile = userSelection.toLocal8Bit();
+ 
+    libcmpxCM_setProfile(user_profile, cm_obj);  
+ }
