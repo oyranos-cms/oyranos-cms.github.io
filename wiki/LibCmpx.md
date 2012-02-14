@@ -7,6 +7,20 @@ layout: wiki
 The ***Color-Managed Printing eXtension (libCmpx)*** is a library that
 will add color management support to print dialogs.
 
+Dependencies
+------------
+
+The library depends on Oyranos for profile selection, as well as
+Ghostscript to render the PDF. In addition, CUPS is required to handle
+PPD files.
+
+Version requirements for these dependencies are as follows:
+
+-   Oyranos (the up-to-date [git
+    version](http://www.oyranos.org/wiki/index.php?title=Oyranos/git))
+-   [Ghostscript](http://pages.cs.wisc.edu/~ghost/) (9.04)
+-   [CUPS](http://www.cups.org/software.php) (1.5.0)
+
 Installation
 ------------
 
