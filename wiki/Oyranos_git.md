@@ -35,7 +35,7 @@ For the git version you need currently [this Elektra
 version](http://www.markus-raab.org/ftp/elektra-0.7.0.tar.gz) 10:42, 29
 Apr 2008 (CEST)
 
-First check out:
+First check out libXcm and its tools:
 
 `$ git clone `[`git://www.oyranos.org/git/xcolor`](git://www.oyranos.org/git/xcolor)  
 `$ git clone `[`git://www.oyranos.org/git/xcm`](git://www.oyranos.org/git/xcm)
@@ -79,7 +79,7 @@ ICC Examin git can be obtained without the above script like follows:
     introduction](http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#git-quick-start)
 -   [Carl Worth's git tour](http://cworth.org/hgbook-git/tour/)
 -   [Homepage](http://git.or.cz/) and wiki
--   [gitweb](http://www.oyranos.org/scm) of Oyranos, Xcolor and ICC
-    Examin
+-   [gitweb](http://www.oyranos.org/scm) of Oyranos, Xcolor(libXcm,xcm)
+    and ICC Examin(iccexamin), cinepaint, ookala-mcf
 
 [back -&gt; Oyranos](/wiki/Oyranos "wikilink")
