@@ -113,7 +113,7 @@ The [Oyranos
 LiveCD](http://sourceforge.net/projects/openicc/files/Demo/) is based on
 openSUSE and the preinstalled Oyranos packages from
 multimedia:color\_management at OBS. The project page is at [suse
-gallery](http://susegallery.com/a/8Kr6tw/oyranos-multimedia-113a).
+gallery](http://susestudio.com/a/8Kr6tw/oyranos-multimedia-121).
 
 Development Versions
 --------------------
