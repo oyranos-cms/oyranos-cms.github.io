@@ -3,7 +3,7 @@ ICC Examin is a FLTK based colour profile viewer.
 The educational purpose is to show the otherwise hidden internals of ICC profiles and give users a rough estimation of the profiles quality.
 
 == Features ==
-* see the [http://www.behrmann.name/index.php?option=com_content&task=view&id=32&Itemid=1 ICC Examin] page for an overview
+* see the [http://www.oyranos.org/icc-examin ICC Examin] page for an overview
 
 == Usage ==
 ICC Examin can be launched from the Application folder or Dock on Mac OS X and from the Graphics menu on Linux.

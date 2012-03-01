@@ -14,9 +14,8 @@ profiles and give users a rough estimation of the profiles quality.
 Features
 --------
 
--   see the [ICC
-    Examin](http://www.behrmann.name/index.php?option=com_content&task=view&id=32&Itemid=1)
-    page for an overview
+-   see the [ICC Examin](http://www.oyranos.org/icc-examin) page for an
+    overview
 
 Usage
 -----
