@@ -91,21 +91,9 @@ Detailed build instructions are as well included in the packages.
 <http://www.oyranos.org/images/ubuntu_logo.png>
 [Ubuntu](http://www.ubuntuupdates.org/oyranos)
 
-#### openSUSE build server
+#### Open Build Service
 
-OBS repositories for:
-
-<http://www.oyranos.org/images/fedora-logo.png>  
-
-<http://www.oyranos.org/images/mandriva-logo-opt.png>  
-
-<http://www.oyranos.org/images/suse_logo.png>  
-
-***[openSUSE build server icc\_examin
-search](http://software.opensuse.org/search?q=icc_examin&exclude_debug=true)***
-
-***[multimedia:color\_management](http://download.opensuse.org/repositories/multimedia:/color_management/)***
-repository plain overview  
+***[Oyranos](http://software.opensuse.org/download/package.iframe?project=multimedia:color_management&package=oyranos)***  
 
 ### Oyranos LiveCD
 

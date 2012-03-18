@@ -67,22 +67,9 @@ http://www.oyranos.org/images/ubuntu_logo.png [http://www.ubuntuupdates.org/oyra
 
 
 
-==== openSUSE build server ====
-OBS repositories for:
+==== Open Build Service ====
 
-http://www.oyranos.org/images/fedora-logo.png<br>
-
-
-http://www.oyranos.org/images/mandriva-logo-opt.png<br>
-
-
-http://www.oyranos.org/images/suse_logo.png<br>
-
-
-'''''[http://software.opensuse.org/search?q=icc_examin&exclude_debug=true openSUSE build server icc_examin search]'''''
-
-'''''[http://download.opensuse.org/repositories/multimedia:/color_management/ multimedia:color_management]''''' repository plain overview<br>
-
+'''''[http://software.opensuse.org/download/package.iframe?project=multimedia:color_management&package=oyranos Oyranos]'''''<br>
 
 === Oyranos LiveCD ===
 The [http://sourceforge.net/projects/openicc/files/Demo/ Oyranos LiveCD] is based on openSUSE and the preinstalled Oyranos packages from multimedia:color_management at OBS. The project page is at [http://susestudio.com/a/8Kr6tw/oyranos-multimedia-121 suse gallery].
