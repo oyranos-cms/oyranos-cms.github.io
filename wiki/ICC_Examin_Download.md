@@ -7,8 +7,7 @@ tags:
 ---
 
 <h1>
-[ICC
-Examin](http://www.behrmann.name/index.php?option=com_content&task=view&id=32&Itemid=70)
+[ICC Examin](http://www.oyranos.org/icc-examin)
 
 </h1>
 Stable Versions
@@ -58,11 +57,10 @@ Detailed build instructions are as well included in the packages.
 
 ### Binary Packages
 
-#### openSUSE build server
+#### Open Build Service
 
-[openSUSE build
-service](http://www.oyranos.org/wiki/index.php?title=Oyranos/Download#openSUSE_build_server)
-for Linux binary packages
+***[ICC
+Examin](http://software.opensuse.org/download/package.iframe?project=multimedia:color_management&package=icc_examin)***
 
 #### osX
 

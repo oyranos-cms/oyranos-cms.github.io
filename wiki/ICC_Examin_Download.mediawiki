@@ -1,4 +1,4 @@
-<h1>[http://www.behrmann.name/index.php?option=com_content&task=view&id=32&Itemid=70 ICC Examin]</h1>
+<h1>[http://www.oyranos.org/icc-examin ICC Examin]</h1>
 
 
 == Stable Versions ==
@@ -40,9 +40,9 @@ Detailed build instructions are as well included in the packages.
 
 === Binary Packages ===
 
-==== openSUSE build server ====
+==== Open Build Service ====
 
-[http://www.oyranos.org/wiki/index.php?title=Oyranos/Download#openSUSE_build_server openSUSE build service] for Linux binary packages
+'''''[http://software.opensuse.org/download/package.iframe?project=multimedia:color_management&package=icc_examin ICC Examin]'''''
 
 ==== osX ====
 [http://sourceforge.net/projects/oyranos/files/ICC%20Examin/ disk image] http://www.behrmann.name/images/cms/dmg_64.png
