@@ -83,7 +83,7 @@ Example:
              },
              { "prefix": "EDID_",
                "EDID_model": "LCD two",
-               "icc_profile": "profile_name_vendor.icc",
+               "icc_profile_file": "profile_name_vendor.icc",
                "creation_date": "05-08-11T11:59:50Z",
                "expire_date": "05-08-12T11:59:50Z",
                "automatic_assigment": "0"
