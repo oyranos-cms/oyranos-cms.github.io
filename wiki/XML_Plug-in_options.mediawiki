@@ -62,7 +62,7 @@ Which details should be take care of?
 * support console applications
 * converters for at least Qt, Gtk, FLTK ...
 * XML data models will be made by using XML_Schema (W3C).
-
+* [http://www.oyranos.org/scm?p=oyranos.git;a=blob_plain;f=doc/oforms-example.xhtml simple XForms subset example]
 
 == RFC ==
 Key value pairs are stored in namespaces in Elektra expressed by paths. This proposal covers how to represent them to users.

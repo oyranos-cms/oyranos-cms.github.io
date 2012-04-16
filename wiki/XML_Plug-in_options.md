@@ -109,6 +109,8 @@ Requirements
 -   support console applications
 -   converters for at least Qt, Gtk, FLTK ...
 -   XML data models will be made by using XML\_Schema (W3C).
+-   [simple XForms subset
+    example](http://www.oyranos.org/scm?p=oyranos.git;a=blob_plain;f=doc/oforms-example.xhtml)
 
 RFC
 ---
