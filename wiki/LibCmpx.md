@@ -32,10 +32,10 @@ the application to pass-in and receive information via libCmpx.
 
 **libCmpx Color Management Layer**: This component is responsible for
 delegating the appropriate API calls into the appropriate processing
-module(s). Essentially, what the layer does is execute the algorithms
-that handle the library's color-management functionality – data received
-from a *libcmpx\_cm\_t* struct is passed either to the “Renderer” or
-“Selector” modules (or both, depending on the requested API operation).
+module(s). What the layer does is execute the algorithms that handle the
+library's color-management functionality – data received from a
+*libcmpx\_cm\_t* struct is passed either to the “Renderer” or “Selector”
+modules (or both, depending on the requested API operation).
 
 **libCmpx Processing Modules**: There are two distinct modules in
 libCmpx: **libCmpx Selector** and **libCmpx Renderer**. Both modules are
@@ -44,7 +44,14 @@ and printer driver calibration, and the latter handling the rendering of
 a PDF OutputIntent.
 
 The Selector module uses Oyranos for profile calibration which, through
-the use of its CUPS module, handles generating a calibrated PPD file.
+the use of its CUPS module, handles generating a calibrated PPD file. It
+processes the printer settings specified by the user in the print
+dialog, and returns back an updated set of options. For instance, if a
+user chooses sets an “auto-select ICC profile” mode from the print
+dialog, the Selector module will simply return a correct ICC profile
+back into a dialog. But if a user instead manually chooses a specific
+profile in the dialog, the Selector module will return back calibrated
+printer settings.
 
 The Renderer module uses Ghostscript to embed an ICC profile into an
 application's output image file, which will then be ready for the print
