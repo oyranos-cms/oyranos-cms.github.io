@@ -110,7 +110,7 @@ rendering using the libCmpx API.
 `<libcmpx.h>`
 
 `libcmpx_selectormode_t getProfileSelectionMode();`  
-`void setManualProfile(libcmpx_cm_t*);`
+`void setManualProfile(libcmpx_cm_t**);`
 
 `int main()`  
 `{`  
@@ -129,14 +129,14 @@ rendering using the libCmpx API.
   
 `   /* Set the profile based on the dialog selection */`  
 `   if(mode == LIBCMPX_USERSELECT_MODE)`  
-`     setManualProfile(cm);`  
+`     setManualProfile(&cm);`  
 `   else if (mode != LIBCMPX_SELECTORMODE_NOTSET)`  
-`     selector_status = libcmpxCM_setProfileFromPPD(cm, ppd, mode);`  
+`     selector_status = libcmpxCM_setProfileFromPPD(&cm, ppd, mode);`  
   
 `   /* Render the PDF */`  
-`   renderer_status = libcmpxCM_setSpoolPdf(cm);`  
+`   renderer_status = libcmpxCM_setSpoolPdf(&cm, 0);`  
   
-`   libcmpxCM_close(cm);`  
+`   libcmpxCM_close(&cm);`  
   
 `   return 0;`  
 `}`
@@ -161,10 +161,10 @@ the UI. (Using Qt.)
 `   return LIBCMPX_SELECTORMODE_NOTSET;`  
 `}`  
   
-`void setManualProfile(libcmpx_cm_t* cm_obj)`  
+`void setManualProfile(libcmpx_cm_t** cm_obj)`  
 `{`  
 `   QString userSelection = QFileDialog::getOpenFileName(. . .);`  
 `   const char* user_profile = userSelection.toLocal8Bit();`  
   
-`   libcmpxCM_setProfile(user_profile, cm_obj);  `  
+`   libcmpxCM_setProfile(cm_obj, user_profile);  `  
 `}`
