@@ -1,5 +1,31 @@
 The '''''Color-Managed Printing eXtension (libCmpx)''''' is a library that will add color management support to print dialogs.  
 
+== Architecture ==
+
+[[Image:Libcmpxmodel sm.png]] 
+
+LibCmpx is organized using five distinct components:
+
+'''libCmpx API''': The primary interface for an application.  It contains the essential functions for the programmer to initialize color-management from within the application's print dialog.
+
+For printer color-management to work, the dialog programmer must pass into libCmpx two sets of input:
+
+-The printer settings as obtained by the dialog ("Print Resolution", "Media Type", "Print Quality", etc.).
+
+-A PDF file of the ready-to-print image.
+
+The appropriate API calls are shown below in "API Usage". A libCmpx Color Management Object struct (''libcmpx_cm_t'') is required throughout the application to pass-in and receive information via libCmpx. 
+
+'''libCmpx Color Management Layer''': This component is responsible for delegating the appropriate API calls into the appropriate processing module(s).  Essentially, what the layer does is execute the algorithms that handle the library's color-management functionality – data received from a ''libcmpx_cm_t'' struct is passed either to the "Renderer" or "Selector" modules (or both, depending on the requested API operation).
+
+'''libCmpx Processing Modules''': There are two distinct modules in libCmpx: '''libCmpx Selector''' and '''libCmpx Renderer'''.  Both modules are the heart of libCmpx - the former handling automatic profile-selection and printer driver calibration, and the latter handling the rendering of a PDF OutputIntent.  
+
+The Selector module uses Oyranos for profile calibration which, through the use of its CUPS module, handles generating a calibrated PPD file.
+
+The Renderer module uses Ghostscript to embed an ICC profile into an application's output image file, which will then be ready for the print chain.
+
+'''libCmpx Internal''': All of the lower-level operations, structures, and definitions required from the processing modules are stored in libCmpx internal.  
+
 == Dependencies ==
 
 The library depends on Oyranos for profile selection, as well as Ghostscript to render the PDF.  In addition, CUPS is required to handle PPD files.
