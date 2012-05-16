@@ -136,7 +136,7 @@ rendering using the libCmpx API.
 `   if(mode == LIBCMPX_USERSELECT_MODE)`  
 `     setManualProfile(&cm);`  
 `   else if (mode != LIBCMPX_SELECTORMODE_NOTSET)`  
-`     selector_status = libcmpxCM_setProfileFromPPD(&cm, ppd, mode);`  
+`     selector_status = libcmpxCM_setProfileFromPPD(&cm, &ppd, mode);`  
   
 `   /* Render the PDF */`  
 `   renderer_status = libcmpxCM_setSpoolPdf(&cm, 0);`  
