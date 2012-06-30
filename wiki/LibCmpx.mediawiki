@@ -28,13 +28,14 @@ The Renderer module uses Ghostscript to embed an ICC profile into an application
 
 == Dependencies ==
 
-The library depends on Oyranos for profile selection, as well as Ghostscript to render the PDF.  In addition, CUPS is required to handle PPD files.
+The library depends on Oyranos for ICC profile selection, and Ghostscript for spool PDF rendering.
+
+In addition, it is assumed that the print dialog is using CUPS.
 
 Version requirements for these dependencies are as follows:
 
 * Oyranos (the up-to-date [http://www.oyranos.org/wiki/index.php?title=Oyranos/git git version])
-* [http://pages.cs.wisc.edu/~ghost/ Ghostscript] (9.04)
-* [http://www.cups.org/software.php CUPS] (1.5.0)
+* [http://pages.cs.wisc.edu/~ghost/ Ghostscript] (9.05)
 
 == Installation ==
 
