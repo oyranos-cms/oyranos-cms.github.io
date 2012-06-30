@@ -4,8 +4,10 @@ permalink: wiki/LibCmpx/
 layout: wiki
 ---
 
-The ***Color-Managed Printing eXtension (libCmpx)*** is a library that
-will add color management support to print dialogs.
+***Color-Managed Printing eXtension (libCmpx)*** is a library that
+extends color management functionality to print dialogs. It is based on
+the proposed [PDF print
+workflow](http://www.oyranos.org/2012/02/linux-printing) for Linux.
 
 Architecture
 ------------
