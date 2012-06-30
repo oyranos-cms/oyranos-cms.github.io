@@ -114,7 +114,9 @@ rendering using the libCmpx API.
 
 `<libcmpx.h>`
 
-`libcmpx_selectormode_t getProfileSelectionMode();`  
+`libcmpx_selectormode_t getProfileSelectionMode();`
+
+`void getPrintSettings(libcmpx_cm_t**);`  
 `void setManualProfile(libcmpx_cm_t**);`
 
 `int main()`  
@@ -126,17 +128,19 @@ rendering using the libCmpx API.
 `   /* Initialize API color management */`  
 `   libcmpx_cm_t* cm = libcmpxCM_initialize();     `  
   
-`   /* Open PPD file. */`  
-`   ppd_file_t* ppd = ppdOpenFile(`“`ppdfile.ppd`”`);`  
+`   /* Set the printer */`  
+`   libcmpxCM_setCurrentPrinter(&cm, `“`CupsDestPrinterName`”`);`  
   
-`   /* Get profile selection mode from the GUI. (see box below) */`  
+`   /* Get profile selection mode from the GUI. (see the box below) */`  
 `   libcmpx_selectormode_t mode = getProfileSelectionMode(cm); `  
   
-`   /* Set the profile based on the dialog selection */`  
+`   /* Set the profile for libCmpx. */`  
 `   if(mode == LIBCMPX_USERSELECT_MODE)`  
 `     setManualProfile(&cm);`  
-`   else if (mode != LIBCMPX_SELECTORMODE_NOTSET)`  
-`     selector_status = libcmpxCM_setProfileFromPPD(&cm, &ppd, mode);`  
+`   else if (mode != LIBCMPX_SELECTORMODE_NOTSET){`  
+`     getPrintSettings(&cm);`  
+`     selector_status = libcmpxCM_setAutoProfile(&cm);`  
+`   }`  
   
 `   /* Render the PDF */`  
 `   renderer_status = libcmpxCM_setSpoolPdf(&cm, 0);`  
@@ -158,8 +162,6 @@ the UI. (Using Qt.)
   
 `  if(iccModeString == `“`Auto`` ``Set`”`)`  
 `   return LIBCMPX_AUTOSELECT_MODE;`  
-`  else if (iccModeString == `“`Application`` ``Set`”`)`  
-`   return LIBCMPX_SYSTEMSELECT_MODE;`  
 `  else if (iccModeString == `“`Manual`”`) `  
 `   return LIBCMPX_USERSELECT_MODE; `  
 `  else`  
@@ -172,4 +174,22 @@ the UI. (Using Qt.)
 `   const char* user_profile = userSelection.toLocal8Bit();`  
   
 `   libcmpxCM_setProfile(cm_obj, user_profile);  `  
+`}`
+
+Automatic profile selection using libCmpx requires obtaining the
+human-readable option settings from within the print dialog. This can be
+achieved in the following way, which uses the minimal three UI combobox
+settings:
+
+`QString mtComboboxText, rsComboboxText, cmComboboxText;`
+
+`void getPrintSettings(libcmpx_cm_t** cm_obj)`  
+`{`  
+`   //  ... obtain option value strings from three comboboxes ...`  
+  
+`   // Store option values into the libCmpx color manager object. `  
+`   // Further print option enumerations are found in libcmpx_defs.h.`  
+`   libcmpxCM_setPrintOption(&cm_obj, LIBCMPX_UI_MEDIATYPE, mtComboboxText);`  
+`   libcmpxCM_setPrintOption(&cm_obj, LIBCMPX_UI_RESOLUTION, rsComboboxText);`  
+`   libcmpxCM_setPrintOption(&cm_obj, LIBCMPX_UI_COLORMODEL, cmComboboxText);`  
 `}`
