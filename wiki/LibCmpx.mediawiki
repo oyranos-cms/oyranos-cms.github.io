@@ -130,7 +130,7 @@ The following helper functions are part of the ICC profile selection in the UI. 
     libcmpxCM_setProfile(cm_obj, user_profile);  
  }
 
-Automatic profile selection using libCmpx requires obtaining the human-readable option settings from within the print dialog.  This can be achieved in the following way, which uses the minimal three UI combobox settings:
+Automatic profile selection using libCmpx requires obtaining the human-readable option settings from within the print dialog.  This can be achieved in the following way, which uses the minimal three UI combobox settings: "Media Type", "Resolution", and "Color Model".
 
  QString mtComboboxText, rsComboboxText, cmComboboxText;
 

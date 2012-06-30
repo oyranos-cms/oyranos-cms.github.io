@@ -179,7 +179,7 @@ the UI. (Using Qt.)
 Automatic profile selection using libCmpx requires obtaining the
 human-readable option settings from within the print dialog. This can be
 achieved in the following way, which uses the minimal three UI combobox
-settings:
+settings: “Media Type”, “Resolution”, and “Color Model”.
 
 `QString mtComboboxText, rsComboboxText, cmComboboxText;`
 
