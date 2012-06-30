@@ -175,7 +175,7 @@ the UI. (Using Qt.)
 `   QString userSelection = QFileDialog::getOpenFileName(. . .);`  
 `   const char* user_profile = userSelection.toLocal8Bit();`  
   
-`   libcmpxCM_setProfile(&cm_obj, user_profile);  `  
+`   libcmpxCM_setProfile(cm_obj, user_profile);  `  
 `}`
 
 Automatic profile selection using libCmpx requires obtaining the
@@ -191,7 +191,7 @@ settings: “Media Type”, “Resolution”, and “Color Model”.
   
 `   // Store option values into the libCmpx color manager object. `  
 `   // Further print option enumerations are found in libcmpx_defs.h.`  
-`   libcmpxCM_setPrintOption(&cm_obj, LIBCMPX_UI_MEDIATYPE, mtComboboxText);`  
-`   libcmpxCM_setPrintOption(&cm_obj, LIBCMPX_UI_RESOLUTION, rsComboboxText);`  
-`   libcmpxCM_setPrintOption(&cm_obj, LIBCMPX_UI_COLORMODEL, cmComboboxText);`  
+`   libcmpxCM_setPrintOption(cm_obj, LIBCMPX_UI_MEDIATYPE, mtComboboxText);`  
+`   libcmpxCM_setPrintOption(cm_obj, LIBCMPX_UI_RESOLUTION, rsComboboxText);`  
+`   libcmpxCM_setPrintOption(cm_obj, LIBCMPX_UI_COLORMODEL, cmComboboxText);`  
 `}`
