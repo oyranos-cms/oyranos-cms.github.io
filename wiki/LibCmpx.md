@@ -132,7 +132,7 @@ rendering using the libCmpx API.
 `   libcmpxCM_setCurrentPrinter(&cm, `“`CupsDestPrinterName`”`);`  
   
 `   /* Get profile selection mode from the GUI. (see the box below) */`  
-`   libcmpx_selectormode_t mode = getProfileSelectionMode(cm); `  
+`   libcmpx_selectormode_t mode = getProfileSelectionMode(); `  
   
 `   /* Set the profile for libCmpx. */`  
 `   if(mode == LIBCMPX_USERSELECT_MODE)`  
@@ -173,7 +173,7 @@ the UI. (Using Qt.)
 `   QString userSelection = QFileDialog::getOpenFileName(. . .);`  
 `   const char* user_profile = userSelection.toLocal8Bit();`  
   
-`   libcmpxCM_setProfile(cm_obj, user_profile);  `  
+`   libcmpxCM_setProfile(&cm_obj, user_profile);  `  
 `}`
 
 Automatic profile selection using libCmpx requires obtaining the
