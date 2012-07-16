@@ -139,11 +139,11 @@ are not cross platform, and would have to been accessed directly.
 
 ### Does Oyranos rely on FLTK?
 
-Oyranos comes with a UI written for FLTK. However that can switched off
-during configure, if a desktop decides to have a equivalent or better
-replacement as front end. E.g. KDE might not ship with
-oyranos-config-fltk but use the kolor-manager font end to Oyranos
-instead. A Gtk front end would be great too.
+Oyranos comes with a front end GUI written in FLTK. However building
+that can be switched off during configuration, in case a desktop decides
+to have a equivalent or better replacement as front end. E.g. KDE might
+ship the [KolorManager](http://www.oyranos.org/kolor-manager) front end
+to Oyranos instead. A Gtk front end would be great too.
 
 ### Elektra dictates the core design?
 
