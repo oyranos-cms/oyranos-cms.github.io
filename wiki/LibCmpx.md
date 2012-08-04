@@ -128,10 +128,10 @@ rendering using the libCmpx API.
 `   cmpx_rstatus_t renderer_status;`  
   
 `   /* Initialize API color management */`  
-`   cmpx_cm_t* cm = cmpxCM_initialize();     `  
+`   cmpx_cm_t* cm = cmpxAPI_initialize();     `  
   
 `   /* Set the printer */`  
-`   cmpxCM_setCurrentPrinter(&cm, `“`CupsDestPrinterName`”`);`  
+`   cmpxAPI_setCurrentPrinter(&cm, `“`CupsDestPrinterName`”`);`  
   
 `   /* Get profile selection mode from the GUI. (see the box below) */`  
 `   cmpx_selectormode_t mode = getProfileSelectionMode(); `  
@@ -141,11 +141,11 @@ rendering using the libCmpx API.
 `     setManualProfile(&cm);`  
 `   else if (mode != CMPX_SELECTORMODE_NOTSET){`  
 `     getPrintSettings(&cm);`  
-`     selector_status = cmpxCM_setAutoProfile(&cm);`  
+`     selector_status = cmpxAPI_setAutoProfile(&cm);`  
 `   }`  
   
 `   /* Render the PDF */`  
-`   renderer_status = cmpxCM_setSpoolPdf(&cm, 0);`  
+`   renderer_status = cmpxAPI_setSpoolPdf(&cm, 0);`  
   
 `   cmpxCM_close(&cm);`  
   
@@ -175,7 +175,7 @@ the UI. (Using Qt.)
 `   QString userSelection = QFileDialog::getOpenFileName(. . .);`  
 `   const char* user_profile = userSelection.toLocal8Bit();`  
   
-`   cmpxCM_setProfile(cm_obj, user_profile);  `  
+`   cmpxAPI_setProfile(cm_obj, user_profile);  `  
 `}`
 
 Automatic profile selection using libCmpx requires obtaining the
@@ -196,7 +196,7 @@ settings: “Media Type”, “Resolution”, and “Color Model”.
   
 `   // Store option values into the libCmpx color manager object. `  
 `   // Further print option enumerations are found in libcmpx_defs.h.`  
-`   cmpxCM_setPrintOption(cm_obj, CMPX_UI_MEDIATYPE, mt_value);`  
-`   cmpxCM_setPrintOption(cm_obj, CMPX_UI_RESOLUTION, rs_value);`  
-`   cmpxCM_setPrintOption(cm_obj, CMPX_UI_COLORMODEL, cm_value);`  
+`   cmpxAPI_setPrintOption(cm_obj, CMPX_UI_MEDIATYPE, mt_value);`  
+`   cmpxAPI_setPrintOption(cm_obj, CMPX_UI_RESOLUTION, rs_value);`  
+`   cmpxAPI_setPrintOption(cm_obj, CMPX_UI_COLORMODEL, cm_value);`  
 `}`
