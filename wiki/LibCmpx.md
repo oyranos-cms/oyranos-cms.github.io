@@ -116,38 +116,38 @@ rendering using the libCmpx API.
 
 `<libcmpx.h>`
 
-`libcmpx_selectormode_t getProfileSelectionMode();`
+`cmpx_selectormode_t getProfileSelectionMode();`
 
-`void getPrintSettings(libcmpx_cm_t**);`  
-`void setManualProfile(libcmpx_cm_t**);`
+`void getPrintSettings(cmpx_cm_t**);`  
+`void setManualProfile(cmpx_cm_t**);`
 
 `int main()`  
 `{`  
 `   /* Optional status enums */`  
-`   libcmpx_sstatus_t selector_status;`  
-`   libcmpx_rstatus_t renderer_status;`  
+`   cmpx_sstatus_t selector_status;`  
+`   cmpx_rstatus_t renderer_status;`  
   
 `   /* Initialize API color management */`  
-`   libcmpx_cm_t* cm = libcmpxCM_initialize();     `  
+`   cmpx_cm_t* cm = cmpxCM_initialize();     `  
   
 `   /* Set the printer */`  
-`   libcmpxCM_setCurrentPrinter(&cm, `“`CupsDestPrinterName`”`);`  
+`   cmpxCM_setCurrentPrinter(&cm, `“`CupsDestPrinterName`”`);`  
   
 `   /* Get profile selection mode from the GUI. (see the box below) */`  
-`   libcmpx_selectormode_t mode = getProfileSelectionMode(); `  
+`   cmpx_selectormode_t mode = getProfileSelectionMode(); `  
   
 `   /* Set the profile for libCmpx. */`  
-`   if(mode == LIBCMPX_USERSELECT_MODE)`  
+`   if(mode == CMPX_USERSELECT_MODE)`  
 `     setManualProfile(&cm);`  
-`   else if (mode != LIBCMPX_SELECTORMODE_NOTSET){`  
+`   else if (mode != CMPX_SELECTORMODE_NOTSET){`  
 `     getPrintSettings(&cm);`  
-`     selector_status = libcmpxCM_setAutoProfile(&cm);`  
+`     selector_status = cmpxCM_setAutoProfile(&cm);`  
 `   }`  
   
 `   /* Render the PDF */`  
-`   renderer_status = libcmpxCM_setSpoolPdf(&cm, 0);`  
+`   renderer_status = cmpxCM_setSpoolPdf(&cm, 0);`  
   
-`   libcmpxCM_close(&cm);`  
+`   cmpxCM_close(&cm);`  
   
 `   return 0;`  
 `}`
@@ -158,24 +158,24 @@ the UI. (Using Qt.)
 `QString iccModeString;`  
 `QComboBox iccModeComboBox;`
 
-`libcmpx_selectormode_t getProfileSelectionMode()`  
+`cmpx_selectormode_t getProfileSelectionMode()`  
 `{`  
 `  iccModeString = iccModeComboBox.currentText(); `  
   
 `  if(iccModeString == `“`Auto`` ``Set`”`)`  
-`   return LIBCMPX_AUTOSELECT_MODE;`  
+`   return CMPX_AUTOSELECT_MODE;`  
 `  else if (iccModeString == `“`Manual`”`) `  
-`   return LIBCMPX_USERSELECT_MODE; `  
+`   return CMPX_USERSELECT_MODE; `  
 `  else`  
-`   return LIBCMPX_SELECTORMODE_NOTSET;`  
+`   return CMPX_SELECTORMODE_NOTSET;`  
 `}`  
   
-`void setManualProfile(libcmpx_cm_t** cm_obj)`  
+`void setManualProfile(cmpx_cm_t** cm_obj)`  
 `{`  
 `   QString userSelection = QFileDialog::getOpenFileName(. . .);`  
 `   const char* user_profile = userSelection.toLocal8Bit();`  
   
-`   libcmpxCM_setProfile(cm_obj, user_profile);  `  
+`   cmpxCM_setProfile(cm_obj, user_profile);  `  
 `}`
 
 Automatic profile selection using libCmpx requires obtaining the
@@ -186,7 +186,7 @@ settings: “Media Type”, “Resolution”, and “Color Model”.
 `QString mtComboboxText, rsComboboxText, cmComboboxText;`  
 `char *mt_value, *rs_value, *cm_value;`
 
-`void getPrintSettings(libcmpx_cm_t** cm_obj)`  
+`void getPrintSettings(cmpx_cm_t** cm_obj)`  
 `{`  
 `   //  ... obtain option value strings from three comboboxes ...`  
   
@@ -196,7 +196,7 @@ settings: “Media Type”, “Resolution”, and “Color Model”.
   
 `   // Store option values into the libCmpx color manager object. `  
 `   // Further print option enumerations are found in libcmpx_defs.h.`  
-`   libcmpxCM_setPrintOption(cm_obj, LIBCMPX_UI_MEDIATYPE, mt_value);`  
-`   libcmpxCM_setPrintOption(cm_obj, LIBCMPX_UI_RESOLUTION, rs_value);`  
-`   libcmpxCM_setPrintOption(cm_obj, LIBCMPX_UI_COLORMODEL, cm_value);`  
+`   cmpxCM_setPrintOption(cm_obj, CMPX_UI_MEDIATYPE, mt_value);`  
+`   cmpxCM_setPrintOption(cm_obj, CMPX_UI_RESOLUTION, rs_value);`  
+`   cmpxCM_setPrintOption(cm_obj, CMPX_UI_COLORMODEL, cm_value);`  
 `}`
