@@ -24,6 +24,22 @@ SVG
 
 <http://www.oyranos.org/images/ImageWithEmbeddedICC.svg>
 
+PDF
+---
+
+The following documents can be downloaded and printed.
+<http://www.oyranos.org/images/070_OutputIntent_ISOcoated1_v1_x3.png>
+[1](http://www.oyranos.org/images/070_OutputIntent_ISOCoated1-v1_x3.pdf)
+
+<http://www.oyranos.org/images/130_Source_Profile.png>
+[2](http://www.oyranos.org/images/130_Source%030Profile.pdf)
+
+<http://www.oyranos.org/images/131_Rendering_Intent.png>
+[3](http://www.oyranos.org/images/131_Rendering%030intent.pdf)
+
+[Original Files and
+Copyright](http://www.gwg.org/ghentoutputsuite.phtml) @ GWG
+
 ICC Tests
 ---------
 
