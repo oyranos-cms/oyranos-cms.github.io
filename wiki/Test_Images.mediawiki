@@ -21,13 +21,13 @@ http://www.oyranos.org/images/ImageWithEmbeddedICC.svg
 
 The following documents can be downloaded and printed.
 http://www.oyranos.org/images/070_OutputIntent_ISOcoated1_v1_x3.png
-[http://www.oyranos.org/images/070_OutputIntent_ISOCoated1-v1_x3.pdf]
+[http://www.oyranos.org/images/070_OutputIntent_ISOCoated1-v1_x3.pdf PDF]
 
 http://www.oyranos.org/images/130_Source_Profile.png 
-[http://www.oyranos.org/images/130_Source%030Profile.pdf]
+[http://www.oyranos.org/images/130_Source%20Profile.pdf PDF]
 
 http://www.oyranos.org/images/131_Rendering_Intent.png 
-[http://www.oyranos.org/images/131_Rendering%030intent.pdf]
+[http://www.oyranos.org/images/131_Rendering%20intent.pdf PDF]
 
 [http://www.gwg.org/ghentoutputsuite.phtml Original Files and Copyright] @ GWG
 
