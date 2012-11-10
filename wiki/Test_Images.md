@@ -22,6 +22,9 @@ version](http://www.oyranos.org/temp/colourTestsRGB.tif)
 SVG
 ---
 
+A SVG image containing a wide gamut flowers and below a false colour
+profile test:
+
 <http://www.oyranos.org/images/ImageWithEmbeddedICC.svg>
 
 PDF
