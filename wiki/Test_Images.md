@@ -27,7 +27,8 @@ SVG
 PDF
 ---
 
-The following documents can be downloaded and printed.
+The following PDF documents can be downloaded and printed:
+
 <http://www.oyranos.org/images/070_OutputIntent_ISOcoated1_v1_x3.png>
 [PDF](http://www.oyranos.org/images/070_OutputIntent_ISOCoated1-v1_x3.pdf)
 
