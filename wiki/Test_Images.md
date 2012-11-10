@@ -19,6 +19,10 @@ sRGB:
 <http://www.oyranos.org/temp/colourTestsRGB.png> [Tiff
 version](http://www.oyranos.org/temp/colourTestsRGB.tif)
 
+Banding test by pippin.gimp.org:
+
+<http://www.oyranos.org/images/16bit-gradient.png>
+
 SVG
 ---
 

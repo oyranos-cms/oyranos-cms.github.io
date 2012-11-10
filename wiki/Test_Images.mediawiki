@@ -13,6 +13,11 @@ http://www.oyranos.org/temp/colourTestsRGB.png
 [http://www.oyranos.org/temp/colourTestsRGB.tif Tiff version]
 
 
+
+Banding test by pippin.gimp.org:
+
+http://www.oyranos.org/images/16bit-gradient.png
+
 == SVG ==
 
 A SVG image containing a wide gamut flowers and below a false colour profile test:
@@ -41,7 +46,6 @@ http://www.oyranos.org/images/131_Rendering_Intent.png
 http://www.color.org/images/browsertest.jpg
 
 http://www.color.org/images/browsertest_lut.jpg
-
 
 === Links ===
 * [http://www.color.org/version4html.xalter V4 Browsertest] @ www.color.org
