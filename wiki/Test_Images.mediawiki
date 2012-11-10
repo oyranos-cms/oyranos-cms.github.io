@@ -32,7 +32,7 @@ http://www.oyranos.org/images/130_Source_Profile.png
 http://www.oyranos.org/images/131_Rendering_Intent.png 
 [http://www.oyranos.org/images/131_Rendering%20intent.pdf PDF]
 
-[http://www.gwg.org/ghentoutputsuite.phtml Original Files and Copyright] @ GWG
+[http://www.gwg.org/ghentoutputsuite.phtml Original Files, Documentation and Copyright] @ GWG
 
 == ICC Tests ==
 

@@ -41,7 +41,7 @@ The following PDF documents can be downloaded and printed:
 <http://www.oyranos.org/images/131_Rendering_Intent.png>
 [PDF](http://www.oyranos.org/images/131_Rendering%20intent.pdf)
 
-[Original Files and
+[Original Files, Documentation and
 Copyright](http://www.gwg.org/ghentoutputsuite.phtml) @ GWG
 
 ICC Tests
