@@ -9,27 +9,114 @@ Currently only monitor profiles are supported on unix X window systems.
 The man page for the appropriate command line tool “oyranos-monitor” is
 shown below:
 
+`oyranos-monitor(1)                                          oyranos-monitor(1)`  
+  
 `NAME`  
 `      oyranos-monitor - Oyranos CMS monitor configuration`  
   
 `SYNOPSIS`  
-`      oyranos-monitor [-x num -y num  profilename] [-x num -y num] [-b -x num`  
-`      -y num] [-e -x num -y num] []`  
+`      oyranos-monitor |-s [[-x num] [-y num]|-d NUMBER] [-v]`  
+`      oyranos-monitor PROFILENAME [[-x num] [-y num]|-d NUMBER] [-v]`  
+`      oyranos-monitor -e [[-x num] [-y num]|-d NUMBER] [-v]`  
+`      oyranos-monitor -l [[-x num] [-y num]|-d NUMBER] [-v]`  
+`                      [ --module MODULENAME ]`  
+`      oyranos-monitor --modules [-v]`  
+`      oyranos-monitor  -f [edid|icc|edid_icc] [-o OUT_FILENAME | default:std‐`  
+`      out] [[-x num] [-y num]|-d NUMBER] [-m] [-v]`  
+`      oyranos-monitor --add-edid FILENAME --profile  FILENAME  [--name  NAME]`  
+`      [-v]`  
   
 `DESCRIPTION`  
-`      This little programm let you  query  and  set  the  monitor  profile(s)`  
-`      within the Oyranos colour management system (CMS).`  
+`      The  oyranos-monitor  programm  let  you query and set the monitor pro‐`  
+`      file(s) within the Oyranos colour management system (CMS). Profiles are`  
+`      stored in a data base, the Oyranos DB.`  
   
 `OPTIONS`  
-`      -x     get/set the x display position`  
+`      -s Setup a ICC profile for a all or a selected monitor`  
   
-`      -y     get/set the y display position`  
+`             -s,  --setup [default] Set up the X11 server with the Oyranos DB`  
+`             stored monitor ICC profile(s). This option is optional.`  
   
-`      -e     reset the hardware gamma table to the defaults`  
+`             -d NUMBER , -d=NUMBER position in device list.`  
+`             -x POSITION , -x=POSITION select the screen at the x position.`  
+`             -y POSITION , -y=POSITION select the screen at the y position.`  
   
-`      -b     query the profile name from the Oyranos device profile data base`  
+`      PROFILENAME  assign a ICC profile to a monitor device`  
+`             Assign a monitor ICC profile to the selected screen and store in`  
+`             the Oyranos DB.`  
   
-`      Set up the X11 server with the Oyranos stored monitor profile`  
+`             -d NUMBER , -d=NUMBER position in device list.`  
+`             -x POSITION , -x=POSITION select the screen at the x position.`  
+`             -y POSITION , -y=POSITION select the screen at the y position.`  
+  
+`      -e, --erase  release a ICC profile from a monitor device`  
+`             Reset  the  hardware  gamma table to the defaults and erase from`  
+`             the Oyranos DB`  
+  
+`             -d NUMBER , -d=NUMBER position in device list.`  
+`             -x POSITION , -x=POSITION select the screen at the x position.`  
+`             -y POSITION , -y=POSITION select the screen at the y position.`  
+  
+`      -l, --list list devices`  
+`             -v increase verbosity`  
+`             --short show only the ICC profiles file name`  
+  
+`      --modules`  
+`             list monitor modules`  
+  
+`      -f, --format [edid|icc|edid_icc] Get data`  
+`             Select a data format. Possible are edid  for  server  side  EDID`  
+`             data,  icc  for a server side ICC profile and edid_icc for a ICC`  
+`             profile created from server side EDID.  Without  the  -o/--ouput`  
+`             option the output is written to stdout.`  
+  
+`             -d NUMBER , -d=NUMBER position in device list.`  
+`             -x POSITION , -x=POSITION select the screen at the x position.`  
+`             -y POSITION , -y=POSITION select the screen at the y position.`  
+`             -m  (--device-meta-tag)  switch  is  accepted  by the -f=icc and`  
+`             -f=edid_icc option. It embeddes device and  driver  informations`  
+`             about  the  actual device for later easier ICC profile to device`  
+`             assignment.  This becomes useful for sharing ICC profiles.`  
+`             -o, --output OUT_FILENAME Write data selected by -f/--format  to`  
+`             the given filename.`  
+  
+`      --add-edid EDID_FILENAME`  
+`             Embedd  EDID  keys to a ICC profile as meta tag. Requires --pro‐`  
+`             file.`  
+`             --profile ICC_FILENAME ICC profile.`  
+`             --name ICC_INTERNAL_NAME String for ICC profile internal name.`  
+  
+`GENERAL OPTIONS`  
+`      -d NUMBER , -d=NUMBER position in device list.  The numbering of  moni‐`  
+`      tors  starts  with  zero for the first device. To get the number of all`  
+`      available devices use `“`oyranos-monitor`` ``-l`` ``|`` ``wc`` ``-l`”`.`  
+`      -x POSITION , -x=POSITION select the screen at  the  x  position.   The`  
+`      Oyranos screens are if possible real devices. A screen position must be`  
+`      unique and not shared  by  different  screens,  otherwise  it  will  be`  
+`      ambiguous.`  
+`      -y POSITION , -y=POSITION select the screen at the y position`  
+`      -v, --verbose increase verbosity`  
+`      --module select module`  
+  
+`      --daemon`  
+`             Run  as  daemon to observe monitor hotplug events and update the`  
+`             setup.`  
+  
+`ENVIRONMENT`  
+`      DISPLAY`  
+`             On X11 systems the display is selected by this variable.`  
+  
+`      OY_DEBUG`  
+`             set the Oyranos debug level. Alternatively the -v option can  be`  
+`             used.`  
+  
+`      XDG_DATA_HOME XDG_DATA_DIRS`  
+`             route  Oyranos  to  top  directories  containing  resources. The`  
+`             derived paths for ICC profiles have a `“`color/icc`”` appended.`  
+`             `[`http://www.oyranos.com/wiki/index.php?title=OpenIccDirectoryProposal`](http://www.oyranos.com/wiki/index.php?title=OpenIccDirectoryProposal)  
+  
+`      OY_MODULE_PATH`  
+`             route Oyranos to additional directories containing modules.`  
   
 `EXAMPLES`  
 `      Put the following in a setup script like .xinitrc:`  
@@ -37,28 +124,44 @@ shown below:
 `             # fill the VideoCardGammaTable, if appropriate`  
 `             oyranos-monitor`  
   
-  
 `      Assign a ICC profile to a screen:`  
 `             oyranos-monitor -x pos -y pos profilename`  
-  
   
 `      Reset a screens hardware LUT in order to do a calibration:`  
 `             oyranos-monitor -e -x pos -y pos profilename`  
   
-  
 `      Query the server side, network transparent profile:`  
 `             oyranos-monitor -x pos -y pos`  
   
+`      List all Oyranos monitor devices:`  
+`             oyranos-monitor -l`  
   
-`      Query the Oyranos device data base profile on the local computer:`  
-`             oyranos-monitor -b -x pos -y pos`  
+`      Show the first Oyranos monitor device verbosely:`  
+`             oyranos-monitor -l -v -d 0`  
   
+`      List all monitor devices through the oyX1 module:`  
+`             oyranos-monitor -l --module oyX1`  
+  
+`      Dump data in the format following the -f option:`  
+`             oyranos-monitor -f=[edid|icc|edid_icc] -o=edid.bin -x=pos -y=pos`  
+`             -m`  
+  
+`      Embedd device informations into ICC meta tag:`  
+`             oyranos-monitor    --add-edid=edid_filename   --profile=profile‐`  
+`             name.icc --name=profilename`  
   
 `AUTHOR`  
 `      Kai-Uwe Behrmann (ku.b (at) gmx.de)`  
   
+`COPYRIGHT`  
+`      (c) 2005-2012, Kai-Uwe Behrmann and others`  
+`      License: new BSD <`[`http://www.opensource.org/licenses/bsd-license.php`](http://www.opensource.org/licenses/bsd-license.php)`>`  
+  
 `SEE ALSO`  
-`      oyranos-config-fltk(1) oyranos-policy(1) oyranos(3)`  
-` `  
+`      oyranos-config-fltk(1) oyranos-policy(1) oyranos-profiles(1) oyranos(3)`  
+`      `[`http://www.oyranos.org`](http://www.oyranos.org)  
+  
 `BUGS`  
-`      at: `[`http://sourceforge.net/tracker/?group_id=177017&atid=879553`](http://sourceforge.net/tracker/?group_id=177017&atid=879553)
+`      at: `[`http://sourceforge.net/tracker/?group_id=177017&atid=879553`](http://sourceforge.net/tracker/?group_id=177017&atid=879553)  
+  
+`User Commands                    July 29, 2012              oyranos-monitor(1)`
