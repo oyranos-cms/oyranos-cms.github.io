@@ -18,11 +18,15 @@ In 2010 it is part of the Oyranos LiveCD.
 
 Policy tab:
 
-<http://www.oyranos.org/images/KolorManager-oS12.1_2.png>
+<http://www.oyranos.org/images/KolorManager-1.0.1_policy.png>
 
 Devices tab:
 
-![](Kolor-manager_081200.png "Kolor-manager_081200.png")
+<http://www.oyranos.org/images/KolorManager-1.0.1_devices.png>
+
+Info tab:
+
+<http://www.oyranos.org/images/KolorManager-1.0.1_info.png>
 
 ### Links
 

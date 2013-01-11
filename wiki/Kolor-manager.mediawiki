@@ -6,12 +6,17 @@ He is working again on it during is [http://freedesktop.org/wiki/OpenIcc/GoogleS
 
 Policy tab:
 
-http://www.oyranos.org/images/KolorManager-oS12.1_2.png
+http://www.oyranos.org/images/KolorManager-1.0.1_policy.png
 
 
 Devices tab:
 
-[[Image:Kolor-manager 081200.png]]
+http://www.oyranos.org/images/KolorManager-1.0.1_devices.png
+
+
+Info tab:
+
+http://www.oyranos.org/images/KolorManager-1.0.1_info.png
 
 
 === Links ===
