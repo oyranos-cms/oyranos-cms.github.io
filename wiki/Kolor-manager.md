@@ -6,6 +6,8 @@ tags:
  - Programms
 ---
 
+Project page: [KolorManager](http://www.oyranos.org/kolormanager)
+
 Screenshot from December 2008 with the device configuration part:
 Kolor-manager was developed by Joe Simon during his 2008 *Google Summer
 of Code* project at
@@ -16,7 +18,7 @@ In 2010 it is part of the Oyranos LiveCD.
 
 Policy tab:
 
-<http://www.oyranos.org/images/kolor-manager_policy_101101.png>
+<http://www.oyranos.org/images/KolorManager-oS12.1_2.png>
 
 Devices tab:
 
@@ -24,14 +26,6 @@ Devices tab:
 
 ### Links
 
--   [Project
-    README](http://websvn.kde.org/trunk/playground/graphics/kolor-manager/README?view=markup)
 -   [KDE](/wiki/KDE "wikilink") page on ColourWiki
--   [libXcm and full screen colour correction with a
-    GPU](http://oyranos-cms.blogspot.com/2010/06/libxcm-and-full-screen-colour.html)
-    entry on the Oyranos blog
--   [ICC meta tag in device
-    profiles](http://oyranos-cms.blogspot.com/2010/10/icc-meta-tag-in-device-profiles.html)
-    entry on the Oyranos blog
 
 [back -&gt; Applications](/wiki/Applications "wikilink")
