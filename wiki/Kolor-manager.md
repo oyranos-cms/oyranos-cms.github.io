@@ -16,10 +16,6 @@ He is working again on it during is [2009 GSoC
 project](http://freedesktop.org/wiki/OpenIcc/GoogleSoC2009#head-21f415043e2bf233409eca71aad96027a3d24529).
 In 2010 it is part of the Oyranos LiveCD.
 
-Policy tab:
-
-<http://www.oyranos.org/images/KolorManager-1.0.1_policy.png>
-
 Devices tab:
 
 <http://www.oyranos.org/images/KolorManager-1.0.1_devices.png>
@@ -27,6 +23,10 @@ Devices tab:
 Info tab:
 
 <http://www.oyranos.org/images/KolorManager-1.0.1_info.png>
+
+Settings tab:
+
+<http://www.oyranos.org/images/KolorManager-1.0.1_settings.png>
 
 ### Links
 
