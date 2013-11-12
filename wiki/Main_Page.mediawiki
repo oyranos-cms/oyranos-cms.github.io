@@ -7,7 +7,7 @@
 
 '''Welcome to ColourWiki!'''
 
-This site provides a collection of information regarding mainly, but not limited to, [http://www.opensource.org Open Source] [http://en.wikipedia.org/wiki/Color_management Colour Management]. You can find concepts, descriptions, technical proposals, extractions from [[OpenICC|email]] or IRC discussions, articles and related links. ColourWiki is used by some [[OpenICC]] members.
+This site provides a collection of information regarding mainly, but not limited to, [http://www.opensource.org Open Source] [http://en.wikipedia.org/wiki/Color_management Colour Management]. You can find concepts, descriptions, technical proposals, extractions from [[OpenICC|email]] or IRC discussions, articles and related links. ColourWiki is meintained by [[OpenICC]] members.
 </div>
 <div align="right"><small>'''[[ColourWiki:About|Informations about ColourWiki]]'''</small></div>
 </div>

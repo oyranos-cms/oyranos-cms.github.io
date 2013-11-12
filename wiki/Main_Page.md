@@ -14,7 +14,7 @@ layout: wiki
 <td><div style="margin: 0; margin-right:10px; border: 2px solid #dfdfdf; background-color:#f8f8ff;">
 <div style="padding: 0.3em 1em 0.7em 1em;">
 <p><strong>Welcome to ColourWiki!</strong></p>
-<p>This site provides a collection of information regarding mainly, but not limited to, <a href="http://www.opensource.org">Open Source</a> <a href="http://en.wikipedia.org/wiki/Color_management">Colour Management</a>. You can find concepts, descriptions, technical proposals, extractions from <a href="OpenICC" title="wikilink">email</a> or IRC discussions, articles and related links. ColourWiki is used by some <a href="OpenICC" class="uri" title="wikilink">OpenICC</a> members.</p>
+<p>This site provides a collection of information regarding mainly, but not limited to, <a href="http://www.opensource.org">Open Source</a> <a href="http://en.wikipedia.org/wiki/Color_management">Colour Management</a>. You can find concepts, descriptions, technical proposals, extractions from <a href="OpenICC" title="wikilink">email</a> or IRC discussions, articles and related links. ColourWiki is meintained by <a href="OpenICC" class="uri" title="wikilink">OpenICC</a> members.</p>
 </div>
 <div align="right">
 <p><small><strong><a href="ColourWiki:About" title="wikilink">Informations about ColourWiki</a></strong></small></p>
