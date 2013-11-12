@@ -2,6 +2,8 @@
 title: ICC meta Tag for Monitor Profiles 1.0
 permalink: wiki/ICC_meta_Tag_for_Monitor_Profiles_1.0/
 layout: wiki
+tags:
+ - Standards
 ---
 
 | Revision History |            |

@@ -158,3 +158,6 @@ enough to match colorimetry origin from EDID.
 * [http://lists.freedesktop.org/archives/openicc/2012q1/004556.html 1.0] - add hint about error delta, clarify colorimetric prefixes
 
 2010-2012 &copy; Kai-Uwe Behrmann
+
+
+[[Category:Standards]]
