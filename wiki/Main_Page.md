@@ -14,7 +14,7 @@ layout: wiki
 <td><div style="margin: 0; margin-right:10px; border: 2px solid #dfdfdf; background-color:#f8f8ff;">
 <div style="padding: 0.3em 1em 0.7em 1em;">
 <p><strong>Welcome to ColourWiki!</strong></p>
-<p>This site provides a collection of information regarding mainly, but not limited to, <a href="http://www.opensource.org">Open Source</a> <a href="http://en.wikipedia.org/wiki/Color_management">Colour Management</a>. You can find concepts, descriptions, technical proposals, extractions from <a href="OpenICC" title="wikilink">email</a> or IRC discussions, articles and related links. Take it as drawing board as well as for publishing ideas.</p>
+<p>This site provides a collection of information regarding mainly, but not limited to, <a href="http://www.opensource.org">Open Source</a> <a href="http://en.wikipedia.org/wiki/Color_management">Colour Management</a>. You can find concepts, descriptions, technical proposals, extractions from <a href="OpenICC" title="wikilink">email</a> or IRC discussions, articles and related links. ColourWiki is used by some <a href="OpenICC" class="uri" title="wikilink">OpenICC</a> members.</p>
 </div>
 <div align="right">
 <p><small><strong><a href="ColourWiki:About" title="wikilink">Informations about ColourWiki</a></strong></small></p>
@@ -35,7 +35,16 @@ layout: wiki
 <a href="http://www.scribus.net/index.php?name=Web_Links&amp;req=viewlink&amp;cid=4">Color Management</a>::Scribus</p>
 </div>
 </div></td>
-<td><div style="margin:0;  border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
+<td><div style="margin:0; border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
+<p><strong>Specifications</strong></p>
+<ul>
+<li><a href="ICC_Profiles_in_X_Specification_0.4" title="wikilink">ICC Profiles in X Specification</a></li>
+<li><a href="ICC_meta_Tag_for_Monitor_Profiles_1.0" title="wikilink">ICC meta Tag for Monitor Profiles</a></li>
+<li><a href="OpenICC_Configuration_0.1" title="wikilink">OpenICC Configuration 0.1</a></li>
+<li><a href="Oyranos_X11_Requirements" title="wikilink">Oyranos X11 Requirements</a></li>
+</ul>
+</div>
+<div style="margin:0; margin-top:10px;  border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
 <p><strong>Discussion Entry Points</strong></p>
 <ul>
 <li><a href="What_the_users_want" title="wikilink">What the users want</a></li>
@@ -46,10 +55,6 @@ layout: wiki
 <li><a href="ColourMatchingModuls" class="uri" title="wikilink">ColourMatchingModuls</a></li>
 <li><a href="Applications" class="uri" title="wikilink">Applications</a> - colour management (CM) capable programs</li>
 </ul>
-</div>
-<div style="margin:0; margin-top:10px; border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
-<p><strong><a href="Oyranos" class="uri" title="wikilink">Oyranos</a></strong></p>
-<p>The open source Colour Management System <a href="Oyranos" class="uri" title="wikilink">Oyranos</a> is intented to provide system level services. On the Oyranos pages at ColourWiki you can find documentation, feature wish lists, tutorials and links to related sites.</p>
 </div></td>
 </tr>
 <tr class="even">

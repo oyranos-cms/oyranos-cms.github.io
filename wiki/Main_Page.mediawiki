@@ -7,7 +7,7 @@
 
 '''Welcome to ColourWiki!'''
 
-This site provides a collection of information regarding mainly, but not limited to, [http://www.opensource.org Open Source] [http://en.wikipedia.org/wiki/Color_management Colour Management]. You can find concepts, descriptions, technical proposals, extractions from [[OpenICC|email]] or IRC discussions, articles and related links. Take it as drawing board as well as for publishing ideas.
+This site provides a collection of information regarding mainly, but not limited to, [http://www.opensource.org Open Source] [http://en.wikipedia.org/wiki/Color_management Colour Management]. You can find concepts, descriptions, technical proposals, extractions from [[OpenICC|email]] or IRC discussions, articles and related links. ColourWiki is used by some [[OpenICC]] members.
 </div>
 <div align="right"><small>'''[[ColourWiki:About|Informations about ColourWiki]]'''</small></div>
 </div>
@@ -33,7 +33,17 @@ This site provides a collection of information regarding mainly, but not limited
 </div>
 
 | width="48%" style="vertical-align:top" |
-<div style="margin:0;  border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
+<div style="margin:0; border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
+'''Specifications'''
+
+
+*[[ICC Profiles in X Specification 0.4|ICC Profiles in X Specification]]
+*[[ICC meta Tag for Monitor Profiles 1.0|ICC meta Tag for Monitor Profiles]]
+*[[OpenICC Configuration 0.1]]
+*[[Oyranos X11 Requirements]]
+</div>
+
+<div style="margin:0; margin-top:10px;  border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
 '''Discussion Entry Points'''
 *[[What the users want]]
 *[[Concepts|Concepts Discussion]]
@@ -42,12 +52,6 @@ This site provides a collection of information regarding mainly, but not limited
 *[[Standards]]
 *[[ColourMatchingModuls]]
 *[[Applications]] - colour management (CM) capable programs
-</div>
-
-<div style="margin:0; margin-top:10px; border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
-'''[[Oyranos]]'''
-
-The open source Colour Management System [[Oyranos]] is intented to provide system level services. On the Oyranos pages at ColourWiki you can find  documentation, feature wish lists, tutorials and links to related sites.
 </div>
 
 |-
