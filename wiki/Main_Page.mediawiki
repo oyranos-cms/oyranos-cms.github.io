@@ -40,11 +40,12 @@ This site provides a collection of information regarding mainly, but not limited
 *[[ICC Profiles in X Specification 0.4|ICC Profiles in X Specification]]
 *[[ICC meta Tag for Monitor Profiles 1.0|ICC meta Tag for Monitor Profiles]]
 *[[OpenICC Configuration 0.1]]
+*[[OpenIccDirectoryProposal|OpenICC Directory Proposal]]
 *[[Oyranos X11 Requirements]]
 </div>
 
 <div style="margin:0; margin-top:10px;  border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
-'''Discussion Entry Points'''
+'''Discussion'''
 *[[What the users want]]
 *[[Concepts|Concepts Discussion]]
 *[[Device Settings]]

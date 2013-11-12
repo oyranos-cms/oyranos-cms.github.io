@@ -41,11 +41,12 @@ layout: wiki
 <li><a href="ICC_Profiles_in_X_Specification_0.4" title="wikilink">ICC Profiles in X Specification</a></li>
 <li><a href="ICC_meta_Tag_for_Monitor_Profiles_1.0" title="wikilink">ICC meta Tag for Monitor Profiles</a></li>
 <li><a href="OpenICC_Configuration_0.1" title="wikilink">OpenICC Configuration 0.1</a></li>
+<li><a href="OpenIccDirectoryProposal" title="wikilink">OpenICC Directory Proposal</a></li>
 <li><a href="Oyranos_X11_Requirements" title="wikilink">Oyranos X11 Requirements</a></li>
 </ul>
 </div>
 <div style="margin:0; margin-top:10px;  border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
-<p><strong>Discussion Entry Points</strong></p>
+<p><strong>Discussion</strong></p>
 <ul>
 <li><a href="What_the_users_want" title="wikilink">What the users want</a></li>
 <li><a href="Concepts" title="wikilink">Concepts Discussion</a></li>
