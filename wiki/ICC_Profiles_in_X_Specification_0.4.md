@@ -3,7 +3,6 @@ title: ICC Profiles in X Specification 0.4
 permalink: wiki/ICC_Profiles_in_X_Specification_0.4/
 layout: wiki
 tags:
- - Oyranos
  - Standards
 ---
 
@@ -28,13 +27,7 @@ DRAFT
 <td><p><a href="http://www.freedesktop.org/wiki/OpenIcc/ICC_Profiles_in_X_Specification_0.3">Revision 0.3</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Draft 1 for Revision 0.4</p></td>
-</tr>
-<tr class="odd">
-<td><p>Draft 2 for Revision 0.4</p></td>
-</tr>
-<tr class="even">
-<td><p>Draft 3 for Revision 0.4</p></td>
+<td><p>Revision 0.4</p></td>
 </tr>
 <tr class="odd">
 </tr>
@@ -46,9 +39,8 @@ Introduction
 
 This is a specification for associating ICC colour profiles with X
 monitors. With this specification applications and services can obtain
-the appropriate display profile for the monitor they are interessted in,
-and apply colour correction to any images, which are being shown to the
-user.
+the appropriate display profile for the monitor they are interested in,
+and apply colour correction to any images, which are shown to the user.
 
 Specification
 -------------
@@ -97,10 +89,12 @@ colour space according to this version of the specification.
 The \_ICC\_PROFILE\_IN\_X\_VERSION atom specifies the version of this
 specification applied. To simplify parsing the minor revision number is
 multiplied by 1 plus the major number by 100. So for example revision
-0.4 would result in:  
-0\*100 + 4\*1 =&gt; 4  
-The atom should be stored as ascii text of type
-<span class="type">XA\_STRING</span> with 8-bit elements.
+0.4 would result in:
+
+0\*100 + 4\*1 =&gt; 4
+
+The atom should be stored as ascii text of type XA\_STRING with 8-bit
+elements.
 
 References
 ----------
@@ -111,7 +105,7 @@ References
 host](http://www.freedesktop.org/wiki/Specifications/icc_profiles_in_x_spec)
 @ freedesktop.org
 
-2005 © Ross Burton; 2006-2010 © Kai-Uwe Behrmann
+3. [Ross Burtons old
+page](http://www.burtonini.com/computing/x-icc-profiles-spec-0.2.html)
 
-[back --&gt; Oyranos](/wiki/Oyranos "wikilink") or [Oyranos X11
-Requirements](/wiki/Oyranos_X11_Requirements "wikilink")
+2005 © Ross Burton; 2006-2010 © Kai-Uwe Behrmann
