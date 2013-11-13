@@ -15,6 +15,20 @@ This site provides a collection of information regarding mainly, but not limited
 <div style="margin: 0;  margin-right:10px; margin-top:10px; border: 2px solid #dfdfdf; background-color:#f8f8ff;">
 <div style="padding: 0.3em 1em 0.7em 1em;">
 <!-- kind of user documentation and tutorials -->
+'''Documentation'''
+
+''General:''<br/>
+[[Argyll Community Documentation]]
+
+''Links''<br/>
+[[ColourMatchingModuls]]<br/>
+[[Applications]] - colour management (CM) capable programs
+</div>
+</div>
+
+<div style="margin: 0;  margin-right:10px; margin-top:10px; border: 2px solid #dfdfdf; background-color:#f8f8ff;">
+<div style="padding: 0.3em 1em 0.7em 1em;">
+<!-- kind of user documentation and tutorials -->
 '''End User Documentation'''
 
 ''General:''<br>
@@ -35,8 +49,6 @@ This site provides a collection of information regarding mainly, but not limited
 | width="48%" style="vertical-align:top" |
 <div style="margin:0; border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
 '''Specifications'''
-
-
 *[[ICC Profiles in X Specification 0.4|ICC Profiles in X Specification]]
 *[[ICC meta Tag for Monitor Profiles 1.0|ICC meta Tag for Monitor Profiles]]
 *[[OpenICC Configuration 0.1]]
@@ -51,8 +63,6 @@ This site provides a collection of information regarding mainly, but not limited
 *[[Device Settings]]
 *[[Monitor Configuration]]
 *[[Standards]]
-*[[ColourMatchingModuls]]
-*[[Applications]] - colour management (CM) capable programs
 </div>
 
 |-

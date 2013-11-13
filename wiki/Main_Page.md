@@ -22,6 +22,16 @@ layout: wiki
 </div>
 <div style="margin: 0;  margin-right:10px; margin-top:10px; border: 2px solid #dfdfdf; background-color:#f8f8ff;">
 <div style="padding: 0.3em 1em 0.7em 1em;">
+<p><strong>Documentation</strong></p>
+<p><em>General:</em><br />
+<a href="Argyll_Community_Documentation" title="wikilink">Argyll Community Documentation</a></p>
+<p><em>Links</em><br />
+<a href="ColourMatchingModuls" class="uri" title="wikilink">ColourMatchingModuls</a><br />
+<a href="Applications" class="uri" title="wikilink">Applications</a> - colour management (CM) capable programs</p>
+</div>
+</div>
+<div style="margin: 0;  margin-right:10px; margin-top:10px; border: 2px solid #dfdfdf; background-color:#f8f8ff;">
+<div style="padding: 0.3em 1em 0.7em 1em;">
 <p><strong>End User Documentation</strong></p>
 <p><em>General:</em><br />
 <a href="http://en.wikipedia.org/wiki/Color_management">Color Management</a>::Wikipedia<br />
@@ -53,8 +63,6 @@ layout: wiki
 <li><a href="Device_Settings" title="wikilink">Device Settings</a></li>
 <li><a href="Monitor_Configuration" title="wikilink">Monitor Configuration</a></li>
 <li><a href="Standards" class="uri" title="wikilink">Standards</a></li>
-<li><a href="ColourMatchingModuls" class="uri" title="wikilink">ColourMatchingModuls</a></li>
-<li><a href="Applications" class="uri" title="wikilink">Applications</a> - colour management (CM) capable programs</li>
 </ul>
 </div></td>
 </tr>
