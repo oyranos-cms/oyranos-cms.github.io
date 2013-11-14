@@ -45,7 +45,7 @@ License: LGPL
 * [http://www.gotoandlearn.com/play?id=83 A simple video tutorial on how to use PixelBender alias Hydra] from Lee Brimelow
 
 ==== OpenColorIO ====
-* http://opencolorio.org/ — complete color management solution geared towards motion picture production, partial ICC support
+* http://opencolorio.org/ — complete color management solution geared towards motion picture production, [https://github.com/imageworks/OpenColorIO/issues/170 partial] [http://opencolorio.org/userguide/tool_overview.html#ocio2icc ICC support]
 
 License: [http://opencolorio.org/License.html newBSD (3 clauses)]
 

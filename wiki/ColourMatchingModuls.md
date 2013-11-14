@@ -84,7 +84,9 @@ License: LGPL
 #### OpenColorIO
 
 -   <http://opencolorio.org/> — complete color management solution
-    geared towards motion picture production, partial ICC support
+    geared towards motion picture production,
+    [partial](https://github.com/imageworks/OpenColorIO/issues/170) [ICC
+    support](http://opencolorio.org/userguide/tool_overview.html#ocio2icc)
 
 License: [newBSD (3 clauses)](http://opencolorio.org/License.html)
 
