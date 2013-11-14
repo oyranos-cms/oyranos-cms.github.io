@@ -16,7 +16,7 @@ License: GPL, with an exception to libicc and libcgats
 License: MIT
 
 ==== SampleICC ====
-* http://sampleicc.sourceforge.net/ — The ICC's official sample implementation.
+* http://sampleicc.sourceforge.net/ — The ICC's inofficial sample implementation.
 
 License: newBSD (3 clauses)
 
@@ -43,6 +43,11 @@ Currently the focus is on developing two languages, designed for two different i
 License: LGPL
 
 * [http://www.gotoandlearn.com/play?id=83 A simple video tutorial on how to use PixelBender alias Hydra] from Lee Brimelow
+
+==== OpenColorIO ====
+* http://opencolorio.org/ — complete color management solution geared towards motion picture production, partial ICC support
+
+License: [http://opencolorio.org/License.html newBSD (3 clauses)]
 
 == Profiler ==
 ==== ArgyllCMS ====

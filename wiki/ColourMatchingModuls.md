@@ -33,7 +33,7 @@ License: MIT
 
 #### SampleICC
 
--   <http://sampleicc.sourceforge.net/> — The ICC's official sample
+-   <http://sampleicc.sourceforge.net/> — The ICC's inofficial sample
     implementation.
 
 License: newBSD (3 clauses)
@@ -80,6 +80,13 @@ License: LGPL
 
 -   [A simple video tutorial on how to use PixelBender alias
     Hydra](http://www.gotoandlearn.com/play?id=83) from Lee Brimelow
+
+#### OpenColorIO
+
+-   <http://opencolorio.org/> — complete color management solution
+    geared towards motion picture production, partial ICC support
+
+License: [newBSD (3 clauses)](http://opencolorio.org/License.html)
 
 Profiler
 --------
