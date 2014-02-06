@@ -26,8 +26,9 @@ layout: wiki
 <p><em>General:</em><br />
 <a href="Argyll_Community_Documentation" title="wikilink">Argyll Community Documentation</a></p>
 <p><em>Links</em><br />
-<a href="ColourMatchingModuls" class="uri" title="wikilink">ColourMatchingModuls</a><br />
-<a href="Applications" class="uri" title="wikilink">Applications</a> - colour management (CM) capable programs</p>
+<a href="ColourMatchingModuls" title="wikilink">Color Matching Module (CMM)</a><br />
+<a href="Applications#CMS.27s" title="wikilink">Color Management System (CMS)</a><br />
+<a href="Applications" class="uri" title="wikilink">Applications</a> - color management (CM) capable programs</p>
 </div>
 </div>
 <div style="margin: 0;  margin-right:10px; margin-top:10px; border: 2px solid #dfdfdf; background-color:#f8f8ff;">

@@ -21,8 +21,9 @@ This site provides a collection of information regarding mainly, but not limited
 [[Argyll Community Documentation]]
 
 ''Links''<br/>
-[[ColourMatchingModuls]]<br/>
-[[Applications]] - colour management (CM) capable programs
+[[ColourMatchingModuls|Color Matching Module (CMM)]]<br />
+[[Applications#CMS.27s|Color Management System (CMS)]]<br />
+[[Applications]] - color management (CM) capable programs
 </div>
 </div>
 
