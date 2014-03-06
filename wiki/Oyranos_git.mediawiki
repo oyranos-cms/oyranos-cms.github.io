@@ -42,6 +42,12 @@ Some more interesting projects:
 ICC Examin git can be obtained without the above script like follows:
  $ git clone git://www.oyranos.org/git/icc_examin
 
+Alternative addresses over http are:
+ $ git clone http://www.oyranos.org/git/xcolor.git
+ $ git clone http://www.oyranos.org/git/oyranos.git
+ $ git clone http://www.oyranos.org/git/xcm.git
+ $ git clone http://www.oyranos.org/git/icc_examin.git
+
 === Links ===
 * [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#git-quick-start git introduction]
 * [http://cworth.org/hgbook-git/tour/ Carl Worth's git tour]

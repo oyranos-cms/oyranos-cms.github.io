@@ -73,6 +73,13 @@ ICC Examin git can be obtained without the above script like follows:
 
 `$ git clone `[`git://www.oyranos.org/git/icc_examin`](git://www.oyranos.org/git/icc_examin)
 
+Alternative addresses over http are:
+
+`$ git clone `[`http://www.oyranos.org/git/xcolor.git`](http://www.oyranos.org/git/xcolor.git)  
+`$ git clone `[`http://www.oyranos.org/git/oyranos.git`](http://www.oyranos.org/git/oyranos.git)  
+`$ git clone `[`http://www.oyranos.org/git/xcm.git`](http://www.oyranos.org/git/xcm.git)  
+`$ git clone `[`http://www.oyranos.org/git/icc_examin.git`](http://www.oyranos.org/git/icc_examin.git)
+
 ### Links
 
 -   [git
