@@ -65,6 +65,7 @@ layout: wiki
 <li><a href="Device_Settings" title="wikilink">Device Settings</a></li>
 <li><a href="Monitor_Configuration" title="wikilink">Monitor Configuration</a></li>
 <li><a href="Standards" class="uri" title="wikilink">Standards</a></li>
+<li><a href="Events" class="uri" title="wikilink">Events</a></li>
 </ul>
 </div></td>
 </tr>

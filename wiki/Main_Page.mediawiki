@@ -65,6 +65,7 @@ This site provides a collection of information regarding mainly, but not limited
 *[[Device Settings]]
 *[[Monitor Configuration]]
 *[[Standards]]
+*[[Events]]
 </div>
 
 |-
