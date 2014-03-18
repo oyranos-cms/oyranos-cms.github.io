@@ -115,7 +115,7 @@ extended to model(10) and serial(12).
 
 ### References
 
--   The issue was initially thrown to [the fd.o
+-   (done) The issue was initially thrown to [the fd.o
     bugtracker](https://bugs.freedesktop.org/show_bug.cgi?id=3910).
 -   [Re: DDC Atoms &
     Xinerama](http://www.mail-archive.com/devel@xfree86.org/msg01297.html)
