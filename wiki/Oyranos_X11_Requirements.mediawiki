@@ -64,7 +64,7 @@ extended to model(10) and serial(12).
 === References ===
 * The issue was initially thrown to [https://bugs.freedesktop.org/show_bug.cgi?id=3910 the fd.o bugtracker].
 * [http://www.mail-archive.com/devel@xfree86.org/msg01297.html Re: DDC Atoms & Xinerama]
-* [https://bugs.freedesktop.org/show_bug.cgi?id=16639 support request for XRandR in nv and nvidia drivers]
+* (done) [https://bugs.freedesktop.org/show_bug.cgi?id=16639 support request for XRandR in nv and nvidia drivers]
 
 === Versions / Implementations ===
 Oyranos 0.1.5 obtained the oyranos-monitor-nvidia commandline tool to demonstrate the described behaviour.

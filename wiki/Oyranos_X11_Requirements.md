@@ -119,7 +119,7 @@ extended to model(10) and serial(12).
     bugtracker](https://bugs.freedesktop.org/show_bug.cgi?id=3910).
 -   [Re: DDC Atoms &
     Xinerama](http://www.mail-archive.com/devel@xfree86.org/msg01297.html)
--   [support request for XRandR in nv and nvidia
+-   (done) [support request for XRandR in nv and nvidia
     drivers](https://bugs.freedesktop.org/show_bug.cgi?id=16639)
 
 ### Versions / Implementations
