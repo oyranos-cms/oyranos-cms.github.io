@@ -35,14 +35,11 @@ For the git version you need currently [this Elektra
 version](http://www.markus-raab.org/ftp/elektra-0.7.0.tar.gz) 10:42, 29
 Apr 2008 (CEST)
 
-First check out libXcm and its tools:
+First check out libXcm, Oyranos and then libXcm tools:
 
-`$ git clone `[`git://www.oyranos.org/git/xcolor`](git://www.oyranos.org/git/xcolor)  
-`$ git clone `[`git://www.oyranos.org/git/xcm`](git://www.oyranos.org/git/xcm)
-
-Then try with
-
-`$ git clone `[`git://www.oyranos.org/git/oyranos`](git://www.oyranos.org/git/oyranos)
+`$ git clone `[`git://github.com/oyranos-cms/xcolor`](git://github.com/oyranos-cms/xcolor)  
+`$ git clone `[`git://github.com/oyranos-cms/oyranos`](git://github.com/oyranos-cms/oyranos)  
+`$ git clone `[`git://github.com/oyranos-cms/xcm`](git://github.com/oyranos-cms/xcm)
 
 Oyranos relies on some certain ICC profiles by default, which are not
 included in git. Take them from [OpenICC-data
@@ -51,7 +48,8 @@ package](https://sourceforge.net/projects/openicc/files/OpenICC-Profiles).
 Building Oyranos:
 
 `$ cd oyranos/`  
-`$ configure`  
+`$ mkdir build && cd build/`  
+`$ cmake ..`  
 `$ make`  
 `$ make install`
 
@@ -63,22 +61,18 @@ Examining the history:
 
 `$ git log -p`
 
-Some more interesting projects:
+Some more projects:
 
 `$ git clone `[`git://compicc.git.sourceforge.net/gitroot/compicc/compicc`](git://compicc.git.sourceforge.net/gitroot/compicc/compicc)  
-`$ svn checkout `[`svn://anonsvn.kde.org/home/kde/trunk/playground/graphics/kolor-manager`](svn://anonsvn.kde.org/home/kde/trunk/playground/graphics/kolor-manager)  
-`$ git clone `[`git://www.oyranos.org/git/cinepaint`](git://www.oyranos.org/git/cinepaint)` cinepaint`
+`$ git clone `[`git://anongit.kde.org/kolor-manager.git`](git://anongit.kde.org/kolor-manager.git)  
+`$ git clone `[`git://gitorious.org/cinepaint-ng/cinepaint-ng`](git://gitorious.org/cinepaint-ng/cinepaint-ng)
 
 ICC Examin git can be obtained without the above script like follows:
 
-`$ git clone `[`git://www.oyranos.org/git/icc_examin`](git://www.oyranos.org/git/icc_examin)
+`$ git clone `[`git://github.com/oyranos-cms/icc-examin`](git://github.com/oyranos-cms/icc-examin)
 
-Alternative addresses over http are:
-
-`$ git clone `[`http://www.oyranos.org/git/xcolor.git`](http://www.oyranos.org/git/xcolor.git)  
-`$ git clone `[`http://www.oyranos.org/git/oyranos.git`](http://www.oyranos.org/git/oyranos.git)  
-`$ git clone `[`http://www.oyranos.org/git/xcm.git`](http://www.oyranos.org/git/xcm.git)  
-`$ git clone `[`http://www.oyranos.org/git/icc_examin.git`](http://www.oyranos.org/git/icc_examin.git)
+Alternative addresses for checking out over http can be found here:
+[<http://Github.com/Oyranos-CMS>](http://github.com/oyranos-cms)
 
 ### Links
 
@@ -86,7 +80,7 @@ Alternative addresses over http are:
     introduction](http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#git-quick-start)
 -   [Carl Worth's git tour](http://cworth.org/hgbook-git/tour/)
 -   [Homepage](http://git.or.cz/) and wiki
--   [gitweb](http://www.oyranos.org/scm) of Oyranos, Xcolor(libXcm,xcm)
-    and ICC Examin(iccexamin), cinepaint, ookala-mcf
+-   [gitweb](http://github.com/oyranos-cms) of Oyranos,
+    XColorManagement(libXcm,xcm) and ICC Examin(iccexamin)
 
 [back -&gt; Oyranos](/wiki/Oyranos "wikilink")

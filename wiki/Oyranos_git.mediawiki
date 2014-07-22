@@ -12,18 +12,17 @@ For troubleshooting and some reference, below are the basic single steps. Howeve
 
 For the git version you need currently [http://www.markus-raab.org/ftp/elektra-0.7.0.tar.gz this Elektra version] 10:42, 29 Apr 2008 (CEST)
 
-First check out libXcm and its tools:
- $ git clone git://www.oyranos.org/git/xcolor
- $ git clone git://www.oyranos.org/git/xcm
-
-Then try with
- $ git clone git://www.oyranos.org/git/oyranos
+First check out libXcm, Oyranos and then libXcm tools:
+ $ git clone git://github.com/oyranos-cms/xcolor
+ $ git clone git://github.com/oyranos-cms/oyranos
+ $ git clone git://github.com/oyranos-cms/xcm
 
 Oyranos relies on some certain ICC profiles by default, which are not included in git. Take them from [https://sourceforge.net/projects/openicc/files/OpenICC-Profiles OpenICC-data package].
 
 Building Oyranos:
  $ cd oyranos/
- $ configure
+ $ mkdir build && cd build/
+ $ cmake ..
  $ make
  $ make install
 
@@ -34,25 +33,22 @@ Examining the history:
  $ git log -p
 
 
-Some more interesting projects:
+Some more projects:
  $ git clone git://compicc.git.sourceforge.net/gitroot/compicc/compicc
- $ svn checkout svn://anonsvn.kde.org/home/kde/trunk/playground/graphics/kolor-manager
- $ git clone git://www.oyranos.org/git/cinepaint cinepaint
+ $ git clone git://anongit.kde.org/kolor-manager.git
+ $ git clone git://gitorious.org/cinepaint-ng/cinepaint-ng
 
 ICC Examin git can be obtained without the above script like follows:
- $ git clone git://www.oyranos.org/git/icc_examin
+ $ git clone git://github.com/oyranos-cms/icc-examin
 
-Alternative addresses over http are:
- $ git clone http://www.oyranos.org/git/xcolor.git
- $ git clone http://www.oyranos.org/git/oyranos.git
- $ git clone http://www.oyranos.org/git/xcm.git
- $ git clone http://www.oyranos.org/git/icc_examin.git
+Alternative addresses for checking out over http can be found here:
+[http://github.com/oyranos-cms http://Github.com/Oyranos-CMS] 
 
 === Links ===
 * [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#git-quick-start git introduction]
 * [http://cworth.org/hgbook-git/tour/ Carl Worth's git tour]
 * [http://git.or.cz/ Homepage] and wiki
-* [http://www.oyranos.org/scm gitweb] of Oyranos, Xcolor(libXcm,xcm) and ICC Examin(iccexamin), cinepaint, ookala-mcf
+* [http://github.com/oyranos-cms gitweb] of Oyranos, XColorManagement(libXcm,xcm) and ICC Examin(iccexamin)
 
 [[Oyranos|back -> Oyranos]]
 [[Category:Oyranos]]
