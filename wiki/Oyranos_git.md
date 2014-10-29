@@ -37,7 +37,7 @@ Apr 2008 (CEST)
 
 First check out libXcm, Oyranos and then libXcm tools:
 
-`$ git clone `[`git://github.com/oyranos-cms/xcolor`](git://github.com/oyranos-cms/xcolor)  
+`$ git clone `[`git://github.com/oyranos-cms/libxcm`](git://github.com/oyranos-cms/libxcm)  
 `$ git clone `[`git://github.com/oyranos-cms/oyranos`](git://github.com/oyranos-cms/oyranos)  
 `$ git clone `[`git://github.com/oyranos-cms/xcm`](git://github.com/oyranos-cms/xcm)
 

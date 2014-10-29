@@ -13,7 +13,7 @@ For troubleshooting and some reference, below are the basic single steps. Howeve
 For the git version you need currently [http://www.markus-raab.org/ftp/elektra-0.7.0.tar.gz this Elektra version] 10:42, 29 Apr 2008 (CEST)
 
 First check out libXcm, Oyranos and then libXcm tools:
- $ git clone git://github.com/oyranos-cms/xcolor
+ $ git clone git://github.com/oyranos-cms/libxcm
  $ git clone git://github.com/oyranos-cms/oyranos
  $ git clone git://github.com/oyranos-cms/xcm
 
