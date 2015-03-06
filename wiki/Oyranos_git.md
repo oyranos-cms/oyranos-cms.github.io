@@ -71,7 +71,7 @@ ICC Examin git can be obtained without the above script like follows:
 `$ git clone `[`git://github.com/oyranos-cms/icc-examin`](git://github.com/oyranos-cms/icc-examin)
 
 Alternative addresses for checking out over http can be found here:
-[<http://Github.com/Oyranos-CMS>](http://github.com/oyranos-cms)
+[<https://Github.com/Oyranos-CMS>](https://github.com/oyranos-cms)
 
 ### Links
 
@@ -79,7 +79,7 @@ Alternative addresses for checking out over http can be found here:
     introduction](http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#git-quick-start)
 -   [Carl Worth's git tour](http://cworth.org/hgbook-git/tour/)
 -   [Homepage](http://git.or.cz/) and wiki
--   [gitweb](http://github.com/oyranos-cms) of Oyranos,
+-   [gitweb](https://github.com/oyranos-cms) of Oyranos,
     XColorManagement(libXcm,xcm) and ICC Examin(iccexamin)
 
 [back -&gt; Oyranos](/wiki/Oyranos "wikilink")
