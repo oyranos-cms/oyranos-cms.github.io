@@ -4,8 +4,8 @@ Debugging hints for Oyranos.
 '''Build Oyranos''' with debugging informations by using the ''configure'' option ''--enable-debug''. 
 
 === Debug Messages ===
-Setting the ''OYRANOS_DEBUG'' variable to a integer higher than zero e.g. "OYRANOS_DEBUG=2" gives some debug output.
-
+Setting the ''OY_DEBUG'' variable to a integer higher than zero e.g. "OY_DEBUG=2" gives some debug output.
+* see as well [http://www.oyranos.org/doc/environment.html Oyranos Environment Variables]
 
 === Backtrace ===
 To obtain a back trace use OYRANOS_BACKTRACE=oyranos_message_sequence. Note the oyranos_message_sequence must be visible for the back trace to apply, e.g. OYRANOS_BACKTRACE=oyranos_cmm_oyX1.c my_app should back trace the calls into the oyX1 module.

@@ -13,8 +13,11 @@ option *--enable-debug*.
 
 ### Debug Messages
 
-Setting the *OYRANOS\_DEBUG* variable to a integer higher than zero e.g.
-“OYRANOS\_DEBUG=2” gives some debug output.
+Setting the *OY\_DEBUG* variable to a integer higher than zero e.g.
+“OY\_DEBUG=2” gives some debug output.
+
+-   see as well [Oyranos Environment
+    Variables](http://www.oyranos.org/doc/environment.html)
 
 ### Backtrace
 
