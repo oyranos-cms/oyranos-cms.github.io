@@ -42,4 +42,10 @@ named to
 A additional hint is to copy libelektra-filesys and libltdl into your
 bundle to satisfy Elektra. It will fix some warnings.
 
+References
+----------
+
+-   [inline PACKAGING
+    file](https://github.com/oyranos-cms/oyranos/blob/master/PACKAGING.md)
+
 [back -&gt; Oyranos](/wiki/Oyranos "wikilink")

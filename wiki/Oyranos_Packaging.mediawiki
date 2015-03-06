@@ -19,6 +19,9 @@ Take the lastest ICC Examin bundle, the folder ending with app, similiar named t
 
 A additional hint is to copy libelektra-filesys and libltdl into your bundle to satisfy Elektra. It will fix some warnings.
 
+== References ==
+* [https://github.com/oyranos-cms/oyranos/blob/master/PACKAGING.md inline PACKAGING file]
+
 
 [[Oyranos|back -> Oyranos]]
 [[Category:Oyranos]]
