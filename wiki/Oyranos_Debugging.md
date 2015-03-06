@@ -49,13 +49,16 @@ the data view display the desired variables:
 *\[topmenu\[Data\]\]-&gt;Display Local Variables*.
 
 **Modules** are sometimes tricky to step through, as it can be harder to
-set breakpoints before the dynamic modules are loaded. If the normal way
-of setting breakpoints does not succeed the following might help. One
-way is to set a endless loop, e.g. “while(1) dummy=dummy+1;”, at the
-desired point in the modules sources and recompile and install. *make
-install\_bin* is a abbreviation. The program should run into the set
-loop if calling the according function in that module. Its then easy to
-stop that loop and move the execution pointer outside the loop to start
+set breakpoints before the dynamic modules are loaded. It might be
+easier to run the application and kill it after passing the code path of
+interesst. The open the sources from *\[topmenue\[File\]\]-&gt;Open
+Sources...* and set the breakpoint in the opened source file and
+restart. If the normal way of setting breakpoints does not succeed the
+following might help. One way is to set a endless loop, e.g. “while(1)
+dummy=dummy+1;”, at the desired point in the modules sources and
+recompile and install. The program should run into the set loop if
+calling the according function in that module. Its then easy to stop
+that loop and move the execution pointer outside the loop to start
 stepping through the code.
 
 ### References
