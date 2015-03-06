@@ -12,8 +12,8 @@ Dependencies
 For the development version check out
 [Oyranos/git](/wiki/Oyranos/git "wikilink") build and install.
 
-Additional you'd need FLTK and possibly xcalib. These dependencies are
-mentioned here: [Oyranos/Download](/wiki/Oyranos/Download "wikilink")
+Dependencies are mentioned here:
+[Oyranos/Download](/wiki/Oyranos/Download "wikilink")
 
 Packaging
 ---------
