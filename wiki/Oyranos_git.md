@@ -25,15 +25,14 @@ might add similiar --plugindir=$HOME/.compiz/plugins
 --icondir=$HOME/.local/share/icons --regdir=$HOME/.compiz/metadata .
 
 Dependencies are listed in
-[**README**](https://raw.githubusercontent.com/oyranos-cms/oyranos/master/README)
+[**README**](https://github.com/oyranos-cms/oyranos/blob/master/README.md)
 for some major distributions.
 
 For troubleshooting and some reference, below are the basic single
 steps. However the script will be most actual.
 
-For the git version you need currently [this Elektra
-version](http://www.markus-raab.org/ftp/elektra-0.7.0.tar.gz) 10:42, 29
-Apr 2008 (CEST)
+For the git version you can use the elektra git master version. 07:23, 6
+Mar 2015 (CET)
 
 First check out libXcm, Oyranos and then libXcm tools:
 
