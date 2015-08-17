@@ -80,6 +80,6 @@ Alternative addresses for checking out over http can be found here:
 -   [Carl Worth's git tour](http://cworth.org/hgbook-git/tour/)
 -   [Homepage](http://git.or.cz/) and wiki
 -   [gitweb](https://github.com/oyranos-cms) of Oyranos,
-    XColorManagement(libXcm,xcm) and ICC Examin(iccexamin)
+    XColorManagement(libXcm,xcm), Synnefo and ICC Examin(iccexamin)
 
 [back -&gt; Oyranos](/wiki/Oyranos "wikilink")
