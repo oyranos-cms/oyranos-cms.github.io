@@ -64,6 +64,15 @@ calling the according function in that module. Its then easy to stop
 that loop and move the execution pointer outside the loop to start
 stepping through the code.
 
+**Tracking lost objects** is possible with the OY\_DEBUG\_OBJECTS
+environment variable and its population to the oy\_debug\_variable. If
+the program has placed a oyObjectTreePrint() the object graph will be
+shown as a SVG graphic at the time of calling this function. It is good
+to call oyObjectTreePrint() after releasing all used objects. Then only
+caches should be visible and not properly dereferenced objects.
+OY\_DEBUG\_OBJECTS works pretty fine grained, while oyObjectTreePrint()
+will show all known not deallocated objects.
+
 ### References
 
 GDB and DDD come with most Linux distributions and expectedly can be
