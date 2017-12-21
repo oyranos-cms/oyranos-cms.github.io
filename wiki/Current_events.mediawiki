@@ -1,0 +1,11 @@
+* [[OpenIccDirectoryProposal]] has opened its doors for public review : [[User:KaiUweBehrmann|KaiUweBehrmann]] 18:45, 18 Sep 2007 (CEST)
+* [[FeatureWish#Named_Colour|Named Colours]] is worked on : [[User:KaiUweBehrmann|KaiUweBehrmann]] 18:47, 16 Sep 2007 (CEST)
+* [[Device Settings]] proposal
+* same as above for [[ColourMatchingModuls|CMMs]]
+* add your favourite CM aware software here ([[Applications]]) and show what you want from an CMS.
+
+----
+* We work currently (begin of october 2005) towards CMS preferences for applications here: [[What_the_users_want|What the users want]] | can be considered working [[User:KaiUweBehrmann|KaiUweBehrmann]] 18:47, 16 Sep 2007 (CEST)
+
+
+Dont forget to check email archives; see here [[OpenICC]].

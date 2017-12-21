@@ -1,0 +1,9 @@
+This topic is covered on the OpenICC wiki:
+
+[http://www.freedesktop.org/wiki/OpenIcc/Cairo OpenICC's suggestions for Cairo]
+
+
+
+[[Applications|back -> Applications]]
+
+[[Category:Programms]]

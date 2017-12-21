@@ -1,0 +1,12 @@
+== Screenshots ==
+The Preferences:
+
+http://cyrille.diwi.org/tmp/krita/krita-color-management.png
+
+== Links ==
+*[http://www.krita.org Krita]
+*[[KDE|KDE Color Management]]
+
+[[Applications|back -> Applications]]
+
+[[Category:Programms]]

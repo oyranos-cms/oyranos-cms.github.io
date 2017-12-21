@@ -1,0 +1,83 @@
+<h1>[[Oyranos]]</h1>
+
+
+== Stable Versions ==
+
+Oyranos is known to work on Linux, BSD, osX and Solaris. Windows will currently not work.
+
+=== Sources ===
+
+[http://sourceforge.net/projects/oyranos/files/ Download] from the SourceForge site.
+
+[http://www.behrmann.name/index.php?option=com_content&task=view&id=34&Itemid=68 Elder Downloads] are available from the behrmann site.
+
+==== Dependencies ====
+
+Oyranos depends on following libraries and external applications:
+Mandatory:
+* libxml2
+* libXcm - for X11 and Quarz monitor support
+* libXinerama, libXrandr, libXfixes and libXxf86vm for X11 support
+* lcms2 - for colour conversions
+Optionally:
+* FLTK version <= 1.1.4 neede to build the GUI. You may configure FLTK with several options enabled:
+    --enable-threads is needed for threads support (in ICC Examin)
+    --enable-xft is ok for antialiased fonts
+    --enable-debug is generally a good choice
+    --enable-shared is sometimes a good choice for smaller executables
+* Qt - for a nice observer utility
+* Elektra, this is the configuration system used under linux.
+* yajl, a JSON parser library
+* [[ICC Examin/Download|ICC Examin]] is the profile viewer of Oyranos' configuration GUI. It provides a view on profile internals and a gamut view. It uses littleCMS and Oyranos.
+* Xcalib for loading a given VideoCardGammaTag from profile to a running XFree86/Xorg session (optionally)
+* CUPS - for CUPS ICC configuration support
+* libraw - for cameraRAW decoding
+* SANE - only with Oyranos SANE_CAP_COLOUR patch
+* Cairo - for a example
+
+==== Compile Instructions ====
+
+For building unpack the tgz file and type #configure; make; make install.
+Optionally you can specifiy an other than the default prefix /opt/local by typing:
+
+    configure --prefix=/what/you/like
+    make
+    make install       # (optionally)
+
+    configure --help   # will show details
+    make help          # shows the available targets
+
+Detailed build instructions are as well included in the packages.
+
+=== Binary Packages ===
+==== Distribution packages ====
+http://www.oyranos.org/images/archlogo.png [https://aur.archlinux.org/packages.php?O=0&K=oyranos&do_Search=Go ArchLinux]
+
+
+http://www.oyranos.org/images/fedora-logo.png [https://admin.fedoraproject.org/pkgdb/acls/name/oyranos Fedora]
+
+
+http://www.oyranos.org/images/suse_logo.png [http://software.opensuse.org/search?q=oyranos openSUSE]
+
+
+[http://slackbuilds.org/result/?search=oyranos Slackware]
+
+
+http://www.oyranos.org/images/ubuntu_logo.png [http://www.ubuntuupdates.org/oyranos Ubuntu]
+
+
+
+==== Open Build Service ====
+
+'''''[http://software.opensuse.org/download/package.iframe?project=multimedia:color_management&package=oyranos Oyranos]'''''<br>
+
+=== Oyranos LiveCD ===
+The [http://sourceforge.net/projects/openicc/files/Demo/ Oyranos LiveCD] is based on openSUSE and the preinstalled Oyranos packages from multimedia:color_management at OBS. The project page is at [http://susestudio.com/a/8Kr6tw/oyranos-multimedia-121 suse gallery].
+
+== Development Versions ==
+
+[[Oyranos/git|Git]]: The actual development version can be obtained through git. Instructions on how to obtain the code and how to build, can be found on the Oyranos Wiki page [[Oyranos/git]]. There is as well a build script available for automated dependency checking, downloading and building.
+
+
+[[Oyranos|back -> Oyranos]]
+[[Category:Oyranos]]

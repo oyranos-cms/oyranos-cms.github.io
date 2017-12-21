@@ -1,0 +1,14 @@
+DigiKam supports 16-bit CM for raw, tiff and jpeg files. Colour space informations are extracted from eighter embedded profiles or exif tags.
+
+[[Image:ICC setup dialog.png|ICC setup dialog of digiKam]]
+
+littleCMS is hard coded into this application.
+
+==Links==
+*[http://www.digikam.org/ DigiKam]
+*[http://docs.kde.org/development/en/extragear-graphics/digikam/using-iccprofile.html ICC color profile management]
+*[http://docs.kde.org/development/en/extragear-graphics/digikam/using-setup.html#setup-iccprofiles ICC Profiles setup]
+
+[[Applications|back -> Applications]]
+
+[[Category:Programms]]

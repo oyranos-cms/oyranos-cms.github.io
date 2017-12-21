@@ -1,0 +1,75 @@
+__TOC__
+The CMM colormatching module is the "engine" for color conversions in applications.
+
+In Open Source applications, LittleCMS is the most used CMM. Other widely used CMMs are the AppleCMM in MacOSX, the [http://labs.adobe.com/downloads/cmm.html AdobeCMM] and the CMM delivered with Windows XP.
+
+== Open Source Implementations ==
+
+==== Argyll ====
+* http://www.argyllcms.com/
+* Local, [[Argyll Community Documentation]]
+License: GPL, with an exception to libicc and libcgats
+
+==== LittleCMS ====
+* http://www.littlecms.com/
+
+License: MIT
+
+==== SampleICC ====
+* http://sampleicc.sourceforge.net/ — The ICC's inofficial sample implementation.
+
+License: newBSD (3 clauses)
+
+==== QCMS ====
+* Mozillas implementation of a CMM: http://muizelaar.blogspot.com/2009/06/qcms-color-management-for-web.html
+* code: git://git.freedesktop.org/~jrmuizel/qcms
+
+==== GCMS ====
+* an historical CMM effort: http://www.gcms.coloraid.de/
+
+==== CTL ====
+*http://sourceforge.net/projects/ampasctl - Ilm's effort to handle floating point colours precisely and according to the needs in the [http://www.oscars.org/council/ctl.html film industry].
+
+License: [http://savannah.gnu.org/task/?6171 modified] [http://www.opensource.org/licenses/bsd-license.php new BSD] (? with jurisdiction to California)
+...
+
+==== OpenGTL ====
+* http://opengtl.org/ - The G of GTL means either Graphics or Generics, the T means Transformation and the L means Libraries or Languages. The C++ libraries are created by Cyrille Berger.
+
+Currently the focus is on developing two languages, designed for two different implementations.
+* OpenCTL which is a GPL compatible of the Color Transformation Language, this language is dedicated at transforming the value of a single pixel (for instance Brightness adjustment or desaturate). CTL is designed to be part of the Color Management process.
+* OpenShiva is inspired by Adobe's Hydra language from the AIF Toolkit, Shiva is a language that apply a kernel-like transformations on an image, that means it works using more than one pixel.
+
+License: LGPL
+
+* [http://www.gotoandlearn.com/play?id=83 A simple video tutorial on how to use PixelBender alias Hydra] from Lee Brimelow
+
+==== OpenColorIO ====
+* http://opencolorio.org/ — complete color management solution geared towards motion picture production, [https://github.com/imageworks/OpenColorIO/issues/170 partial] [http://opencolorio.org/userguide/tool_overview.html#ocio2icc ICC support]
+
+License: [http://opencolorio.org/License.html newBSD (3 clauses)]
+
+== Profiler ==
+==== ArgyllCMS ====
+* [http://hoech.net/dispcalGUI/ dispcalGUI] a display profiler
+* [http://colorhacks.blogspot.com/ Stefan's review] of ArgyllCMSGUI, "Argyll CMS" and dispcalGUI : [09:57, 27 Aug 2008 (CEST)]
+* [http://live.gnome.org/GnomeColorManager Gnome Color Manager] is a CMS, but as well a front end to the ArgyllCMS profiler
+
+
+==== LProf ====
+[http://lprof.sourceforge.net/ LProf] a scanner and display profiler
+
+License: GPL
+
+== Tools ==
+==== ArgyllCMS ====
+* [http://www.blackfiveimaging.co.uk/index.php?article=02Software%2F02ImgTarget ImgTarget] resembles a intelligent CMM in a GUI
+* [http://www.digifab.com/ArgyllCMSGUI/ ArgyllCMSGUI] a GUI for some Argyll's command line tools
+* [http://x3.ntf.uni-lj.si/~gojc/ArgyllCMS_GUI/ Argyll CMS] a Argyll command line resampler
+* [http://colorhacks.blogspot.com/ Stefan's review] of ArgyllCMSGUI, "Argyll CMS" and dispcalGUI : [09:57, 27 Aug 2008 (CEST)]
+* [http://digitalproof.info/gamapicc/ GaMapICC] is a Mac OS X droplet, which works like a intelligent CMM
+
+==== SampleICC ====
+* [http://iccxml.sf.net IccXML] a ICC <-> XML serialiser
+
+[[Category:Programms]]

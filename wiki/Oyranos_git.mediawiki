@@ -1,0 +1,54 @@
+Git is set up on www.oyranos.org. To use git install the git-core package.
+
+Here is a [https://raw.githubusercontent.com/oyranos-cms/icc-examin/master/icc_examin-build.sh '''download and build script'''] to automate the process, including a build of ICC Examin, CompICC (X Color Management spec based desktop colour server), kolor-manager (a KDE configuration panel entry), CinePaint (a X Color Management enabled version) and some requirements. The script accepts options for configure and will pass them unchanged. For some options and variables see a [https://raw.githubusercontent.com/oyranos-cms/icc-examin/master/icc_examin-build-local.sh '''local build script'''].
+
+E.g. --prefix=~/.local  might be a good idea to avoid the otherwise required root rights for installation of a test build. For compicc one might add similiar --plugindir=$HOME/.compiz/plugins --icondir=$HOME/.local/share/icons --regdir=$HOME/.compiz/metadata .
+
+Dependencies are listed in [https://github.com/oyranos-cms/oyranos/blob/master/README.md '''README'''] for some major distributions.
+
+
+
+For troubleshooting and some reference, below are the basic single steps. However the script will be most actual.
+
+For the git version you can use the elektra git master version. 07:23, 6 Mar 2015 (CET)
+
+First check out libXcm, Oyranos and then libXcm tools:
+ $ git clone git://github.com/oyranos-cms/libxcm
+ $ git clone git://github.com/oyranos-cms/oyranos
+ $ git clone git://github.com/oyranos-cms/xcm
+
+Oyranos relies on some certain ICC profiles by default, which are not included in git. Take them from [https://sourceforge.net/projects/openicc/files/OpenICC-Profiles OpenICC-data package].
+
+Building Oyranos:
+ $ cd oyranos/
+ $ mkdir build && cd build/
+ $ cmake ..
+ $ make
+ $ make install
+
+Keeping Oyranos up to date:
+ $ git pull
+
+Examining the history:
+ $ git log -p
+
+
+Some more projects:
+ $ git clone git://compicc.git.sourceforge.net/gitroot/compicc/compicc
+ $ git clone git://anongit.kde.org/kolor-manager.git
+ $ git clone git://gitorious.org/cinepaint-ng/cinepaint-ng
+
+ICC Examin git can be obtained without the above script like follows:
+ $ git clone git://github.com/oyranos-cms/icc-examin
+
+Alternative addresses for checking out over http can be found here:
+[https://github.com/oyranos-cms https://Github.com/Oyranos-CMS] 
+
+=== Links ===
+* [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#git-quick-start git introduction]
+* [http://cworth.org/hgbook-git/tour/ Carl Worth's git tour]
+* [http://git.or.cz/ Homepage] and wiki
+* [https://github.com/oyranos-cms gitweb] of Oyranos, XColorManagement(libXcm,xcm), Synnefo and ICC Examin(iccexamin)
+
+[[Oyranos|back -> Oyranos]]
+[[Category:Oyranos]]

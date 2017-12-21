@@ -1,0 +1,202 @@
+---
+title: LibCmpx
+permalink: wiki/LibCmpx/
+layout: wiki
+---
+
+***Color-Managed Printing eXtension (libCmpx)*** is a library that
+extends color management functionality to print dialogs. It is based on
+the proposed [PDF print
+workflow](http://www.oyranos.org/2012/02/linux-printing) for Linux.
+
+Architecture
+------------
+
+![](Libcmpxmodel_sm.png "Libcmpxmodel_sm.png")
+
+LibCmpx is organized using five distinct components:
+
+**libCmpx API**: The primary interface for an application. It contains
+the essential functions for the programmer to initialize
+color-management from within the application's print dialog.
+
+For printer color-management to work, the dialog programmer must pass
+into libCmpx two sets of input:
+
+-The printer settings as obtained by the dialog (“Print Resolution”,
+“Media Type”, “Print Quality”, etc.).
+
+-A PDF file of the ready-to-print image.
+
+The appropriate API calls are shown below in “API Usage”. A libCmpx
+Color Management Object struct (*libcmpx\_cm\_t*) is required throughout
+the application to pass-in and receive information via libCmpx.
+
+**libCmpx Color Management Layer**: This component is responsible for
+delegating the appropriate API calls into the appropriate processing
+module(s). What the layer does is execute the algorithms that handle the
+library's color-management functionality – data received from a
+*libcmpx\_cm\_t* struct is passed either to the “Renderer” or “Selector”
+modules (or both, depending on the requested API operation).
+
+**libCmpx Processing Modules**: There are two distinct modules in
+libCmpx: **libCmpx Selector** and **libCmpx Renderer**. Both modules are
+the heart of libCmpx - the former handling automatic profile-selection
+and printer driver calibration, and the latter handling the rendering of
+a PDF OutputIntent.
+
+The Selector module uses Oyranos for profile calibration which, through
+the use of its CUPS module, handles generating a calibrated PPD file. It
+processes the printer settings specified by the user in the print
+dialog, and returns back an updated set of options. For instance, if a
+user chooses sets an “auto-select ICC profile” mode from the print
+dialog, the Selector module will simply return a correct ICC profile
+back into a dialog. But if a user instead manually chooses a specific
+profile in the dialog, the Selector module will return back calibrated
+printer settings.
+
+The Renderer module uses Ghostscript to embed an ICC profile into an
+application's output image file, which will then be ready for the print
+chain.
+
+**libCmpx Internal**: All of the lower-level operations, structures, and
+definitions required from the processing modules are stored in libCmpx
+internal.
+
+Dependencies
+------------
+
+The library depends on Oyranos for ICC profile selection, and
+Ghostscript for spool PDF rendering.
+
+In addition, it is assumed that the print dialog is using CUPS.
+
+Version requirements for these dependencies are as follows:
+
+-   Oyranos (the up-to-date [git
+    version](http://www.oyranos.org/wiki/index.php?title=Oyranos/git))
+-   [Ghostscript](http://pages.cs.wisc.edu/~ghost/) (9.05)
+
+Installation
+------------
+
+libCmpx can be obtained through git.
+
+`$ git clone `[`git://gitorious.org/libcmpx/libcmpx.git`](git://gitorious.org/libcmpx/libcmpx.git)
+
+Once the project is downloaded, enter its root directory and type the
+following:
+
+`$ mkdir build`  
+`$ cd build`  
+`$ cmake ..`  
+`$ make`  
+`$ make install`
+
+After installing libcmpx, a test print dialog can be launched using the
+following command from any place in your console:
+
+`$ cmpxDiag`
+
+Updates can be obtained by typing:
+
+`$ git pull`
+
+API Usage
+---------
+
+The libCmpx API is based on the prototype library invented for the
+[XCPD](http://www.oyranos.org/wiki/index.php?title=XCPD#API_Usage). As
+such, the API usage is very similar between the two.
+
+##### Sample Code
+
+The following code demonstrates printer profile selection and PDF
+rendering using the libCmpx API.
+
+`<libcmpx.h>`
+
+`cmpx_selectormode_t getProfileSelectionMode();`
+
+`void getPrintSettings(cmpx_cm_t**);`  
+`void setManualProfile(cmpx_cm_t**);`
+
+`int main()`  
+`{`  
+`   /* Optional status enums */`  
+`   cmpx_sstatus_t selector_status;`  
+`   cmpx_rstatus_t renderer_status;`  
+  
+`   /* Initialize API color management */`  
+`   cmpx_cm_t* cm = cmpxAPI_initialize();     `  
+  
+`   /* Set the printer */`  
+`   cmpxAPI_setCurrentPrinter(&cm, `“`CupsDestPrinterName`”`);`  
+  
+`   /* Get profile selection mode from the GUI. (see the box below) */`  
+`   cmpx_selectormode_t mode = getProfileSelectionMode(); `  
+  
+`   /* Set the profile for libCmpx. */`  
+`   if(mode == CMPX_USERSELECT_MODE)`  
+`     setManualProfile(&cm);`  
+`   else if (mode != CMPX_SELECTORMODE_NOTSET){`  
+`     getPrintSettings(&cm);`  
+`     selector_status = cmpxAPI_setAutoProfile(&cm);`  
+`   }`  
+  
+`   /* Render the PDF */`  
+`   renderer_status = cmpxAPI_setSpoolPdf(&cm, 0);`  
+  
+`   cmpxCM_close(&cm);`  
+  
+`   return 0;`  
+`}`
+
+The following helper functions are part of the ICC profile selection in
+the UI. (Using Qt.)
+
+`QString iccModeString;`  
+`QComboBox iccModeComboBox;`
+
+`cmpx_selectormode_t getProfileSelectionMode()`  
+`{`  
+`  iccModeString = iccModeComboBox.currentText(); `  
+  
+`  if(iccModeString == `“`Auto`` ``Set`”`)`  
+`   return CMPX_AUTOSELECT_MODE;`  
+`  else if (iccModeString == `“`Manual`”`) `  
+`   return CMPX_USERSELECT_MODE; `  
+`  else`  
+`   return CMPX_SELECTORMODE_NOTSET;`  
+`}`  
+  
+`void setManualProfile(cmpx_cm_t** cm_obj)`  
+`{`  
+`   QString userSelection = QFileDialog::getOpenFileName(. . .);`  
+`   const char* user_profile = userSelection.toLocal8Bit();`  
+  
+`   cmpxAPI_setProfile(cm_obj, user_profile);  `  
+`}`
+
+Automatic profile selection using libCmpx requires obtaining the
+human-readable option settings from within the print dialog. This can be
+achieved in the following way, which uses the minimal three UI combobox
+settings: “Media Type”, “Resolution”, and “Color Model”.
+
+`QString mtComboboxText, rsComboboxText, cmComboboxText;`  
+`char *mt_value, *rs_value, *cm_value;`
+
+`void getPrintSettings(cmpx_cm_t** cm_obj)`  
+`{`  
+`   //  ... obtain option value strings from three comboboxes ...`  
+  
+`   mt_value = strdup(mtComboboxText.toLocal8Bit());`  
+`   rs_value = strdup(rsComboboxText.toLocal8Bit());`  
+`   cm_value = strdup(cmComboboxText.toLocal8Bit());`  
+  
+`   // Store option values into the libCmpx color manager object. `  
+`   // Further print option enumerations are found in libcmpx_defs.h.`  
+`   cmpxAPI_setPrintOption(cm_obj, CMPX_UI_MEDIATYPE, mt_value);`  
+`   cmpxAPI_setPrintOption(cm_obj, CMPX_UI_RESOLUTION, rs_value);`  
+`   cmpxAPI_setPrintOption(cm_obj, CMPX_UI_COLORMODEL, cm_value);`  
+`}`

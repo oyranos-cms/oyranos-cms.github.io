@@ -1,0 +1,82 @@
+{| width="100%"
+|-
+| width="52%" style="vertical-align:top" |
+<div style="margin: 0; margin-right:10px; border: 2px solid #dfdfdf; background-color:#f8f8ff;">
+<!--   Begrüßung  -->
+<div style="padding: 0.3em 1em 0.7em 1em;">
+
+'''Welcome to ColourWiki!'''
+
+This site provides a collection of information regarding mainly, but not limited to, [http://www.opensource.org Open Source] [http://en.wikipedia.org/wiki/Color_management Colour Management]. You can find concepts, descriptions, technical proposals, extractions from [[OpenICC|email]] or IRC discussions, articles and related links. ColourWiki is maintained by [[OpenICC]] members.
+</div>
+<div align="right"><small>'''[[ColourWiki:About|Information about ColourWiki]]'''</small></div>
+</div>
+
+<div style="margin: 0;  margin-right:10px; margin-top:10px; border: 2px solid #dfdfdf; background-color:#f8f8ff;">
+<div style="padding: 0.3em 1em 0.7em 1em;">
+<!-- kind of user documentation and tutorials -->
+'''Documentation'''
+
+''General:''<br/>
+[[Argyll Community Documentation]]
+
+''Links''<br/>
+[[ColourMatchingModuls|Color Matching Module (CMM)]]<br />
+[[Applications#CMS.27s|Color Management System (CMS)]]<br />
+[[Applications]] - color management (CM) capable programs
+</div>
+</div>
+
+<div style="margin: 0;  margin-right:10px; margin-top:10px; border: 2px solid #dfdfdf; background-color:#f8f8ff;">
+<div style="padding: 0.3em 1em 0.7em 1em;">
+<!-- kind of user documentation and tutorials -->
+'''End User Documentation'''
+
+''General:''<br>
+[http://en.wikipedia.org/wiki/Color_management Color Management]::Wikipedia<br>
+[http://en.wikipedia.org/wiki/Linux_color_management Linux Color Management]::Wikipedia<br>
+[http://ninedegreesbelow.com/ Nine Degrees Below]
+
+''Tutorials:''<br>
+[http://docs.scribus.net/index.php?page=cms Color management with Scribus, an Introduction]<br>
+[http://www.behrmann.name/index.php?option=com_weblinks&task=view&catid=67&id=56&Itemid=85 CinePaint - 16-bit imaging. From digital camera to print]  [[http://www.behrmann.name/index.php?option=com_weblinks&task=view&catid=67&id=54&Itemid=86 de]]
+
+''Link collections:''<br>
+[http://www.behrmann.name/index.php?option=com_weblinks&catid=69&Itemid=95 Colour managed Applications]::Behrmann<br>
+[http://www.behrmann.name/index.php?option=com_weblinks&catid=73&Itemid=95 ICC profiles]::Behrmann<br>
+[http://www.scribus.net/index.php?name=Web_Links&req=viewlink&cid=4 Color Management]::Scribus
+</div>
+</div>
+
+| width="48%" style="vertical-align:top" |
+<div style="margin:0; border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
+'''Specifications'''
+*[[ICC Profiles in X Specification 0.4|ICC Profiles in X Specification]]
+*[[ICC meta Tag for Monitor Profiles 1.0|ICC meta Tag for Monitor Profiles]]
+*[[OpenICC Configuration 0.1]]
+*[[OpenIccDirectoryProposal|OpenICC Directory Proposal]]
+*[[Oyranos X11 Requirements]]
+</div>
+
+<div style="margin:0; margin-top:10px;  border:2px solid #dfdfdf; padding: 0em 1em 1em 1em; background-color:#F8F8FF;">
+'''Discussion'''
+*[[What the users want]]
+*[[Concepts|Concepts Discussion]]
+*[[Device Settings]]
+*[[Monitor Configuration]]
+*[[Standards]]
+*[[Events]]
+</div>
+
+|-
+|colspan="2" style="vertical-align:top" |
+<div style="margin: 0; margin-top:8px; padding: 0em 0.3em 0.3em 0.3em; border: 2px solid #dfdfdf;">
+<div align="middle">
+'''Related Projects'''
+
+[http://www.freedesktop.org/wiki/OpenIcc OpenICC] - [http://www.color.org ICC] - [http://www.coloraid.de www.coloraid.de] - [http://www.freedesktop.org/ www.freedesktop.org] - [http://create.freedesktop.org/wiki Create]
+</div>
+</div>
+|}
+__NOTOC__
+__NOEDITSECTION__

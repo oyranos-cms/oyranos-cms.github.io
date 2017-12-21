@@ -1,0 +1,52 @@
+== PNG ==
+
+The blow images should look the same.
+
+FakedRGB:
+
+http://www.oyranos.org/temp/colourTestFakeBRG.png
+[http://www.oyranos.org/temp/colourTestFakeBRG.tif Tiff version]
+
+sRGB:
+
+http://www.oyranos.org/temp/colourTestsRGB.png
+[http://www.oyranos.org/temp/colourTestsRGB.tif Tiff version]
+
+
+
+Banding test by pippin.gimp.org:
+
+http://www.oyranos.org/images/16bit-gradient.png
+
+== SVG ==
+
+A SVG image containing a wide gamut flowers and below a false colour profile test:
+
+http://www.oyranos.org/images/ImageWithEmbeddedICC.svg
+
+== PDF ==
+
+The following PDF documents can be downloaded and printed:
+
+http://www.oyranos.org/images/070_OutputIntent_ISOcoated1_v1_x3.png
+[http://www.oyranos.org/images/070_OutputIntent_ISOCoated1-v1_x3.pdf PDF]
+
+http://www.oyranos.org/images/130_Source_Profile.png 
+[http://www.oyranos.org/images/130_Source%20Profile.pdf PDF]
+
+http://www.oyranos.org/images/131_Rendering_Intent.png 
+[http://www.oyranos.org/images/131_Rendering%20intent.pdf PDF]
+
+[http://www.gwg.org/ghentoutputsuite.phtml Original Files, Documentation and Copyright] @ GWG
+
+== ICC Tests ==
+
+[http://www.color.org/browsertest.xalter Browsertest] @ www.color.org:
+
+http://www.color.org/images/browsertest.jpg
+
+http://www.color.org/images/browsertest_lut.jpg
+
+=== Links ===
+* [http://www.color.org/version4html.xalter V4 Browsertest] @ www.color.org
+* [http://www.colormanagement.org/download_files/basICColor_CM-Ampel.jpg Display Uniformity Test] @ colormanagement.org
