@@ -1,3 +1,3 @@
 # oyranos-cms.github.io
 
-__WWW pages__
+__WWW pages work in progress__
