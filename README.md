@@ -2,5 +2,6 @@
 
 __WWW pages work in progress__
 
+[Wiki markdown](wiki/Main_Page.md)
 
-[Wiki](wiki/Main_Page.mediawiki)
+[Wiki mediawiki](wiki/Main_Page.mediawiki)
