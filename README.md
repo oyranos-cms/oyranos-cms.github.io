@@ -2,6 +2,4 @@
 
 __WWW pages work in progress__
 
-[Wiki markdown](wiki/Main_Page.md)
-
-[Wiki mediawiki](wiki/Main_Page.mediawiki)
+[Wiki](https://github.com/oyranos-cms/oyranos-cms.github.io/wiki)
