@@ -34,7 +34,7 @@ The templates are written in the [Django template
 language](http://docs.djangoproject.com/en/dev/topics/templates/). A
 Django template is a plain text file with some specially formatted
 **tags** and **variables**. So, a template is just a C or C++ file that
-contains some extra **{% tag %}** and **{{ variable }}** embedded code
+contains some extra **{\% tag \%}** and **{{ variable }}** embedded code
 that is replaced by the code generator. This is much like *php* code is
 replaced in *html* files. The built in **tags** and **variables** are
 [documented
