@@ -1,3 +1,4 @@
+
 ---
 title: Oyranos/Code Generator
 permalink: wiki/Oyranos/Code_Generator/
@@ -65,7 +66,7 @@ There are mainly two kinds of template files.
 -   A *child* template that extends a *base* template. Most templates
     are *child* templates.
 
-The *child* templates use the {% extends %} **tag**, which is how
+The *child* templates use the {\% extends \%} **tag**, which is how
 [template
 inheritance](http://docs.djangoproject.com/en/dev/topics/templates/#template-inheritance)
 is implemented in the django language. There is a 1-1 relationship
@@ -579,20 +580,20 @@ For system files
 For example, to include a system *icc34.h* file in *oyProfile\_s\_.h*,
 add the following in *Profile\_s\_.template.h*: <code>
 
-`{% block GlobalIncludeFiles %}`  
+`{\% block GlobalIncludeFiles \%}`  
 `{{ block.super }}`  
 `#include <icc34.h>`  
-`{% endblock %}`
+`{\% endblock \%}`
 
 </code> To also include *oyStructList\_s.h*, *oyProfileTag\_s.h*,
 *oyConfig\_s.h*: <code>
 
-`{% block LocalIncludeFiles %}`  
+`{\% block LocalIncludeFiles \%}`  
 `{{ block.super }}`  
 `#include `“`oyStructList_s.h`”  
 `#include `“`oyProfileTag_s.h`”  
 `#include `“`oyConfig_s.h`”  
-`{% endblock %}`
+`{\% endblock \%}`
 
 </code> The above blocks will render as (in *oyProfile\_s\_.h*): <code>
 
